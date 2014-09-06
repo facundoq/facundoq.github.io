@@ -1,0 +1,26 @@
+mixin button(id,text)
+  input(id=id, type='button', value=text, title=text)
+
+#tabs-container
+  #tabs
+    ul
+      li
+        a(href='#action',title="Animation of the person performing the action") Action Animation
+      li
+        a(href='#statistics' title="Parallel coordinate graph where for each action the amount of movement in 7 chosen joints is shown") Joint movement statistics
+    #action
+      #canvas
+      #progressbarWrapper
+        #progressbar
+        #time
+            span(id="timeLabel",title="Elapsed frames / total frames") 0/0
+      #animation-control.ui-widget-header.ui-corner-all
+        h2(id='actionIdentifier') 
+        +button('stop','Rewind')
+        +button('play','Play/Pause')
+        //+button('loop','Loop')
+        input(type='checkbox' id="loop") 
+        label(for="loop", title="Next mode: advances to next action after playing. Loop mode: repeats the action until a new one is chosen.") Loop
+
+    #statistics
+       #parallel.parcoords

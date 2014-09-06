@@ -1,0 +1,150 @@
+body {
+        margin: 0px;
+        padding: 0px;
+        font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+    	font-size: 1.1em;
+    }
+#action{
+	text-align: center;
+	padding:6px;
+	margin:7px;
+}
+#tabs-container{
+	width:60%;
+	padding:1px;
+	float:left;
+}     
+#canvas {
+	background-color:black;
+	padding:0px;
+	margin-left: 30px;	
+}
+
+#controls{
+	background-color:#EEEEEE;
+	float:right;
+	width:37%;
+}
+#animation-control {
+	 padding: 5px;
+	 margin:5px;
+	display: inline-block;
+}
+
+
+.button{
+	display:inline;
+}
+
+
+.selectable .ui-selecting { background: #FECA40; }
+.selectable .ui-selected { background: #F39814; color: white; }
+
+.selectable { list-style-type: none; margin: 0; padding: 0;  }	
+.selectable li { margin: 2px; padding: 1px; display: inline-block;  width: 1.2em; height: 1.2em; font-size: 1em; text-align: center; }
+
+
+#feedback { font-size: 1.4em; }
+
+#classPicker.ui-selected:hover { border:3px solid #0000000 ; }
+#classPicker .ui-selected { border:3px solid #000000 ; }
+#classPicker { list-style-type: none; margin: 0; padding: 0;  }
+#classPicker li { border:1px solid #555555; margin: 1px; padding: 1px; display: inline-block;  width: 1.2em; height: 1.2em; font-size: 0.7em; text-align: center; }
+#classPicker li { background: #0794B4; color:white;}
+
+
+#subjectPicker .ui-selected { border:3px solid #123456 ;  }
+#subjectPicker { list-style-type: none; margin: 0; padding: 0;  }
+#subjectPicker li { border:1px solid #555555; margin: 1px; padding: 1px;  display: inline-block; width: 1.2em; height: 1.2em; font-size: 0.7em; text-align: center; }
+#subjectPicker li { background: #27a4d4; color:white;}
+
+#repetitionPicker .ui-selected { border:3px solid #123456 ; }
+#repetitionPicker { list-style-type: none; margin: 0; padding: 0;  }
+#repetitionPicker li { border:1px solid #555555; margin: 1px; padding: 1px; display: inline-block;  width: 2.3em; 
+	height: 1.5em; font-size: 0.5em; text-align: center; }
+#repetitionPicker li { background: #0794B4; color:white;}
+
+#actionIdentifier { 
+	font-size:1em; margin:1px;
+	display:inline;
+}
+
+#repetitionPicker ol{
+	height:255px;
+	overflow:scroll;
+	max-height: 255px;
+	margin-right: 20px;
+}
+.picker{
+
+}
+.picker ol{
+	
+}
+.divwrapper{
+	text-align: left;
+	border-color: black;
+	border-radius: 1px;
+	border:1px;
+}
+
+
+.selectAll{
+	float:right;
+	padding:2px;
+	margin: 2px;
+	font-size: 0.5em !important;
+}
+
+.selectNone{
+	float:right;
+	padding:2px;
+	margin: 2px;
+	font-size: 0.5em !important;
+}
+
+.pickerTitle{
+	float:left;
+	padding:2px;
+	margin-right: 1px ;
+	margin:2px;
+
+}
+
+
+
+.progressLabel{
+	float:right;
+}
+#time{
+	display:inline-block;
+	font-size:0.5em;
+	margin:0px;
+	top:-20px;
+	width:20px;
+}
+#progressbarWrapper{
+	margin-top:5px;
+}
+#progressbar{
+
+	display:inline-block;
+	width:400px;
+	height:10px;
+}
+
+#statistics{
+	padding:10px;
+}
+
+#parallel{
+	width:550px;
+	height:400px;
+	background-color: #FFFFFF;
+	border:2px solid;
+	margin:0px;
+}
+
+.label{
+	font-size:12;
+}
