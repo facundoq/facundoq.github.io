@@ -1,0 +1,8 @@
+action_class,subject,instance,reason
+1,1,All,Strange movements
+1,2,All,Dances and repeats gesture
+5,9,All,Makes the circle with only one hand (and alternates the hand)
+5,21,All,Doesn't do a full circle 
+6,3,All,Shoots with just his right hand instead of using both
+8,24,All,Throws with his left hand instead of the right hand.
+12,10,All,Kick with left foot 

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="brand" href="#home">Distribution of Action Movements Descriptor</a>
+                    <div class="nav">
+                        <ul class="nav" id="top-nav">
+                            <li><a href="#overview">Overview</a></li>
+                            <li><a href="#msrc12">MSRC12</a></li>
+                            <li><a href="#action3d">MSR Action3d</a></li>
+                            <li><a href="#model">Model</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <!-- Main hero unit for a primary marketing message or call to action -->
+            <div class="hero-unit" id="home">
+                <h1>Distribution of Action Movements Descriptor</h1>
+                <p></p>
+                <p></p>
+                <p>       In this site you'll find:
+                <ul>
+                  <li>A reference to the paper describing the
+                Distribution of Action Movements Descriptor for action recognition (soon).
+                </li>
+                <li>An implementation of the descriptor and classification model in MATLAB/OCTAVE (soon).
+                </li>
+                <li> Scripts (MATLAB/OCTAVE) to prepare the MSRC12 and Action3D datasets
+                and convert them to a format suitable to use with our classification model.
+                These scripts can also help other researchers by making it easier
+                to read and manipulate the datasets.
+                </li>
+            </ul>
+             We also provide detailed information about the action instances corrected
+             or left out for this datasets.
+
+            <p>For more information, please contact fronchetti (at) lidi.unlp.edu.ar </p>
+                <div class="well well-lg">
+                  <p> How to cite: </p>
+                  <p> (soon) </p>
+                </div>
+            </div>
+
+            
+            <hr>
+
+            <div class="block" id="overview">
+                <h2 class="page-header">
+                    Overview
+                </h2>
+                <p>
+                  Since our model needs to be tested with different datasets,
+                  and each has it's own format, we provide scripts to convert from the
+                  original format to our own unified format.
+                </p>
+                <p>
+                  In all cases, the result is a single <em>.mat</em>
+                  MATLAB/Octave file that contains all the information of the actions.
+                  The file can be opened in MATLAB/Octave with the load function.
+                </p>
+
+                <p>
+                  The .mat file contains:
+                  <ul>
+                   <li> A cell array, <strong>tags</strong>, with the names
+                  of the actions of the dataset.</li>
+
+                   <li> <p>A struct array, <strong>gestures</strong>. Each element
+                   of <strong>gestures</strong> is a a struct with the information of a separate, segmented action instance.</p>
+                   
+                   <p> A <strong>gesture struct</strong> contains 5 fields:
+                   <ol>
+                     <li><strong>x</strong>: a FRAMES x (JOINTS *3) matrix containing
+                     the position of the joints (columns)
+                     for each frame of the action (rows)</li>
+                     <li><strong>y: </strong> the index of the class of the action</li>
+                     <li><strong>person: </strong> the id of the person that performed the action </li>
+                     <li><strong> id:</strong> a unique identifier within the dataset (none for MSRC12)</li>
+                     <li><strong> detection_frame: </strong> the first frame in which a person could
+                     already realize to which class the gesture belongs to (only in MSRC12)</li>
+                   </ol>
+                   </p>
+                   
+                   </li>
+                  </ul>
+                </p>
+                <div class="well well-lg">
+
+                <p>
+                  Download the <a href="files/dataset_scripts.zip">script </a>
+                  to convert from the datasets
+                  <a href="#msrc12">MSRC12</a>,
+                  <a href="#action3d">MSR Action3D</a>,
+                  <a href="http://tele-immersion.citris-uc.org/berkeley_mhad">Berkley MHAD </a>
+                  to our own format.
+                </p>
+                </div>
+
+                <p>
+                  Additionally, the script <strong>animate_dataset.m</strong> can be used to view the gestures of the MSRC12 and Action3D dataset.
+                </p>
+            </div><!--end block-->
+
+            
+            <div class="block" id="msrc12">
+                <h2 class="page-header">
+                    MSRC12 dataset
+                </h2>
+                <p>
+                  The MSRC12 is an action dataset with 12 gesture classes
+                  recorded by 30 subjects. In the
+                  <a href="http://research.microsoft.com/en-us/um/cambridge/projects/msrc12/">
+                   homepage of the dataset
+                  </a> more information can be found about it, along with
+                  a download link for a zip file with the action data.
+                  The zip contains several files, one for each action sequence.
+                   To convert the dataset to our format:
+                    <ol>
+                      <li><p> Download the dataset, and extract the <strong>data</strong> directory somewhere.</p></li>
+                      <li><p> Download and extract the matlab code. </p></li>
+                      <li><p> Download and extract the <strong>data</strong> folder of <a href="http://www.eng.alexu.edu.eg/~mehussein/msrc12_annot4rec/index.html">
+                      Hussein's et al. annotation</a>, which contains the start:end metadata to segment the action sequences.</p></li>
+                      <li><p> Use the sample script <strong>generate_dataset_from_msrc12.m</strong>
+                   to call the function <strong>msrc12_load_files</strong> with the path of the data directory of the MSRC12 dataset (with <em>.csv</em> and <em>.tagstream</em>),
+                   and the path to the folder containing Hussein's et al. extracted annotation (the one named <strong>sepinst</strong> with the <em>.sep</em> files).
+                    to generate the .mat file with our unified format.
+                   </p></li>                    
+                   </ol>
+                  
+                </p>
+
+                <p>We also provide a list of the action instances we
+                    <a href="files/msrc12_excluded.txt"> excluded in MSRC12</a>
+                    </p>
+                    
+                <div class="well well-lg">
+                  NOTE: We do not take any credit whatsoever for the creation of this dataset.
+                  We only provide a script to read the data and convert it
+                  to a more appropriate format.
+                  If you use it and want to cite its authors, please visit to the
+                  <a href="http://research.microsoft.com/en-us/um/cambridge/projects/msrc12/">
+                   dataset's homepage
+                  </a>
+                  for more information on how to cite.
+                  </div>
+                  
+            </div><!--end block-->
+            
+            <div class="block" id="action3d">
+                <h2 class="page-header">
+                    MSR Action3D dataset
+                </h2>
+                <p>
+                  The MSR Action3D is an action dataset with 20 gesture classes
+                  recorded by 10 subjects. In the
+                  <a href="http://research.microsoft.com/en-us/um/people/zliu/ActionRecoRsrc/">
+                   homepage of the dataset
+                  </a> more information can be found about it (and others!), along with
+                  a download link for a zip file with the action data.
+                  Be careful because the website contains information about
+                  many datasets: we used <a href="http://www.eecs.berkeley.edu/~fofli/">
+                    Ferda Ofli's</a>
+                  <a href="http://research.microsoft.com/en-us/um/people/zliu/ActionRecoRsrc/MSRAction3DSkeletonReal3D.rar">
+                  version of the dataset </a>, and that's the one you should download.
+                  The zip contains several files, one for each action sequence.
+                   To convert the dataset to our format:
+                    <ol>
+                      <li><p> Download the dataset, and extract to any directory.</p></li>
+                      <li><p> Download and extract <a href="http://research.microsoft.com/en-us/um/people/zliu/ActionRecoRsrc/JiangExperimentFileList.txt">
+                      Jiang's Experiment File List</a>, a commonly employed whitelist.</p></li>
+                      <li><p> Download and extract the matlab code. </p></li>
+                      <li><p> Use the sample script <strong>generate_dataset_from_action3d.m</strong>
+                   to call the function <strong>action3d_read_and_convert</strong> with the path of the directory of the
+                   original dataset and the path to Jiang's Experiment File List to generate the .mat file with our unified format.
+                   </p></li>                    
+                   </ol>
+      <p> Note that this process also reorders the joints of the actions,
+      so that they match the order in the MSRC12 dataset (the default for Kinect devices) </p>
+                    <p>We also provide a list of the action instances we
+                    <a href="files/action3d_excluded.txt"> excluded</a> and
+                    <a href="files/action3d_corrected.txt"> corrected</a>
+                    </p>
+
+                  
+                </p>
+                <div class="well well-lg">
+                  NOTE: We do not take any credit whatsoever for the creation of this dataset.
+                  We only provide a script to read the data and convert it
+                  to a more appropriate format.
+                  If you use it and want to cite its authors, please visit to the
+                  <a href="http://research.microsoft.com/en-us/um/people/zliu/ActionRecoRsrc/"> dataset's homepage  </a>
+                  for more information on how to cite.
+                  </div>
+            </div><!--end block-->
+
+          <div class="block" id="model">
+                <h2 class="page-header">
+                    Matlab/Octave implementation of the model
+                </h2>
+                <p>
+                  (Soon)
+                </p>
+            </div><!--end block-->
+            
+<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+  <div class="container footer">
+    <p> Intelligent Systems Group,
+     <a href="http://www.lidi.info.unlp.edu.ar">III-LIDI</a>  Informatics Institute
+    </p>
+    <p> <a href="http://www.info.unlp.edu.ar">Informatics Faculty</a>,
+     <a href="http://unlp.edu.ar">UNLP</a>
+    </p>
+  </div>
+</nav>
+
+        
+        </div> <!-- /container -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+             $('#top-nav').onePageNav({
+                 currentClass: 'active',
+                 changeHash: true,
+                 scrollSpeed: 1200
+            });
+        </script>
+
+    </body>
+</html>
