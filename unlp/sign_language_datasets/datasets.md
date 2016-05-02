@@ -1,7 +1,6 @@
 # Sign Language Recognition Datasets
 <!--- TODO
 CUNY details
-Papers for all methods
 Websites for greek, german, polish and cuny Datasets
 write cooper for details on german/greek/british datasets
 add http://research.microsoft.com/en-us/um/people/zliu/actionrecorsrc/ for 12 ASL kinect signs
@@ -10,27 +9,6 @@ add http://sun.aei.polsl.pl/~mkawulok/gestures/ db of handshapes
 -->
 
 
-## Handshape datasets (for sign language)
-### Comparison
-
-id  | Name                     |Country    |Classes|Subjects| Samples       | Data | Type              | Availability   |
-|:-:|:------------------------:|:---------:|:-----:|:------:|:-------------:|:----:|:-----------------:|:--------------:|
-1   | ASL Fingerspelling A     |USA        |   24  | 5      |131000         |      |images (depth+rgb) | Free download  |
-2   | ASL Fingerspelling B     |USA        |   24  | 9      |               |      |images (depth)     | Free download  |
-3   | LSA16 handshapes         |Argentina  |16     |10      |800            |7mb   |images (rgb)       | Free download  |
-4   | PSL Fingerspelling ToF   |Poland     |16     |3       |960            |~290mb|images (depth)     | Free download  |
-
-## Dataset information and related papers
-
-1. [ASL Fingerspelling A](http://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset)
-     1. [Spelling It Out: Real-Time ASL Fingerspelling Recognition](http://personal.ee.surrey.ac.uk/Personal/N.Pugeault/publications/PugeaultBowden2011b.pdf). 2011, Pugeault et al.
-2. [ASL Fingerspelling B](http://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset)
-      1. [Spelling It Out: Real-Time ASL Fingerspelling Recognition](http://personal.ee.surrey.ac.uk/Personal/N.Pugeault/publications/PugeaultBowden2011b.pdf). 2011, Pugeault et al.
-      2. [Recognition of Hand Gestures Observed by Depth Cameras](http://cdn.intechopen.com/pdfs-wm/48352.pdf). 2015, Kapuscinski et al.
-3. [PSL Fingerspelling ToF](http://vision.kia.prz.edu.pl/statictof.php)
-    1. [Recognition of Hand Gestures Observed by Depth Cameras](http://cdn.intechopen.com/pdfs-wm/48352.pdf). 2015, Kapuscinski et al.
-4. [LSA16 handshapes](http://facundoq.github.io/unlp/lsa16/index.html)
-    1. [Handshape recognition for Argentinian Sign Language using ProbSom](http://journal.info.unlp.edu.ar/wp-content/uploads/2015/10/JCST-42-Paper-1.pdf). 2015, Ronchetti et al.
 
 ## Sign language datasets
 ### Comparison
@@ -40,15 +18,14 @@ id  | Name                |Country   |Classes|Subjects| Samples| Data | Language
 2   | RWTH-PHOENIX-Weather|Germany   |1200  |9     |45760      |      |Sentence    |Videos                            | Face, hand, end/start (unfinished)|
 3   | SIGNUM              |Germany   |450   |25    |33210      |920gb |Sentence    |Videos                            |            |
 4   | GSL 20              |Greek     |20    | 6    |~840       |      |Word        |                                  |            |
-5   | Boston ASLLVD       |USA       |3300+ |6     | 9800      |      |Word        |Videos, multiple angles           |hand,end/start|
+5   | Boston ASL LVD      |USA       |3300+ |6     | 9800      |      |Word        |Videos, multiple angles           |hand,end/start|
 6   | CUNY                |USA       |      |      |           |      |Word        |                                  |            |
-7   |PSL Kinect 30        |Poland    |30    |1     |30*10=300  |~1.2gb|Word        | Videos, depth from Kinect camera  | |
-8   |PSL ToF    84        |Poland    |84    |1     |84*20=1680 |~33gb |Word        |Videos, ToF camera                 | |
+7   |PSL Kinect 30        |Poland    |30    |1     |30×10=300  |~1.2gb|Word        | Videos, depth from Kinect camera  | |
+8   |PSL ToF    84        |Poland    |84    |1     |84×20=1680 |~33gb |Word        |Videos, ToF camera                 | |
 9   |PSL 101              |Poland    |?     |?     |?          |?     |?|?  | |
 10  | LSA64 signs         |Argentina |64    |10    |3200       |20gb  |Word        |Videos   |            |
 
 ## Dataset information and related papers
-
 
 1. [DGS Kinect 40](http://jmlr.csail.mit.edu/papers/volume13/cooper12a/cooper12a.pdf)
     1. [Sign Language Recognition using Sub-Units](http://jmlr.csail.mit.edu/papers/volume13/cooper12a/cooper12a.pdf), 2012, Cooper et al.
@@ -79,3 +56,26 @@ id  | Name                |Country   |Classes|Subjects| Samples| Data | Language
     1. [Modelling and Recognition of Signed Expressions Using Subunits Obtained by Data–Driven Approach](http://link.springer.com/chapter/10.1007%2F978-3-642-33185-5_35#page-2) 2012, Oszust et al.  
 9. [CUNY](http://eniac.cs.qc.cuny.edu/matt/pubs/lu-huenerfauth-2012-lrec.pdf)
 10. [LSA64](http://facundoq.github.io/unlp/lsa64/index.html)
+
+
+## Handshape datasets (for sign language)
+### Comparison
+
+id  | Name                     |Country    |Classes|Subjects| Samples       | Data | Type              | Availability   |
+|:-:|:------------------------:|:---------:|:-----:|:------:|:-------------:|:----:|:-----------------:|:--------------:|
+1   | ASL Fingerspelling A     |USA        |   24  | 5      |131000         |      |images (depth+rgb) | Free download  |
+2   | ASL Fingerspelling B     |USA        |   24  | 9      |               |      |images (depth)     | Free download  |
+3   | LSA16 handshapes         |Argentina  |16     |10      |800            |7mb   |images (rgb)       | Free download  |
+4   | PSL Fingerspelling ToF   |Poland     |16     |3       |960            |~290mb|images (depth)     | Free download  |
+
+## Dataset information and related papers
+
+1. [ASL Fingerspelling A](http://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset)
+     1. [Spelling It Out: Real-Time ASL Fingerspelling Recognition](http://personal.ee.surrey.ac.uk/Personal/N.Pugeault/publications/PugeaultBowden2011b.pdf). 2011, Pugeault et al.
+2. [ASL Fingerspelling B](http://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset)
+      1. [Spelling It Out: Real-Time ASL Fingerspelling Recognition](http://personal.ee.surrey.ac.uk/Personal/N.Pugeault/publications/PugeaultBowden2011b.pdf). 2011, Pugeault et al.
+      2. [Recognition of Hand Gestures Observed by Depth Cameras](http://cdn.intechopen.com/pdfs-wm/48352.pdf). 2015, Kapuscinski et al.
+3. [PSL Fingerspelling ToF](http://vision.kia.prz.edu.pl/statictof.php)
+    1. [Recognition of Hand Gestures Observed by Depth Cameras](http://cdn.intechopen.com/pdfs-wm/48352.pdf). 2015, Kapuscinski et al.
+4. [LSA16 handshapes](http://facundoq.github.io/unlp/lsa16/index.html)
+    1. [Handshape recognition for Argentinian Sign Language using ProbSom](http://journal.info.unlp.edu.ar/wp-content/uploads/2015/10/JCST-42-Paper-1.pdf). 2016, Ronchetti et al.

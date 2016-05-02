@@ -38,7 +38,6 @@
 <h1 id="sign-language-recognition-datasets">Sign Language Recognition Datasets</h1>
 <!--- TODO
 CUNY details
-Papers for all methods
 Websites for greek, german, polish and cuny Datasets
 write cooper for details on german/greek/british datasets
 add http://research.microsoft.com/en-us/um/people/zliu/actionrecorsrc/ for 12 ASL kinect signs
@@ -48,91 +47,9 @@ add http://sun.aei.polsl.pl/~mkawulok/gestures/ db of handshapes
 
 
 
-<h2 id="handshape-datasets-for-sign-language">Handshape datasets (for sign language)</h2>
-<h3 id="comparison">Comparison</h3>
-<table>
-<thead>
-<tr class="header">
-<th align="center">id</th>
-<th align="center">Name</th>
-<th align="center">Country</th>
-<th align="center">Classes</th>
-<th align="center">Subjects</th>
-<th align="center">Samples</th>
-<th align="center">Data</th>
-<th align="center">Type</th>
-<th align="center">Availability</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">1</td>
-<td align="center">ASL Fingerspelling A</td>
-<td align="center">USA</td>
-<td align="center">24</td>
-<td align="center">5</td>
-<td align="center">131000</td>
-<td align="center"></td>
-<td align="center">images (depth+rgb)</td>
-<td align="center">Free download</td>
-</tr>
-<tr class="even">
-<td align="center">2</td>
-<td align="center">ASL Fingerspelling B</td>
-<td align="center">USA</td>
-<td align="center">24</td>
-<td align="center">9</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">images (depth)</td>
-<td align="center">Free download</td>
-</tr>
-<tr class="odd">
-<td align="center">3</td>
-<td align="center">LSA16 handshapes</td>
-<td align="center">Argentina</td>
-<td align="center">16</td>
-<td align="center">10</td>
-<td align="center">800</td>
-<td align="center">7mb</td>
-<td align="center">images (rgb)</td>
-<td align="center">Free download</td>
-</tr>
-<tr class="even">
-<td align="center">4</td>
-<td align="center">PSL Fingerspelling ToF</td>
-<td align="center">Poland</td>
-<td align="center">16</td>
-<td align="center">3</td>
-<td align="center">960</td>
-<td align="center">~290mb</td>
-<td align="center">images (depth)</td>
-<td align="center">Free download</td>
-</tr>
-</tbody>
-</table>
-<h2 id="dataset-information-and-related-papers">Dataset information and related papers</h2>
-<ol>
-<li><p><a href="http://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset">ASL Fingerspelling A</a></p>
-<ol>
-<li><a href="http://personal.ee.surrey.ac.uk/Personal/N.Pugeault/publications/PugeaultBowden2011b.pdf">Spelling It Out: Real-Time ASL Fingerspelling Recognition</a>. 2011, Pugeault et al.<br /></li>
-</ol></li>
-<li><p><a href="http://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset">ASL Fingerspelling B</a></p>
-<ol>
-<li><a href="http://personal.ee.surrey.ac.uk/Personal/N.Pugeault/publications/PugeaultBowden2011b.pdf">Spelling It Out: Real-Time ASL Fingerspelling Recognition</a>. 2011, Pugeault et al.<br /></li>
-<li><a href="http://cdn.intechopen.com/pdfs-wm/48352.pdf">Recognition of Hand Gestures Observed by Depth Cameras</a>. 2015, Kapuscinski et al.<br /></li>
-</ol></li>
-<li><p><a href="http://vision.kia.prz.edu.pl/statictof.php">PSL Fingerspelling ToF</a></p>
-<ol>
-<li><a href="http://cdn.intechopen.com/pdfs-wm/48352.pdf">Recognition of Hand Gestures Observed by Depth Cameras</a>. 2015, Kapuscinski et al.<br /></li>
-</ol></li>
-<li><p><a href="http://facundoq.github.io/unlp/lsa16/index.html">LSA16 handshapes</a></p>
-<ol>
-<li><a href="http://journal.info.unlp.edu.ar/wp-content/uploads/2015/10/JCST-42-Paper-1.pdf">Handshape recognition for Argentinian Sign Language using ProbSom</a>. 2015, Ronchetti et al.</li>
-</ol></li>
-</ol>
+
 <h2 id="sign-language-datasets">Sign language datasets</h2>
-<h3 id="comparison-1">Comparison</h3>
+<h3 id="comparison">Comparison</h3>
 <table>
 <thead>
 <tr class="header">
@@ -199,7 +116,7 @@ add http://sun.aei.polsl.pl/~mkawulok/gestures/ db of handshapes
 </tr>
 <tr class="odd">
 <td align="center">5</td>
-<td align="center">Boston ASLLVD</td>
+<td align="center">Boston ASL LVD</td>
 <td align="center">USA</td>
 <td align="center">3300+</td>
 <td align="center">6</td>
@@ -227,13 +144,25 @@ add http://sun.aei.polsl.pl/~mkawulok/gestures/ db of handshapes
 <td align="center">Poland</td>
 <td align="center">30</td>
 <td align="center">1</td>
-<td align="center">30<em>10=300 |~1.2gb|Word | Videos, depth from Kinect camera | |<br />8 |PSL ToF 84 |Poland |84 |1 |84</em>20=1680</td>
+<td align="center">30×10=300</td>
+<td align="center">~1.2gb</td>
+<td align="center">Word</td>
+<td align="center">Videos, depth from Kinect camera</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="center">8</td>
+<td align="center">PSL ToF 84</td>
+<td align="center">Poland</td>
+<td align="center">84</td>
+<td align="center">1</td>
+<td align="center">84×20=1680</td>
 <td align="center">~33gb</td>
 <td align="center">Word</td>
 <td align="center">Videos, ToF camera</td>
 <td align="center"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center">9</td>
 <td align="center">PSL 101</td>
 <td align="center">Poland</td>
@@ -245,7 +174,7 @@ add http://sun.aei.polsl.pl/~mkawulok/gestures/ db of handshapes
 <td align="center">?</td>
 <td align="center"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="center">10</td>
 <td align="center">LSA64 signs</td>
 <td align="center">Argentina</td>
@@ -259,7 +188,7 @@ add http://sun.aei.polsl.pl/~mkawulok/gestures/ db of handshapes
 </tr>
 </tbody>
 </table>
-<h2 id="dataset-information-and-related-papers-1">Dataset information and related papers</h2>
+<h2 id="dataset-information-and-related-papers">Dataset information and related papers</h2>
 <ol>
 <li><p><a href="http://jmlr.csail.mit.edu/papers/volume13/cooper12a/cooper12a.pdf">DGS Kinect 40</a></p>
 <ol>
@@ -305,6 +234,89 @@ add http://sun.aei.polsl.pl/~mkawulok/gestures/ db of handshapes
 </ol></li>
 <li><a href="http://eniac.cs.qc.cuny.edu/matt/pubs/lu-huenerfauth-2012-lrec.pdf">CUNY</a><br /></li>
 <li><p><a href="http://facundoq.github.io/unlp/lsa64/index.html">LSA64</a></p></li>
+</ol>
+<h2 id="handshape-datasets-for-sign-language">Handshape datasets (for sign language)</h2>
+<h3 id="comparison-1">Comparison</h3>
+<table>
+<thead>
+<tr class="header">
+<th align="center">id</th>
+<th align="center">Name</th>
+<th align="center">Country</th>
+<th align="center">Classes</th>
+<th align="center">Subjects</th>
+<th align="center">Samples</th>
+<th align="center">Data</th>
+<th align="center">Type</th>
+<th align="center">Availability</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">1</td>
+<td align="center">ASL Fingerspelling A</td>
+<td align="center">USA</td>
+<td align="center">24</td>
+<td align="center">5</td>
+<td align="center">131000</td>
+<td align="center"></td>
+<td align="center">images (depth+rgb)</td>
+<td align="center">Free download</td>
+</tr>
+<tr class="even">
+<td align="center">2</td>
+<td align="center">ASL Fingerspelling B</td>
+<td align="center">USA</td>
+<td align="center">24</td>
+<td align="center">9</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">images (depth)</td>
+<td align="center">Free download</td>
+</tr>
+<tr class="odd">
+<td align="center">3</td>
+<td align="center">LSA16 handshapes</td>
+<td align="center">Argentina</td>
+<td align="center">16</td>
+<td align="center">10</td>
+<td align="center">800</td>
+<td align="center">7mb</td>
+<td align="center">images (rgb)</td>
+<td align="center">Free download</td>
+</tr>
+<tr class="even">
+<td align="center">4</td>
+<td align="center">PSL Fingerspelling ToF</td>
+<td align="center">Poland</td>
+<td align="center">16</td>
+<td align="center">3</td>
+<td align="center">960</td>
+<td align="center">~290mb</td>
+<td align="center">images (depth)</td>
+<td align="center">Free download</td>
+</tr>
+</tbody>
+</table>
+<h2 id="dataset-information-and-related-papers-1">Dataset information and related papers</h2>
+<ol>
+<li><p><a href="http://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset">ASL Fingerspelling A</a></p>
+<ol>
+<li><a href="http://personal.ee.surrey.ac.uk/Personal/N.Pugeault/publications/PugeaultBowden2011b.pdf">Spelling It Out: Real-Time ASL Fingerspelling Recognition</a>. 2011, Pugeault et al.<br /></li>
+</ol></li>
+<li><p><a href="http://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset">ASL Fingerspelling B</a></p>
+<ol>
+<li><a href="http://personal.ee.surrey.ac.uk/Personal/N.Pugeault/publications/PugeaultBowden2011b.pdf">Spelling It Out: Real-Time ASL Fingerspelling Recognition</a>. 2011, Pugeault et al.<br /></li>
+<li><a href="http://cdn.intechopen.com/pdfs-wm/48352.pdf">Recognition of Hand Gestures Observed by Depth Cameras</a>. 2015, Kapuscinski et al.<br /></li>
+</ol></li>
+<li><p><a href="http://vision.kia.prz.edu.pl/statictof.php">PSL Fingerspelling ToF</a></p>
+<ol>
+<li><a href="http://cdn.intechopen.com/pdfs-wm/48352.pdf">Recognition of Hand Gestures Observed by Depth Cameras</a>. 2015, Kapuscinski et al.<br /></li>
+</ol></li>
+<li><p><a href="http://facundoq.github.io/unlp/lsa16/index.html">LSA16 handshapes</a></p>
+<ol>
+<li><a href="http://journal.info.unlp.edu.ar/wp-content/uploads/2015/10/JCST-42-Paper-1.pdf">Handshape recognition for Argentinian Sign Language using ProbSom</a>. 2016, Ronchetti et al.</li>
+</ol></li>
 </ol>
 </body>
 </html>
