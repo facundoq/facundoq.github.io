@@ -1,4 +1,7 @@
-
+# First install:
+# Julia
+# Markdown
+# Pandoc
 
 type MDFile
   key::AbstractString
