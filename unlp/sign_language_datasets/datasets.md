@@ -1,6 +1,8 @@
 # Sign Language Recognition Datasets
 <!--- TODO
 CUNY details
+
+LATER:
 Websites for greek, german, polish and cuny Datasets
 write cooper for details on german/greek/british datasets
 add http://research.microsoft.com/en-us/um/people/zliu/actionrecorsrc/ for 12 ASL kinect signs
@@ -12,18 +14,18 @@ add http://sun.aei.polsl.pl/~mkawulok/gestures/ db of handshapes
 
 ## Sign language datasets
 ### Comparison
-id  | Name                |Country   |Classes|Subjects| Samples| Data | Language level| Type                             | Annotations |
-|:-:|:-------------------:|:--------:|:-----:|:------:|:------:|:----:|:----------:|:--------------------------------:|:----------:|
-1   | DGS Kinect 40       |Germany   |40    |15    |3000       |      |Word        |Videos, multiple angles           |            |
-2   | RWTH-PHOENIX-Weather|Germany   |1200  |9     |45760      |      |Sentence    |Videos                            | Face, hand, end/start (unfinished)|
-3   | SIGNUM              |Germany   |450   |25    |33210      |920gb |Sentence    |Videos                            |            |
-4   | GSL 20              |Greek     |20    | 6    |~840       |      |Word        |                                  |            |
-5   | Boston ASL LVD      |USA       |3300+ |6     | 9800      |      |Word        |Videos, multiple angles           |hand,end/start|
+id  | Name                |Country   |Classes|Subjects| Samples| Data | Language level| Type                             | Annotations | Availability |
+|:-:|:-------------------:|:--------:|:-----:|:------:|:------:|:----:|:----------:|:--------------------------------:|:----------:|:--------:|
+1   | DGS Kinect 40       |Germany   |40    |15    |3000       |      |Word        |Videos, multiple angles           |            | Contact Author|
+2   | RWTH-PHOENIX-Weather|Germany   |1200  |9     |45760      |      |Sentence    |Videos                            | Face, hand, end/start (unfinished)| Publicly Available|
+3   | SIGNUM              |Germany   |450   |25    |33210      |920gb |Sentence    |Videos                            |            | Publicly Available, 1TB, contact author to obtain hard drive|
+4   | GSL 20              |Greek     |20    | 6    |~840       |      |Word        |                                  |            | Contact Author|
+5   | Boston ASL LVD      |USA       |3300+ |6     | 9800      |      |Word        |Videos, multiple angles           |hand,end/start| Publicly Available|
 6   | CUNY                |USA       |      |      |           |      |Word        |                                  |            |
-7   |PSL Kinect 30        |Poland    |30    |1     |30×10=300  |~1.2gb|Word        | Videos, depth from Kinect camera  | |
-8   |PSL ToF    84        |Poland    |84    |1     |84×20=1680 |~33gb |Word        |Videos, ToF camera                 | |
-9   |PSL 101              |Poland    |?     |?     |?          |?     |?|?  | |
-10  | LSA64 signs         |Argentina |64    |10    |3200       |20gb  |Word        |Videos   |            |
+7   |PSL Kinect 30        |Poland    |30    |1     |30×10=300  |~1.2gb|Word        | Videos, depth from Kinect camera  | | Publicly Available|
+8   |PSL ToF    84        |Poland    |84    |1     |84×20=1680 |~33gb |Word        |Videos, ToF camera                 | | Publicly Available|
+9   |PSL 101              |Poland    |?     |?     |?          |?     |?|?  | | Contact Author |
+10  | LSA64 signs         |Argentina |64    |10    |3200       |20gb  |Word        |Videos   |            | Publicly Available|
 
 ## Dataset information and related papers
 
