@@ -5,7 +5,7 @@ This database contains images of 16 hand configurations of the Argentinian Sign 
 
 ## Handshapes
 
-The following table lists the id, name and hands (H column) used in each sign. The column H specifies whether the sign was performed with the right hand (R) or both hands (B).
+The following table lists the id and name of each handshape, along with a sample.
 
 ID | Name  | Sample | ID | Name  | Sample | ID | Name  | Sample | ID | Name  | Sample |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
