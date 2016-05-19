@@ -1,0 +1,21 @@
+lsa64:
+
+intro
+Pre-preprocessed
+Samples
+Statistics
+upload stuff
+
+lsa16:
+
+intro
+Pre-preprocessed
+Samples
+Statistics
+upload stuff
+
+Sign language datasets:
+
+Add chinese, libras, etc
+add more papers
+try to get datasets from helen cooper
