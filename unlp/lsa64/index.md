@@ -45,7 +45,7 @@ The camera employed was the same in both sets of recording (Sony HDR-CX240). The
 ## Raw version
 The raw version of the dataset contains one video for each sign in the dataset. Each video is on average XXmb. The whole dataset weights 2.1gb.
 
-[Download Raw Version](www.soon.com/lsa64raw.zip)
+[Download Raw Version](http://www.soon.com/lsa64raw.zip)
 
 ## Pre-preprocessed version
 We provide a pre-processed version of the dataset to alleviate the overhead of performing experiments with the data.
@@ -56,7 +56,7 @@ The tracking and segmentation of the hands uses the techniques described in the 
 
 The result of this process is a sequence of frame information, in which for each frame we calculate the position of both hands, and we extract an image of each hand with the background segmented.
 
-[Download Preprocessed Version (XXmb)](www.soon.com/lsa64preprocessed)
+[Download Preprocessed Version (XXmb)](http://www.soon.com/lsa64preprocessed)
 
 ## Samples
 
@@ -96,3 +96,18 @@ Sample handshapes. We show the first frame of the first repetition of each class
 
 #### Left hand handshapes
 ![](statistics/LSA64_handshapes_grid_left.png)
+
+
+## License ![Creative commons Attribution-NonCommercial-NoDerivatives 4.0 International License ](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. The database is made available strictly for academic purposes. No derivative works or commercial use are allowed.
+
+
+
+## Contact
+
+Facundo Manuel Quiroga
+{fquiroga}-at-lidi.info.unlp.edu.ar
+
+[III-LIDI](http://www.lidi.info.unlp.edu.ar/) Informatics Institute
+[Informatics Faculty](http://info.unlp.edu.ar/)
+[UNLP](http://unlp.edu.ar/)

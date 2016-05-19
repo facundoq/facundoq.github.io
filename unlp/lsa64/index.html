@@ -292,13 +292,13 @@
 <p>The camera employed was the same in both sets of recording (Sony HDR-CX240). The tripod was placed 2m away from the wall at a height of 1.5m. Marks on the floor were used to indicate subjects where to position themselves. The resolution of the videos is 1920 by 1080, at 60 frames per second.</p>
 <h2 id="raw-version">Raw version</h2>
 <p>The raw version of the dataset contains one video for each sign in the dataset. Each video is on average XXmb. The whole dataset weights 2.1gb.</p>
-<p><a href="www.soon.com/lsa64raw.zip">Download Raw Version</a></p>
+<p><a href="http://www.soon.com/lsa64raw.zip">Download Raw Version</a></p>
 <h2 id="pre-preprocessed-version">Pre-preprocessed version</h2>
 <p>We provide a pre-processed version of the dataset to alleviate the overhead of performing experiments with the data.</p>
 <p>From the dataset we extracted the hand and head positions for each frame, along with images of each hand, segmented and with a black background</p>
 <p>The tracking and segmentation of the hands uses the techniques described in the work of Ronchetti2016, and the technique is the same as the one used to pre-process the LSA handshape dataset <a href="../lsa16/index.html">LSA64</a>. Additionally, the head of the subject is tracked via the Viola-Jones's face detector \cite{viola2004robust}. The 2D position of each hand is then transformed to be relative to the that of the head. The positions are then normalized by dividing by the arm's length of the subject, measured in centimeters/pixels. In this way, the transformed positions represent distances from the head, in units of centimeters.</p>
 <p>The result of this process is a sequence of frame information, in which for each frame we calculate the position of both hands, and we extract an image of each hand with the background segmented.</p>
-<p><a href="www.soon.com/lsa64preprocessed">Download Preprocessed Version (XXmb)</a></p>
+<p><a href="http://www.soon.com/lsa64preprocessed">Download Preprocessed Version (XXmb)</a></p>
 <h2 id="samples">Samples</h2>
 <p>Sample snapshots of the dataset. The images on the left (first column) are from the first set of recordings.</p>
 <table>
@@ -355,6 +355,11 @@
 <p><img src="statistics/LSA64_handshapes_grid_8x8.png" /></p>
 <h4 id="left-hand-handshapes">Left hand handshapes</h4>
 <p><img src="statistics/LSA64_handshapes_grid_left.png" /></p>
+<h2 id="license-creative-commons-attribution-noncommercial-noderivatives-4.0-international-license">License <img src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" alt="Creative commons Attribution-NonCommercial-NoDerivatives 4.0 International License" /></h2>
+<p>This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. The database is made available strictly for academic purposes. No derivative works or commercial use are allowed.</p>
+<h2 id="contact">Contact</h2>
+<p>Facundo Manuel Quiroga<br />{fquiroga}-at-lidi.info.unlp.edu.ar</p>
+<p><a href="http://www.lidi.info.unlp.edu.ar/">III-LIDI</a> Informatics Institute<br /><a href="http://info.unlp.edu.ar/">Informatics Faculty</a><br /><a href="http://unlp.edu.ar/">UNLP</a></p>
 </body>
 </html>
 
