@@ -1,17 +1,20 @@
+General:
+
+Fix template/css
+
 lsa64:
 
-intro
-Pre-preprocessed
-Samples
-Statistics
+intro DONE
+Pre-preprocessed DONE
+Samples DONE
+Statistics DONE
 upload stuff
 
 lsa16:
 
-intro
-Pre-preprocessed
-Samples
-Statistics
+intro DONE
+Pre-preprocessed explain
+Samples 
 upload stuff
 
 Sign language datasets:

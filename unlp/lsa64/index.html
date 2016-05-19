@@ -285,7 +285,7 @@
 </table>
 <h2 id="recording">Recording</h2>
 <p>The database was recorded in two sets. In the first one, 23 one-handed signs were recorded. The second added 41 signs, 22 two-handed and 19 one-handed as well.</p>
-<p>The first recording was done in an outdoors environment, with natural lightning, while the second in an indoors environment, with artificial lightning (Figure \ref{fig:lsa64}), to provide differences in illumination between signs.</p>
+<p>The first recording was done in an outdoors environment, with natural lightning, while the second in an indoors environment, with artificial lightning, to provide differences in illumination between signs.</p>
 <p>Subject 10 from the first recordings was unavailable for the second set of recordings, and was replaced by another subject. This change in no way diminishes the utility of the dataset, since the set of classes recorded in the first session is disjoint from the one recorded in the second session.</p>
 <p>In both sets of recordings, subjects wore black clothes and performed the signs standing or sitting, with a white wall as a background. To simplify the problem of hand segmentation within an image, subjects wore fluorescent-colored gloves. These substantially simplify the problem of recognizing the position of the hand and performing its segmentation, and remove all issues associated to skin color variations, while fully retaining the difficulty of recognizing the handshape.</p>
 <p>Each sign was executed imposing few constraints on the subjects to increase diversity and realism in the database. All subjects were non-signers and right-handed, were taught how to perform the signs during the recording session by showing them a video of the signs as performed by one of the authors, and practiced each sign a few times before recording.</p>
@@ -296,7 +296,7 @@
 <h2 id="pre-preprocessed-version">Pre-preprocessed version</h2>
 <p>We provide a pre-processed version of the dataset to alleviate the overhead of performing experiments with the data.</p>
 <p>From the dataset we extracted the hand and head positions for each frame, along with images of each hand, segmented and with a black background</p>
-<p>The tracking and segmentation of the hands uses the techniques described in the work of Ronchetti2016, and the technique is the same as the one used to pre-process the LSA handshape dataset <a href="../lsa16/index.html">LSA64</a>. Additionally, the head of the subject is tracked via the Viola-Jones's face detector \cite{viola2004robust}. The 2D position of each hand is then transformed to be relative to the that of the head. The positions are then normalized by dividing by the arm's length of the subject, measured in centimeters/pixels. In this way, the transformed positions represent distances from the head, in units of centimeters.</p>
+<p>The tracking and segmentation of the hands uses the techniques described in the work of Ronchetti2016, and the technique is the same as the one used to pre-process the LSA handshape dataset <a href="../lsa16/index.html">LSA64</a>. Additionally, the head of the subject is tracked via the Viola-Jones's face detector. The 2D position of each hand is then transformed to be relative to the that of the head. The positions are then normalized by dividing by the arm's length of the subject, measured in centimeters/pixels. In this way, the transformed positions represent distances from the head, in units of centimeters.</p>
 <p>The result of this process is a sequence of frame information, in which for each frame we calculate the position of both hands, and we extract an image of each hand with the background segmented.</p>
 <p><a href="http://www.soon.com/lsa64preprocessed">Download Preprocessed Version (XXmb)</a></p>
 <h2 id="samples">Samples</h2>
@@ -356,7 +356,7 @@
 <h4 id="left-hand-handshapes">Left hand handshapes</h4>
 <p><img src="statistics/LSA64_handshapes_grid_left.png" /></p>
 <h2 id="license-creative-commons-attribution-noncommercial-noderivatives-4.0-international-license">License <img src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" alt="Creative commons Attribution-NonCommercial-NoDerivatives 4.0 International License" /></h2>
-<p>This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. The database is made available strictly for academic purposes. No derivative works or commercial use are allowed.</p>
+<p>This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" class="uri">http://creativecommons.org/licenses/by-nc-nd/4.0/</a>). The database is made available strictly for academic purposes. No derivative works or commercial use are allowed. Please contact the authors if you are unsure about what constitutes fair use under this license.</p>
 <h2 id="contact">Contact</h2>
 <p>Facundo Manuel Quiroga<br />{fquiroga}-at-lidi.info.unlp.edu.ar</p>
 <p><a href="http://www.lidi.info.unlp.edu.ar/">III-LIDI</a> Informatics Institute<br /><a href="http://info.unlp.edu.ar/">Informatics Faculty</a><br /><a href="http://unlp.edu.ar/">UNLP</a></p>

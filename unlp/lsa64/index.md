@@ -31,7 +31,7 @@ ID | Name  | H | ID | Name  | H | ID | Name  | H | ID | Name  | H |
 
 The database was recorded in two sets. In the first one, 23 one-handed signs were recorded. The second added 41 signs, 22 two-handed and 19 one-handed as well.
 
-The first recording was done in an outdoors environment, with natural lightning, while the second in an indoors environment, with artificial lightning (Figure \ref{fig:lsa64}), to provide differences in illumination between signs.
+The first recording was done in an outdoors environment, with natural lightning, while the second in an indoors environment, with artificial lightning, to provide differences in illumination between signs.
 
 Subject 10 from the first recordings was unavailable for the second set of recordings, and was replaced by another subject. This change in no way diminishes the utility of the dataset, since the set of classes recorded in the first session is disjoint from the one recorded in the second session.
 
@@ -52,7 +52,7 @@ We provide a pre-processed version of the dataset to alleviate the overhead of p
 
 From the dataset we extracted the hand and head positions for each frame, along with images of each hand, segmented and with a black background
 
-The tracking and segmentation of the hands uses the techniques described in the work of Ronchetti2016, and the technique is the same as the one used to pre-process the LSA handshape dataset [LSA64](../lsa16/index.html). Additionally, the head of the subject is tracked via the Viola-Jones's face detector \cite{viola2004robust}. The 2D position of each hand is then transformed to be relative to the that of the head. The positions are then normalized by dividing by the arm's length of the subject, measured in centimeters/pixels. In this way, the transformed positions represent distances from the head, in units of centimeters.
+The tracking and segmentation of the hands uses the techniques described in the work of Ronchetti2016, and the technique is the same as the one used to pre-process the LSA handshape dataset [LSA64](../lsa16/index.html). Additionally, the head of the subject is tracked via the Viola-Jones's face detector. The 2D position of each hand is then transformed to be relative to the that of the head. The positions are then normalized by dividing by the arm's length of the subject, measured in centimeters/pixels. In this way, the transformed positions represent distances from the head, in units of centimeters.
 
 The result of this process is a sequence of frame information, in which for each frame we calculate the position of both hands, and we extract an image of each hand with the background segmented.
 
@@ -99,8 +99,7 @@ Sample handshapes. We show the first frame of the first repetition of each class
 
 
 ## License ![Creative commons Attribution-NonCommercial-NoDerivatives 4.0 International License ](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
-This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. The database is made available strictly for academic purposes. No derivative works or commercial use are allowed.
-
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/). The database is made available strictly for academic purposes. No derivative works or commercial use are allowed. Please contact the authors if you are unsure about what constitutes fair use under this license.
 
 
 ## Contact
