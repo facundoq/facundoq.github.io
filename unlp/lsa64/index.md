@@ -43,7 +43,7 @@ The camera employed was the same in both sets of recording (Sony HDR-CX240). The
 
 
 ## Raw version
-The raw version of the dataset contains one video for each sign in the dataset. Each video is on average XXmb. The whole dataset weights 2.1gb.
+The raw version of the dataset contains one video for each sign in the dataset. Each video is on average XXmb. The whole dataset weights 12gb.
 
 [Download Raw Version](http://www.soon.com/lsa64raw.zip)
 
@@ -52,12 +52,35 @@ We provide a pre-processed version of the dataset to alleviate the overhead of p
 
 From the dataset we extracted the hand and head positions for each frame, along with images of each hand, segmented and with a black background
 
-The tracking and segmentation of the hands uses the techniques described in the work of Ronchetti2016, and the technique is the same as the one used to pre-process the LSA handshape dataset [LSA64](../lsa16/index.html). Additionally, the head of the subject is tracked via the Viola-Jones's face detector. The 2D position of each hand is then transformed to be relative to the that of the head. The positions are then normalized by dividing by the arm's length of the subject, measured in centimeters/pixels. In this way, the transformed positions represent distances from the head, in units of centimeters.
+The tracking and segmentation of the hands uses the techniques described is the same as the one used to pre-process the LSA16 handshape dataset [LSA64](../lsa16/index.html). Additionally, the head of the subject is tracked via the Viola-Jones's face detector. The 2D position of each hand is then transformed to be relative to the that of the head. The positions are then normalized by dividing by the arm's length of the subject, measured in centimeters/pixels. In this way, the transformed positions represent distances from the head, in units of centimeters.
 
 The result of this process is a sequence of frame information, in which for each frame we calculate the position of both hands, and we extract an image of each hand with the background segmented.
 
 [Download Preprocessed Version (XXmb)](http://www.soon.com/lsa64preprocessed)
 
+
+## Citing
+
+If you use the dataset, we kindly ask you to cite [LSA64: A Dataset of Argentinian Sign Language]():
+<!--
+```
+@Article{Ronchetti2016,
+author="Ronchetti, Franco and Quiroga, Facundo and Estrebou, Cesar and Lanzarini, Laura and Rosete, Alejandro",
+title="LSA64: A Dataset of Argentinian Sign Language",
+journal="Iberamia",
+year="2016",
+volume="XX",
+number="XX",
+pages="XX--YY",
+issn="XXXX-YYYY"
+}
+
+```
+-->
+
+<!-- ## Articles using LSA64 -->
+
+<!--
 ## Samples
 
 Sample snapshots of the dataset. The images on the left (first column) are from the first set of recordings.
@@ -96,17 +119,20 @@ Sample handshapes. We show the first frame of the first repetition of each class
 
 #### Left hand handshapes
 ![](statistics/LSA64_handshapes_grid_left.png)
-
+-->
 
 ## License ![Creative commons Attribution-NonCommercial-NoDerivatives 4.0 International License ](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
-This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/). The database is made available strictly for academic purposes. No derivative works or commercial use are allowed. Please contact the authors if you are unsure about what constitutes fair use under this license.
+This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/). The dataset is made available strictly for academic purposes. No derivative works or commercial use are allowed. Please contact the authors if you are unsure about what constitutes fair use under this license, or need to use the dataset under a different license.
 
 
-## Contact
+<!--## Contact
 
-Facundo Manuel Quiroga
+
+
+ Facundo Manuel Quiroga
 {fquiroga}-at-lidi.info.unlp.edu.ar
 
 [III-LIDI](http://www.lidi.info.unlp.edu.ar/) Informatics Institute
 [Informatics Faculty](http://info.unlp.edu.ar/)
 [UNLP](http://unlp.edu.ar/)
+-->

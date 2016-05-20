@@ -13,9 +13,9 @@ upload stuff
 lsa16:
 
 intro DONE
-Pre-preprocessed explain
-Samples 
-upload stuff
+Pre-preprocessed explain DONE
+Samples DONE
+upload stuff DONE
 
 Sign language datasets:
 

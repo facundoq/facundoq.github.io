@@ -33,31 +33,61 @@ The raw version of the dataset contains one image for each sign in the dataset. 
 
 The filename of each image specifies its class, subject, and repetition, in the format CLASS_SUBJECT_REPETITION.png, so that the image 3_2_4.png corresponds to the 4th repetition of handshape 3 (Horns), as performed by subject 2.
 
-[Download Raw Version (XXmb)](files/lsa16.zip)
+[Download Raw Version (180mb)](
+https://mega.nz/#!5NZimaSR!_CjvJzxnB4lUC2CK1rchWfkb5SKfIlsZugkG8BY_sJM
+)
 
 ## Pre-preprocessed version
-We provide a pre-processed version of the dataset to reduce the overhead of performing experiments with the data. From each image we extracted the hand and segmented it, replacing the background with black pixels. The filename format is the same as in the raw version
+We provide a pre-processed version of the dataset to reduce the overhead of performing experiments with the data. From each image we extracted the hand and segmented it, replacing the background with black pixels. The filename format is the same as in the raw version. The details of how the images were segmented are described in [Handshape recognition for Argentinian Sign Language using ProbSom](http://sedici.unlp.edu.ar/bitstream/handle/10915/52376/Documento_completo.pdf-PDFA.pdf?sequence=1)
 
-[Download Preprocessed Version (7mb)](files/lsa16_preprocessed.zip)
+[Download Preprocessed Version (8mb)](
+https://mega.nz/#!kFRAjCRC!KcwmX9Hty5iZuFZOQ4rLL9W59i5hKzZzRf7d3P_IHpQ
+)
+
+
+## Citing
+
+If you use the dataset, we kindly ask you to cite [Handshape recognition for Argentinian Sign Language using ProbSom](http://sedici.unlp.edu.ar/bitstream/handle/10915/52376/Documento_completo.pdf-PDFA.pdf?sequence=1):
+
+```
+@Article{Ronchetti2016,
+author="Ronchetti, Franco and Quiroga, Facundo and Lanzarini, Laura and Estrebou, Cesar",
+title="Handshape Recognition for Argentinian Sign Language using ProbSom",
+journal=" Journal of Computer Science and Technology ",
+year="2016",
+volume="16",
+number="1",
+pages="1--5",
+issn="1666-6038"
+}
+
+```
+
 
 ## Samples
 
 Sample images of the dataset.
 
-|:-------------------:|:--------------------:|:-------------------:|
-|![](samples/c1.png)  |  ![](samples/c2.png) | ![](samples/c3.png) |
-|![](samples/c4.png)  |  ![](samples/c5.png) | ![](samples/c6.png) |
+|:-------------------:|:--------------------:|
+| ![](samples/c1.png) | ![](samples/c2.png) |
+| ![](samples/c3.png) | ![](samples/c4.png)  |
+| ![](samples/c5.png) | ![](samples/c6.png)  |
+| ![](samples/c7.png) | ![](samples/c8.png)  |
+| ![](samples/c9.png) | ![](samples/c10.png)  |
 
 
 ## License ![Creative commons Attribution-NonCommercial-NoDerivatives 4.0 International License ](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
-This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/). The database is made available strictly for academic purposes. No derivative works or commercial use are allowed.  Please contact the authors if you are unsure about what constitutes fair use under this license.
+This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/). The dataset is made available strictly for academic purposes. No derivative works or commercial use are allowed. Please contact the authors if you are unsure about what constitutes fair use under this license, or need to use the dataset under a different license.
 
 
-## Contact
+<!--## Contact
 
-Facundo Manuel Quiroga
+
+
+ Facundo Manuel Quiroga
 {fquiroga}-at-lidi.info.unlp.edu.ar
 
 [III-LIDI](http://www.lidi.info.unlp.edu.ar/) Informatics Institute
 [Informatics Faculty](http://info.unlp.edu.ar/)
 [UNLP](http://unlp.edu.ar/)
+-->

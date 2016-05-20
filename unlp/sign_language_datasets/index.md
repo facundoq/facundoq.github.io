@@ -12,6 +12,7 @@ add http://sun.aei.polsl.pl/~mkawulok/gestures/ db of handshapes
 
 
 
+
 ## Sign language datasets
 ### Comparison
 id  | Name                |Country   |Classes|Subjects| Samples| Data | Language level| Type                             | Annotations | Availability |
@@ -28,7 +29,7 @@ id  | Name                |Country   |Classes|Subjects| Samples| Data | Language
 
 <!--6   | CUNY                |USA       |      |      |           |      |Word        |                                  |            ||-->
 
-## Dataset information and related papers
+### Dataset information and related papers
 
 1. DGS Kinect 40 (no website)
     1. [Sign Language Recognition using Sub-Units](http://jmlr.csail.mit.edu/papers/volume13/cooper12a/cooper12a.pdf), 2012, Cooper et al.
@@ -71,7 +72,7 @@ id  | Name                     |Country    |Classes|Subjects| Samples       | Da
 3   | LSA16 handshapes         |Argentina  |16     |10      |800            |7mb   |images (rgb)       | Free download  |
 4   | PSL Fingerspelling ToF   |Poland     |16     |3       |960            |~290mb|images (depth)     | Free download  |
 
-## Dataset information and related papers
+### Dataset information and related papers
 
 1. [ASL Fingerspelling A](http://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset)
      1. [Spelling It Out: Real-Time ASL Fingerspelling Recognition](http://personal.ee.surrey.ac.uk/Personal/N.Pugeault/publications/PugeaultBowden2011b.pdf). 2011, Pugeault et al.
@@ -82,3 +83,8 @@ id  | Name                     |Country    |Classes|Subjects| Samples       | Da
     1. [Recognition of Hand Gestures Observed by Depth Cameras](http://cdn.intechopen.com/pdfs-wm/48352.pdf). 2015, Kapuscinski et al.
 4. [LSA16 handshapes](http://facundoq.github.io/unlp/lsa16/index.html)
     1. [Handshape recognition for Argentinian Sign Language using ProbSom](http://journal.info.unlp.edu.ar/wp-content/uploads/2015/10/JCST-42-Paper-1.pdf). 2016, Ronchetti et al.
+
+
+
+## Other info
+Kevin Murphy mantains a similar list for [Action Recognition Datasets](http://www.cs.ubc.ca/~murphyk/videodata.html).
