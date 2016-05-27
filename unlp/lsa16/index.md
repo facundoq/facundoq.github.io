@@ -25,7 +25,7 @@ In both sets of recordings, subjects wore black clothes and performed the signs 
 
 Each handshape was executed imposing few constraints on the subjects to increase diversity and realism in the database. All subjects were non-signers and right-handed, were taught how to perform the handshape during the shooting session by showing them an image of the handshape as performed by one of the authors, and practiced each handshape a few times before recording.
 
-We employed a generic webcam for the recording.
+We employed a generic webcam for the recording, with a resolution of 640 by 480.
 
 
 ## Raw version
@@ -47,7 +47,7 @@ https://mega.nz/#!kFRAjCRC!KcwmX9Hty5iZuFZOQ4rLL9W59i5hKzZzRf7d3P_IHpQ
 
 ## Citing
 
-If you use the dataset, we kindly ask you to cite [Handshape recognition for Argentinian Sign Language using ProbSom](http://sedici.unlp.edu.ar/bitstream/handle/10915/52376/Documento_completo.pdf-PDFA.pdf?sequence=1):
+If you use the dataset in your research, we kindly ask you to cite the article [Handshape recognition for Argentinian Sign Language using ProbSom](http://sedici.unlp.edu.ar/bitstream/handle/10915/52376/Documento_completo.pdf-PDFA.pdf?sequence=1):
 
 ```
 @Article{Ronchetti2016,
