@@ -1,4 +1,4 @@
-# LSA16: A Handshape Dataset for Argentinian Sign Language
+# LSA16: A Handshape Dataset for the Argentinian Sign Language
 
 This database contains images of 16 hand configurations of the Argentinian Sign Language (LSA), each performed 5 times by 10 different subjects, for a total of 800 images. The subjects wore color hand gloves and black clothes.
 
@@ -19,9 +19,9 @@ ID | Name  | Sample | ID | Name  | Sample | ID | Name  | Sample | ID | Name  | S
 
 ## Shooting
 
-The dataset was recorded in an indoors environment, with artificial lightning, to provide differences in illumination between signs.
+The dataset was recorded in an indoors environment, with artificial lightning.
 
-In both sets of recordings, subjects wore black clothes and performed the signs standing or sitting, with a white wall as a background. To simplify the problem of hand segmentation within an image, subjects wore fluorescent-colored gloves. These substantially simplify the problem of recognizing the position of the hand and performing its segmentation, and remove all issues associated to skin color variations, while fully retaining the difficulty of recognizing the handshape.
+Subjects wore black clothes and performed the signs standing, with a white wall as a background. To simplify the problem of hand segmentation within an image, subjects wore fluorescent-colored gloves. These substantially simplify the problem of recognizing the position of the hand and performing its segmentation, and remove all issues associated to skin color variations, while fully retaining the difficulty of recognizing the handshape. The subjects performed the same handshape with both hands.
 
 Each handshape was executed imposing few constraints on the subjects to increase diversity and realism in the database. All subjects were non-signers and right-handed, were taught how to perform the handshape during the shooting session by showing them an image of the handshape as performed by one of the authors, and practiced each handshape a few times before recording.
 
@@ -31,20 +31,20 @@ We employed a generic webcam for the recording.
 ## Raw version
 The raw version of the dataset contains one image for each sign in the dataset. Each image is on average XXmb.
 
-The filename of each image specifies its class, subject, and repetition, in the format CLASS_SUBJECT_REPETITION.png, so that the image 3_2_4.png corresponds to the 4th repetition of handshape 3 (Horns), as performed by subject 2.
+The filename of each image specifies its class, subject, and repetition, in the format CLASS_SUBJECT_REPETITION.png. For example, the image 3_2_4.png corresponds to the 4th repetition of handshape 3 (Horns), as performed by subject 2.
 
 [Download Raw Version (180mb)](
 https://mega.nz/#!5NZimaSR!_CjvJzxnB4lUC2CK1rchWfkb5SKfIlsZugkG8BY_sJM
 )
 
 ## Pre-preprocessed version
-We provide a pre-processed version of the dataset to reduce the overhead of performing experiments with the data. From each image we extracted the hand and segmented it, replacing the background with black pixels. The filename format is the same as in the raw version. The details of how the images were segmented are described in [Handshape recognition for Argentinian Sign Language using ProbSom](http://sedici.unlp.edu.ar/bitstream/handle/10915/52376/Documento_completo.pdf-PDFA.pdf?sequence=1)
+We provide a pre-processed version of the dataset to reduce the overhead of performing experiments with the data. From each image we extracted the hand and segmented it, replacing the background with black pixels. The filename format is the same as in the raw version. We provide only the segmented hand images. The details of how the images were segmented are described in [Handshape recognition for Argentinian Sign Language using ProbSom](http://sedici.unlp.edu.ar/bitstream/handle/10915/52376/Documento_completo.pdf-PDFA.pdf?sequence=1)
 
 [Download Preprocessed Version (8mb)](
 https://mega.nz/#!kFRAjCRC!KcwmX9Hty5iZuFZOQ4rLL9W59i5hKzZzRf7d3P_IHpQ
 )
 
-
+<!--
 ## Citing
 
 If you use the dataset, we kindly ask you to cite [Handshape recognition for Argentinian Sign Language using ProbSom](http://sedici.unlp.edu.ar/bitstream/handle/10915/52376/Documento_completo.pdf-PDFA.pdf?sequence=1):
@@ -62,7 +62,7 @@ issn="1666-6038"
 }
 
 ```
-
+-->
 
 ## Samples
 

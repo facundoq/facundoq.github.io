@@ -1,36 +1,10 @@
-<!doctype html>
-
-<html lang="ES">
-<head>
-  <meta charset="utf-8">
-
-  <title>index</title>
-  <meta name="description" content="Videos de organización de computadoras">
-
-  <link rel="stylesheet" href="styles.css?v=1.0">
-
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-
-  <link href="https://markable.in/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://markable.in//static/css/style.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="https://markable.in/static/editor/css/view_file.css">
-  <link rel="stylesheet" type="text/css" href="https://markable.in/static/css/code.css">
-
-
-</head>
-
-<body>
-  <div class="container">
-      <div id="content">
-        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta name="generator" content="pandoc" />
-  <title></title>
+  <title> LSA64: A Dataset for Argentinian Sign Language - </title>
   <style type="text/css">code{white-space: pre;}</style>
   <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -291,80 +265,86 @@
 <p>Each sign was executed imposing few constraints on the subjects to increase diversity and realism in the database. All subjects were non-signers and right-handed, were taught how to perform the signs during the recording session by showing them a video of the signs as performed by one of the authors, and practiced each sign a few times before recording.</p>
 <p>The camera employed was the same in both sets of recording (Sony HDR-CX240). The tripod was placed 2m away from the wall at a height of 1.5m. Marks on the floor were used to indicate subjects where to position themselves. The resolution of the videos is 1920 by 1080, at 60 frames per second.</p>
 <h2 id="raw-version">Raw version</h2>
-<p>The raw version of the dataset contains one video for each sign in the dataset. Each video is on average XXmb. The whole dataset weights 2.1gb.</p>
+<p>The raw version of the dataset contains one video for each sign in the dataset. Each video is on average XXmb. The whole dataset weights 12gb.</p>
 <p><a href="http://www.soon.com/lsa64raw.zip">Download Raw Version</a></p>
 <h2 id="pre-preprocessed-version">Pre-preprocessed version</h2>
 <p>We provide a pre-processed version of the dataset to alleviate the overhead of performing experiments with the data.</p>
 <p>From the dataset we extracted the hand and head positions for each frame, along with images of each hand, segmented and with a black background</p>
-<p>The tracking and segmentation of the hands uses the techniques described in the work of Ronchetti2016, and the technique is the same as the one used to pre-process the LSA handshape dataset <a href="../lsa16/index.html">LSA64</a>. Additionally, the head of the subject is tracked via the Viola-Jones's face detector. The 2D position of each hand is then transformed to be relative to the that of the head. The positions are then normalized by dividing by the arm's length of the subject, measured in centimeters/pixels. In this way, the transformed positions represent distances from the head, in units of centimeters.</p>
+<p>The tracking and segmentation of the hands uses the techniques described is the same as the one used to pre-process the LSA16 handshape dataset <a href="../lsa16/index.html">LSA64</a>. Additionally, the head of the subject is tracked via the Viola-Jones's face detector. The 2D position of each hand is then transformed to be relative to the that of the head. The positions are then normalized by dividing by the arm's length of the subject, measured in centimeters/pixels. In this way, the transformed positions represent distances from the head, in units of centimeters.</p>
 <p>The result of this process is a sequence of frame information, in which for each frame we calculate the position of both hands, and we extract an image of each hand with the background segmented.</p>
 <p><a href="http://www.soon.com/lsa64preprocessed">Download Preprocessed Version (XXmb)</a></p>
-<h2 id="samples">Samples</h2>
-<p>Sample snapshots of the dataset. The images on the left (first column) are from the first set of recordings.</p>
-<table>
-<tbody>
-<tr class="odd">
-<td align="center"><img src="samples/c1.png" /></td>
-<td align="center"><img src="samples/c2.png" /></td>
-<td align="center"><img src="samples/c3.png" /></td>
-</tr>
-<tr class="even">
-<td align="center"><img src="samples/c4.png" /></td>
-<td align="center"><img src="samples/c5.png" /></td>
-<td align="center"><img src="samples/c6.png" /></td>
-</tr>
-</tbody>
-</table>
-<h2 id="statistics">Statistics</h2>
-<h3 id="position">Position</h3>
-<p>Mean initial and final position of each class of sign, for the left and right hand. The circle shows the covariance of the position around the mean, which is the center of each circle.</p>
-<table>
-<thead>
-<tr class="header">
-<th align="center">Left hand, initial position</th>
-<th align="center">Left hand, final position</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center"><img src="statistics/LSA64_left_position_initial.png" /></td>
-<td align="center"><img src="statistics/LSA64_left_position_final.png" /></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="center">Right hand, initial position</th>
-<th align="center">Right hand, final position</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center"><img src="statistics/LSA64_right_position_initial.png" /></td>
-<td align="center"><img src="statistics/LSA64_right_position_final.png" /></td>
-</tr>
-</tbody>
-</table>
-<h3 id="trajectories">Trajectories</h3>
-<p>Sample trajectories of the right hand (purple) and left hand (green) of samples performed by subject 2.</p>
-<p><img src="statistics/LSA64_movement_grid_8x8.png" /></p>
-<h3 id="handshapes">Handshapes</h3>
-<p>Sample handshapes. We show the first frame of the first repetition of each class of sign by subject 1.</p>
-<h4 id="right-hand-handshapes">Right hand handshapes</h4>
-<p><img src="statistics/LSA64_handshapes_grid_8x8.png" /></p>
-<h4 id="left-hand-handshapes">Left hand handshapes</h4>
-<p><img src="statistics/LSA64_handshapes_grid_left.png" /></p>
+<!--
+## Citing
+
+If you use the dataset, we kindly ask you to cite [LSA64: A Dataset of Argentinian Sign Language]():
+
+```
+@Article{Ronchetti2016,
+author="Ronchetti, Franco and Quiroga, Facundo and Estrebou, Cesar and Lanzarini, Laura and Rosete, Alejandro",
+title="LSA64: A Dataset of Argentinian Sign Language",
+journal="Iberamia",
+year="2016",
+volume="XX",
+number="XX",
+pages="XX--YY",
+issn="XXXX-YYYY"
+}
+
+```
+-->
+<!-- ## Articles using LSA64 -->
+<!--
+## Samples
+
+Sample snapshots of the dataset. The images on the left (first column) are from the first set of recordings.
+
+|:-------------------:|:--------------------:|:-------------------:|
+|![](samples/c1.png)  |  ![](samples/c2.png) | ![](samples/c3.png) |
+|![](samples/c4.png)  |  ![](samples/c5.png) | ![](samples/c6.png) |
+
+## Statistics
+
+### Position
+
+Mean initial and final position of each class of sign, for the left and right hand. The circle shows the covariance of the position around the mean, which is the center of each circle.
+
+|Left hand, initial position|  Left hand, final position|
+|:-------------------------:|:-------------------------:|
+| ![](statistics/LSA64_left_position_initial.png) | ![](statistics/LSA64_left_position_final.png)|
+
+|Right hand, initial position|  Right hand, final position|
+|:-------------------------:|:-------------------------:|
+| ![](statistics/LSA64_right_position_initial.png) | ![](statistics/LSA64_right_position_final.png)|
+
+
+
+### Trajectories
+Sample trajectories of the right hand (purple) and left hand (green) of samples performed by subject 2.
+
+![](statistics/LSA64_movement_grid_8x8.png)
+
+### Handshapes
+
+Sample handshapes. We show the first frame of the first repetition of each class of sign by subject 1.
+
+#### Right hand handshapes
+![](statistics/LSA64_handshapes_grid_8x8.png)
+
+#### Left hand handshapes
+![](statistics/LSA64_handshapes_grid_left.png)
+-->
 <h2 id="license-creative-commons-attribution-noncommercial-noderivatives-4.0-international-license">License <img src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" alt="Creative commons Attribution-NonCommercial-NoDerivatives 4.0 International License" /></h2>
-<p>This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" class="uri">http://creativecommons.org/licenses/by-nc-nd/4.0/</a>). The database is made available strictly for academic purposes. No derivative works or commercial use are allowed. Please contact the authors if you are unsure about what constitutes fair use under this license.</p>
-<h2 id="contact">Contact</h2>
-<p>Facundo Manuel Quiroga<br />{fquiroga}-at-lidi.info.unlp.edu.ar</p>
-<p><a href="http://www.lidi.info.unlp.edu.ar/">III-LIDI</a> Informatics Institute<br /><a href="http://info.unlp.edu.ar/">Informatics Faculty</a><br /><a href="http://unlp.edu.ar/">UNLP</a></p>
-</body>
-</html>
+<p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. The dataset is made available strictly for academic purposes. No derivative works or commercial use are allowed. Please contact the authors if you are unsure about what constitutes fair use under this license, or need to use the dataset under a different license.</p>
+<!--## Contact
 
-      </div>
-  </div>
 
+
+ Facundo Manuel Quiroga
+{fquiroga}-at-lidi.info.unlp.edu.ar
+
+[III-LIDI](http://www.lidi.info.unlp.edu.ar/) Informatics Institute
+[Informatics Faculty](http://info.unlp.edu.ar/)
+[UNLP](http://unlp.edu.ar/)
+-->
 </body>
 </html>

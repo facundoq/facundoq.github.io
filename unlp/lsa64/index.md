@@ -58,11 +58,11 @@ The result of this process is a sequence of frame information, in which for each
 
 [Download Preprocessed Version (XXmb)](http://www.soon.com/lsa64preprocessed)
 
-
+<!--
 ## Citing
 
 If you use the dataset, we kindly ask you to cite [LSA64: A Dataset of Argentinian Sign Language]():
-<!--
+
 ```
 @Article{Ronchetti2016,
 author="Ronchetti, Franco and Quiroga, Facundo and Estrebou, Cesar and Lanzarini, Laura and Rosete, Alejandro",

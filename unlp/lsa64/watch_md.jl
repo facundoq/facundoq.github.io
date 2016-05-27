@@ -8,20 +8,38 @@ type MDFile
   title::AbstractString
 end
 
+function title_from_markdown(filepath::AbstractString)
+  result=""
+  open(filepath) do f
+    for line in eachline(f)
+        line=strip(line)
+        if length(line)>1 && line[1]=='#' && line[2]!='#'
+          result=line[2:end]
+          break
+        end
+    end
+  end
+  return result
+end
+
 function generate(mdfile::MDFile)
   key=mdfile.key
   title=mdfile.title
 
   html="$key.html"
   md="$key.md"
-  #output=readall(`pandoc --from markdown_github --to html -c style.css --standalone $(mdfile.key).md `)
-  text = readall(`pandoc --from markdown_github --to html -c style.css --standalone $md`)
-  template = readall("template.html")
-  output=template
-  output=replace(output,"#title",title)
-  output=replace(output,"#body",text)
+
+  md_text=readall(md);
+
+  title=title_from_markdown(md)
+  # template = readall("template.html")
+  # output=template
+  # output=replace(output,"#title",title)
+  # output=replace(output,"#body",text)
+
+  text = readall(`pandoc --from markdown_github --to html -c style.css -T $title --standalone $md`)
   open(html,"w") do f
-      print(f, output)
+      print(f, text)
   end
 end
 
