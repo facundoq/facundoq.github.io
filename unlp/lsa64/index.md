@@ -43,9 +43,14 @@ The camera employed was the same in both sets of recording (Sony HDR-CX240). The
 
 
 ## Raw version
-The raw version of the dataset contains one video for each sign in the dataset. Each video is on average XXmb. The whole dataset weights 12gb.
+The raw version of the dataset contains one video for each sign in the dataset. Each video weights on average 400kb. The whole dataset weights 1.9gb.
 
-[Download Raw Version](http://www.soon.com/lsa64raw.zip)
+[Download Raw Version](https://mega.nz/#!kJBDxLSL!zamibF1KPtgQFHn3RM0L1WBuhcBUvo0N0Uec9hczK_M)
+
+## No movement cut version
+The cut version is similar to the raw version but each video has been temporally segmented so that the frames in the beginning or end of the video with no movement in the hands were removed. Each video still weights 400kb on average and the whole dataset weights 1.9gb.
+
+[Download Cut Version](https://mega.nz/)
 
 ## Pre-preprocessed version
 We provide a pre-processed version of the dataset to alleviate the overhead of performing experiments with the data.
