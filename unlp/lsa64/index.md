@@ -43,14 +43,14 @@ The camera employed was the same in both sets of recording (Sony HDR-CX240). The
 
 
 ## Raw version
-The raw version of the dataset contains one video for each sign in the dataset. Each video weights on average 400kb. The whole dataset weights 1.9gb.
+The raw version of the dataset contains one video for each sign in the dataset. Each video weights on average 600kb. The whole dataset weights 1.9gb.
 
 [Download Raw Version](https://mega.nz/#!kJBDxLSL!zamibF1KPtgQFHn3RM0L1WBuhcBUvo0N0Uec9hczK_M)
 
-## No movement cut version
-The cut version is similar to the raw version but each video has been temporally segmented so that the frames in the beginning or end of the video with no movement in the hands were removed. Each video still weights 400kb on average and the whole dataset weights 1.9gb.
+## Still moments cut version
+The cut version is similar to the raw version but each video has been temporally segmented so that the frames in the beginning or end of the video with no movement in the hands were removed. Each video weights around 500kb on average and the whole dataset weights 1.5gb.
 
-[Download Cut Version](https://mega.nz/)
+[Download Cut Version](https://mega.nz/#!FQJGCYba!uJKGKLW1VlpCpLCrGVu89wyQnm9b4sKquCOEAjW5zMo)
 
 ## Pre-preprocessed version
 We provide a pre-processed version of the dataset to alleviate the overhead of performing experiments with the data.
@@ -61,7 +61,9 @@ The tracking and segmentation of the hands uses the techniques described is the 
 
 The result of this process is a sequence of frame information, in which for each frame we calculate the position of both hands, and we extract an image of each hand with the background segmented.
 
-[Download Preprocessed Version (XXmb)](http://www.soon.com/lsa64preprocessed)
+The preprocessed version contains a Matlab file with the positions of the hands of the subject for each frame (normalized wrt the head position), and a set of hand videos, one for each repetition of each sign and each hand.
+
+[Download Preprocessed Version (800mb)](https://mega.nz/#!5dJjQaLQ!POWOo88zyrAwNbBNP99F-YZNcWK4g2VIz0N3_gSF4gw)
 
 <!--
 ## Citing
