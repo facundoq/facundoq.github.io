@@ -15,7 +15,7 @@ ID | Name  | H | ID | Name  | H | ID | Name  | H | ID | Name  | H |
 03 | Green | R | 19 | Bitter | R | 35 | Coin | B | 51 | Thanks | B |
 04 | Yellow | R | 20 | Sweet milk | R | 36 | Music | B | 52 | Shut down | R |
 05 | Bright | R | 21 | Milk | R | 37 | Ship | R | 53 | Appear | B |
-06 | Light-blue | R | 22 | Water | R | 38 | None | R | 54 | Land | B |
+06 | Light-blue | R | 22 | Water | R | 38 | None | R | 54 | To land | B |
 07 | Colors | R | 23 | Food | R | 39 | Name | R | 55 | Catch | B |
 08 | Red | R | 24 | Argentina | R | 40 | Patience | R | 56 | Help | B |
 09 | Women | R | 25 | Uruguay | R | 41 | Perfume | R | 57 | Dance | B |
