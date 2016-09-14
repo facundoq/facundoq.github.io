@@ -65,7 +65,7 @@ The preprocessed version contains a Matlab file with the positions of the hands 
 
 [Download Preprocessed Version (800mb)](https://mega.nz/#!5dJjQaLQ!POWOo88zyrAwNbBNP99F-YZNcWK4g2VIz0N3_gSF4gw)
 
-<!--
+
 ## Citing
 
 If you use the dataset, we kindly ask you to cite [LSA64: A Dataset of Argentinian Sign Language]():
@@ -74,20 +74,22 @@ If you use the dataset, we kindly ask you to cite [LSA64: A Dataset of Argentini
 @Article{Ronchetti2016,
 author="Ronchetti, Franco and Quiroga, Facundo and Estrebou, Cesar and Lanzarini, Laura and Rosete, Alejandro",
 title="LSA64: A Dataset of Argentinian Sign Language",
-journal="Iberamia",
-year="2016",
+journal="XX II Congreso Argentino de Ciencias de la Computación (CACIC)",
+year="2016"
+}
+
+```
+
+<!--
 volume="XX",
 number="XX",
 pages="XX--YY",
 issn="XXXX-YYYY"
-}
-
-```
 -->
 
 <!-- ## Articles using LSA64 -->
 
-<!--
+
 ## Samples
 
 Sample snapshots of the dataset. The images on the left (first column) are from the first set of recordings.
@@ -126,13 +128,13 @@ Sample handshapes. We show the first frame of the first repetition of each class
 
 #### Left hand handshapes
 ![](statistics/LSA64_handshapes_grid_left.png)
--->
+
 
 ## License ![Creative commons Attribution-NonCommercial-NoDerivatives 4.0 International License ](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
 This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/). The dataset is made available strictly for academic purposes. No derivative works or commercial use are allowed. Please contact the authors if you are unsure about what constitutes fair use under this license, or need to use the dataset under a different license.
 
 
-<!--## Contact
+## Contact
 
 
 
@@ -142,4 +144,3 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDeri
 [III-LIDI](http://www.lidi.info.unlp.edu.ar/) Informatics Institute
 [Informatics Faculty](http://info.unlp.edu.ar/)
 [UNLP](http://unlp.edu.ar/)
--->
