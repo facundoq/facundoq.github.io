@@ -10,7 +10,7 @@ These two are probably the best introductory courses out there right now:
  Best introductory machine learning course? Maybe a bit dated. (lots of github repos with solutions)
 
 * [Convolutional Neural Networks de Karpathy, Stanford](http://cs231n.github.io/)
- Best introductory machine learning course? It says convolutional but the first half deals with machine learning. Really updated!. (lots of github repos with solutions) [link to stanford version of the course](http://vision.stanford.edu/teaching/cs231n/index.html)
+ Best introductory machine learning course? It says convolutional but the first half deals with machine learning. It's really up to date wrt the state of the art in neural networks. (lots of github repos with solutions) [link to stanford version of the course](http://vision.stanford.edu/teaching/cs231n/index.html)
 
 
 ## Books
