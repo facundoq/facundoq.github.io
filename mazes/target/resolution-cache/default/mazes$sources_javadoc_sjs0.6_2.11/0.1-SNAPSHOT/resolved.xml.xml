@@ -4,7 +4,7 @@
 		module="mazes$sources_javadoc_sjs0.6_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170214091851"
+		publication="20170301165008"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

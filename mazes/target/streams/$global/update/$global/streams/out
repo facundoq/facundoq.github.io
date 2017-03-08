@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/facuq/dev/toys/mazes/}mazes...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/data/dev/toys/mazes/}mazes...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: default#mazes_sjs0.6_2.11;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -93,7 +93,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/facuq/.ivy2/local/com.lihaoyi/scalatags_sjs0.6_2.11/0.6.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /home/facundoq/.ivy2/local/com.lihaoyi/scalatags_sjs0.6_2.11/0.6.2/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2[0m
@@ -102,8 +102,8 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2!scalatags_sjs0.6_2.11.pom(pom.original) (670ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/facuq/.ivy2/local/com.lihaoyi/scalatags_sjs0.6_2.11/0.6.2/jars/scalatags_sjs0.6_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2!scalatags_sjs0.6_2.11.pom(pom.original) (943ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/facundoq/.ivy2/local/com.lihaoyi/scalatags_sjs0.6_2.11/0.6.2/jars/scalatags_sjs0.6_2.11.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.jar[0m
 [0m[[0mdebug[0m] [0m	found com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#mazes_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2 [compile->runtime][0m
@@ -153,7 +153,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0minfo[0m] [0mResolving com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/facuq/.ivy2/local/com.lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /home/facundoq/.ivy2/local/com.lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3[0m
@@ -162,8 +162,8 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3!sourcecode_sjs0.6_2.11.pom(pom.original) (679ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/facuq/.ivy2/local/com.lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/jars/sourcecode_sjs0.6_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3!sourcecode_sjs0.6_2.11.pom(pom.original) (893ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/facundoq/.ivy2/local/com.lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/jars/sourcecode_sjs0.6_2.11.jar[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.jar[0m
 [0m[[0mdebug[0m] [0m	found com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3 in public[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
@@ -1956,13 +1956,13 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs0.6_2.11/0.6.2/scalatags_sjs0.6_2.11-0.6.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2!scalatags_sjs0.6_2.11.jar (4308ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.lihaoyi#scalatags_sjs0.6_2.11;0.6.2!scalatags_sjs0.6_2.11.jar (2510ms)[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.jar[0m
 [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.jar[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.jar.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs0.6_2.11/0.1.3/sourcecode_sjs0.6_2.11-0.1.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3!sourcecode_sjs0.6_2.11.jar (1047ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.3!sourcecode_sjs0.6_2.11.jar (966ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#scalajs-test-interface_2.11;0.6.14!scalajs-test-interface_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.11.6;0.6.14!scalajs-compiler_2.11.6.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar[0m
@@ -1977,20 +1977,20 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2819ms :: artifacts dl 5379ms[0m
-[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT compile produced in /home/facuq/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT runtime produced in /home/facuq/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT test produced in /home/facuq/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT provided produced in /home/facuq/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT optional produced in /home/facuq/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT compile-internal produced in /home/facuq/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT runtime-internal produced in /home/facuq/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT test-internal produced in /home/facuq/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT plugin produced in /home/facuq/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT sources produced in /home/facuq/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT docs produced in /home/facuq/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT pom produced in /home/facuq/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT scala-tool produced in /home/facuq/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT phantom-js-jetty produced in /home/facuq/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-phantom-js-jetty.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2819ms resolve - 5379ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5440ms :: artifacts dl 3598ms[0m
+[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT compile produced in /data/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT runtime produced in /data/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT test produced in /data/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT provided produced in /data/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT optional produced in /data/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT compile-internal produced in /data/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT runtime-internal produced in /data/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT test-internal produced in /data/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT plugin produced in /data/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT sources produced in /data/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT docs produced in /data/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT pom produced in /data/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT scala-tool produced in /data/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#mazes_sjs0.6_2.11;0.1-SNAPSHOT phantom-js-jetty produced in /data/dev/toys/mazes/target/resolution-cache/reports/default-mazes_sjs0.6_2.11-phantom-js-jetty.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (5440ms resolve - 3598ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

@@ -1,16 +1,16 @@
-[0m[[0minfo[0m] [0mFast optimizing /home/facuq/dev/toys/mazes/target/scala-2.11/mazes-fastopt.js[0m
-[0m[[0mdebug[0m] [0mLinker: Compute reachability: 48807 us[0m
-[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 12313 us[0m
-[0m[[0mdebug[0m] [0mBasic Linking: 63094 us[0m
+[0m[[0minfo[0m] [0mFast optimizing /data/dev/toys/mazes/target/scala-2.11/mazes-fastopt.js[0m
+[0m[[0mdebug[0m] [0mLinker: Compute reachability: 46738 us[0m
+[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 12985 us[0m
+[0m[[0mdebug[0m] [0mBasic Linking: 61644 us[0m
 [0m[[0mdebug[0m] [0mInc. optimizer: Batch mode: false[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 4813 us[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 15 methods.[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 10847 us[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: 16985 us[0m
-[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 42197 us[0m
-[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 2791 us[0m
-[0m[[0mdebug[0m] [0mRefiner: 45096 us[0m
-[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 347 -- invalidated: 4[0m
-[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 1489 -- invalidated: 8[0m
-[0m[[0mdebug[0m] [0mEmitter (write output): 18722 us[0m
-[0m[[0mdebug[0m] [0mGlobal IR cache stats: reused: 42 -- invalidated: 8 -- trees read: 5[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 2479 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 1 methods.[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 1672 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: 5589 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 37967 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 3385 us[0m
+[0m[[0mdebug[0m] [0mRefiner: 41619 us[0m
+[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 363 -- invalidated: 1[0m
+[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 1577 -- invalidated: 1[0m
+[0m[[0mdebug[0m] [0mEmitter (write output): 26204 us[0m
+[0m[[0mdebug[0m] [0mGlobal IR cache stats: reused: 55 -- invalidated: 1 -- trees read: 1[0m

@@ -1,9 +1,21 @@
+run
+quit
+run
+fastOptJS
+eclipse
 fastOptJS
 ~fastOptJS
-eclipse
-~fastOptJS
-update
+help
+fullOptJS
+fastOptJS
 reload
+fastOptJS
+fastOptJS -feature
+~fastOptJS
+q
+quit
+exit
+eclipse
 ~fastOptJS
 eclipse
 ~fastOptJS

@@ -1027,32 +1027,32 @@ var $asArrayOf_J = $makeAsArrayOfPrimitive($isArrayOf_J, "J");
 var $asArrayOf_F = $makeAsArrayOfPrimitive($isArrayOf_F, "F");
 var $asArrayOf_D = $makeAsArrayOfPrimitive($isArrayOf_D, "D");
 
-function $is_Lmazes_webapp_Dungeon$Direction(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lmazes_webapp_Dungeon$Direction)))
+function $is_Lmazes_generators_Dungeon$Direction(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lmazes_generators_Dungeon$Direction)))
 }
-function $as_Lmazes_webapp_Dungeon$Direction(obj) {
-  return (($is_Lmazes_webapp_Dungeon$Direction(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "mazes.webapp.Dungeon$Direction"))
+function $as_Lmazes_generators_Dungeon$Direction(obj) {
+  return (($is_Lmazes_generators_Dungeon$Direction(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "mazes.generators.Dungeon$Direction"))
 }
-function $isArrayOf_Lmazes_webapp_Dungeon$Direction(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lmazes_webapp_Dungeon$Direction)))
+function $isArrayOf_Lmazes_generators_Dungeon$Direction(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lmazes_generators_Dungeon$Direction)))
 }
-function $asArrayOf_Lmazes_webapp_Dungeon$Direction(obj, depth) {
-  return (($isArrayOf_Lmazes_webapp_Dungeon$Direction(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lmazes.webapp.Dungeon$Direction;", depth))
+function $asArrayOf_Lmazes_generators_Dungeon$Direction(obj, depth) {
+  return (($isArrayOf_Lmazes_generators_Dungeon$Direction(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lmazes.generators.Dungeon$Direction;", depth))
 }
-function $s_Lmazes_webapp_Dungeon$Direction$class__asTuple__Lmazes_webapp_Dungeon$Direction__T2($$this) {
-  var x = $m_Lmazes_webapp_Dungeon$North$();
+function $s_Lmazes_generators_Dungeon$Direction$class__asTuple__Lmazes_generators_Dungeon$Direction__T2($$this) {
+  var x = $m_Lmazes_generators_Dungeon$North$();
   if ((x === $$this)) {
     return new $c_s_Tuple2$mcII$sp().init___I__I(1, 0)
   } else {
-    var x$3 = $m_Lmazes_webapp_Dungeon$South$();
+    var x$3 = $m_Lmazes_generators_Dungeon$South$();
     if ((x$3 === $$this)) {
       return new $c_s_Tuple2$mcII$sp().init___I__I((-1), 0)
     } else {
-      var x$5 = $m_Lmazes_webapp_Dungeon$East$();
+      var x$5 = $m_Lmazes_generators_Dungeon$East$();
       if ((x$5 === $$this)) {
         return new $c_s_Tuple2$mcII$sp().init___I__I(0, 1)
       } else {
-        var x$7 = $m_Lmazes_webapp_Dungeon$West$();
+        var x$7 = $m_Lmazes_generators_Dungeon$West$();
         if ((x$7 === $$this)) {
           return new $c_s_Tuple2$mcII$sp().init___I__I(0, (-1))
         } else {
@@ -1062,43 +1062,43 @@ function $s_Lmazes_webapp_Dungeon$Direction$class__asTuple__Lmazes_webapp_Dungeo
     }
   }
 }
-function $is_Lmazes_webapp_Dungeon$Tile(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lmazes_webapp_Dungeon$Tile)))
+function $is_Lmazes_generators_Dungeon$Tile(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lmazes_generators_Dungeon$Tile)))
 }
-function $as_Lmazes_webapp_Dungeon$Tile(obj) {
-  return (($is_Lmazes_webapp_Dungeon$Tile(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "mazes.webapp.Dungeon$Tile"))
+function $as_Lmazes_generators_Dungeon$Tile(obj) {
+  return (($is_Lmazes_generators_Dungeon$Tile(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "mazes.generators.Dungeon$Tile"))
 }
-function $isArrayOf_Lmazes_webapp_Dungeon$Tile(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lmazes_webapp_Dungeon$Tile)))
+function $isArrayOf_Lmazes_generators_Dungeon$Tile(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lmazes_generators_Dungeon$Tile)))
 }
-function $asArrayOf_Lmazes_webapp_Dungeon$Tile(obj, depth) {
-  return (($isArrayOf_Lmazes_webapp_Dungeon$Tile(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lmazes.webapp.Dungeon$Tile;", depth))
+function $asArrayOf_Lmazes_generators_Dungeon$Tile(obj, depth) {
+  return (($isArrayOf_Lmazes_generators_Dungeon$Tile(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lmazes.generators.Dungeon$Tile;", depth))
 }
-function $s_Lmazes_webapp_Dungeon$Tile$class__passable__Lmazes_webapp_Dungeon$Tile__Z($$this) {
-  var x$2 = $m_Lmazes_webapp_Dungeon$Room$();
+function $s_Lmazes_generators_Dungeon$Tile$class__passable__Lmazes_generators_Dungeon$Tile__Z($$this) {
+  var x$2 = $m_Lmazes_generators_Dungeon$Room$();
   if ((($$this !== null) && ($$this === x$2))) {
     return true
   } else {
-    var x$4 = $m_Lmazes_webapp_Dungeon$Passage$();
+    var x$4 = $m_Lmazes_generators_Dungeon$Passage$();
     return (($$this !== null) && ($$this === x$4))
   }
 }
-function $s_Lmazes_webapp_Dungeon$Tile$class__asciiArt__Lmazes_webapp_Dungeon$Tile__T($$this) {
-  var x = $m_Lmazes_webapp_Dungeon$Empty$();
+function $s_Lmazes_generators_Dungeon$Tile$class__asciiArt__Lmazes_generators_Dungeon$Tile__T($$this) {
+  var x = $m_Lmazes_generators_Dungeon$Empty$();
   if ((x === $$this)) {
     return "\u2588"
   } else {
-    var x$3 = $m_Lmazes_webapp_Dungeon$Passage$();
+    var x$3 = $m_Lmazes_generators_Dungeon$Passage$();
     if ((x$3 === $$this)) {
-      return "\u2592"
+      return " "
     } else {
-      var x$5 = $m_Lmazes_webapp_Dungeon$Wall$();
+      var x$5 = $m_Lmazes_generators_Dungeon$Wall$();
       if ((x$5 === $$this)) {
         return "\u2588"
       } else {
-        var x$7 = $m_Lmazes_webapp_Dungeon$Room$();
+        var x$7 = $m_Lmazes_generators_Dungeon$Room$();
         if ((x$7 === $$this)) {
-          return "\u2593"
+          return "\u2592"
         } else {
           throw new $c_s_MatchError().init___O($$this)
         }
@@ -1291,6 +1291,21 @@ function $s_s_math_Numeric$FloatIsConflicted$class__plus__s_math_Numeric$FloatIs
 }
 function $s_s_math_Numeric$FloatIsConflicted$class__fromInt__s_math_Numeric$FloatIsConflicted__I__F($$this, x) {
   return $fround(x)
+}
+function $s_s_math_Ordering$FloatOrdering$class__gteq__s_math_Ordering$FloatOrdering__F__F__Z($$this, x, y) {
+  return (x >= y)
+}
+function $s_s_math_Ordering$FloatOrdering$class__lteq__s_math_Ordering$FloatOrdering__F__F__Z($$this, x, y) {
+  return (x <= y)
+}
+function $s_s_math_Ordering$IntOrdering$class__compare__s_math_Ordering$IntOrdering__I__I__I($$this, x, y) {
+  return ((x < y) ? (-1) : ((x === y) ? 0 : 1))
+}
+function $s_s_math_Ordering$class__gteq__s_math_Ordering__O__O__Z($$this, x, y) {
+  return ($$this.compare__O__O__I(x, y) >= 0)
+}
+function $s_s_math_Ordering$class__lteq__s_math_Ordering__O__O__Z($$this, x, y) {
+  return ($$this.compare__O__O__I(x, y) <= 0)
 }
 function $s_s_util_control_NoStackTrace$class__fillInStackTrace__s_util_control_NoStackTrace__jl_Throwable($$this) {
   var this$1 = $m_s_util_control_NoStackTrace$();
@@ -1521,6 +1536,11 @@ function $s_sc_Iterator$class__drop__sc_Iterator__I__sc_Iterator($$this, n) {
 function $s_sc_Iterator$class__toString__sc_Iterator__T($$this) {
   return (($$this.hasNext__Z() ? "non-empty" : "empty") + " iterator")
 }
+function $s_sc_Iterator$class__foreach__sc_Iterator__F1__V($$this, f) {
+  while ($$this.hasNext__Z()) {
+    f.apply__O__O($$this.next__O())
+  }
+}
 function $s_sc_Iterator$class__copyToArray__sc_Iterator__O__I__I__V($$this, xs, start, len) {
   var requirement = ((start >= 0) && ((start < $m_sr_ScalaRunTime$().array$undlength__O__I(xs)) || ($m_sr_ScalaRunTime$().array$undlength__O__I(xs) === 0)));
   if ((!requirement)) {
@@ -1532,11 +1552,6 @@ function $s_sc_Iterator$class__copyToArray__sc_Iterator__O__I__I__V($$this, xs, 
   while (((i < end) && $$this.hasNext__Z())) {
     $m_sr_ScalaRunTime$().array$undupdate__O__I__O__V(xs, i, $$this.next__O());
     i = ((1 + i) | 0)
-  }
-}
-function $s_sc_Iterator$class__foreach__sc_Iterator__F1__V($$this, f) {
-  while ($$this.hasNext__Z()) {
-    f.apply__O__O($$this.next__O())
   }
 }
 function $s_sc_Iterator$class__slice__sc_Iterator__I__I__sc_Iterator($$this, from, until) {
@@ -1645,6 +1660,16 @@ function $s_sc_LinearSeqOptimized$class__indexWhere__sc_LinearSeqOptimized__F1__
   };
   return (-1)
 }
+function $s_sc_LinearSeqOptimized$class__contains__sc_LinearSeqOptimized__O__Z($$this, elem) {
+  var these = $$this;
+  while ((!these.isEmpty__Z())) {
+    if ($m_sr_BoxesRunTime$().equals__O__O__Z(these.head__O(), elem)) {
+      return true
+    };
+    these = $as_sc_LinearSeqOptimized(these.tail__O())
+  };
+  return false
+}
 function $s_sc_LinearSeqOptimized$class__reduceLeft__sc_LinearSeqOptimized__F2__O($$this, f) {
   if ($$this.isEmpty__Z()) {
     throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
@@ -1726,6 +1751,15 @@ function $s_sc_SeqLike$class__lengthCompare__sc_SeqLike__I__I($$this, len) {
 }
 function $s_sc_SetLike$class__isEmpty__sc_SetLike__Z($$this) {
   return ($$this.size__I() === 0)
+}
+function $s_sc_SetLike$class__$$plus$plus__sc_SetLike__sc_GenTraversableOnce__sc_Set($$this, elems) {
+  var x$1 = $as_sc_Set($$this);
+  return $as_sc_Set(elems.seq__sc_TraversableOnce().$$div$colon__O__F2__O(x$1, new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($$this$1) {
+    return (function(x$2$2, x$3$2) {
+      var x$2 = $as_sc_Set(x$2$2);
+      return x$2.$$plus__O__sc_Set(x$3$2)
+    })
+  })($$this))))
 }
 function $s_sc_TraversableLike$class__isEmpty__sc_TraversableLike__Z($$this) {
   var result = new $c_sr_BooleanRef().init___Z(true);
@@ -1821,6 +1855,21 @@ function $s_sc_TraversableLike$class__drop__sc_TraversableLike__I__O($$this, n) 
     return $s_sc_TraversableLike$class__sliceWithKnownDelta__sc_TraversableLike__I__I__I__O($$this, n, 2147483647, delta)
   }
 }
+function $s_sc_TraversableOnce$class__min__sc_TraversableOnce__s_math_Ordering__O($$this, cmp) {
+  if ($$this.isEmpty__Z()) {
+    throw new $c_jl_UnsupportedOperationException().init___T("empty.min")
+  };
+  return $$this.reduceLeft__F2__O(new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($$this$1, cmp$1) {
+    return (function(x$2, y$2) {
+      return (cmp$1.lteq__O__O__Z(x$2, y$2) ? x$2 : y$2)
+    })
+  })($$this, cmp)))
+}
+function $s_sc_TraversableOnce$class__to__sc_TraversableOnce__scg_CanBuildFrom__O($$this, cbf) {
+  var b = cbf.apply__scm_Builder();
+  b.$$plus$plus$eq__sc_TraversableOnce__scg_Growable($$this.seq__sc_TraversableOnce());
+  return b.result__O()
+}
 function $s_sc_TraversableOnce$class__addString__sc_TraversableOnce__scm_StringBuilder__T__T__T__scm_StringBuilder($$this, b, start, sep, end) {
   var first = new $c_sr_BooleanRef().init___Z(true);
   b.append__T__scm_StringBuilder(start);
@@ -1838,11 +1887,6 @@ function $s_sc_TraversableOnce$class__addString__sc_TraversableOnce__scm_StringB
   })($$this, first, b, sep)));
   b.append__T__scm_StringBuilder(end);
   return b
-}
-function $s_sc_TraversableOnce$class__to__sc_TraversableOnce__scg_CanBuildFrom__O($$this, cbf) {
-  var b = cbf.apply__scm_Builder();
-  b.$$plus$plus$eq__sc_TraversableOnce__scg_Growable($$this.seq__sc_TraversableOnce());
-  return b.result__O()
 }
 function $s_sc_TraversableOnce$class__reduceLeft__sc_TraversableOnce__F2__O($$this, op) {
   if ($$this.isEmpty__Z()) {
@@ -1871,6 +1915,16 @@ function $s_sc_TraversableOnce$class__foldLeft__sc_TraversableOnce__O__F2__O($$t
   })($$this, result, op)));
   return result.elem$1
 }
+function $s_sc_TraversableOnce$class__max__sc_TraversableOnce__s_math_Ordering__O($$this, cmp) {
+  if ($$this.isEmpty__Z()) {
+    throw new $c_jl_UnsupportedOperationException().init___T("empty.max")
+  };
+  return $$this.reduceLeft__F2__O(new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($$this$1, cmp$1) {
+    return (function(x$2, y$2) {
+      return (cmp$1.gteq__O__O__Z(x$2, y$2) ? x$2 : y$2)
+    })
+  })($$this, cmp)))
+}
 function $s_sc_TraversableOnce$class__mkString__sc_TraversableOnce__T__T__T__T($$this, start, sep, end) {
   var this$1 = $$this.addString__scm_StringBuilder__T__T__T__scm_StringBuilder(new $c_scm_StringBuilder().init___(), start, sep, end);
   var this$2 = this$1.underlying$5;
@@ -1888,9 +1942,6 @@ function $s_sc_TraversableOnce$class__size__sc_TraversableOnce__I($$this) {
   })($$this, result)));
   return result.elem$1
 }
-function $s_sc_TraversableOnce$class__copyToArray__sc_TraversableOnce__O__I__V($$this, xs, start) {
-  $$this.copyToArray__O__I__I__V(xs, start, (($m_sr_ScalaRunTime$().array$undlength__O__I(xs) - start) | 0))
-}
 function $s_sc_TraversableOnce$class__sum__sc_TraversableOnce__s_math_Numeric__O($$this, num) {
   return $$this.foldLeft__O__F2__O($s_s_math_Numeric$FloatIsConflicted$class__fromInt__s_math_Numeric$FloatIsConflicted__I__F(num, 0), new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($$this$1, num$1) {
     return (function(x$2, y$2) {
@@ -1899,6 +1950,9 @@ function $s_sc_TraversableOnce$class__sum__sc_TraversableOnce__s_math_Numeric__O
       return $s_s_math_Numeric$FloatIsConflicted$class__plus__s_math_Numeric$FloatIsConflicted__F__F__F(num$1, x, y)
     })
   })($$this, num)))
+}
+function $s_sc_TraversableOnce$class__copyToArray__sc_TraversableOnce__O__I__V($$this, xs, start) {
+  $$this.copyToArray__O__I__I__V(xs, start, (($m_sr_ScalaRunTime$().array$undlength__O__I(xs) - start) | 0))
 }
 function $s_scg_Growable$class__loop$1__p0__scg_Growable__sc_LinearSeq__V($$this, xs) {
   _loop: while (true) {
@@ -2596,104 +2650,122 @@ function $s_scm_ResizableArray$class__$$init$__scm_ResizableArray__V($$this) {
   $$this.size0$6 = 0
 }
 /** @constructor */
-function $c_Lmazes_math_Distribution() {
-  $c_O.call(this)
-}
-$c_Lmazes_math_Distribution.prototype = new $h_O();
-$c_Lmazes_math_Distribution.prototype.constructor = $c_Lmazes_math_Distribution;
-/** @constructor */
-function $h_Lmazes_math_Distribution() {
-  /*<skip>*/
-}
-$h_Lmazes_math_Distribution.prototype = $c_Lmazes_math_Distribution.prototype;
-/** @constructor */
-function $c_Lmazes_webapp_Dungeon$() {
+function $c_Lmazes_generators_Dungeon$() {
   $c_O.call(this);
   this.Tiles$1 = null;
   this.Directions$1 = null
 }
-$c_Lmazes_webapp_Dungeon$.prototype = new $h_O();
-$c_Lmazes_webapp_Dungeon$.prototype.constructor = $c_Lmazes_webapp_Dungeon$;
+$c_Lmazes_generators_Dungeon$.prototype = new $h_O();
+$c_Lmazes_generators_Dungeon$.prototype.constructor = $c_Lmazes_generators_Dungeon$;
 /** @constructor */
-function $h_Lmazes_webapp_Dungeon$() {
+function $h_Lmazes_generators_Dungeon$() {
   /*<skip>*/
 }
-$h_Lmazes_webapp_Dungeon$.prototype = $c_Lmazes_webapp_Dungeon$.prototype;
-$c_Lmazes_webapp_Dungeon$.prototype.init___ = (function() {
-  $n_Lmazes_webapp_Dungeon$ = this;
-  this.Tiles$1 = $as_sc_Seq($m_sc_Seq$().apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lmazes_webapp_Dungeon$Empty$(), $m_Lmazes_webapp_Dungeon$Passage$(), $m_Lmazes_webapp_Dungeon$Wall$(), $m_Lmazes_webapp_Dungeon$Room$()])));
-  this.Directions$1 = $as_sc_Seq($m_sc_Seq$().apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lmazes_webapp_Dungeon$North$(), $m_Lmazes_webapp_Dungeon$East$(), $m_Lmazes_webapp_Dungeon$South$(), $m_Lmazes_webapp_Dungeon$West$()])));
+$h_Lmazes_generators_Dungeon$.prototype = $c_Lmazes_generators_Dungeon$.prototype;
+$c_Lmazes_generators_Dungeon$.prototype.init___ = (function() {
+  $n_Lmazes_generators_Dungeon$ = this;
+  this.Tiles$1 = $as_sc_Seq($m_sc_Seq$().apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lmazes_generators_Dungeon$Empty$(), $m_Lmazes_generators_Dungeon$Passage$(), $m_Lmazes_generators_Dungeon$Wall$(), $m_Lmazes_generators_Dungeon$Room$()])));
+  this.Directions$1 = $as_sc_Seq($m_sc_Seq$().apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lmazes_generators_Dungeon$North$(), $m_Lmazes_generators_Dungeon$East$(), $m_Lmazes_generators_Dungeon$South$(), $m_Lmazes_generators_Dungeon$West$()])));
   return this
 });
-var $d_Lmazes_webapp_Dungeon$ = new $TypeData().initClass({
-  Lmazes_webapp_Dungeon$: 0
-}, false, "mazes.webapp.Dungeon$", {
-  Lmazes_webapp_Dungeon$: 1,
+var $d_Lmazes_generators_Dungeon$ = new $TypeData().initClass({
+  Lmazes_generators_Dungeon$: 0
+}, false, "mazes.generators.Dungeon$", {
+  Lmazes_generators_Dungeon$: 1,
   O: 1
 });
-$c_Lmazes_webapp_Dungeon$.prototype.$classData = $d_Lmazes_webapp_Dungeon$;
-var $n_Lmazes_webapp_Dungeon$ = (void 0);
-function $m_Lmazes_webapp_Dungeon$() {
-  if ((!$n_Lmazes_webapp_Dungeon$)) {
-    $n_Lmazes_webapp_Dungeon$ = new $c_Lmazes_webapp_Dungeon$().init___()
+$c_Lmazes_generators_Dungeon$.prototype.$classData = $d_Lmazes_generators_Dungeon$;
+var $n_Lmazes_generators_Dungeon$ = (void 0);
+function $m_Lmazes_generators_Dungeon$() {
+  if ((!$n_Lmazes_generators_Dungeon$)) {
+    $n_Lmazes_generators_Dungeon$ = new $c_Lmazes_generators_Dungeon$().init___()
   };
-  return $n_Lmazes_webapp_Dungeon$
+  return $n_Lmazes_generators_Dungeon$
 }
 /** @constructor */
-function $c_Lmazes_webapp_DungeonGenerator() {
+function $c_Lmazes_generators_DungeonGenerator() {
   $c_O.call(this);
   this.size$1 = null;
   this.r$1 = null
 }
-$c_Lmazes_webapp_DungeonGenerator.prototype = new $h_O();
-$c_Lmazes_webapp_DungeonGenerator.prototype.constructor = $c_Lmazes_webapp_DungeonGenerator;
+$c_Lmazes_generators_DungeonGenerator.prototype = new $h_O();
+$c_Lmazes_generators_DungeonGenerator.prototype.constructor = $c_Lmazes_generators_DungeonGenerator;
 /** @constructor */
-function $h_Lmazes_webapp_DungeonGenerator() {
+function $h_Lmazes_generators_DungeonGenerator() {
   /*<skip>*/
 }
-$h_Lmazes_webapp_DungeonGenerator.prototype = $c_Lmazes_webapp_DungeonGenerator.prototype;
-$c_Lmazes_webapp_DungeonGenerator.prototype.init___T2 = (function(size) {
+$h_Lmazes_generators_DungeonGenerator.prototype = $c_Lmazes_generators_DungeonGenerator.prototype;
+$c_Lmazes_generators_DungeonGenerator.prototype.fillBorderWith__Lmazes_generators_Matrix__Lmazes_generators_Dungeon$Tile__V = (function(map, e) {
+  var end = (((-1) + map.columns$1) | 0);
+  var isEmpty$4 = (end < 0);
+  var lastElement$4 = (isEmpty$4 ? (-1) : end);
+  if ((!isEmpty$4)) {
+    var i = 0;
+    while (true) {
+      var v1 = i;
+      map.update__I__I__O__V(0, v1, e);
+      map.update__I__I__O__V((((-1) + map.rows$1) | 0), v1, e);
+      if ((i === lastElement$4)) {
+        break
+      };
+      i = ((1 + i) | 0)
+    }
+  };
+  var end$1 = (((-1) + map.rows$1) | 0);
+  var isEmpty$4$1 = (end$1 < 0);
+  var lastElement$4$1 = (isEmpty$4$1 ? (-1) : end$1);
+  if ((!isEmpty$4$1)) {
+    var i$1 = 0;
+    while (true) {
+      var v1$1 = i$1;
+      map.update__I__I__O__V(v1$1, 0, e);
+      map.update__I__I__O__V(v1$1, (((-1) + map.columns$1) | 0), e);
+      if ((i$1 === lastElement$4$1)) {
+        break
+      };
+      i$1 = ((1 + i$1) | 0)
+    }
+  }
+});
+$c_Lmazes_generators_DungeonGenerator.prototype.init___T2 = (function(size) {
   this.size$1 = size;
   this.r$1 = new $c_s_util_Random().init___();
   return this
 });
 /** @constructor */
-function $c_Lmazes_webapp_Position() {
+function $c_Lmazes_generators_Position() {
   $c_O.call(this);
   this.x$1 = 0;
   this.y$1 = 0
 }
-$c_Lmazes_webapp_Position.prototype = new $h_O();
-$c_Lmazes_webapp_Position.prototype.constructor = $c_Lmazes_webapp_Position;
+$c_Lmazes_generators_Position.prototype = new $h_O();
+$c_Lmazes_generators_Position.prototype.constructor = $c_Lmazes_generators_Position;
 /** @constructor */
-function $h_Lmazes_webapp_Position() {
+function $h_Lmazes_generators_Position() {
   /*<skip>*/
 }
-$h_Lmazes_webapp_Position.prototype = $c_Lmazes_webapp_Position.prototype;
-$c_Lmazes_webapp_Position.prototype.moves__sc_Seq = (function() {
-  var jsx$2 = $m_Lmazes_webapp_Dungeon$().Directions$1;
+$h_Lmazes_generators_Position.prototype = $c_Lmazes_generators_Position.prototype;
+$c_Lmazes_generators_Position.prototype.moves__sc_Seq = (function() {
+  var jsx$2 = $m_Lmazes_generators_Dungeon$().Directions$1;
   var jsx$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(arg$outer) {
     return (function(d$2) {
       var d = $as_s_Product(d$2);
-      var d$1 = $as_Lmazes_webapp_Dungeon$Direction(d);
-      return new $c_T2().init___O__O(arg$outer.$$plus__T2__Lmazes_webapp_Position($s_Lmazes_webapp_Dungeon$Direction$class__asTuple__Lmazes_webapp_Dungeon$Direction__T2(d$1)), d)
+      var d$1 = $as_Lmazes_generators_Dungeon$Direction(d);
+      return new $c_T2().init___O__O(arg$outer.$$plus__T2__Lmazes_generators_Position($s_Lmazes_generators_Dungeon$Direction$class__asTuple__Lmazes_generators_Dungeon$Direction__T2(d$1)), d)
     })
   })(this));
   var this$1 = $m_sc_Seq$();
   return $as_sc_Seq(jsx$2.map__F1__scg_CanBuildFrom__O(jsx$1, this$1.ReusableCBFInstance$2))
 });
-$c_Lmazes_webapp_Position.prototype.init___I__I = (function(x, y) {
+$c_Lmazes_generators_Position.prototype.init___I__I = (function(x, y) {
   this.x$1 = x;
   this.y$1 = y;
   return this
 });
-$c_Lmazes_webapp_Position.prototype.toString__T = (function() {
+$c_Lmazes_generators_Position.prototype.toString__T = (function() {
   return (((("(" + this.x$1) + ", ") + this.y$1) + ")")
 });
-$c_Lmazes_webapp_Position.prototype.$$plus__T2__Lmazes_webapp_Position = (function(delta) {
-  return new $c_Lmazes_webapp_Position().init___I__I(((this.x$1 + delta.$$und1$mcI$sp__I()) | 0), ((this.y$1 + delta.$$und2$mcI$sp__I()) | 0))
-});
-$c_Lmazes_webapp_Position.prototype.adyacent__sc_Seq = (function() {
+$c_Lmazes_generators_Position.prototype.adyacent__sc_Seq = (function() {
   $m_sci_List$();
   var xs = new $c_sjs_js_WrappedArray().init___sjs_js_Array([new $c_s_Tuple2$mcII$sp().init___I__I((-1), (-1)), new $c_s_Tuple2$mcII$sp().init___I__I((-1), 0), new $c_s_Tuple2$mcII$sp().init___I__I((-1), 1), new $c_s_Tuple2$mcII$sp().init___I__I(0, 1), new $c_s_Tuple2$mcII$sp().init___I__I(1, 1), new $c_s_Tuple2$mcII$sp().init___I__I(1, 0), new $c_s_Tuple2$mcII$sp().init___I__I(1, (-1)), new $c_s_Tuple2$mcII$sp().init___I__I(0, (-1))]);
   var this$2 = $m_sci_List$();
@@ -2702,7 +2774,7 @@ $c_Lmazes_webapp_Position.prototype.adyacent__sc_Seq = (function() {
   var f = (function(arg$outer) {
     return (function(d$2) {
       var d = $as_T2(d$2);
-      return arg$outer.$$plus__T2__Lmazes_webapp_Position(d)
+      return arg$outer.$$plus__T2__Lmazes_generators_Position(d)
     })
   })(this);
   var this$3 = $m_sci_List$();
@@ -2736,25 +2808,190 @@ $c_Lmazes_webapp_Position.prototype.adyacent__sc_Seq = (function() {
   };
   return $as_sc_Seq(jsx$1)
 });
-function $is_Lmazes_webapp_Position(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lmazes_webapp_Position)))
+$c_Lmazes_generators_Position.prototype.$$plus__T2__Lmazes_generators_Position = (function(delta) {
+  return new $c_Lmazes_generators_Position().init___I__I(((this.x$1 + delta.$$und1$mcI$sp__I()) | 0), ((this.y$1 + delta.$$und2$mcI$sp__I()) | 0))
+});
+function $is_Lmazes_generators_Position(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lmazes_generators_Position)))
 }
-function $as_Lmazes_webapp_Position(obj) {
-  return (($is_Lmazes_webapp_Position(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "mazes.webapp.Position"))
+function $as_Lmazes_generators_Position(obj) {
+  return (($is_Lmazes_generators_Position(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "mazes.generators.Position"))
 }
-function $isArrayOf_Lmazes_webapp_Position(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lmazes_webapp_Position)))
+function $isArrayOf_Lmazes_generators_Position(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lmazes_generators_Position)))
 }
-function $asArrayOf_Lmazes_webapp_Position(obj, depth) {
-  return (($isArrayOf_Lmazes_webapp_Position(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lmazes.webapp.Position;", depth))
+function $asArrayOf_Lmazes_generators_Position(obj, depth) {
+  return (($isArrayOf_Lmazes_generators_Position(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lmazes.generators.Position;", depth))
 }
-var $d_Lmazes_webapp_Position = new $TypeData().initClass({
-  Lmazes_webapp_Position: 0
-}, false, "mazes.webapp.Position", {
-  Lmazes_webapp_Position: 1,
+var $d_Lmazes_generators_Position = new $TypeData().initClass({
+  Lmazes_generators_Position: 0
+}, false, "mazes.generators.Position", {
+  Lmazes_generators_Position: 1,
   O: 1
 });
-$c_Lmazes_webapp_Position.prototype.$classData = $d_Lmazes_webapp_Position;
+$c_Lmazes_generators_Position.prototype.$classData = $d_Lmazes_generators_Position;
+/** @constructor */
+function $c_Lmazes_generators_Rectangle() {
+  $c_O.call(this);
+  this.s$1 = null;
+  this.p$1 = null;
+  this.bottomRight$1 = null
+}
+$c_Lmazes_generators_Rectangle.prototype = new $h_O();
+$c_Lmazes_generators_Rectangle.prototype.constructor = $c_Lmazes_generators_Rectangle;
+/** @constructor */
+function $h_Lmazes_generators_Rectangle() {
+  /*<skip>*/
+}
+$h_Lmazes_generators_Rectangle.prototype = $c_Lmazes_generators_Rectangle.prototype;
+$c_Lmazes_generators_Rectangle.prototype.splitSizeHorizontally__I__T2 = (function(at) {
+  var left = new $c_s_Tuple2$mcII$sp().init___I__I(this.s$1.$$und1$mcI$sp__I(), at);
+  var right = new $c_s_Tuple2$mcII$sp().init___I__I(this.s$1.$$und1$mcI$sp__I(), ((this.s$1.$$und2$mcI$sp__I() - ((1 + at) | 0)) | 0));
+  return new $c_T2().init___O__O(left, right)
+});
+$c_Lmazes_generators_Rectangle.prototype.toString__T = (function() {
+  return new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Rectangle, size ", " x ", ", at ", ""])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([this.s$1.$$und1$mcI$sp__I(), this.s$1.$$und2$mcI$sp__I(), this.p$1]))
+});
+$c_Lmazes_generators_Rectangle.prototype.splitSizeVertically__I__T2 = (function(at) {
+  var top = new $c_s_Tuple2$mcII$sp().init___I__I(at, this.s$1.$$und2$mcI$sp__I());
+  var bottom = new $c_s_Tuple2$mcII$sp().init___I__I(((this.s$1.$$und1$mcI$sp__I() - ((1 + at) | 0)) | 0), this.s$1.$$und2$mcI$sp__I());
+  return new $c_T2().init___O__O(top, bottom)
+});
+$c_Lmazes_generators_Rectangle.prototype.splitHorizontally__I__T2 = (function(at) {
+  var x1 = this.splitSizeHorizontally__I__T2(at);
+  if ((x1 === null)) {
+    throw new $c_s_MatchError().init___O(x1)
+  };
+  var s1 = $as_T2(x1.$$und1__O());
+  var s2 = $as_T2(x1.$$und2__O());
+  var left = new $c_Lmazes_generators_Rectangle().init___T2__Lmazes_generators_Position(s1, this.p$1);
+  var this$1 = this.p$1;
+  var _2$mcI$sp = ((1 + left.s$1.$$und2$mcI$sp__I()) | 0);
+  var right = new $c_Lmazes_generators_Rectangle().init___T2__Lmazes_generators_Position(s2, new $c_Lmazes_generators_Position().init___I__I(this$1.x$1, ((this$1.y$1 + _2$mcI$sp) | 0)));
+  return new $c_T2().init___O__O(left, right)
+});
+$c_Lmazes_generators_Rectangle.prototype.init___T2__Lmazes_generators_Position = (function(s, p) {
+  this.s$1 = s;
+  this.p$1 = p;
+  this.bottomRight$1 = new $c_Lmazes_generators_Position().init___I__I(((this.p$1.x$1 + this.s$1.$$und1$mcI$sp__I()) | 0), ((this.p$1.y$1 + this.s$1.$$und2$mcI$sp__I()) | 0));
+  return this
+});
+$c_Lmazes_generators_Rectangle.prototype.splitVertically__I__T2 = (function(at) {
+  var x1 = this.splitSizeVertically__I__T2(at);
+  if ((x1 === null)) {
+    throw new $c_s_MatchError().init___O(x1)
+  };
+  var s1 = $as_T2(x1.$$und1__O());
+  var s2 = $as_T2(x1.$$und2__O());
+  var top = new $c_Lmazes_generators_Rectangle().init___T2__Lmazes_generators_Position(s1, this.p$1);
+  var this$1 = this.p$1;
+  var _1$mcI$sp = ((1 + top.s$1.$$und1$mcI$sp__I()) | 0);
+  var bottom = new $c_Lmazes_generators_Rectangle().init___T2__Lmazes_generators_Position(s2, new $c_Lmazes_generators_Position().init___I__I(((this$1.x$1 + _1$mcI$sp) | 0), this$1.y$1));
+  return new $c_T2().init___O__O(top, bottom)
+});
+function $is_Lmazes_generators_Rectangle(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lmazes_generators_Rectangle)))
+}
+function $as_Lmazes_generators_Rectangle(obj) {
+  return (($is_Lmazes_generators_Rectangle(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "mazes.generators.Rectangle"))
+}
+function $isArrayOf_Lmazes_generators_Rectangle(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lmazes_generators_Rectangle)))
+}
+function $asArrayOf_Lmazes_generators_Rectangle(obj, depth) {
+  return (($isArrayOf_Lmazes_generators_Rectangle(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lmazes.generators.Rectangle;", depth))
+}
+var $d_Lmazes_generators_Rectangle = new $TypeData().initClass({
+  Lmazes_generators_Rectangle: 0
+}, false, "mazes.generators.Rectangle", {
+  Lmazes_generators_Rectangle: 1,
+  O: 1
+});
+$c_Lmazes_generators_Rectangle.prototype.$classData = $d_Lmazes_generators_Rectangle;
+/** @constructor */
+function $c_Lmazes_math_Distribution() {
+  $c_O.call(this)
+}
+$c_Lmazes_math_Distribution.prototype = new $h_O();
+$c_Lmazes_math_Distribution.prototype.constructor = $c_Lmazes_math_Distribution;
+/** @constructor */
+function $h_Lmazes_math_Distribution() {
+  /*<skip>*/
+}
+$h_Lmazes_math_Distribution.prototype = $c_Lmazes_math_Distribution.prototype;
+/** @constructor */
+function $c_Lmazes_webapp_DungeonUI() {
+  $c_O.call(this);
+  this.base$1 = null;
+  this.speed$1 = 0
+}
+$c_Lmazes_webapp_DungeonUI.prototype = new $h_O();
+$c_Lmazes_webapp_DungeonUI.prototype.constructor = $c_Lmazes_webapp_DungeonUI;
+/** @constructor */
+function $h_Lmazes_webapp_DungeonUI() {
+  /*<skip>*/
+}
+$h_Lmazes_webapp_DungeonUI.prototype = $c_Lmazes_webapp_DungeonUI.prototype;
+$c_Lmazes_webapp_DungeonUI.prototype.dungeonToText__Lmazes_generators_Matrix__T = (function(d) {
+  var elem$1 = null;
+  elem$1 = " ";
+  var end = d.columns$1;
+  var isEmpty$4 = (end <= 0);
+  var lastElement$4 = (isEmpty$4 ? (-1) : (((-1) + end) | 0));
+  if ((!isEmpty$4)) {
+    var i = 0;
+    while (true) {
+      var v1 = i;
+      var jsx$1 = $as_T(elem$1);
+      var this$5 = ((v1 % 10) | 0);
+      elem$1 = (jsx$1 + ("" + this$5));
+      if ((i === lastElement$4)) {
+        break
+      };
+      i = ((1 + i) | 0)
+    }
+  };
+  elem$1 = ($as_T(elem$1) + "\n");
+  var end$1 = d.rows$1;
+  var isEmpty$4$1 = (end$1 <= 0);
+  var lastElement$4$1 = (isEmpty$4$1 ? (-1) : (((-1) + end$1) | 0));
+  if ((!isEmpty$4$1)) {
+    var i$1 = 0;
+    while (true) {
+      var i$2 = i$1;
+      var jsx$2 = $as_T(elem$1);
+      var this$10 = ((i$2 % 10) | 0);
+      elem$1 = (jsx$2 + ("" + this$10));
+      var end$2 = d.columns$1;
+      var isEmpty$4$2 = (end$2 <= 0);
+      var lastElement$4$2 = (isEmpty$4$2 ? (-1) : (((-1) + end$2) | 0));
+      if ((!isEmpty$4$2)) {
+        var i$3 = 0;
+        while (true) {
+          var v1$1 = i$3;
+          var jsx$3 = $as_T(elem$1);
+          var this$15 = $as_Lmazes_generators_Dungeon$Tile(d.apply__I__I__O(i$2, v1$1));
+          elem$1 = ((jsx$3 + "") + $s_Lmazes_generators_Dungeon$Tile$class__asciiArt__Lmazes_generators_Dungeon$Tile__T(this$15));
+          if ((i$3 === lastElement$4$2)) {
+            break
+          };
+          i$3 = ((1 + i$3) | 0)
+        }
+      };
+      elem$1 = ($as_T(elem$1) + "\n");
+      if ((i$1 === lastElement$4$1)) {
+        break
+      };
+      i$1 = ((1 + i$1) | 0)
+    }
+  };
+  return $as_T(elem$1)
+});
+$c_Lmazes_webapp_DungeonUI.prototype.init___Lorg_scalajs_dom_raw_Element__I = (function(base, speed) {
+  this.base$1 = base;
+  this.speed$1 = speed;
+  return this
+});
 /** @constructor */
 function $c_Lorg_scalajs_dom_package$() {
   $c_O.call(this);
@@ -4069,6 +4306,44 @@ function $m_scm_HashTable$() {
   return $n_scm_HashTable$
 }
 /** @constructor */
+function $c_sjs_js_timers_package$() {
+  $c_O.call(this)
+}
+$c_sjs_js_timers_package$.prototype = new $h_O();
+$c_sjs_js_timers_package$.prototype.constructor = $c_sjs_js_timers_package$;
+/** @constructor */
+function $h_sjs_js_timers_package$() {
+  /*<skip>*/
+}
+$h_sjs_js_timers_package$.prototype = $c_sjs_js_timers_package$.prototype;
+$c_sjs_js_timers_package$.prototype.init___ = (function() {
+  return this
+});
+$c_sjs_js_timers_package$.prototype.clearInterval__sjs_js_timers_SetIntervalHandle__V = (function(handle) {
+  $g.clearInterval(handle)
+});
+$c_sjs_js_timers_package$.prototype.setInterval__D__F0__sjs_js_timers_SetIntervalHandle = (function(interval, body) {
+  return $g.setInterval((function(f) {
+    return (function() {
+      return f.apply__O()
+    })
+  })(body), interval)
+});
+var $d_sjs_js_timers_package$ = new $TypeData().initClass({
+  sjs_js_timers_package$: 0
+}, false, "scala.scalajs.js.timers.package$", {
+  sjs_js_timers_package$: 1,
+  O: 1
+});
+$c_sjs_js_timers_package$.prototype.$classData = $d_sjs_js_timers_package$;
+var $n_sjs_js_timers_package$ = (void 0);
+function $m_sjs_js_timers_package$() {
+  if ((!$n_sjs_js_timers_package$)) {
+    $n_sjs_js_timers_package$ = new $c_sjs_js_timers_package$().init___()
+  };
+  return $n_sjs_js_timers_package$
+}
+/** @constructor */
 function $c_sjsr_Bits$() {
   $c_O.call(this);
   this.scala$scalajs$runtime$Bits$$$undareTypedArraysSupported$f = false;
@@ -4708,6 +4983,608 @@ function $m_sr_Statics$() {
   return $n_sr_Statics$
 }
 /** @constructor */
+function $c_Lmazes_generators_BacktrackingMaze() {
+  $c_Lmazes_generators_DungeonGenerator.call(this);
+  this.keepDirectionProbability$2 = 0.0;
+  this.maxBacktracks$2 = 0;
+  this.map$2 = null;
+  this.p$2 = null;
+  this.d$2 = null;
+  this.visitedOrWallCount$2 = 0;
+  this.path$2 = null;
+  this.direction$2 = null;
+  this.i$2 = 0;
+  this.backtracks$2 = 0
+}
+$c_Lmazes_generators_BacktrackingMaze.prototype = new $h_Lmazes_generators_DungeonGenerator();
+$c_Lmazes_generators_BacktrackingMaze.prototype.constructor = $c_Lmazes_generators_BacktrackingMaze;
+/** @constructor */
+function $h_Lmazes_generators_BacktrackingMaze() {
+  /*<skip>*/
+}
+$h_Lmazes_generators_BacktrackingMaze.prototype = $c_Lmazes_generators_BacktrackingMaze.prototype;
+$c_Lmazes_generators_BacktrackingMaze.prototype.convertToWall__Lmazes_generators_Position__Lmazes_generators_Matrix__Z = (function(p, m) {
+  $m_s_package$();
+  var elem = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(p$1) {
+    return (function() {
+      return p$1.adyacent__sc_Seq()
+    })
+  })(p));
+  var travs = new $c_sc_Iterator$$anon$9().init___F0(elem);
+  var ev = $m_s_Predef$().singleton$und$less$colon$less$2;
+  var this$3 = new $c_sc_TraversableOnce$MonadOps().init___sc_TraversableOnce(travs);
+  var this$4 = this$3.trav$1.toIterator__sc_Iterator();
+  var this$5 = new $c_sc_TraversableOnce$FlattenOps().init___sc_TraversableOnce(new $c_sc_Iterator$$anon$11().init___sc_Iterator__F1(this$4, ev));
+  var this$6 = new $c_sc_TraversableOnce$FlattenOps$$anon$1().init___sc_TraversableOnce$FlattenOps(this$5);
+  var border = $s_sc_Iterator$class__slice__sc_Iterator__I__I__sc_Iterator(this$6, 0, 11).toList__sci_List();
+  $m_sci_List$();
+  var xs = new $c_sjs_js_WrappedArray().init___sjs_js_Array([border.slice__I__I__sci_List(1, 4), border.slice__I__I__sci_List(3, 6), border.slice__I__I__sci_List(5, 8), border.slice__I__I__sci_List(7, 10)]);
+  var this$8 = $m_sci_List$();
+  var cbf = this$8.ReusableCBFInstance$2;
+  var corners = $as_sci_List($s_sc_TraversableLike$class__to__sc_TraversableLike__scg_CanBuildFrom__O(xs, cbf));
+  var cornerForcesWall = new $c_Lmazes_generators_BacktrackingMaze$$anonfun$6().init___Lmazes_generators_BacktrackingMaze__Lmazes_generators_Matrix(this, m);
+  var cornersThatForceWall = $as_sci_List($s_sc_TraversableLike$class__filterImpl__p0__sc_TraversableLike__F1__Z__O(corners, cornerForcesWall, false));
+  return (!cornersThatForceWall.isEmpty__Z())
+});
+$c_Lmazes_generators_BacktrackingMaze.prototype.step__V = (function() {
+  var this$1 = this.path$2;
+  var this$2 = this$1.scala$collection$mutable$ListBuffer$$start$6;
+  this.p$2 = $as_Lmazes_generators_Position($s_sc_LinearSeqOptimized$class__last__sc_LinearSeqOptimized__O(this$2));
+  var this$3 = this.direction$2;
+  var this$4 = this$3.scala$collection$mutable$ListBuffer$$start$6;
+  this.d$2 = $as_Lmazes_generators_Dungeon$Direction($s_sc_LinearSeqOptimized$class__last__sc_LinearSeqOptimized__O(this$4));
+  var x = ((this.i$2 + " -> ") + this.p$2);
+  var this$6 = $m_s_Console$();
+  var this$7 = $as_Ljava_io_PrintStream(this$6.outVar$2.v$1);
+  this$7.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"));
+  this.map$2.update__I__I__O__V(this.p$2.x$1, this.p$2.y$1, $m_Lmazes_generators_Dungeon$Passage$());
+  this.updateWall__Lmazes_generators_Position__Lmazes_generators_Matrix__V(this.p$2, this.map$2);
+  this.i$2 = ((1 + this.i$2) | 0);
+  var x1 = this.carvePassage__Lmazes_generators_Matrix__Lmazes_generators_Dungeon$Direction__Lmazes_generators_Position__s_Option(this.map$2, this.d$2, this.p$2);
+  matchEnd6: {
+    var x$1 = $m_s_None$();
+    if ((x$1 === x1)) {
+      var jsx$1 = this.path$2;
+      var this$8 = this.path$2;
+      jsx$1.remove__I__O((((-1) + this$8.len$6) | 0));
+      var jsx$2 = this.direction$2;
+      var this$9 = this.direction$2;
+      jsx$2.remove__I__O((((-1) + this$9.len$6) | 0));
+      this.backtracks$2 = ((1 + this.backtracks$2) | 0);
+      break matchEnd6
+    };
+    if ($is_s_Some(x1)) {
+      var x2 = $as_s_Some(x1);
+      var p3 = $as_T2(x2.x$2);
+      if ((p3 !== null)) {
+        var newP = $as_Lmazes_generators_Position(p3.$$und1__O());
+        var newD = $as_Lmazes_generators_Dungeon$Direction(p3.$$und2__O());
+        var this$10 = this.r$1;
+        if ((this$10.self$1.nextFloat__F() < 0.1)) {
+          var jsx$3 = this.path$2;
+          var this$11 = this.path$2;
+          jsx$3.remove__I__O((((-1) + this$11.len$6) | 0));
+          var jsx$4 = this.direction$2;
+          var this$12 = this.direction$2;
+          jsx$4.remove__I__O((((-1) + this$12.len$6) | 0))
+        };
+        this.path$2.$$plus$eq__O__scm_ListBuffer(newP);
+        this.direction$2.$$plus$eq__O__scm_ListBuffer(newD);
+        break matchEnd6
+      }
+    };
+    throw new $c_s_MatchError().init___O(x1)
+  }
+});
+$c_Lmazes_generators_BacktrackingMaze.prototype.finished__Z = (function() {
+  var this$1 = this.path$2;
+  if (this$1.scala$collection$mutable$ListBuffer$$start$6.isEmpty__Z()) {
+    return true
+  } else {
+    return (this.backtracks$2 > this.maxBacktracks$2)
+  }
+});
+$c_Lmazes_generators_BacktrackingMaze.prototype.carvePassage__Lmazes_generators_Matrix__Lmazes_generators_Dungeon$Direction__Lmazes_generators_Position__s_Option = (function(m, d, p) {
+  var moves = this.possibleMoves__Lmazes_generators_Position__Lmazes_generators_Matrix__sc_Seq(p, m);
+  if (moves.isEmpty__Z()) {
+    return $m_s_None$()
+  };
+  var moveDistribution = new $c_Lmazes_math_Categorical().init___sci_List(this.moveProbabilities__sc_Seq__Lmazes_generators_Matrix__Lmazes_generators_Dungeon$Direction__sci_List(moves, m, d));
+  var moveIndex = moveDistribution.draw__I();
+  return new $c_s_Some().init___O(moves.apply__I__O(moveIndex))
+});
+$c_Lmazes_generators_BacktrackingMaze.prototype.possibleMoves__Lmazes_generators_Position__Lmazes_generators_Matrix__sc_Seq = (function(p, m) {
+  return $as_sc_Seq(p.moves__sc_Seq().filter__F1__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(arg$outer, m$1) {
+    return (function(x0$1$2) {
+      var x0$1 = $as_T2(x0$1$2);
+      if ((x0$1 !== null)) {
+        var p$1 = $as_Lmazes_generators_Position(x0$1.$$und1__O());
+        var _1$mcI$sp = p$1.x$1;
+        var _2$mcI$sp = p$1.y$1;
+        if (((((_1$mcI$sp >= 0) && (_1$mcI$sp < m$1.rows$1)) && (_2$mcI$sp >= 0)) && (_2$mcI$sp < m$1.columns$1))) {
+          var x = m$1.apply__I__I__O(p$1.x$1, p$1.y$1);
+          var x$2 = $m_Lmazes_generators_Dungeon$Empty$();
+          return ((x !== null) && $objectEquals(x, x$2))
+        } else {
+          return false
+        }
+      } else {
+        throw new $c_s_MatchError().init___O(x0$1)
+      }
+    })
+  })(this, m))))
+});
+$c_Lmazes_generators_BacktrackingMaze.prototype.moveProbabilities__sc_Seq__Lmazes_generators_Matrix__Lmazes_generators_Dungeon$Direction__sci_List = (function(moves, m, previousDirection) {
+  $m_sci_List$();
+  var n = moves.length__I();
+  var b = new $c_scm_ListBuffer().init___();
+  var i = 0;
+  while ((i < n)) {
+    var elem = $fround((1.0 / $fround(moves.length__I())));
+    b.$$plus$eq__O__scm_ListBuffer(elem);
+    i = ((1 + i) | 0)
+  };
+  var moveProbabilities = b.toList__sci_List();
+  var previousDirectionIndex = moves.indexWhere__F1__I(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(previousDirection$1) {
+    return (function(m$2) {
+      var m$1 = $as_T2(m$2);
+      var x = m$1.$$und2__O();
+      return ((x === null) ? (previousDirection$1 === null) : $objectEquals(x, previousDirection$1))
+    })
+  })(previousDirection)));
+  if ((previousDirectionIndex !== (-1))) {
+    var this$2 = moveProbabilities;
+    var newProbability = $fround(($uF($s_sc_LinearSeqOptimized$class__apply__sc_LinearSeqOptimized__I__O(this$2, previousDirectionIndex)) * this.keepDirectionProbability$2));
+    var this$4 = moveProbabilities;
+    var this$3 = $m_sci_List$();
+    var bf = this$3.ReusableCBFInstance$2;
+    moveProbabilities = $as_sci_List($s_sc_SeqLike$class__updated__sc_SeqLike__I__O__scg_CanBuildFrom__O(this$4, previousDirectionIndex, newProbability, bf))
+  };
+  var this$5 = moveProbabilities;
+  var num = $m_s_math_Numeric$FloatIsFractional$();
+  var totalProbability = $uF($s_sc_TraversableOnce$class__sum__sc_TraversableOnce__s_math_Numeric__O(this$5, num));
+  var this$7 = moveProbabilities;
+  var f = (function(totalProbability$1) {
+    return (function(x$1$2) {
+      var x$1 = $uF(x$1$2);
+      return $fround((x$1 / totalProbability$1))
+    })
+  })(totalProbability);
+  var this$6 = $m_sci_List$();
+  var bf$1 = this$6.ReusableCBFInstance$2;
+  if ((bf$1 === $m_sci_List$().ReusableCBFInstance$2)) {
+    if ((this$7 === $m_sci_Nil$())) {
+      var jsx$1 = $m_sci_Nil$()
+    } else {
+      var arg1 = this$7.head__O();
+      var h = new $c_sci_$colon$colon().init___O__sci_List(f(arg1), $m_sci_Nil$());
+      var t = h;
+      var rest = $as_sci_List(this$7.tail__O());
+      while ((rest !== $m_sci_Nil$())) {
+        var arg1$1 = rest.head__O();
+        var nx = new $c_sci_$colon$colon().init___O__sci_List(f(arg1$1), $m_sci_Nil$());
+        t.tl$5 = nx;
+        t = nx;
+        rest = $as_sci_List(rest.tail__O())
+      };
+      var jsx$1 = h
+    }
+  } else {
+    var b$1 = $s_sc_TraversableLike$class__builder$1__p0__sc_TraversableLike__scg_CanBuildFrom__scm_Builder(this$7, bf$1);
+    var these = this$7;
+    while ((!these.isEmpty__Z())) {
+      var arg1$2 = these.head__O();
+      b$1.$$plus$eq__O__scm_Builder(f(arg1$2));
+      these = $as_sci_List(these.tail__O())
+    };
+    var jsx$1 = b$1.result__O()
+  };
+  moveProbabilities = $as_sci_List(jsx$1);
+  return moveProbabilities
+});
+$c_Lmazes_generators_BacktrackingMaze.prototype.updateWall__Lmazes_generators_Position__Lmazes_generators_Matrix__V = (function(p, map) {
+  var adyacentPositions = $as_sc_Seq(p.adyacent__sc_Seq().filter__F1__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(arg$outer, map$1) {
+    return (function(p$2) {
+      var p$1 = $as_Lmazes_generators_Position(p$2);
+      var _1$mcI$sp = p$1.x$1;
+      var _2$mcI$sp = p$1.y$1;
+      if (((((_1$mcI$sp >= 0) && (_1$mcI$sp < map$1.rows$1)) && (_2$mcI$sp >= 0)) && (_2$mcI$sp < map$1.columns$1))) {
+        var x = map$1.apply__I__I__O(p$1.x$1, p$1.y$1);
+        var x$2 = $m_Lmazes_generators_Dungeon$Empty$();
+        return ((x !== null) && $objectEquals(x, x$2))
+      } else {
+        return false
+      }
+    })
+  })(this, map))));
+  adyacentPositions.foreach__F1__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(arg$outer$1, map$1$1) {
+    return (function(p$2$1) {
+      var p$3 = $as_Lmazes_generators_Position(p$2$1);
+      if (arg$outer$1.convertToWall__Lmazes_generators_Position__Lmazes_generators_Matrix__Z(p$3, map$1$1)) {
+        var r = p$3.x$1;
+        $as_scm_ArraySeq(map$1$1.array$1.apply__I__O(r)).update__I__O__V(p$3.y$1, $m_Lmazes_generators_Dungeon$Wall$())
+      }
+    })
+  })(this, map)))
+});
+$c_Lmazes_generators_BacktrackingMaze.prototype.init___T2__F__I = (function(s, keepDirectionProbability, maxBacktracks) {
+  this.keepDirectionProbability$2 = keepDirectionProbability;
+  this.maxBacktracks$2 = maxBacktracks;
+  $c_Lmazes_generators_DungeonGenerator.prototype.init___T2.call(this, s);
+  var size = this.size$1;
+  var rows = size.$$und1$mcI$sp__I();
+  var columns = size.$$und2$mcI$sp__I();
+  var this$2 = $m_scm_ArraySeq$();
+  var b = this$2.newBuilder__scm_Builder();
+  b.sizeHint__I__V(rows);
+  var i = 0;
+  while ((i < rows)) {
+    var arg1 = i;
+    var b$1 = this$2.newBuilder__scm_Builder();
+    b$1.sizeHint__I__V(columns);
+    var i$1 = 0;
+    while ((i$1 < columns)) {
+      b$1.$$plus$eq__O__scm_Builder($m_Lmazes_generators_Dungeon$Empty$());
+      i$1 = ((1 + i$1) | 0)
+    };
+    b.$$plus$eq__O__scm_Builder($as_sc_GenTraversable(b$1.result__O()));
+    i = ((1 + i) | 0)
+  };
+  this.map$2 = new $c_Lmazes_generators_Matrix().init___scm_ArraySeq__I__I($as_scm_ArraySeq($as_sc_GenTraversable(b.result__O())), rows, columns);
+  var t = this.map$2.randomIndex__s_util_Random__T2(this.r$1);
+  this.p$2 = new $c_Lmazes_generators_Position().init___I__I(t.$$und1$mcI$sp__I(), t.$$und2$mcI$sp__I());
+  this.d$2 = $m_Lmazes_generators_Dungeon$South$();
+  this.visitedOrWallCount$2 = 1;
+  $m_scm_ListBuffer$();
+  var array = [this.p$2];
+  if (($uI(array.length) === 0)) {
+    var this$5 = new $c_scm_GrowingBuilder().init___scg_Growable(new $c_scm_ListBuffer().init___());
+    var jsx$1 = $as_sc_GenTraversable(this$5.elems$1)
+  } else {
+    var b$2 = new $c_scm_GrowingBuilder().init___scg_Growable(new $c_scm_ListBuffer().init___());
+    var i$2 = 0;
+    var len = $uI(array.length);
+    while ((i$2 < len)) {
+      var index = i$2;
+      var arg1$1 = array[index];
+      b$2.$$plus$eq__O__scm_GrowingBuilder(arg1$1);
+      i$2 = ((1 + i$2) | 0)
+    };
+    var jsx$1 = $as_sc_GenTraversable(b$2.elems$1)
+  };
+  this.path$2 = $as_scm_ListBuffer(jsx$1);
+  $m_scm_ListBuffer$();
+  var array$1 = [this.d$2];
+  if (($uI(array$1.length) === 0)) {
+    var this$7 = new $c_scm_GrowingBuilder().init___scg_Growable(new $c_scm_ListBuffer().init___());
+    var jsx$2 = $as_sc_GenTraversable(this$7.elems$1)
+  } else {
+    var b$3 = new $c_scm_GrowingBuilder().init___scg_Growable(new $c_scm_ListBuffer().init___());
+    var i$3 = 0;
+    var len$1 = $uI(array$1.length);
+    while ((i$3 < len$1)) {
+      var index$1 = i$3;
+      var arg1$2 = array$1[index$1];
+      b$3.$$plus$eq__O__scm_GrowingBuilder(arg1$2);
+      i$3 = ((1 + i$3) | 0)
+    };
+    var jsx$2 = $as_sc_GenTraversable(b$3.elems$1)
+  };
+  this.direction$2 = $as_scm_ListBuffer(jsx$2);
+  this.path$2.$$plus$eq__O__scm_ListBuffer(this.p$2);
+  this.direction$2.$$plus$eq__O__scm_ListBuffer(this.d$2);
+  this.i$2 = 0;
+  this.backtracks$2 = 0;
+  return this
+});
+var $d_Lmazes_generators_BacktrackingMaze = new $TypeData().initClass({
+  Lmazes_generators_BacktrackingMaze: 0
+}, false, "mazes.generators.BacktrackingMaze", {
+  Lmazes_generators_BacktrackingMaze: 1,
+  Lmazes_generators_DungeonGenerator: 1,
+  O: 1
+});
+$c_Lmazes_generators_BacktrackingMaze.prototype.$classData = $d_Lmazes_generators_BacktrackingMaze;
+/** @constructor */
+function $c_Lmazes_generators_RecursiveMaze() {
+  $c_Lmazes_generators_DungeonGenerator.call(this);
+  this.minSideLength$2 = 0;
+  this.map$2 = null;
+  this.stack$2 = null;
+  this.initial$2 = null;
+  this.orientation$2 = false;
+  this.doorStack$2 = null
+}
+$c_Lmazes_generators_RecursiveMaze.prototype = new $h_Lmazes_generators_DungeonGenerator();
+$c_Lmazes_generators_RecursiveMaze.prototype.constructor = $c_Lmazes_generators_RecursiveMaze;
+/** @constructor */
+function $h_Lmazes_generators_RecursiveMaze() {
+  /*<skip>*/
+}
+$h_Lmazes_generators_RecursiveMaze.prototype = $c_Lmazes_generators_RecursiveMaze.prototype;
+$c_Lmazes_generators_RecursiveMaze.prototype.addWall__V = (function() {
+  var jsx$1 = this.stack$2;
+  var this$1 = this.stack$2;
+  var a = $as_Lmazes_generators_Rectangle(jsx$1.remove__I__O((((-1) + this$1.len$6) | 0)));
+  var x = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["", ""])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([a]));
+  var this$3 = $m_s_Console$();
+  var this$4 = $as_Ljava_io_PrintStream(this$3.outVar$2.v$1);
+  this$4.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"));
+  if (((a.s$1.$$und1$mcI$sp__I() >= this.minSideLength$2) && (a.s$1.$$und2$mcI$sp__I() >= this.minSideLength$2))) {
+    if ((a.s$1.$$und1$mcI$sp__I() < a.s$1.$$und2$mcI$sp__I())) {
+      this.splitHorizontally__scm_ListBuffer__Lmazes_generators_Rectangle__Lmazes_generators_Matrix__V(this.stack$2, a, this.map$2)
+    } else {
+      this.splitVertically__scm_ListBuffer__Lmazes_generators_Rectangle__Lmazes_generators_Matrix__V(this.stack$2, a, this.map$2)
+    };
+    this.orientation$2 = (!this.orientation$2)
+  }
+});
+$c_Lmazes_generators_RecursiveMaze.prototype.drawVerticalWall__Lmazes_generators_Matrix__Lmazes_generators_Rectangle__I__V = (function(map, area, at) {
+  var fromRow = area.p$1.x$1;
+  var toRow = ((fromRow + area.s$1.$$und1$mcI$sp__I()) | 0);
+  var correctedAt = ((area.p$1.y$1 + at) | 0);
+  var isEmpty$4 = (fromRow >= toRow);
+  var lastElement$4 = (isEmpty$4 ? (((-1) + fromRow) | 0) : (((-1) + toRow) | 0));
+  if ((!isEmpty$4)) {
+    var i = fromRow;
+    while (true) {
+      var v1 = i;
+      map.update__I__I__O__V(v1, correctedAt, $m_Lmazes_generators_Dungeon$Wall$());
+      if ((i === lastElement$4)) {
+        break
+      };
+      i = ((1 + i) | 0)
+    }
+  }
+});
+$c_Lmazes_generators_RecursiveMaze.prototype.doorPoint__I__I = (function(size) {
+  var this$1 = this.r$1;
+  var n = (((-1) + size) | 0);
+  var at = ((1 + this$1.self$1.nextInt__I__I(n)) | 0);
+  at = $uI($as_sc_TraversableOnce($m_sc_Seq$().apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$uI($as_sc_TraversableOnce($m_sc_Seq$().apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array([at, (((-1) + size) | 0)]))).min__s_math_Ordering__O($m_s_math_Ordering$Int$())), 1]))).max__s_math_Ordering__O($m_s_math_Ordering$Int$()));
+  return at
+});
+$c_Lmazes_generators_RecursiveMaze.prototype.drawHorizontalWall__Lmazes_generators_Matrix__Lmazes_generators_Rectangle__I__V = (function(map, area, at) {
+  var fromCol = area.p$1.y$1;
+  var toCol = ((fromCol + area.s$1.$$und2$mcI$sp__I()) | 0);
+  var correctedAt = ((area.p$1.x$1 + at) | 0);
+  var isEmpty$4 = (fromCol >= toCol);
+  var lastElement$4 = (isEmpty$4 ? (((-1) + fromCol) | 0) : (((-1) + toCol) | 0));
+  if ((!isEmpty$4)) {
+    var i = fromCol;
+    while (true) {
+      var v1 = i;
+      map.update__I__I__O__V(correctedAt, v1, $m_Lmazes_generators_Dungeon$Wall$());
+      if ((i === lastElement$4)) {
+        break
+      };
+      i = ((1 + i) | 0)
+    }
+  }
+});
+$c_Lmazes_generators_RecursiveMaze.prototype.splitPoint__I__I = (function(size) {
+  var this$1 = this.r$1;
+  var n = (((-2) + size) | 0);
+  var at = ((1 + this$1.self$1.nextInt__I__I(n)) | 0);
+  at = $uI($as_sc_TraversableOnce($m_sc_Seq$().apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$uI($as_sc_TraversableOnce($m_sc_Seq$().apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array([at, (((-2) + size) | 0)]))).min__s_math_Ordering__O($m_s_math_Ordering$Int$())), 1]))).max__s_math_Ordering__O($m_s_math_Ordering$Int$()));
+  return at
+});
+$c_Lmazes_generators_RecursiveMaze.prototype.getColumnsWithPassage__Lmazes_generators_Rectangle__Lmazes_generators_Matrix__sci_Set = (function(a, map) {
+  var x = a.p$1.y$1;
+  var end = ((a.p$1.y$1 + a.s$1.$$und2$mcI$sp__I()) | 0);
+  var isEmpty$4 = (x >= end);
+  var lastElement$4 = (isEmpty$4 ? (((-1) + x) | 0) : (((-1) + end) | 0));
+  $m_sci_IndexedSeq$();
+  $m_sci_Vector$();
+  var b = new $c_sci_VectorBuilder().init___();
+  if ((!isEmpty$4)) {
+    var i = x;
+    while (true) {
+      var arg1 = i;
+      var x$1 = map.apply__I__I__O((((-1) + a.p$1.x$1) | 0), arg1);
+      var x$2 = $m_Lmazes_generators_Dungeon$Passage$();
+      if ((((x$1 !== null) && $objectEquals(x$1, x$2)) !== false)) {
+        b.$$plus$eq__O__sci_VectorBuilder(arg1)
+      };
+      if ((i === lastElement$4)) {
+        break
+      };
+      i = ((1 + i) | 0)
+    }
+  };
+  var leftColumnsWithPassage = b.result__sci_Vector();
+  var x$3 = a.p$1.y$1;
+  var end$1 = ((a.p$1.y$1 + a.s$1.$$und2$mcI$sp__I()) | 0);
+  var isEmpty$4$1 = (x$3 >= end$1);
+  var lastElement$4$1 = (isEmpty$4$1 ? (((-1) + x$3) | 0) : (((-1) + end$1) | 0));
+  $m_sci_IndexedSeq$();
+  $m_sci_Vector$();
+  var b$1 = new $c_sci_VectorBuilder().init___();
+  if ((!isEmpty$4$1)) {
+    var i$1 = x$3;
+    while (true) {
+      var arg1$1 = i$1;
+      var x$4 = map.apply__I__I__O(((a.p$1.x$1 + a.s$1.$$und1$mcI$sp__I()) | 0), arg1$1);
+      var x$2$1 = $m_Lmazes_generators_Dungeon$Passage$();
+      if ((((x$4 !== null) && $objectEquals(x$4, x$2$1)) !== false)) {
+        b$1.$$plus$eq__O__sci_VectorBuilder(arg1$1)
+      };
+      if ((i$1 === lastElement$4$1)) {
+        break
+      };
+      i$1 = ((1 + i$1) | 0)
+    }
+  };
+  var rightColumnsWithPassage = b$1.result__sci_Vector();
+  var this$17 = $m_sci_Set$();
+  var cbf = new $c_scg_GenSetFactory$$anon$1().init___scg_GenSetFactory(this$17);
+  var jsx$1 = $as_sci_Set($s_sc_TraversableLike$class__to__sc_TraversableLike__scg_CanBuildFrom__O(leftColumnsWithPassage, cbf));
+  var this$18 = $m_sci_Set$();
+  var cbf$1 = new $c_scg_GenSetFactory$$anon$1().init___scg_GenSetFactory(this$18);
+  return $as_sci_Set(jsx$1.$$plus$plus__sc_GenTraversableOnce__sc_Set($as_sci_Set($s_sc_TraversableLike$class__to__sc_TraversableLike__scg_CanBuildFrom__O(rightColumnsWithPassage, cbf$1))))
+});
+$c_Lmazes_generators_RecursiveMaze.prototype.getRowsWithWall__Lmazes_generators_Rectangle__Lmazes_generators_Matrix__sci_Set = (function(a, map) {
+  var x = a.p$1.x$1;
+  var end = ((a.p$1.x$1 + a.s$1.$$und1$mcI$sp__I()) | 0);
+  var isEmpty$4 = (x >= end);
+  var lastElement$4 = (isEmpty$4 ? (((-1) + x) | 0) : (((-1) + end) | 0));
+  $m_sci_IndexedSeq$();
+  $m_sci_Vector$();
+  var b = new $c_sci_VectorBuilder().init___();
+  if ((!isEmpty$4)) {
+    var i = x;
+    while (true) {
+      var arg1 = i;
+      var x$1 = map.apply__I__I__O(arg1, (((-1) + a.p$1.y$1) | 0));
+      var x$2 = $m_Lmazes_generators_Dungeon$Passage$();
+      if ((((x$1 !== null) && $objectEquals(x$1, x$2)) !== false)) {
+        b.$$plus$eq__O__sci_VectorBuilder(arg1)
+      };
+      if ((i === lastElement$4)) {
+        break
+      };
+      i = ((1 + i) | 0)
+    }
+  };
+  var leftRowsWithPassage = b.result__sci_Vector();
+  var x$3 = a.p$1.x$1;
+  var end$1 = ((a.p$1.x$1 + a.s$1.$$und1$mcI$sp__I()) | 0);
+  var isEmpty$4$1 = (x$3 >= end$1);
+  var lastElement$4$1 = (isEmpty$4$1 ? (((-1) + x$3) | 0) : (((-1) + end$1) | 0));
+  $m_sci_IndexedSeq$();
+  $m_sci_Vector$();
+  var b$1 = new $c_sci_VectorBuilder().init___();
+  if ((!isEmpty$4$1)) {
+    var i$1 = x$3;
+    while (true) {
+      var arg1$1 = i$1;
+      var x$4 = map.apply__I__I__O(arg1$1, ((a.p$1.y$1 + a.s$1.$$und2$mcI$sp__I()) | 0));
+      var x$2$1 = $m_Lmazes_generators_Dungeon$Passage$();
+      if ((((x$4 !== null) && $objectEquals(x$4, x$2$1)) !== false)) {
+        b$1.$$plus$eq__O__sci_VectorBuilder(arg1$1)
+      };
+      if ((i$1 === lastElement$4$1)) {
+        break
+      };
+      i$1 = ((1 + i$1) | 0)
+    }
+  };
+  var rightRowsWithPassage = b$1.result__sci_Vector();
+  var this$17 = $m_sci_Set$();
+  var cbf = new $c_scg_GenSetFactory$$anon$1().init___scg_GenSetFactory(this$17);
+  var jsx$1 = $as_sci_Set($s_sc_TraversableLike$class__to__sc_TraversableLike__scg_CanBuildFrom__O(leftRowsWithPassage, cbf));
+  var this$18 = $m_sci_Set$();
+  var cbf$1 = new $c_scg_GenSetFactory$$anon$1().init___scg_GenSetFactory(this$18);
+  return $as_sci_Set(jsx$1.$$plus$plus__sc_GenTraversableOnce__sc_Set($as_sci_Set($s_sc_TraversableLike$class__to__sc_TraversableLike__scg_CanBuildFrom__O(rightRowsWithPassage, cbf$1))))
+});
+$c_Lmazes_generators_RecursiveMaze.prototype.init___T2__I = (function(s, minSideLength) {
+  this.minSideLength$2 = minSideLength;
+  $c_Lmazes_generators_DungeonGenerator.prototype.init___T2.call(this, s);
+  var size = this.size$1;
+  var rows = size.$$und1$mcI$sp__I();
+  var columns = size.$$und2$mcI$sp__I();
+  var this$2 = $m_scm_ArraySeq$();
+  var b = this$2.newBuilder__scm_Builder();
+  b.sizeHint__I__V(rows);
+  var i = 0;
+  while ((i < rows)) {
+    var arg1 = i;
+    var b$1 = this$2.newBuilder__scm_Builder();
+    b$1.sizeHint__I__V(columns);
+    var i$1 = 0;
+    while ((i$1 < columns)) {
+      b$1.$$plus$eq__O__scm_Builder($m_Lmazes_generators_Dungeon$Passage$());
+      i$1 = ((1 + i$1) | 0)
+    };
+    b.$$plus$eq__O__scm_Builder($as_sc_GenTraversable(b$1.result__O()));
+    i = ((1 + i) | 0)
+  };
+  this.map$2 = new $c_Lmazes_generators_Matrix().init___scm_ArraySeq__I__I($as_scm_ArraySeq($as_sc_GenTraversable(b.result__O())), rows, columns);
+  this.fillBorderWith__Lmazes_generators_Matrix__Lmazes_generators_Dungeon$Tile__V(this.map$2, $m_Lmazes_generators_Dungeon$Wall$());
+  this.stack$2 = $as_scm_ListBuffer($m_scm_ListBuffer$().apply__sc_Seq__sc_GenTraversable($m_sci_Nil$()));
+  this.initial$2 = new $c_Lmazes_generators_Rectangle().init___T2__Lmazes_generators_Position(new $c_s_Tuple2$mcII$sp().init___I__I((((-2) + s.$$und1$mcI$sp__I()) | 0), (((-2) + s.$$und2$mcI$sp__I()) | 0)), new $c_Lmazes_generators_Position().init___I__I(1, 1));
+  this.stack$2.$$plus$eq__O__scm_ListBuffer(this.initial$2);
+  this.orientation$2 = true;
+  this.doorStack$2 = $as_scm_ListBuffer($m_scm_ListBuffer$().apply__sc_Seq__sc_GenTraversable($m_sci_Nil$()));
+  var a = this.minSideLength$2;
+  this.minSideLength$2 = ((a > 3) ? a : 3);
+  return this
+});
+$c_Lmazes_generators_RecursiveMaze.prototype.splitVertically__scm_ListBuffer__Lmazes_generators_Rectangle__Lmazes_generators_Matrix__V = (function(stack, area, map) {
+  var this$1 = this.getRowsWithWall__Lmazes_generators_Rectangle__Lmazes_generators_Matrix__sci_Set(area, map);
+  var this$2 = $m_sci_List$();
+  var cbf = this$2.ReusableCBFInstance$2;
+  var rowsWithPassage = $as_sci_List($s_sc_TraversableLike$class__to__sc_TraversableLike__scg_CanBuildFrom__O(this$1, cbf));
+  var freeRows = (((((-2) + area.s$1.$$und1$mcI$sp__I()) | 0) - $s_sc_LinearSeqOptimized$class__length__sc_LinearSeqOptimized__I(rowsWithPassage)) | 0);
+  if ((freeRows > 0)) {
+    var splitRow = this.splitPoint__I__I(area.s$1.$$und1$mcI$sp__I());
+    while (true) {
+      var elem = ((splitRow + area.p$1.x$1) | 0);
+      if ($s_sc_LinearSeqOptimized$class__contains__sc_LinearSeqOptimized__O__Z(rowsWithPassage, elem)) {
+        splitRow = this.splitPoint__I__I(area.s$1.$$und1$mcI$sp__I())
+      } else {
+        break
+      }
+    };
+    var x1 = area.splitVertically__I__T2(splitRow);
+    if ((x1 === null)) {
+      throw new $c_s_MatchError().init___O(x1)
+    };
+    var r1 = $as_Lmazes_generators_Rectangle(x1.$$und1__O());
+    var r2 = $as_Lmazes_generators_Rectangle(x1.$$und2__O());
+    this.drawHorizontalWall__Lmazes_generators_Matrix__Lmazes_generators_Rectangle__I__V(map, area, splitRow);
+    var doorColumn = this.doorPoint__I__I(area.s$1.$$und2$mcI$sp__I());
+    var x = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Splitting at row ", " - door at ", " - Resulting areas: 1) ", " 2) ", ""])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([splitRow, doorColumn, r1, r2]));
+    var this$4 = $m_s_Console$();
+    var this$5 = $as_Ljava_io_PrintStream(this$4.outVar$2.v$1);
+    this$5.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"));
+    map.update__I__I__O__V(((splitRow + area.p$1.x$1) | 0), ((doorColumn + area.p$1.y$1) | 0), $m_Lmazes_generators_Dungeon$Passage$());
+    stack.$$plus$eq__O__scm_ListBuffer(r1);
+    stack.$$plus$eq__O__scm_ListBuffer(r2)
+  }
+});
+$c_Lmazes_generators_RecursiveMaze.prototype.splitHorizontally__scm_ListBuffer__Lmazes_generators_Rectangle__Lmazes_generators_Matrix__V = (function(stack, area, map) {
+  var this$1 = this.getColumnsWithPassage__Lmazes_generators_Rectangle__Lmazes_generators_Matrix__sci_Set(area, map);
+  var this$2 = $m_sci_List$();
+  var cbf = this$2.ReusableCBFInstance$2;
+  var columnsWithPassage = $as_sci_List($s_sc_TraversableLike$class__to__sc_TraversableLike__scg_CanBuildFrom__O(this$1, cbf));
+  var freeColumns = (((((-2) + area.s$1.$$und2$mcI$sp__I()) | 0) - $s_sc_LinearSeqOptimized$class__length__sc_LinearSeqOptimized__I(columnsWithPassage)) | 0);
+  if ((freeColumns > 0)) {
+    var splitColumn = this.splitPoint__I__I(area.s$1.$$und2$mcI$sp__I());
+    while (true) {
+      var elem = ((splitColumn + area.p$1.y$1) | 0);
+      if ($s_sc_LinearSeqOptimized$class__contains__sc_LinearSeqOptimized__O__Z(columnsWithPassage, elem)) {
+        splitColumn = this.splitPoint__I__I(area.s$1.$$und2$mcI$sp__I())
+      } else {
+        break
+      }
+    };
+    var x1 = area.splitHorizontally__I__T2(splitColumn);
+    if ((x1 === null)) {
+      throw new $c_s_MatchError().init___O(x1)
+    };
+    var r1 = $as_Lmazes_generators_Rectangle(x1.$$und1__O());
+    var r2 = $as_Lmazes_generators_Rectangle(x1.$$und2__O());
+    this.drawVerticalWall__Lmazes_generators_Matrix__Lmazes_generators_Rectangle__I__V(map, area, splitColumn);
+    var doorRow = this.doorPoint__I__I(area.s$1.$$und1$mcI$sp__I());
+    map.update__I__I__O__V(((doorRow + area.p$1.x$1) | 0), ((splitColumn + area.p$1.y$1) | 0), $m_Lmazes_generators_Dungeon$Passage$());
+    var x = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Splitting at column ", " - door at ", " - Resulting areas: 1) ", " 2) ", ""])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([splitColumn, doorRow, r1, r2]));
+    var this$4 = $m_s_Console$();
+    var this$5 = $as_Ljava_io_PrintStream(this$4.outVar$2.v$1);
+    this$5.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"));
+    stack.$$plus$eq__O__scm_ListBuffer(r1);
+    stack.$$plus$eq__O__scm_ListBuffer(r2)
+  }
+});
+var $d_Lmazes_generators_RecursiveMaze = new $TypeData().initClass({
+  Lmazes_generators_RecursiveMaze: 0
+}, false, "mazes.generators.RecursiveMaze", {
+  Lmazes_generators_RecursiveMaze: 1,
+  Lmazes_generators_DungeonGenerator: 1,
+  O: 1
+});
+$c_Lmazes_generators_RecursiveMaze.prototype.$classData = $d_Lmazes_generators_RecursiveMaze;
+/** @constructor */
 function $c_Lmazes_math_Categorical() {
   $c_Lmazes_math_Distribution.call(this);
   this.probabilities$2 = null
@@ -4780,14 +5657,152 @@ var $d_Lmazes_math_Categorical = new $TypeData().initClass({
 });
 $c_Lmazes_math_Categorical.prototype.$classData = $d_Lmazes_math_Categorical;
 /** @constructor */
+function $c_Lmazes_webapp_BacktrackingMazeUI() {
+  $c_Lmazes_webapp_DungeonUI.call(this);
+  this.mazeElement$2 = null;
+  this.drawMazeButton$2 = null;
+  this.keepDirectionInput$2 = null;
+  this.heightInput$2 = null;
+  this.widthInput$2 = null;
+  this.maxBacktracksInput$2 = null;
+  this.m$2 = null;
+  this.h$2 = null;
+  this.defaultSize$2 = null;
+  this.defaultMaxBacktracks$2 = 0
+}
+$c_Lmazes_webapp_BacktrackingMazeUI.prototype = new $h_Lmazes_webapp_DungeonUI();
+$c_Lmazes_webapp_BacktrackingMazeUI.prototype.constructor = $c_Lmazes_webapp_BacktrackingMazeUI;
+/** @constructor */
+function $h_Lmazes_webapp_BacktrackingMazeUI() {
+  /*<skip>*/
+}
+$h_Lmazes_webapp_BacktrackingMazeUI.prototype = $c_Lmazes_webapp_BacktrackingMazeUI.prototype;
+$c_Lmazes_webapp_BacktrackingMazeUI.prototype.recreateMaze__V = (function() {
+  var x = $as_T(this.heightInput$2.value);
+  var this$2 = new $c_sci_StringOps().init___T(x);
+  var this$4 = $m_jl_Integer$();
+  var $$this = this$2.repr$1;
+  var jsx$1 = this$4.parseInt__T__I__I($$this, 10);
+  var x$1 = $as_T(this.widthInput$2.value);
+  var this$6 = new $c_sci_StringOps().init___T(x$1);
+  var this$8 = $m_jl_Integer$();
+  var $$this$1 = this$6.repr$1;
+  var s = new $c_s_Tuple2$mcII$sp().init___I__I(jsx$1, this$8.parseInt__T__I__I($$this$1, 10));
+  var x$2 = $as_T(this.keepDirectionInput$2.value);
+  var this$10 = new $c_sci_StringOps().init___T(x$2);
+  var $$this$2 = this$10.repr$1;
+  var keepDirection = $fround($m_jl_Double$().parseDouble__T__D($$this$2));
+  var x$3 = $as_T(this.maxBacktracksInput$2.value);
+  var this$14 = new $c_sci_StringOps().init___T(x$3);
+  var this$16 = $m_jl_Integer$();
+  var $$this$3 = this$14.repr$1;
+  var maxBacktracks = this$16.parseInt__T__I__I($$this$3, 10);
+  this.m$2 = new $c_Lmazes_generators_BacktrackingMaze().init___T2__F__I(s, keepDirection, maxBacktracks)
+});
+$c_Lmazes_webapp_BacktrackingMazeUI.prototype.step__V = (function() {
+  if ((!this.m$2.finished__Z())) {
+    this.m$2.step__V();
+    this.drawMaze__V()
+  } else {
+    $m_sjs_js_timers_package$().clearInterval__sjs_js_timers_SetIntervalHandle__V(this.h$2)
+  }
+});
+$c_Lmazes_webapp_BacktrackingMazeUI.prototype.drawMaze__V = (function() {
+  this.mazeElement$2.textContent = this.dungeonToText__Lmazes_generators_Matrix__T(this.m$2.map$2)
+});
+$c_Lmazes_webapp_BacktrackingMazeUI.prototype.init___Lorg_scalajs_dom_raw_Element__I = (function(base, speed) {
+  $c_Lmazes_webapp_DungeonUI.prototype.init___Lorg_scalajs_dom_raw_Element__I.call(this, base, speed);
+  this.mazeElement$2 = null;
+  this.drawMazeButton$2 = null;
+  this.keepDirectionInput$2 = null;
+  this.heightInput$2 = null;
+  this.widthInput$2 = null;
+  this.maxBacktracksInput$2 = null;
+  this.m$2 = null;
+  this.h$2 = null;
+  this.defaultSize$2 = new $c_s_Tuple2$mcII$sp().init___I__I(20, 80);
+  this.defaultMaxBacktracks$2 = ($uI($as_sc_TraversableOnce($m_sc_Seq$().apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array([this.defaultSize$2.$$und1$mcI$sp__I(), this.defaultSize$2.$$und2$mcI$sp__I()]))).max__s_math_Ordering__O($m_s_math_Ordering$Int$())) << 1);
+  return this
+});
+$c_Lmazes_webapp_BacktrackingMazeUI.prototype.setupUI__V = (function() {
+  this.keepDirectionInput$2 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().input__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lscalatags_JsDom$all$().type__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("text", $m_Lscalatags_JsDom$all$().stringAttr$1), $m_Lscalatags_JsDom$all$().value__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("1", $m_Lscalatags_JsDom$all$().stringAttr$1)])).render__Lorg_scalajs_dom_raw_Element();
+  var jsx$3 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().input__Lscalatags_generic_TypedTag());
+  var jsx$2 = $m_Lscalatags_JsDom$all$().type__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("text", $m_Lscalatags_JsDom$all$().stringAttr$1);
+  var jsx$1 = $m_Lscalatags_JsDom$all$().value__Lscalatags_generic_Attr();
+  var this$1 = this.defaultSize$2.$$und1$mcI$sp__I();
+  this.heightInput$2 = jsx$3.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$2, jsx$1.$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair(("" + this$1), $m_Lscalatags_JsDom$all$().stringAttr$1)])).render__Lorg_scalajs_dom_raw_Element();
+  var jsx$6 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().input__Lscalatags_generic_TypedTag());
+  var jsx$5 = $m_Lscalatags_JsDom$all$().type__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("text", $m_Lscalatags_JsDom$all$().stringAttr$1);
+  var jsx$4 = $m_Lscalatags_JsDom$all$().value__Lscalatags_generic_Attr();
+  var this$3 = this.defaultSize$2.$$und2$mcI$sp__I();
+  this.widthInput$2 = jsx$6.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$5, jsx$4.$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair(("" + this$3), $m_Lscalatags_JsDom$all$().stringAttr$1)])).render__Lorg_scalajs_dom_raw_Element();
+  var jsx$9 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().input__Lscalatags_generic_TypedTag());
+  var jsx$8 = $m_Lscalatags_JsDom$all$().type__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("text", $m_Lscalatags_JsDom$all$().stringAttr$1);
+  var jsx$7 = $m_Lscalatags_JsDom$all$().value__Lscalatags_generic_Attr();
+  var this$5 = this.defaultMaxBacktracks$2;
+  this.maxBacktracksInput$2 = jsx$9.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$8, jsx$7.$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair(("" + this$5), $m_Lscalatags_JsDom$all$().stringAttr$1)])).render__Lorg_scalajs_dom_raw_Element();
+  this.drawMazeButton$2 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().button__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Redraw maze"))])).render__Lorg_scalajs_dom_raw_Element();
+  this.drawMazeButton$2.onclick = (function(arg$outer) {
+    return (function(e$2) {
+      arg$outer.resetMaze__V()
+    })
+  })(this);
+  this.mazeElement$2 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().pre__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T(""))])).render__Lorg_scalajs_dom_raw_Element();
+  var jsx$26 = this.base$1;
+  var jsx$25 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var jsx$24 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var jsx$23 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().label__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Width:"))]));
+  var this$10 = $m_Lscalatags_JsDom$all$();
+  var e = this.widthInput$2;
+  var jsx$22 = jsx$24.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$23, new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$10, e)]));
+  var jsx$21 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var jsx$20 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().label__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Height:"))]));
+  var this$12 = $m_Lscalatags_JsDom$all$();
+  var e$1 = this.heightInput$2;
+  var jsx$19 = jsx$21.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$20, new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$12, e$1)]));
+  var jsx$18 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var jsx$17 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().label__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("KeepDirection:"))]));
+  var this$14 = $m_Lscalatags_JsDom$all$();
+  var e$3 = this.keepDirectionInput$2;
+  var jsx$16 = jsx$18.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$17, new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$14, e$3)]));
+  var jsx$15 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var jsx$14 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().label__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("maxBacktracks:"))]));
+  var this$16 = $m_Lscalatags_JsDom$all$();
+  var e$4 = this.maxBacktracksInput$2;
+  var jsx$13 = jsx$15.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$14, new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$16, e$4)]));
+  var jsx$12 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var this$17 = $m_Lscalatags_JsDom$all$();
+  var e$5 = this.drawMazeButton$2;
+  var jsx$11 = jsx$12.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$17, e$5)]));
+  var jsx$10 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var this$18 = $m_Lscalatags_JsDom$all$();
+  var e$6 = this.mazeElement$2;
+  jsx$26.appendChild(jsx$25.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$22, jsx$19, jsx$16, jsx$13, jsx$11, jsx$10.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$18, e$6)]))])).render__Lorg_scalajs_dom_raw_Element());
+  this.resetMaze__V()
+});
+$c_Lmazes_webapp_BacktrackingMazeUI.prototype.resetMaze__V = (function() {
+  this.recreateMaze__V();
+  this.drawMaze__V();
+  this.h$2 = $m_sjs_js_timers_package$().setInterval__D__F0__sjs_js_timers_SetIntervalHandle(this.speed$1, new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(arg$outer) {
+    return (function() {
+      arg$outer.step__V()
+    })
+  })(this)))
+});
+var $d_Lmazes_webapp_BacktrackingMazeUI = new $TypeData().initClass({
+  Lmazes_webapp_BacktrackingMazeUI: 0
+}, false, "mazes.webapp.BacktrackingMazeUI", {
+  Lmazes_webapp_BacktrackingMazeUI: 1,
+  Lmazes_webapp_DungeonUI: 1,
+  O: 1
+});
+$c_Lmazes_webapp_BacktrackingMazeUI.prototype.$classData = $d_Lmazes_webapp_BacktrackingMazeUI;
+/** @constructor */
 function $c_Lmazes_webapp_Main$() {
   $c_O.call(this);
-  this.mazeElement$1 = null;
-  this.drawMazeButton$1 = null;
-  this.keepDirectionInput$1 = null;
-  this.heightInput$1 = null;
-  this.widthInput$1 = null;
-  this.restartsInput$1 = null
+  this.container$1 = null;
+  this.selectAlgorithm$1 = null;
+  this.speedInput$1 = null
 }
 $c_Lmazes_webapp_Main$.prototype = new $h_O();
 $c_Lmazes_webapp_Main$.prototype.constructor = $c_Lmazes_webapp_Main$;
@@ -4797,129 +5812,63 @@ function $h_Lmazes_webapp_Main$() {
 }
 $h_Lmazes_webapp_Main$.prototype = $c_Lmazes_webapp_Main$.prototype;
 $c_Lmazes_webapp_Main$.prototype.init___ = (function() {
-  this.mazeElement$1 = null;
-  this.drawMazeButton$1 = null;
-  this.keepDirectionInput$1 = null;
-  this.heightInput$1 = null;
-  this.widthInput$1 = null;
-  this.restartsInput$1 = null;
+  this.container$1 = null;
+  this.selectAlgorithm$1 = null;
+  this.speedInput$1 = null;
   return this
 });
-$c_Lmazes_webapp_Main$.prototype.drawMaze__V = (function() {
-  var x = $as_T(this.heightInput$1.value);
+$c_Lmazes_webapp_Main$.prototype.setupAlgorithm__V = (function() {
+  var x = $as_T(this.speedInput$1.value);
   var this$2 = new $c_sci_StringOps().init___T(x);
   var this$4 = $m_jl_Integer$();
   var $$this = this$2.repr$1;
-  var jsx$1 = this$4.parseInt__T__I__I($$this, 10);
-  var x$1 = $as_T(this.widthInput$1.value);
-  var this$6 = new $c_sci_StringOps().init___T(x$1);
-  var this$8 = $m_jl_Integer$();
-  var $$this$1 = this$6.repr$1;
-  var s = new $c_s_Tuple2$mcII$sp().init___I__I(jsx$1, this$8.parseInt__T__I__I($$this$1, 10));
-  var x$2 = $as_T(this.keepDirectionInput$1.value);
-  var this$10 = new $c_sci_StringOps().init___T(x$2);
-  var $$this$2 = this$10.repr$1;
-  var keepDirection = $fround($m_jl_Double$().parseDouble__T__D($$this$2));
-  var x$3 = $as_T(this.restartsInput$1.value);
-  var this$14 = new $c_sci_StringOps().init___T(x$3);
-  var this$16 = $m_jl_Integer$();
-  var $$this$3 = this$14.repr$1;
-  var restarts = this$16.parseInt__T__I__I($$this$3, 10);
-  var m = new $c_Lmazes_webapp_SimpleMaze().init___T2__F__I(s, keepDirection, restarts);
-  this.mazeElement$1.textContent = this.dungeonToText__Lmazes_webapp_Matrix__T(m.generate__Lmazes_webapp_Matrix())
+  var speed = this$4.parseInt__T__I__I($$this, 10);
+  this.clearContainer__V();
+  var ui = null;
+  if (($as_T(this.selectAlgorithm$1.value) === $d_Lmazes_generators_RecursiveMaze.getClassOf().getName__T())) {
+    ui = new $c_Lmazes_webapp_RecursiveMazeUI().init___Lorg_scalajs_dom_raw_Element__I(this.container$1, speed)
+  } else {
+    ui = new $c_Lmazes_webapp_BacktrackingMazeUI().init___Lorg_scalajs_dom_raw_Element__I(this.container$1, speed)
+  };
+  ui.setupUI__V()
 });
 $c_Lmazes_webapp_Main$.prototype.main__V = (function() {
-  this.setupUI__Lorg_scalajs_dom_raw_Node();
-  this.drawMaze__V()
-});
-$c_Lmazes_webapp_Main$.prototype.dungeonToText__Lmazes_webapp_Matrix__T = (function(d) {
-  var elem$1 = null;
-  elem$1 = "";
-  var end = d.rows$1;
-  var isEmpty$4 = (end <= 0);
-  var lastElement$4 = (isEmpty$4 ? (-1) : (((-1) + end) | 0));
-  if ((!isEmpty$4)) {
-    var i = 0;
-    while (true) {
-      var i$1 = i;
-      var end$1 = d.columns$1;
-      var isEmpty$4$1 = (end$1 <= 0);
-      var lastElement$4$1 = (isEmpty$4$1 ? (-1) : (((-1) + end$1) | 0));
-      if ((!isEmpty$4$1)) {
-        var i$2 = 0;
-        while (true) {
-          var v1 = i$2;
-          var jsx$1 = $as_T(elem$1);
-          var this$8 = $as_Lmazes_webapp_Dungeon$Tile(d.apply__I__I__O(i$1, v1));
-          elem$1 = ((jsx$1 + "") + $s_Lmazes_webapp_Dungeon$Tile$class__asciiArt__Lmazes_webapp_Dungeon$Tile__T(this$8));
-          if ((i$2 === lastElement$4$1)) {
-            break
-          };
-          i$2 = ((1 + i$2) | 0)
-        }
-      };
-      elem$1 = ($as_T(elem$1) + "\n");
-      if ((i === lastElement$4)) {
-        break
-      };
-      i = ((1 + i) | 0)
-    }
-  };
-  return $as_T(elem$1)
-});
-$c_Lmazes_webapp_Main$.prototype.$$js$exported$meth$drawMaze__O = (function() {
-  this.drawMaze__V()
-});
-$c_Lmazes_webapp_Main$.prototype.setupUI__Lorg_scalajs_dom_raw_Node = (function() {
-  this.keepDirectionInput$1 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().input__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lscalatags_JsDom$all$().type__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("text", $m_Lscalatags_JsDom$all$().stringAttr$1), $m_Lscalatags_JsDom$all$().value__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("1", $m_Lscalatags_JsDom$all$().stringAttr$1)])).render__Lorg_scalajs_dom_raw_Element();
-  this.heightInput$1 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().input__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lscalatags_JsDom$all$().type__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("text", $m_Lscalatags_JsDom$all$().stringAttr$1), $m_Lscalatags_JsDom$all$().value__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("20", $m_Lscalatags_JsDom$all$().stringAttr$1)])).render__Lorg_scalajs_dom_raw_Element();
-  this.widthInput$1 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().input__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lscalatags_JsDom$all$().type__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("text", $m_Lscalatags_JsDom$all$().stringAttr$1), $m_Lscalatags_JsDom$all$().value__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("80", $m_Lscalatags_JsDom$all$().stringAttr$1)])).render__Lorg_scalajs_dom_raw_Element();
-  this.restartsInput$1 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().input__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lscalatags_JsDom$all$().type__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("text", $m_Lscalatags_JsDom$all$().stringAttr$1), $m_Lscalatags_JsDom$all$().value__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("20", $m_Lscalatags_JsDom$all$().stringAttr$1)])).render__Lorg_scalajs_dom_raw_Element();
-  this.drawMazeButton$1 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().button__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Redraw maze"))])).render__Lorg_scalajs_dom_raw_Element();
-  this.drawMazeButton$1.onclick = (function(e$2) {
-    $m_Lmazes_webapp_Main$().drawMaze__V()
-  });
-  this.mazeElement$1 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().pre__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T(""))])).render__Lorg_scalajs_dom_raw_Element();
-  var jsx$18 = $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().body;
-  var jsx$17 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
-  var jsx$16 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().h1__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Maze Generator"))]));
-  var jsx$15 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
-  var jsx$14 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().label__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Width:"))]));
+  this.container$1 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag($m_sci_Nil$()).render__Lorg_scalajs_dom_raw_Element();
+  this.selectAlgorithm$1 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().select__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag($m_sci_Nil$()).render__Lorg_scalajs_dom_raw_Element();
+  var qual$1 = this.selectAlgorithm$1;
+  var x$1 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().option__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Recursive")), $m_Lscalatags_JsDom$all$().value__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair($d_Lmazes_generators_RecursiveMaze.getClassOf().getName__T(), $m_Lscalatags_JsDom$all$().stringAttr$1)])).render__Lorg_scalajs_dom_raw_Element();
+  qual$1.add(x$1);
+  var qual$2 = this.selectAlgorithm$1;
+  var x$3 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().option__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Backtracking")), $m_Lscalatags_JsDom$all$().value__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair($d_Lmazes_generators_BacktrackingMaze.getClassOf().getName__T(), $m_Lscalatags_JsDom$all$().stringAttr$1)])).render__Lorg_scalajs_dom_raw_Element();
+  qual$2.add(x$3);
+  this.speedInput$1 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().input__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lscalatags_JsDom$all$().type__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("text", $m_Lscalatags_JsDom$all$().stringAttr$1), $m_Lscalatags_JsDom$all$().value__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("10", $m_Lscalatags_JsDom$all$().stringAttr$1)])).render__Lorg_scalajs_dom_raw_Element();
+  var jsx$6 = $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().body;
+  var jsx$5 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var jsx$4 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().h1__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Maze Generator"))]));
+  var jsx$3 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().label__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Algorithm: "))]));
   var this$5 = $m_Lscalatags_JsDom$all$();
-  var e = this.widthInput$1;
-  var jsx$13 = jsx$15.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$14, new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$5, e)]));
-  var jsx$12 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
-  var jsx$11 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().label__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Height:"))]));
+  var e = this.selectAlgorithm$1;
+  var jsx$2 = new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$5, e);
+  var jsx$1 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().label__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Speed (ms/step):"))]));
   var this$7 = $m_Lscalatags_JsDom$all$();
-  var e$1 = this.heightInput$1;
-  var jsx$10 = jsx$12.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$11, new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$7, e$1)]));
-  var jsx$9 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
-  var jsx$8 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().label__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("KeepDirection:"))]));
-  var this$9 = $m_Lscalatags_JsDom$all$();
-  var e$3 = this.keepDirectionInput$1;
-  var jsx$7 = jsx$9.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$8, new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$9, e$3)]));
-  var jsx$6 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
-  var jsx$5 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().label__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Restarts:"))]));
-  var this$11 = $m_Lscalatags_JsDom$all$();
-  var e$4 = this.restartsInput$1;
-  var jsx$4 = jsx$6.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$5, new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$11, e$4)]));
-  var jsx$3 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
-  var this$12 = $m_Lscalatags_JsDom$all$();
-  var e$5 = this.drawMazeButton$1;
-  var jsx$2 = jsx$3.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$12, e$5)]));
-  var jsx$1 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
-  var this$13 = $m_Lscalatags_JsDom$all$();
-  var e$6 = this.mazeElement$1;
-  return jsx$18.appendChild(jsx$17.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$16, jsx$13, jsx$10, jsx$7, jsx$4, jsx$2, jsx$1.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$13, e$6)]))])).render__Lorg_scalajs_dom_raw_Element())
+  var e$1 = this.speedInput$1;
+  jsx$6.appendChild(jsx$5.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$4, jsx$3, jsx$2, jsx$1, new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$7, e$1), $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().hr__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag($m_sci_Nil$())])).render__Lorg_scalajs_dom_raw_Element());
+  $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().body.appendChild(this.container$1);
+  this.selectAlgorithm$1.onchange = (function(e$2) {
+    $m_Lmazes_webapp_Main$().setupAlgorithm__V()
+  });
+  this.setupAlgorithm__V()
+});
+$c_Lmazes_webapp_Main$.prototype.clearContainer__V = (function() {
+  while (($uI(this.container$1.childElementCount) > 0)) {
+    this.container$1.removeChild(this.container$1.children.item(0))
+  }
 });
 $c_Lmazes_webapp_Main$.prototype.$$js$exported$meth$main__O = (function() {
   this.main__V()
 });
 $c_Lmazes_webapp_Main$.prototype.main = (function() {
   return this.$$js$exported$meth$main__O()
-});
-$c_Lmazes_webapp_Main$.prototype.drawMaze = (function() {
-  return this.$$js$exported$meth$drawMaze__O()
 });
 var $d_Lmazes_webapp_Main$ = new $TypeData().initClass({
   Lmazes_webapp_Main$: 0
@@ -4940,283 +5889,126 @@ $e.mazes = ($e.mazes || {});
 $e.mazes.webapp = ($e.mazes.webapp || {});
 $e.mazes.webapp.Main = $m_Lmazes_webapp_Main$;
 /** @constructor */
-function $c_Lmazes_webapp_SimpleMaze() {
-  $c_Lmazes_webapp_DungeonGenerator.call(this);
-  this.keepDirectionProbability$2 = 0.0;
-  this.restarts$2 = 0
+function $c_Lmazes_webapp_RecursiveMazeUI() {
+  $c_Lmazes_webapp_DungeonUI.call(this);
+  this.mazeElement$2 = null;
+  this.drawMazeButton$2 = null;
+  this.minArea$2 = null;
+  this.heightInput$2 = null;
+  this.widthInput$2 = null;
+  this.minSideLength$2 = null;
+  this.m$2 = null
 }
-$c_Lmazes_webapp_SimpleMaze.prototype = new $h_Lmazes_webapp_DungeonGenerator();
-$c_Lmazes_webapp_SimpleMaze.prototype.constructor = $c_Lmazes_webapp_SimpleMaze;
+$c_Lmazes_webapp_RecursiveMazeUI.prototype = new $h_Lmazes_webapp_DungeonUI();
+$c_Lmazes_webapp_RecursiveMazeUI.prototype.constructor = $c_Lmazes_webapp_RecursiveMazeUI;
 /** @constructor */
-function $h_Lmazes_webapp_SimpleMaze() {
+function $h_Lmazes_webapp_RecursiveMazeUI() {
   /*<skip>*/
 }
-$h_Lmazes_webapp_SimpleMaze.prototype = $c_Lmazes_webapp_SimpleMaze.prototype;
-$c_Lmazes_webapp_SimpleMaze.prototype.possibleMoves__Lmazes_webapp_Position__Lmazes_webapp_Matrix__sc_Seq = (function(p, m) {
-  return $as_sc_Seq(p.moves__sc_Seq().filter__F1__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(arg$outer, m$1) {
-    return (function(x0$1$2) {
-      var x0$1 = $as_T2(x0$1$2);
-      if ((x0$1 !== null)) {
-        var p$1 = $as_Lmazes_webapp_Position(x0$1.$$und1__O());
-        var _1$mcI$sp = p$1.x$1;
-        var _2$mcI$sp = p$1.y$1;
-        if (((((_1$mcI$sp >= 0) && (_1$mcI$sp < m$1.rows$1)) && (_2$mcI$sp >= 0)) && (_2$mcI$sp < m$1.columns$1))) {
-          var x = m$1.apply__I__I__O(p$1.x$1, p$1.y$1);
-          var x$2 = $m_Lmazes_webapp_Dungeon$Empty$();
-          return ((x !== null) && $objectEquals(x, x$2))
-        } else {
-          return false
-        }
-      } else {
-        throw new $c_s_MatchError().init___O(x0$1)
-      }
-    })
-  })(this, m))))
+$h_Lmazes_webapp_RecursiveMazeUI.prototype = $c_Lmazes_webapp_RecursiveMazeUI.prototype;
+$c_Lmazes_webapp_RecursiveMazeUI.prototype.recreateMaze__V = (function() {
+  var x = $as_T(this.heightInput$2.value);
+  var this$2 = new $c_sci_StringOps().init___T(x);
+  var this$4 = $m_jl_Integer$();
+  var $$this = this$2.repr$1;
+  var jsx$1 = this$4.parseInt__T__I__I($$this, 10);
+  var x$1 = $as_T(this.widthInput$2.value);
+  var this$6 = new $c_sci_StringOps().init___T(x$1);
+  var this$8 = $m_jl_Integer$();
+  var $$this$1 = this$6.repr$1;
+  var s = new $c_s_Tuple2$mcII$sp().init___I__I(jsx$1, this$8.parseInt__T__I__I($$this$1, 10));
+  var x$2 = $as_T(this.minSideLength$2.value);
+  var this$10 = new $c_sci_StringOps().init___T(x$2);
+  var this$12 = $m_jl_Integer$();
+  var $$this$2 = this$10.repr$1;
+  var minSideLengthVal = this$12.parseInt__T__I__I($$this$2, 10);
+  this.m$2 = new $c_Lmazes_generators_RecursiveMaze().init___T2__I(s, minSideLengthVal)
 });
-$c_Lmazes_webapp_SimpleMaze.prototype.convertToWall__Lmazes_webapp_Position__Lmazes_webapp_Matrix__Z = (function(p, m) {
-  $m_s_package$();
-  var elem = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(p$1) {
-    return (function() {
-      return p$1.adyacent__sc_Seq()
-    })
-  })(p));
-  var travs = new $c_sc_Iterator$$anon$9().init___F0(elem);
-  var ev = $m_s_Predef$().singleton$und$less$colon$less$2;
-  var this$3 = new $c_sc_TraversableOnce$MonadOps().init___sc_TraversableOnce(travs);
-  var this$4 = this$3.trav$1.toIterator__sc_Iterator();
-  var this$5 = new $c_sc_TraversableOnce$FlattenOps().init___sc_TraversableOnce(new $c_sc_Iterator$$anon$11().init___sc_Iterator__F1(this$4, ev));
-  var this$6 = new $c_sc_TraversableOnce$FlattenOps$$anon$1().init___sc_TraversableOnce$FlattenOps(this$5);
-  var border = $s_sc_Iterator$class__slice__sc_Iterator__I__I__sc_Iterator(this$6, 0, 11).toList__sci_List();
-  $m_sci_List$();
-  var xs = new $c_sjs_js_WrappedArray().init___sjs_js_Array([border.slice__I__I__sci_List(1, 4), border.slice__I__I__sci_List(3, 6), border.slice__I__I__sci_List(5, 8), border.slice__I__I__sci_List(7, 10)]);
-  var this$8 = $m_sci_List$();
-  var cbf = this$8.ReusableCBFInstance$2;
-  var corners = $as_sci_List($s_sc_TraversableLike$class__to__sc_TraversableLike__scg_CanBuildFrom__O(xs, cbf));
-  var cornerForcesWall = new $c_Lmazes_webapp_SimpleMaze$$anonfun$5().init___Lmazes_webapp_SimpleMaze__Lmazes_webapp_Matrix(this, m);
-  var cornersThatForceWall = $as_sci_List($s_sc_TraversableLike$class__filterImpl__p0__sc_TraversableLike__F1__Z__O(corners, cornerForcesWall, false));
-  return (!cornersThatForceWall.isEmpty__Z())
+$c_Lmazes_webapp_RecursiveMazeUI.prototype.step__V = (function() {
+  var this$1 = this.m$2;
+  var this$2 = this$1.stack$2;
+  if ((!this$2.scala$collection$mutable$ListBuffer$$start$6.isEmpty__Z())) {
+    this.m$2.addWall__V();
+    this.drawMaze__V()
+  }
 });
-$c_Lmazes_webapp_SimpleMaze.prototype.carvePassage__Lmazes_webapp_Matrix__Lmazes_webapp_Dungeon$Direction__Lmazes_webapp_Position__s_Option = (function(m, d, p) {
-  var moves = this.possibleMoves__Lmazes_webapp_Position__Lmazes_webapp_Matrix__sc_Seq(p, m);
-  if (moves.isEmpty__Z()) {
-    return $m_s_None$()
-  };
-  var moveDistribution = new $c_Lmazes_math_Categorical().init___sci_List(this.moveProbabilities__sc_Seq__Lmazes_webapp_Matrix__Lmazes_webapp_Dungeon$Direction__sci_List(moves, m, d));
-  var moveIndex = moveDistribution.draw__I();
-  return new $c_s_Some().init___O(moves.apply__I__O(moveIndex))
+$c_Lmazes_webapp_RecursiveMazeUI.prototype.drawMaze__V = (function() {
+  this.mazeElement$2.textContent = this.dungeonToText__Lmazes_generators_Matrix__T(this.m$2.map$2)
 });
-$c_Lmazes_webapp_SimpleMaze.prototype.generate__Lmazes_webapp_Matrix = (function() {
-  var size = this.size$1;
-  var rows = size.$$und1$mcI$sp__I();
-  var columns = size.$$und2$mcI$sp__I();
-  var this$2 = $m_scm_ArraySeq$();
-  var b = this$2.newBuilder__scm_Builder();
-  b.sizeHint__I__V(rows);
-  var i = 0;
-  while ((i < rows)) {
-    var arg1 = i;
-    var b$1 = this$2.newBuilder__scm_Builder();
-    b$1.sizeHint__I__V(columns);
-    var i$1 = 0;
-    while ((i$1 < columns)) {
-      b$1.$$plus$eq__O__scm_Builder($m_Lmazes_webapp_Dungeon$Empty$());
-      i$1 = ((1 + i$1) | 0)
-    };
-    b.$$plus$eq__O__scm_Builder($as_sc_GenTraversable(b$1.result__O()));
-    i = ((1 + i) | 0)
-  };
-  var map = new $c_Lmazes_webapp_Matrix().init___scm_ArraySeq__I__I($as_scm_ArraySeq($as_sc_GenTraversable(b.result__O())), rows, columns);
-  var t = map.randomIndex__s_util_Random__T2(this.r$1);
-  var p = new $c_Lmazes_webapp_Position().init___I__I(t.$$und1$mcI$sp__I(), t.$$und2$mcI$sp__I());
-  var d = $m_Lmazes_webapp_Dungeon$South$();
-  map.update__I__I__O__V(p.x$1, p.y$1, $m_Lmazes_webapp_Dungeon$Passage$());
-  $m_scm_ListBuffer$();
-  var array = [p];
-  if (($uI(array.length) === 0)) {
-    var this$5 = new $c_scm_GrowingBuilder().init___scg_Growable(new $c_scm_ListBuffer().init___());
-    var jsx$1 = $as_sc_GenTraversable(this$5.elems$1)
-  } else {
-    var b$2 = new $c_scm_GrowingBuilder().init___scg_Growable(new $c_scm_ListBuffer().init___());
-    var i$2 = 0;
-    var len = $uI(array.length);
-    while ((i$2 < len)) {
-      var index = i$2;
-      var arg1$1 = array[index];
-      b$2.$$plus$eq__O__scm_GrowingBuilder(arg1$1);
-      i$2 = ((1 + i$2) | 0)
-    };
-    var jsx$1 = $as_sc_GenTraversable(b$2.elems$1)
-  };
-  var path = $as_scm_ListBuffer(jsx$1);
-  $m_scm_ListBuffer$();
-  var array$1 = [d];
-  if (($uI(array$1.length) === 0)) {
-    var this$7 = new $c_scm_GrowingBuilder().init___scg_Growable(new $c_scm_ListBuffer().init___());
-    var jsx$2 = $as_sc_GenTraversable(this$7.elems$1)
-  } else {
-    var b$3 = new $c_scm_GrowingBuilder().init___scg_Growable(new $c_scm_ListBuffer().init___());
-    var i$3 = 0;
-    var len$1 = $uI(array$1.length);
-    while ((i$3 < len$1)) {
-      var index$1 = i$3;
-      var arg1$2 = array$1[index$1];
-      b$3.$$plus$eq__O__scm_GrowingBuilder(arg1$2);
-      i$3 = ((1 + i$3) | 0)
-    };
-    var jsx$2 = $as_sc_GenTraversable(b$3.elems$1)
-  };
-  var direction = $as_scm_ListBuffer(jsx$2);
-  var i$4 = 0;
-  while ((i$4 < this.restarts$2)) {
-    var x = ((((i$4 + "/") + this.restarts$2) + " -> ") + p);
-    var this$9 = $m_s_Console$();
-    var this$10 = $as_Ljava_io_PrintStream(this$9.outVar$2.v$1);
-    this$10.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"));
-    this.updateWall__Lmazes_webapp_Position__Lmazes_webapp_Matrix__V(p, map);
-    var x1 = this.carvePassage__Lmazes_webapp_Matrix__Lmazes_webapp_Dungeon$Direction__Lmazes_webapp_Position__s_Option(map, d, p);
-    matchEnd6: {
-      var x$1 = $m_s_None$();
-      if ((x$1 === x1)) {
-        path.remove__I__O((((-1) + path.len$6) | 0));
-        direction.remove__I__O((((-1) + path.len$6) | 0));
-        if (path.scala$collection$mutable$ListBuffer$$start$6.isEmpty__Z()) {
-          (i$4 === this.restarts$2);
-          break matchEnd6
-        } else {
-          i$4 = ((1 + i$4) | 0);
-          var this$11 = path.scala$collection$mutable$ListBuffer$$start$6;
-          p = $as_Lmazes_webapp_Position($s_sc_LinearSeqOptimized$class__last__sc_LinearSeqOptimized__O(this$11));
-          var this$12 = direction.scala$collection$mutable$ListBuffer$$start$6;
-          d = $as_Lmazes_webapp_Dungeon$Direction($s_sc_LinearSeqOptimized$class__last__sc_LinearSeqOptimized__O(this$12));
-          break matchEnd6
-        }
-      };
-      if ($is_s_Some(x1)) {
-        var x2 = $as_s_Some(x1);
-        var p3 = $as_T2(x2.x$2);
-        if ((p3 !== null)) {
-          var newP = $as_Lmazes_webapp_Position(p3.$$und1__O());
-          var newD = $as_Lmazes_webapp_Dungeon$Direction(p3.$$und2__O());
-          p = newP;
-          d = newD;
-          map.update__I__I__O__V(p.x$1, p.y$1, $m_Lmazes_webapp_Dungeon$Passage$());
-          path.$$plus$eq__O__scm_ListBuffer(p);
-          direction.$$plus$eq__O__scm_ListBuffer(d);
-          break matchEnd6
-        }
-      };
-      throw new $c_s_MatchError().init___O(x1)
-    }
-  };
-  return map
-});
-$c_Lmazes_webapp_SimpleMaze.prototype.init___T2__F__I = (function(s, keepDirectionProbability, restarts) {
-  this.keepDirectionProbability$2 = keepDirectionProbability;
-  this.restarts$2 = restarts;
-  $c_Lmazes_webapp_DungeonGenerator.prototype.init___T2.call(this, s);
+$c_Lmazes_webapp_RecursiveMazeUI.prototype.init___Lorg_scalajs_dom_raw_Element__I = (function(base, speed) {
+  $c_Lmazes_webapp_DungeonUI.prototype.init___Lorg_scalajs_dom_raw_Element__I.call(this, base, speed);
+  this.mazeElement$2 = null;
+  this.drawMazeButton$2 = null;
+  this.minArea$2 = null;
+  this.heightInput$2 = null;
+  this.widthInput$2 = null;
+  this.minSideLength$2 = null;
+  this.m$2 = null;
   return this
 });
-$c_Lmazes_webapp_SimpleMaze.prototype.updateWall__Lmazes_webapp_Position__Lmazes_webapp_Matrix__V = (function(p, map) {
-  var adyacentPositions = $as_sc_Seq(p.adyacent__sc_Seq().filter__F1__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(arg$outer, map$1) {
-    return (function(p$2) {
-      var p$1 = $as_Lmazes_webapp_Position(p$2);
-      var _1$mcI$sp = p$1.x$1;
-      var _2$mcI$sp = p$1.y$1;
-      if (((((_1$mcI$sp >= 0) && (_1$mcI$sp < map$1.rows$1)) && (_2$mcI$sp >= 0)) && (_2$mcI$sp < map$1.columns$1))) {
-        var x = map$1.apply__I__I__O(p$1.x$1, p$1.y$1);
-        var x$2 = $m_Lmazes_webapp_Dungeon$Empty$();
-        return ((x !== null) && $objectEquals(x, x$2))
-      } else {
-        return false
-      }
+$c_Lmazes_webapp_RecursiveMazeUI.prototype.setupUI__V = (function() {
+  this.minArea$2 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().input__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lscalatags_JsDom$all$().type__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("text", $m_Lscalatags_JsDom$all$().stringAttr$1), $m_Lscalatags_JsDom$all$().value__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("9", $m_Lscalatags_JsDom$all$().stringAttr$1)])).render__Lorg_scalajs_dom_raw_Element();
+  this.heightInput$2 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().input__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lscalatags_JsDom$all$().type__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("text", $m_Lscalatags_JsDom$all$().stringAttr$1), $m_Lscalatags_JsDom$all$().value__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("20", $m_Lscalatags_JsDom$all$().stringAttr$1)])).render__Lorg_scalajs_dom_raw_Element();
+  this.widthInput$2 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().input__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lscalatags_JsDom$all$().type__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("text", $m_Lscalatags_JsDom$all$().stringAttr$1), $m_Lscalatags_JsDom$all$().value__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("80", $m_Lscalatags_JsDom$all$().stringAttr$1)])).render__Lorg_scalajs_dom_raw_Element();
+  this.minSideLength$2 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().input__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lscalatags_JsDom$all$().type__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("text", $m_Lscalatags_JsDom$all$().stringAttr$1), $m_Lscalatags_JsDom$all$().value__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("3", $m_Lscalatags_JsDom$all$().stringAttr$1)])).render__Lorg_scalajs_dom_raw_Element();
+  this.drawMazeButton$2 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().button__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Redraw maze"))])).render__Lorg_scalajs_dom_raw_Element();
+  this.drawMazeButton$2.onclick = (function(arg$outer) {
+    return (function(e$2) {
+      arg$outer.resetMaze__V()
     })
-  })(this, map))));
-  adyacentPositions.foreach__F1__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(arg$outer$1, map$1$1) {
-    return (function(p$2$1) {
-      var p$3 = $as_Lmazes_webapp_Position(p$2$1);
-      if (arg$outer$1.convertToWall__Lmazes_webapp_Position__Lmazes_webapp_Matrix__Z(p$3, map$1$1)) {
-        var r = p$3.x$1;
-        $as_scm_ArraySeq(map$1$1.array$1.apply__I__O(r)).update__I__O__V(p$3.y$1, $m_Lmazes_webapp_Dungeon$Wall$())
-      }
+  })(this);
+  this.mazeElement$2 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().pre__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T(""))])).render__Lorg_scalajs_dom_raw_Element();
+  var jsx$1 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var this$3 = $m_Lscalatags_JsDom$all$();
+  var e = this.mazeElement$2;
+  var mazeElementDiv = jsx$1.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$3, e)])).render__Lorg_scalajs_dom_raw_Element();
+  var jsx$17 = this.base$1;
+  var jsx$16 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var jsx$15 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var jsx$14 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().label__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Width:"))]));
+  var this$5 = $m_Lscalatags_JsDom$all$();
+  var e$1 = this.widthInput$2;
+  var jsx$13 = jsx$15.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$14, new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$5, e$1)]));
+  var jsx$12 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var jsx$11 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().label__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Height:"))]));
+  var this$7 = $m_Lscalatags_JsDom$all$();
+  var e$3 = this.heightInput$2;
+  var jsx$10 = jsx$12.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$11, new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$7, e$3)]));
+  var jsx$9 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var jsx$8 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().label__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("minArea(useless):"))]));
+  var this$9 = $m_Lscalatags_JsDom$all$();
+  var e$4 = this.minArea$2;
+  var jsx$7 = jsx$9.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$8, new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$9, e$4)]));
+  var jsx$6 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var jsx$5 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().label__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("minSideLength (min 3):"))]));
+  var this$11 = $m_Lscalatags_JsDom$all$();
+  var e$5 = this.minSideLength$2;
+  var jsx$4 = jsx$6.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$5, new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$11, e$5)]));
+  var jsx$3 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var this$12 = $m_Lscalatags_JsDom$all$();
+  var e$6 = this.drawMazeButton$2;
+  var jsx$2 = jsx$3.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$12, e$6)]));
+  var this$13 = $m_Lscalatags_JsDom$all$();
+  jsx$17.appendChild(jsx$16.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$13, jsx$10, jsx$7, jsx$4, jsx$2, new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$13, mazeElementDiv)])).render__Lorg_scalajs_dom_raw_Element());
+  this.resetMaze__V();
+  $m_sjs_js_timers_package$().setInterval__D__F0__sjs_js_timers_SetIntervalHandle(this.speed$1, new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(arg$outer$1) {
+    return (function() {
+      arg$outer$1.step__V()
     })
-  })(this, map)))
+  })(this)))
 });
-$c_Lmazes_webapp_SimpleMaze.prototype.moveProbabilities__sc_Seq__Lmazes_webapp_Matrix__Lmazes_webapp_Dungeon$Direction__sci_List = (function(moves, m, previousDirection) {
-  $m_sci_List$();
-  var n = moves.length__I();
-  var b = new $c_scm_ListBuffer().init___();
-  var i = 0;
-  while ((i < n)) {
-    var elem = $fround((1.0 / $fround(moves.length__I())));
-    b.$$plus$eq__O__scm_ListBuffer(elem);
-    i = ((1 + i) | 0)
-  };
-  var moveProbabilities = b.toList__sci_List();
-  var previousDirectionIndex = moves.indexWhere__F1__I(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(previousDirection$1) {
-    return (function(m$2) {
-      var m$1 = $as_T2(m$2);
-      var x = m$1.$$und2__O();
-      return ((x === null) ? (previousDirection$1 === null) : $objectEquals(x, previousDirection$1))
-    })
-  })(previousDirection)));
-  if ((previousDirectionIndex !== (-1))) {
-    var this$2 = moveProbabilities;
-    var newProbability = $fround(($uF($s_sc_LinearSeqOptimized$class__apply__sc_LinearSeqOptimized__I__O(this$2, previousDirectionIndex)) * this.keepDirectionProbability$2));
-    var this$4 = moveProbabilities;
-    var this$3 = $m_sci_List$();
-    var bf = this$3.ReusableCBFInstance$2;
-    moveProbabilities = $as_sci_List($s_sc_SeqLike$class__updated__sc_SeqLike__I__O__scg_CanBuildFrom__O(this$4, previousDirectionIndex, newProbability, bf))
-  };
-  var this$5 = moveProbabilities;
-  var num = $m_s_math_Numeric$FloatIsFractional$();
-  var totalProbability = $uF($s_sc_TraversableOnce$class__sum__sc_TraversableOnce__s_math_Numeric__O(this$5, num));
-  var this$7 = moveProbabilities;
-  var f = (function(totalProbability$1) {
-    return (function(x$1$2) {
-      var x$1 = $uF(x$1$2);
-      return $fround((x$1 / totalProbability$1))
-    })
-  })(totalProbability);
-  var this$6 = $m_sci_List$();
-  var bf$1 = this$6.ReusableCBFInstance$2;
-  if ((bf$1 === $m_sci_List$().ReusableCBFInstance$2)) {
-    if ((this$7 === $m_sci_Nil$())) {
-      var jsx$1 = $m_sci_Nil$()
-    } else {
-      var arg1 = this$7.head__O();
-      var h = new $c_sci_$colon$colon().init___O__sci_List(f(arg1), $m_sci_Nil$());
-      var t = h;
-      var rest = $as_sci_List(this$7.tail__O());
-      while ((rest !== $m_sci_Nil$())) {
-        var arg1$1 = rest.head__O();
-        var nx = new $c_sci_$colon$colon().init___O__sci_List(f(arg1$1), $m_sci_Nil$());
-        t.tl$5 = nx;
-        t = nx;
-        rest = $as_sci_List(rest.tail__O())
-      };
-      var jsx$1 = h
-    }
-  } else {
-    var b$1 = $s_sc_TraversableLike$class__builder$1__p0__sc_TraversableLike__scg_CanBuildFrom__scm_Builder(this$7, bf$1);
-    var these = this$7;
-    while ((!these.isEmpty__Z())) {
-      var arg1$2 = these.head__O();
-      b$1.$$plus$eq__O__scm_Builder(f(arg1$2));
-      these = $as_sci_List(these.tail__O())
-    };
-    var jsx$1 = b$1.result__O()
-  };
-  moveProbabilities = $as_sci_List(jsx$1);
-  return moveProbabilities
+$c_Lmazes_webapp_RecursiveMazeUI.prototype.resetMaze__V = (function() {
+  this.recreateMaze__V();
+  this.drawMaze__V()
 });
-var $d_Lmazes_webapp_SimpleMaze = new $TypeData().initClass({
-  Lmazes_webapp_SimpleMaze: 0
-}, false, "mazes.webapp.SimpleMaze", {
-  Lmazes_webapp_SimpleMaze: 1,
-  Lmazes_webapp_DungeonGenerator: 1,
+var $d_Lmazes_webapp_RecursiveMazeUI = new $TypeData().initClass({
+  Lmazes_webapp_RecursiveMazeUI: 0
+}, false, "mazes.webapp.RecursiveMazeUI", {
+  Lmazes_webapp_RecursiveMazeUI: 1,
+  Lmazes_webapp_DungeonUI: 1,
   O: 1
 });
-$c_Lmazes_webapp_SimpleMaze.prototype.$classData = $d_Lmazes_webapp_SimpleMaze;
+$c_Lmazes_webapp_RecursiveMazeUI.prototype.$classData = $d_Lmazes_webapp_RecursiveMazeUI;
 /** @constructor */
 function $c_Lscalatags_JsDom$GenericAttr() {
   $c_O.call(this)
@@ -5806,6 +6598,43 @@ function $h_scg_GenSetFactory() {
   /*<skip>*/
 }
 $h_scg_GenSetFactory.prototype = $c_scg_GenSetFactory.prototype;
+/** @constructor */
+function $c_scg_GenSetFactory$$anon$1() {
+  $c_O.call(this);
+  this.$$outer$1 = null
+}
+$c_scg_GenSetFactory$$anon$1.prototype = new $h_O();
+$c_scg_GenSetFactory$$anon$1.prototype.constructor = $c_scg_GenSetFactory$$anon$1;
+/** @constructor */
+function $h_scg_GenSetFactory$$anon$1() {
+  /*<skip>*/
+}
+$h_scg_GenSetFactory$$anon$1.prototype = $c_scg_GenSetFactory$$anon$1.prototype;
+$c_scg_GenSetFactory$$anon$1.prototype.apply__scm_Builder = (function() {
+  return this.$$outer$1.newBuilder__scm_Builder()
+});
+$c_scg_GenSetFactory$$anon$1.prototype.apply__O__scm_Builder = (function(from) {
+  return this.apply__sc_GenSet__scm_Builder($as_sc_GenSet(from))
+});
+$c_scg_GenSetFactory$$anon$1.prototype.init___scg_GenSetFactory = (function($$outer) {
+  if (($$outer === null)) {
+    throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(null)
+  } else {
+    this.$$outer$1 = $$outer
+  };
+  return this
+});
+$c_scg_GenSetFactory$$anon$1.prototype.apply__sc_GenSet__scm_Builder = (function(from) {
+  return this.$$outer$1.newBuilder__scm_Builder()
+});
+var $d_scg_GenSetFactory$$anon$1 = new $TypeData().initClass({
+  scg_GenSetFactory$$anon$1: 0
+}, false, "scala.collection.generic.GenSetFactory$$anon$1", {
+  scg_GenSetFactory$$anon$1: 1,
+  O: 1,
+  scg_CanBuildFrom: 1
+});
+$c_scg_GenSetFactory$$anon$1.prototype.$classData = $d_scg_GenSetFactory$$anon$1;
 /** @constructor */
 function $c_scg_GenTraversableFactory() {
   $c_scg_GenericCompanion.call(this);
@@ -8441,11 +9270,20 @@ $c_sc_AbstractIterator.prototype.foreach__F1__V = (function(f) {
 $c_sc_AbstractIterator.prototype.foldLeft__O__F2__O = (function(z, op) {
   return $s_sc_TraversableOnce$class__foldLeft__sc_TraversableOnce__O__F2__O(this, z, op)
 });
+$c_sc_AbstractIterator.prototype.min__s_math_Ordering__O = (function(cmp) {
+  return $s_sc_TraversableOnce$class__min__sc_TraversableOnce__s_math_Ordering__O(this, cmp)
+});
 $c_sc_AbstractIterator.prototype.toStream__sci_Stream = (function() {
   return $s_sc_Iterator$class__toStream__sc_Iterator__sci_Stream(this)
 });
 $c_sc_AbstractIterator.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBuilder = (function(b, start, sep, end) {
   return $s_sc_TraversableOnce$class__addString__sc_TraversableOnce__scm_StringBuilder__T__T__T__scm_StringBuilder(this, b, start, sep, end)
+});
+$c_sc_AbstractIterator.prototype.max__s_math_Ordering__O = (function(cmp) {
+  return $s_sc_TraversableOnce$class__max__sc_TraversableOnce__s_math_Ordering__O(this, cmp)
+});
+$c_sc_AbstractIterator.prototype.$$div$colon__O__F2__O = (function(z, op) {
+  return $s_sc_TraversableOnce$class__foldLeft__sc_TraversableOnce__O__F2__O(this, z, op)
 });
 $c_sc_AbstractIterator.prototype.copyToArray__O__I__I__V = (function(xs, start, len) {
   $s_sc_Iterator$class__copyToArray__sc_Iterator__O__I__I__V(this, xs, start, len)
@@ -8532,6 +9370,18 @@ $c_sci_ListSet$ListSetBuilder.prototype.$$plus$eq__O__sci_ListSet$ListSetBuilder
 $c_sci_ListSet$ListSetBuilder.prototype.$$plus$plus$eq__sc_TraversableOnce__scg_Growable = (function(xs) {
   return $s_scg_Growable$class__$$plus$plus$eq__scg_Growable__sc_TraversableOnce__scg_Growable(this, xs)
 });
+function $is_sci_ListSet$ListSetBuilder(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.sci_ListSet$ListSetBuilder)))
+}
+function $as_sci_ListSet$ListSetBuilder(obj) {
+  return (($is_sci_ListSet$ListSetBuilder(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.collection.immutable.ListSet$ListSetBuilder"))
+}
+function $isArrayOf_sci_ListSet$ListSetBuilder(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.sci_ListSet$ListSetBuilder)))
+}
+function $asArrayOf_sci_ListSet$ListSetBuilder(obj, depth) {
+  return (($isArrayOf_sci_ListSet$ListSetBuilder(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.collection.immutable.ListSet$ListSetBuilder;", depth))
+}
 var $d_sci_ListSet$ListSetBuilder = new $TypeData().initClass({
   sci_ListSet$ListSetBuilder: 0
 }, false, "scala.collection.immutable.ListSet$ListSetBuilder", {
@@ -8913,22 +9763,22 @@ function $h_sr_AbstractFunction0$mcV$sp() {
 }
 $h_sr_AbstractFunction0$mcV$sp.prototype = $c_sr_AbstractFunction0$mcV$sp.prototype;
 /** @constructor */
-function $c_Lmazes_webapp_SimpleMaze$$anonfun$5() {
+function $c_Lmazes_generators_BacktrackingMaze$$anonfun$6() {
   $c_sr_AbstractFunction1.call(this);
   this.$$outer$2 = null;
   this.m$2$f = null
 }
-$c_Lmazes_webapp_SimpleMaze$$anonfun$5.prototype = new $h_sr_AbstractFunction1();
-$c_Lmazes_webapp_SimpleMaze$$anonfun$5.prototype.constructor = $c_Lmazes_webapp_SimpleMaze$$anonfun$5;
+$c_Lmazes_generators_BacktrackingMaze$$anonfun$6.prototype = new $h_sr_AbstractFunction1();
+$c_Lmazes_generators_BacktrackingMaze$$anonfun$6.prototype.constructor = $c_Lmazes_generators_BacktrackingMaze$$anonfun$6;
 /** @constructor */
-function $h_Lmazes_webapp_SimpleMaze$$anonfun$5() {
+function $h_Lmazes_generators_BacktrackingMaze$$anonfun$6() {
   /*<skip>*/
 }
-$h_Lmazes_webapp_SimpleMaze$$anonfun$5.prototype = $c_Lmazes_webapp_SimpleMaze$$anonfun$5.prototype;
-$c_Lmazes_webapp_SimpleMaze$$anonfun$5.prototype.apply__O__O = (function(v1) {
+$h_Lmazes_generators_BacktrackingMaze$$anonfun$6.prototype = $c_Lmazes_generators_BacktrackingMaze$$anonfun$6.prototype;
+$c_Lmazes_generators_BacktrackingMaze$$anonfun$6.prototype.apply__O__O = (function(v1) {
   return this.apply__sci_List__Z($as_sci_List(v1))
 });
-$c_Lmazes_webapp_SimpleMaze$$anonfun$5.prototype.init___Lmazes_webapp_SimpleMaze__Lmazes_webapp_Matrix = (function($$outer, m$2) {
+$c_Lmazes_generators_BacktrackingMaze$$anonfun$6.prototype.init___Lmazes_generators_BacktrackingMaze__Lmazes_generators_Matrix = (function($$outer, m$2) {
   if (($$outer === null)) {
     throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(null)
   } else {
@@ -8937,16 +9787,16 @@ $c_Lmazes_webapp_SimpleMaze$$anonfun$5.prototype.init___Lmazes_webapp_SimpleMaze
   this.m$2$f = m$2;
   return this
 });
-$c_Lmazes_webapp_SimpleMaze$$anonfun$5.prototype.apply__sci_List__Z = (function(c) {
+$c_Lmazes_generators_BacktrackingMaze$$anonfun$6.prototype.apply__sci_List__Z = (function(c) {
   var f = (function(arg$outer) {
     return (function(p$2) {
-      var p = $as_Lmazes_webapp_Position(p$2);
+      var p = $as_Lmazes_generators_Position(p$2);
       var this$2 = arg$outer.m$2$f;
       var _1$mcI$sp = p.x$1;
       var _2$mcI$sp = p.y$1;
       if (((((_1$mcI$sp >= 0) && (_1$mcI$sp < this$2.rows$1)) && (_2$mcI$sp >= 0)) && (_2$mcI$sp < this$2.columns$1))) {
-        var this$3 = $as_Lmazes_webapp_Dungeon$Tile(arg$outer.m$2$f.apply__I__I__O(p.x$1, p.y$1));
-        return $s_Lmazes_webapp_Dungeon$Tile$class__passable__Lmazes_webapp_Dungeon$Tile__Z(this$3)
+        var this$3 = $as_Lmazes_generators_Dungeon$Tile(arg$outer.m$2$f.apply__I__I__O(p.x$1, p.y$1));
+        return $s_Lmazes_generators_Dungeon$Tile$class__passable__Lmazes_generators_Dungeon$Tile__Z(this$3)
       } else {
         return false
       }
@@ -8989,17 +9839,17 @@ $c_Lmazes_webapp_SimpleMaze$$anonfun$5.prototype.apply__sci_List__Z = (function(
   }));
   return $uZ(this$5.reduceLeft__F2__O(op))
 });
-var $d_Lmazes_webapp_SimpleMaze$$anonfun$5 = new $TypeData().initClass({
-  Lmazes_webapp_SimpleMaze$$anonfun$5: 0
-}, false, "mazes.webapp.SimpleMaze$$anonfun$5", {
-  Lmazes_webapp_SimpleMaze$$anonfun$5: 1,
+var $d_Lmazes_generators_BacktrackingMaze$$anonfun$6 = new $TypeData().initClass({
+  Lmazes_generators_BacktrackingMaze$$anonfun$6: 0
+}, false, "mazes.generators.BacktrackingMaze$$anonfun$6", {
+  Lmazes_generators_BacktrackingMaze$$anonfun$6: 1,
   sr_AbstractFunction1: 1,
   O: 1,
   F1: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Lmazes_webapp_SimpleMaze$$anonfun$5.prototype.$classData = $d_Lmazes_webapp_SimpleMaze$$anonfun$5;
+$c_Lmazes_generators_BacktrackingMaze$$anonfun$6.prototype.$classData = $d_Lmazes_generators_BacktrackingMaze$$anonfun$6;
 /** @constructor */
 function $c_Lscalatags_JsDom$RawFrag$() {
   $c_O.call(this)
@@ -10747,412 +11597,412 @@ function $asArrayOf_Ljava_io_PrintStream(obj, depth) {
   return (($isArrayOf_Ljava_io_PrintStream(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.io.PrintStream;", depth))
 }
 /** @constructor */
-function $c_Lmazes_webapp_Dungeon$East$() {
+function $c_Lmazes_generators_Dungeon$East$() {
   $c_O.call(this)
 }
-$c_Lmazes_webapp_Dungeon$East$.prototype = new $h_O();
-$c_Lmazes_webapp_Dungeon$East$.prototype.constructor = $c_Lmazes_webapp_Dungeon$East$;
+$c_Lmazes_generators_Dungeon$East$.prototype = new $h_O();
+$c_Lmazes_generators_Dungeon$East$.prototype.constructor = $c_Lmazes_generators_Dungeon$East$;
 /** @constructor */
-function $h_Lmazes_webapp_Dungeon$East$() {
+function $h_Lmazes_generators_Dungeon$East$() {
   /*<skip>*/
 }
-$h_Lmazes_webapp_Dungeon$East$.prototype = $c_Lmazes_webapp_Dungeon$East$.prototype;
-$c_Lmazes_webapp_Dungeon$East$.prototype.init___ = (function() {
+$h_Lmazes_generators_Dungeon$East$.prototype = $c_Lmazes_generators_Dungeon$East$.prototype;
+$c_Lmazes_generators_Dungeon$East$.prototype.init___ = (function() {
   return this
 });
-$c_Lmazes_webapp_Dungeon$East$.prototype.productPrefix__T = (function() {
+$c_Lmazes_generators_Dungeon$East$.prototype.productPrefix__T = (function() {
   return "East"
 });
-$c_Lmazes_webapp_Dungeon$East$.prototype.productArity__I = (function() {
+$c_Lmazes_generators_Dungeon$East$.prototype.productArity__I = (function() {
   return 0
 });
-$c_Lmazes_webapp_Dungeon$East$.prototype.productElement__I__O = (function(x$1) {
+$c_Lmazes_generators_Dungeon$East$.prototype.productElement__I__O = (function(x$1) {
   throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
 });
-$c_Lmazes_webapp_Dungeon$East$.prototype.toString__T = (function() {
+$c_Lmazes_generators_Dungeon$East$.prototype.toString__T = (function() {
   return "East"
 });
-$c_Lmazes_webapp_Dungeon$East$.prototype.hashCode__I = (function() {
+$c_Lmazes_generators_Dungeon$East$.prototype.hashCode__I = (function() {
   return 2152477
 });
-$c_Lmazes_webapp_Dungeon$East$.prototype.productIterator__sc_Iterator = (function() {
+$c_Lmazes_generators_Dungeon$East$.prototype.productIterator__sc_Iterator = (function() {
   return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
 });
-var $d_Lmazes_webapp_Dungeon$East$ = new $TypeData().initClass({
-  Lmazes_webapp_Dungeon$East$: 0
-}, false, "mazes.webapp.Dungeon$East$", {
-  Lmazes_webapp_Dungeon$East$: 1,
+var $d_Lmazes_generators_Dungeon$East$ = new $TypeData().initClass({
+  Lmazes_generators_Dungeon$East$: 0
+}, false, "mazes.generators.Dungeon$East$", {
+  Lmazes_generators_Dungeon$East$: 1,
   O: 1,
-  Lmazes_webapp_Dungeon$Direction: 1,
+  Lmazes_generators_Dungeon$Direction: 1,
   s_Product: 1,
   s_Equals: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Lmazes_webapp_Dungeon$East$.prototype.$classData = $d_Lmazes_webapp_Dungeon$East$;
-var $n_Lmazes_webapp_Dungeon$East$ = (void 0);
-function $m_Lmazes_webapp_Dungeon$East$() {
-  if ((!$n_Lmazes_webapp_Dungeon$East$)) {
-    $n_Lmazes_webapp_Dungeon$East$ = new $c_Lmazes_webapp_Dungeon$East$().init___()
+$c_Lmazes_generators_Dungeon$East$.prototype.$classData = $d_Lmazes_generators_Dungeon$East$;
+var $n_Lmazes_generators_Dungeon$East$ = (void 0);
+function $m_Lmazes_generators_Dungeon$East$() {
+  if ((!$n_Lmazes_generators_Dungeon$East$)) {
+    $n_Lmazes_generators_Dungeon$East$ = new $c_Lmazes_generators_Dungeon$East$().init___()
   };
-  return $n_Lmazes_webapp_Dungeon$East$
+  return $n_Lmazes_generators_Dungeon$East$
 }
 /** @constructor */
-function $c_Lmazes_webapp_Dungeon$Empty$() {
+function $c_Lmazes_generators_Dungeon$Empty$() {
   $c_O.call(this)
 }
-$c_Lmazes_webapp_Dungeon$Empty$.prototype = new $h_O();
-$c_Lmazes_webapp_Dungeon$Empty$.prototype.constructor = $c_Lmazes_webapp_Dungeon$Empty$;
+$c_Lmazes_generators_Dungeon$Empty$.prototype = new $h_O();
+$c_Lmazes_generators_Dungeon$Empty$.prototype.constructor = $c_Lmazes_generators_Dungeon$Empty$;
 /** @constructor */
-function $h_Lmazes_webapp_Dungeon$Empty$() {
+function $h_Lmazes_generators_Dungeon$Empty$() {
   /*<skip>*/
 }
-$h_Lmazes_webapp_Dungeon$Empty$.prototype = $c_Lmazes_webapp_Dungeon$Empty$.prototype;
-$c_Lmazes_webapp_Dungeon$Empty$.prototype.init___ = (function() {
+$h_Lmazes_generators_Dungeon$Empty$.prototype = $c_Lmazes_generators_Dungeon$Empty$.prototype;
+$c_Lmazes_generators_Dungeon$Empty$.prototype.init___ = (function() {
   return this
 });
-$c_Lmazes_webapp_Dungeon$Empty$.prototype.productPrefix__T = (function() {
+$c_Lmazes_generators_Dungeon$Empty$.prototype.productPrefix__T = (function() {
   return "Empty"
 });
-$c_Lmazes_webapp_Dungeon$Empty$.prototype.productArity__I = (function() {
+$c_Lmazes_generators_Dungeon$Empty$.prototype.productArity__I = (function() {
   return 0
 });
-$c_Lmazes_webapp_Dungeon$Empty$.prototype.productElement__I__O = (function(x$1) {
+$c_Lmazes_generators_Dungeon$Empty$.prototype.productElement__I__O = (function(x$1) {
   throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
 });
-$c_Lmazes_webapp_Dungeon$Empty$.prototype.toString__T = (function() {
+$c_Lmazes_generators_Dungeon$Empty$.prototype.toString__T = (function() {
   return "Empty"
 });
-$c_Lmazes_webapp_Dungeon$Empty$.prototype.hashCode__I = (function() {
+$c_Lmazes_generators_Dungeon$Empty$.prototype.hashCode__I = (function() {
   return 67081517
 });
-$c_Lmazes_webapp_Dungeon$Empty$.prototype.productIterator__sc_Iterator = (function() {
+$c_Lmazes_generators_Dungeon$Empty$.prototype.productIterator__sc_Iterator = (function() {
   return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
 });
-var $d_Lmazes_webapp_Dungeon$Empty$ = new $TypeData().initClass({
-  Lmazes_webapp_Dungeon$Empty$: 0
-}, false, "mazes.webapp.Dungeon$Empty$", {
-  Lmazes_webapp_Dungeon$Empty$: 1,
+var $d_Lmazes_generators_Dungeon$Empty$ = new $TypeData().initClass({
+  Lmazes_generators_Dungeon$Empty$: 0
+}, false, "mazes.generators.Dungeon$Empty$", {
+  Lmazes_generators_Dungeon$Empty$: 1,
   O: 1,
-  Lmazes_webapp_Dungeon$Tile: 1,
+  Lmazes_generators_Dungeon$Tile: 1,
   s_Product: 1,
   s_Equals: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Lmazes_webapp_Dungeon$Empty$.prototype.$classData = $d_Lmazes_webapp_Dungeon$Empty$;
-var $n_Lmazes_webapp_Dungeon$Empty$ = (void 0);
-function $m_Lmazes_webapp_Dungeon$Empty$() {
-  if ((!$n_Lmazes_webapp_Dungeon$Empty$)) {
-    $n_Lmazes_webapp_Dungeon$Empty$ = new $c_Lmazes_webapp_Dungeon$Empty$().init___()
+$c_Lmazes_generators_Dungeon$Empty$.prototype.$classData = $d_Lmazes_generators_Dungeon$Empty$;
+var $n_Lmazes_generators_Dungeon$Empty$ = (void 0);
+function $m_Lmazes_generators_Dungeon$Empty$() {
+  if ((!$n_Lmazes_generators_Dungeon$Empty$)) {
+    $n_Lmazes_generators_Dungeon$Empty$ = new $c_Lmazes_generators_Dungeon$Empty$().init___()
   };
-  return $n_Lmazes_webapp_Dungeon$Empty$
+  return $n_Lmazes_generators_Dungeon$Empty$
 }
 /** @constructor */
-function $c_Lmazes_webapp_Dungeon$North$() {
+function $c_Lmazes_generators_Dungeon$North$() {
   $c_O.call(this)
 }
-$c_Lmazes_webapp_Dungeon$North$.prototype = new $h_O();
-$c_Lmazes_webapp_Dungeon$North$.prototype.constructor = $c_Lmazes_webapp_Dungeon$North$;
+$c_Lmazes_generators_Dungeon$North$.prototype = new $h_O();
+$c_Lmazes_generators_Dungeon$North$.prototype.constructor = $c_Lmazes_generators_Dungeon$North$;
 /** @constructor */
-function $h_Lmazes_webapp_Dungeon$North$() {
+function $h_Lmazes_generators_Dungeon$North$() {
   /*<skip>*/
 }
-$h_Lmazes_webapp_Dungeon$North$.prototype = $c_Lmazes_webapp_Dungeon$North$.prototype;
-$c_Lmazes_webapp_Dungeon$North$.prototype.init___ = (function() {
+$h_Lmazes_generators_Dungeon$North$.prototype = $c_Lmazes_generators_Dungeon$North$.prototype;
+$c_Lmazes_generators_Dungeon$North$.prototype.init___ = (function() {
   return this
 });
-$c_Lmazes_webapp_Dungeon$North$.prototype.productPrefix__T = (function() {
+$c_Lmazes_generators_Dungeon$North$.prototype.productPrefix__T = (function() {
   return "North"
 });
-$c_Lmazes_webapp_Dungeon$North$.prototype.productArity__I = (function() {
+$c_Lmazes_generators_Dungeon$North$.prototype.productArity__I = (function() {
   return 0
 });
-$c_Lmazes_webapp_Dungeon$North$.prototype.productElement__I__O = (function(x$1) {
+$c_Lmazes_generators_Dungeon$North$.prototype.productElement__I__O = (function(x$1) {
   throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
 });
-$c_Lmazes_webapp_Dungeon$North$.prototype.toString__T = (function() {
+$c_Lmazes_generators_Dungeon$North$.prototype.toString__T = (function() {
   return "North"
 });
-$c_Lmazes_webapp_Dungeon$North$.prototype.hashCode__I = (function() {
+$c_Lmazes_generators_Dungeon$North$.prototype.hashCode__I = (function() {
   return 75454693
 });
-$c_Lmazes_webapp_Dungeon$North$.prototype.productIterator__sc_Iterator = (function() {
+$c_Lmazes_generators_Dungeon$North$.prototype.productIterator__sc_Iterator = (function() {
   return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
 });
-var $d_Lmazes_webapp_Dungeon$North$ = new $TypeData().initClass({
-  Lmazes_webapp_Dungeon$North$: 0
-}, false, "mazes.webapp.Dungeon$North$", {
-  Lmazes_webapp_Dungeon$North$: 1,
+var $d_Lmazes_generators_Dungeon$North$ = new $TypeData().initClass({
+  Lmazes_generators_Dungeon$North$: 0
+}, false, "mazes.generators.Dungeon$North$", {
+  Lmazes_generators_Dungeon$North$: 1,
   O: 1,
-  Lmazes_webapp_Dungeon$Direction: 1,
+  Lmazes_generators_Dungeon$Direction: 1,
   s_Product: 1,
   s_Equals: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Lmazes_webapp_Dungeon$North$.prototype.$classData = $d_Lmazes_webapp_Dungeon$North$;
-var $n_Lmazes_webapp_Dungeon$North$ = (void 0);
-function $m_Lmazes_webapp_Dungeon$North$() {
-  if ((!$n_Lmazes_webapp_Dungeon$North$)) {
-    $n_Lmazes_webapp_Dungeon$North$ = new $c_Lmazes_webapp_Dungeon$North$().init___()
+$c_Lmazes_generators_Dungeon$North$.prototype.$classData = $d_Lmazes_generators_Dungeon$North$;
+var $n_Lmazes_generators_Dungeon$North$ = (void 0);
+function $m_Lmazes_generators_Dungeon$North$() {
+  if ((!$n_Lmazes_generators_Dungeon$North$)) {
+    $n_Lmazes_generators_Dungeon$North$ = new $c_Lmazes_generators_Dungeon$North$().init___()
   };
-  return $n_Lmazes_webapp_Dungeon$North$
+  return $n_Lmazes_generators_Dungeon$North$
 }
 /** @constructor */
-function $c_Lmazes_webapp_Dungeon$Passage$() {
+function $c_Lmazes_generators_Dungeon$Passage$() {
   $c_O.call(this)
 }
-$c_Lmazes_webapp_Dungeon$Passage$.prototype = new $h_O();
-$c_Lmazes_webapp_Dungeon$Passage$.prototype.constructor = $c_Lmazes_webapp_Dungeon$Passage$;
+$c_Lmazes_generators_Dungeon$Passage$.prototype = new $h_O();
+$c_Lmazes_generators_Dungeon$Passage$.prototype.constructor = $c_Lmazes_generators_Dungeon$Passage$;
 /** @constructor */
-function $h_Lmazes_webapp_Dungeon$Passage$() {
+function $h_Lmazes_generators_Dungeon$Passage$() {
   /*<skip>*/
 }
-$h_Lmazes_webapp_Dungeon$Passage$.prototype = $c_Lmazes_webapp_Dungeon$Passage$.prototype;
-$c_Lmazes_webapp_Dungeon$Passage$.prototype.init___ = (function() {
+$h_Lmazes_generators_Dungeon$Passage$.prototype = $c_Lmazes_generators_Dungeon$Passage$.prototype;
+$c_Lmazes_generators_Dungeon$Passage$.prototype.init___ = (function() {
   return this
 });
-$c_Lmazes_webapp_Dungeon$Passage$.prototype.productPrefix__T = (function() {
+$c_Lmazes_generators_Dungeon$Passage$.prototype.productPrefix__T = (function() {
   return "Passage"
 });
-$c_Lmazes_webapp_Dungeon$Passage$.prototype.productArity__I = (function() {
+$c_Lmazes_generators_Dungeon$Passage$.prototype.productArity__I = (function() {
   return 0
 });
-$c_Lmazes_webapp_Dungeon$Passage$.prototype.productElement__I__O = (function(x$1) {
+$c_Lmazes_generators_Dungeon$Passage$.prototype.productElement__I__O = (function(x$1) {
   throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
 });
-$c_Lmazes_webapp_Dungeon$Passage$.prototype.toString__T = (function() {
+$c_Lmazes_generators_Dungeon$Passage$.prototype.toString__T = (function() {
   return "Passage"
 });
-$c_Lmazes_webapp_Dungeon$Passage$.prototype.hashCode__I = (function() {
+$c_Lmazes_generators_Dungeon$Passage$.prototype.hashCode__I = (function() {
   return 872605486
 });
-$c_Lmazes_webapp_Dungeon$Passage$.prototype.productIterator__sc_Iterator = (function() {
+$c_Lmazes_generators_Dungeon$Passage$.prototype.productIterator__sc_Iterator = (function() {
   return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
 });
-var $d_Lmazes_webapp_Dungeon$Passage$ = new $TypeData().initClass({
-  Lmazes_webapp_Dungeon$Passage$: 0
-}, false, "mazes.webapp.Dungeon$Passage$", {
-  Lmazes_webapp_Dungeon$Passage$: 1,
+var $d_Lmazes_generators_Dungeon$Passage$ = new $TypeData().initClass({
+  Lmazes_generators_Dungeon$Passage$: 0
+}, false, "mazes.generators.Dungeon$Passage$", {
+  Lmazes_generators_Dungeon$Passage$: 1,
   O: 1,
-  Lmazes_webapp_Dungeon$Tile: 1,
+  Lmazes_generators_Dungeon$Tile: 1,
   s_Product: 1,
   s_Equals: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Lmazes_webapp_Dungeon$Passage$.prototype.$classData = $d_Lmazes_webapp_Dungeon$Passage$;
-var $n_Lmazes_webapp_Dungeon$Passage$ = (void 0);
-function $m_Lmazes_webapp_Dungeon$Passage$() {
-  if ((!$n_Lmazes_webapp_Dungeon$Passage$)) {
-    $n_Lmazes_webapp_Dungeon$Passage$ = new $c_Lmazes_webapp_Dungeon$Passage$().init___()
+$c_Lmazes_generators_Dungeon$Passage$.prototype.$classData = $d_Lmazes_generators_Dungeon$Passage$;
+var $n_Lmazes_generators_Dungeon$Passage$ = (void 0);
+function $m_Lmazes_generators_Dungeon$Passage$() {
+  if ((!$n_Lmazes_generators_Dungeon$Passage$)) {
+    $n_Lmazes_generators_Dungeon$Passage$ = new $c_Lmazes_generators_Dungeon$Passage$().init___()
   };
-  return $n_Lmazes_webapp_Dungeon$Passage$
+  return $n_Lmazes_generators_Dungeon$Passage$
 }
 /** @constructor */
-function $c_Lmazes_webapp_Dungeon$Room$() {
+function $c_Lmazes_generators_Dungeon$Room$() {
   $c_O.call(this)
 }
-$c_Lmazes_webapp_Dungeon$Room$.prototype = new $h_O();
-$c_Lmazes_webapp_Dungeon$Room$.prototype.constructor = $c_Lmazes_webapp_Dungeon$Room$;
+$c_Lmazes_generators_Dungeon$Room$.prototype = new $h_O();
+$c_Lmazes_generators_Dungeon$Room$.prototype.constructor = $c_Lmazes_generators_Dungeon$Room$;
 /** @constructor */
-function $h_Lmazes_webapp_Dungeon$Room$() {
+function $h_Lmazes_generators_Dungeon$Room$() {
   /*<skip>*/
 }
-$h_Lmazes_webapp_Dungeon$Room$.prototype = $c_Lmazes_webapp_Dungeon$Room$.prototype;
-$c_Lmazes_webapp_Dungeon$Room$.prototype.init___ = (function() {
+$h_Lmazes_generators_Dungeon$Room$.prototype = $c_Lmazes_generators_Dungeon$Room$.prototype;
+$c_Lmazes_generators_Dungeon$Room$.prototype.init___ = (function() {
   return this
 });
-$c_Lmazes_webapp_Dungeon$Room$.prototype.productPrefix__T = (function() {
+$c_Lmazes_generators_Dungeon$Room$.prototype.productPrefix__T = (function() {
   return "Room"
 });
-$c_Lmazes_webapp_Dungeon$Room$.prototype.productArity__I = (function() {
+$c_Lmazes_generators_Dungeon$Room$.prototype.productArity__I = (function() {
   return 0
 });
-$c_Lmazes_webapp_Dungeon$Room$.prototype.productElement__I__O = (function(x$1) {
+$c_Lmazes_generators_Dungeon$Room$.prototype.productElement__I__O = (function(x$1) {
   throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
 });
-$c_Lmazes_webapp_Dungeon$Room$.prototype.toString__T = (function() {
+$c_Lmazes_generators_Dungeon$Room$.prototype.toString__T = (function() {
   return "Room"
 });
-$c_Lmazes_webapp_Dungeon$Room$.prototype.hashCode__I = (function() {
+$c_Lmazes_generators_Dungeon$Room$.prototype.hashCode__I = (function() {
   return 2553083
 });
-$c_Lmazes_webapp_Dungeon$Room$.prototype.productIterator__sc_Iterator = (function() {
+$c_Lmazes_generators_Dungeon$Room$.prototype.productIterator__sc_Iterator = (function() {
   return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
 });
-var $d_Lmazes_webapp_Dungeon$Room$ = new $TypeData().initClass({
-  Lmazes_webapp_Dungeon$Room$: 0
-}, false, "mazes.webapp.Dungeon$Room$", {
-  Lmazes_webapp_Dungeon$Room$: 1,
+var $d_Lmazes_generators_Dungeon$Room$ = new $TypeData().initClass({
+  Lmazes_generators_Dungeon$Room$: 0
+}, false, "mazes.generators.Dungeon$Room$", {
+  Lmazes_generators_Dungeon$Room$: 1,
   O: 1,
-  Lmazes_webapp_Dungeon$Tile: 1,
+  Lmazes_generators_Dungeon$Tile: 1,
   s_Product: 1,
   s_Equals: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Lmazes_webapp_Dungeon$Room$.prototype.$classData = $d_Lmazes_webapp_Dungeon$Room$;
-var $n_Lmazes_webapp_Dungeon$Room$ = (void 0);
-function $m_Lmazes_webapp_Dungeon$Room$() {
-  if ((!$n_Lmazes_webapp_Dungeon$Room$)) {
-    $n_Lmazes_webapp_Dungeon$Room$ = new $c_Lmazes_webapp_Dungeon$Room$().init___()
+$c_Lmazes_generators_Dungeon$Room$.prototype.$classData = $d_Lmazes_generators_Dungeon$Room$;
+var $n_Lmazes_generators_Dungeon$Room$ = (void 0);
+function $m_Lmazes_generators_Dungeon$Room$() {
+  if ((!$n_Lmazes_generators_Dungeon$Room$)) {
+    $n_Lmazes_generators_Dungeon$Room$ = new $c_Lmazes_generators_Dungeon$Room$().init___()
   };
-  return $n_Lmazes_webapp_Dungeon$Room$
+  return $n_Lmazes_generators_Dungeon$Room$
 }
 /** @constructor */
-function $c_Lmazes_webapp_Dungeon$South$() {
+function $c_Lmazes_generators_Dungeon$South$() {
   $c_O.call(this)
 }
-$c_Lmazes_webapp_Dungeon$South$.prototype = new $h_O();
-$c_Lmazes_webapp_Dungeon$South$.prototype.constructor = $c_Lmazes_webapp_Dungeon$South$;
+$c_Lmazes_generators_Dungeon$South$.prototype = new $h_O();
+$c_Lmazes_generators_Dungeon$South$.prototype.constructor = $c_Lmazes_generators_Dungeon$South$;
 /** @constructor */
-function $h_Lmazes_webapp_Dungeon$South$() {
+function $h_Lmazes_generators_Dungeon$South$() {
   /*<skip>*/
 }
-$h_Lmazes_webapp_Dungeon$South$.prototype = $c_Lmazes_webapp_Dungeon$South$.prototype;
-$c_Lmazes_webapp_Dungeon$South$.prototype.init___ = (function() {
+$h_Lmazes_generators_Dungeon$South$.prototype = $c_Lmazes_generators_Dungeon$South$.prototype;
+$c_Lmazes_generators_Dungeon$South$.prototype.init___ = (function() {
   return this
 });
-$c_Lmazes_webapp_Dungeon$South$.prototype.productPrefix__T = (function() {
+$c_Lmazes_generators_Dungeon$South$.prototype.productPrefix__T = (function() {
   return "South"
 });
-$c_Lmazes_webapp_Dungeon$South$.prototype.productArity__I = (function() {
+$c_Lmazes_generators_Dungeon$South$.prototype.productArity__I = (function() {
   return 0
 });
-$c_Lmazes_webapp_Dungeon$South$.prototype.productElement__I__O = (function(x$1) {
+$c_Lmazes_generators_Dungeon$South$.prototype.productElement__I__O = (function(x$1) {
   throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
 });
-$c_Lmazes_webapp_Dungeon$South$.prototype.toString__T = (function() {
+$c_Lmazes_generators_Dungeon$South$.prototype.toString__T = (function() {
   return "South"
 });
-$c_Lmazes_webapp_Dungeon$South$.prototype.hashCode__I = (function() {
+$c_Lmazes_generators_Dungeon$South$.prototype.hashCode__I = (function() {
   return 80075181
 });
-$c_Lmazes_webapp_Dungeon$South$.prototype.productIterator__sc_Iterator = (function() {
+$c_Lmazes_generators_Dungeon$South$.prototype.productIterator__sc_Iterator = (function() {
   return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
 });
-var $d_Lmazes_webapp_Dungeon$South$ = new $TypeData().initClass({
-  Lmazes_webapp_Dungeon$South$: 0
-}, false, "mazes.webapp.Dungeon$South$", {
-  Lmazes_webapp_Dungeon$South$: 1,
+var $d_Lmazes_generators_Dungeon$South$ = new $TypeData().initClass({
+  Lmazes_generators_Dungeon$South$: 0
+}, false, "mazes.generators.Dungeon$South$", {
+  Lmazes_generators_Dungeon$South$: 1,
   O: 1,
-  Lmazes_webapp_Dungeon$Direction: 1,
+  Lmazes_generators_Dungeon$Direction: 1,
   s_Product: 1,
   s_Equals: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Lmazes_webapp_Dungeon$South$.prototype.$classData = $d_Lmazes_webapp_Dungeon$South$;
-var $n_Lmazes_webapp_Dungeon$South$ = (void 0);
-function $m_Lmazes_webapp_Dungeon$South$() {
-  if ((!$n_Lmazes_webapp_Dungeon$South$)) {
-    $n_Lmazes_webapp_Dungeon$South$ = new $c_Lmazes_webapp_Dungeon$South$().init___()
+$c_Lmazes_generators_Dungeon$South$.prototype.$classData = $d_Lmazes_generators_Dungeon$South$;
+var $n_Lmazes_generators_Dungeon$South$ = (void 0);
+function $m_Lmazes_generators_Dungeon$South$() {
+  if ((!$n_Lmazes_generators_Dungeon$South$)) {
+    $n_Lmazes_generators_Dungeon$South$ = new $c_Lmazes_generators_Dungeon$South$().init___()
   };
-  return $n_Lmazes_webapp_Dungeon$South$
+  return $n_Lmazes_generators_Dungeon$South$
 }
 /** @constructor */
-function $c_Lmazes_webapp_Dungeon$Wall$() {
+function $c_Lmazes_generators_Dungeon$Wall$() {
   $c_O.call(this)
 }
-$c_Lmazes_webapp_Dungeon$Wall$.prototype = new $h_O();
-$c_Lmazes_webapp_Dungeon$Wall$.prototype.constructor = $c_Lmazes_webapp_Dungeon$Wall$;
+$c_Lmazes_generators_Dungeon$Wall$.prototype = new $h_O();
+$c_Lmazes_generators_Dungeon$Wall$.prototype.constructor = $c_Lmazes_generators_Dungeon$Wall$;
 /** @constructor */
-function $h_Lmazes_webapp_Dungeon$Wall$() {
+function $h_Lmazes_generators_Dungeon$Wall$() {
   /*<skip>*/
 }
-$h_Lmazes_webapp_Dungeon$Wall$.prototype = $c_Lmazes_webapp_Dungeon$Wall$.prototype;
-$c_Lmazes_webapp_Dungeon$Wall$.prototype.init___ = (function() {
+$h_Lmazes_generators_Dungeon$Wall$.prototype = $c_Lmazes_generators_Dungeon$Wall$.prototype;
+$c_Lmazes_generators_Dungeon$Wall$.prototype.init___ = (function() {
   return this
 });
-$c_Lmazes_webapp_Dungeon$Wall$.prototype.productPrefix__T = (function() {
+$c_Lmazes_generators_Dungeon$Wall$.prototype.productPrefix__T = (function() {
   return "Wall"
 });
-$c_Lmazes_webapp_Dungeon$Wall$.prototype.productArity__I = (function() {
+$c_Lmazes_generators_Dungeon$Wall$.prototype.productArity__I = (function() {
   return 0
 });
-$c_Lmazes_webapp_Dungeon$Wall$.prototype.productElement__I__O = (function(x$1) {
+$c_Lmazes_generators_Dungeon$Wall$.prototype.productElement__I__O = (function(x$1) {
   throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
 });
-$c_Lmazes_webapp_Dungeon$Wall$.prototype.toString__T = (function() {
+$c_Lmazes_generators_Dungeon$Wall$.prototype.toString__T = (function() {
   return "Wall"
 });
-$c_Lmazes_webapp_Dungeon$Wall$.prototype.hashCode__I = (function() {
+$c_Lmazes_generators_Dungeon$Wall$.prototype.hashCode__I = (function() {
   return 2688490
 });
-$c_Lmazes_webapp_Dungeon$Wall$.prototype.productIterator__sc_Iterator = (function() {
+$c_Lmazes_generators_Dungeon$Wall$.prototype.productIterator__sc_Iterator = (function() {
   return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
 });
-var $d_Lmazes_webapp_Dungeon$Wall$ = new $TypeData().initClass({
-  Lmazes_webapp_Dungeon$Wall$: 0
-}, false, "mazes.webapp.Dungeon$Wall$", {
-  Lmazes_webapp_Dungeon$Wall$: 1,
+var $d_Lmazes_generators_Dungeon$Wall$ = new $TypeData().initClass({
+  Lmazes_generators_Dungeon$Wall$: 0
+}, false, "mazes.generators.Dungeon$Wall$", {
+  Lmazes_generators_Dungeon$Wall$: 1,
   O: 1,
-  Lmazes_webapp_Dungeon$Tile: 1,
+  Lmazes_generators_Dungeon$Tile: 1,
   s_Product: 1,
   s_Equals: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Lmazes_webapp_Dungeon$Wall$.prototype.$classData = $d_Lmazes_webapp_Dungeon$Wall$;
-var $n_Lmazes_webapp_Dungeon$Wall$ = (void 0);
-function $m_Lmazes_webapp_Dungeon$Wall$() {
-  if ((!$n_Lmazes_webapp_Dungeon$Wall$)) {
-    $n_Lmazes_webapp_Dungeon$Wall$ = new $c_Lmazes_webapp_Dungeon$Wall$().init___()
+$c_Lmazes_generators_Dungeon$Wall$.prototype.$classData = $d_Lmazes_generators_Dungeon$Wall$;
+var $n_Lmazes_generators_Dungeon$Wall$ = (void 0);
+function $m_Lmazes_generators_Dungeon$Wall$() {
+  if ((!$n_Lmazes_generators_Dungeon$Wall$)) {
+    $n_Lmazes_generators_Dungeon$Wall$ = new $c_Lmazes_generators_Dungeon$Wall$().init___()
   };
-  return $n_Lmazes_webapp_Dungeon$Wall$
+  return $n_Lmazes_generators_Dungeon$Wall$
 }
 /** @constructor */
-function $c_Lmazes_webapp_Dungeon$West$() {
+function $c_Lmazes_generators_Dungeon$West$() {
   $c_O.call(this)
 }
-$c_Lmazes_webapp_Dungeon$West$.prototype = new $h_O();
-$c_Lmazes_webapp_Dungeon$West$.prototype.constructor = $c_Lmazes_webapp_Dungeon$West$;
+$c_Lmazes_generators_Dungeon$West$.prototype = new $h_O();
+$c_Lmazes_generators_Dungeon$West$.prototype.constructor = $c_Lmazes_generators_Dungeon$West$;
 /** @constructor */
-function $h_Lmazes_webapp_Dungeon$West$() {
+function $h_Lmazes_generators_Dungeon$West$() {
   /*<skip>*/
 }
-$h_Lmazes_webapp_Dungeon$West$.prototype = $c_Lmazes_webapp_Dungeon$West$.prototype;
-$c_Lmazes_webapp_Dungeon$West$.prototype.init___ = (function() {
+$h_Lmazes_generators_Dungeon$West$.prototype = $c_Lmazes_generators_Dungeon$West$.prototype;
+$c_Lmazes_generators_Dungeon$West$.prototype.init___ = (function() {
   return this
 });
-$c_Lmazes_webapp_Dungeon$West$.prototype.productPrefix__T = (function() {
+$c_Lmazes_generators_Dungeon$West$.prototype.productPrefix__T = (function() {
   return "West"
 });
-$c_Lmazes_webapp_Dungeon$West$.prototype.productArity__I = (function() {
+$c_Lmazes_generators_Dungeon$West$.prototype.productArity__I = (function() {
   return 0
 });
-$c_Lmazes_webapp_Dungeon$West$.prototype.productElement__I__O = (function(x$1) {
+$c_Lmazes_generators_Dungeon$West$.prototype.productElement__I__O = (function(x$1) {
   throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
 });
-$c_Lmazes_webapp_Dungeon$West$.prototype.toString__T = (function() {
+$c_Lmazes_generators_Dungeon$West$.prototype.toString__T = (function() {
   return "West"
 });
-$c_Lmazes_webapp_Dungeon$West$.prototype.hashCode__I = (function() {
+$c_Lmazes_generators_Dungeon$West$.prototype.hashCode__I = (function() {
   return 2692559
 });
-$c_Lmazes_webapp_Dungeon$West$.prototype.productIterator__sc_Iterator = (function() {
+$c_Lmazes_generators_Dungeon$West$.prototype.productIterator__sc_Iterator = (function() {
   return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
 });
-var $d_Lmazes_webapp_Dungeon$West$ = new $TypeData().initClass({
-  Lmazes_webapp_Dungeon$West$: 0
-}, false, "mazes.webapp.Dungeon$West$", {
-  Lmazes_webapp_Dungeon$West$: 1,
+var $d_Lmazes_generators_Dungeon$West$ = new $TypeData().initClass({
+  Lmazes_generators_Dungeon$West$: 0
+}, false, "mazes.generators.Dungeon$West$", {
+  Lmazes_generators_Dungeon$West$: 1,
   O: 1,
-  Lmazes_webapp_Dungeon$Direction: 1,
+  Lmazes_generators_Dungeon$Direction: 1,
   s_Product: 1,
   s_Equals: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Lmazes_webapp_Dungeon$West$.prototype.$classData = $d_Lmazes_webapp_Dungeon$West$;
-var $n_Lmazes_webapp_Dungeon$West$ = (void 0);
-function $m_Lmazes_webapp_Dungeon$West$() {
-  if ((!$n_Lmazes_webapp_Dungeon$West$)) {
-    $n_Lmazes_webapp_Dungeon$West$ = new $c_Lmazes_webapp_Dungeon$West$().init___()
+$c_Lmazes_generators_Dungeon$West$.prototype.$classData = $d_Lmazes_generators_Dungeon$West$;
+var $n_Lmazes_generators_Dungeon$West$ = (void 0);
+function $m_Lmazes_generators_Dungeon$West$() {
+  if ((!$n_Lmazes_generators_Dungeon$West$)) {
+    $n_Lmazes_generators_Dungeon$West$ = new $c_Lmazes_generators_Dungeon$West$().init___()
   };
-  return $n_Lmazes_webapp_Dungeon$West$
+  return $n_Lmazes_generators_Dungeon$West$
 }
 /** @constructor */
 function $c_Lscalatags_JsDom$RawFrag() {
@@ -11531,9 +12381,6 @@ $c_s_Some.prototype.productPrefix__T = (function() {
 $c_s_Some.prototype.productArity__I = (function() {
   return 1
 });
-$c_s_Some.prototype.isEmpty__Z = (function() {
-  return false
-});
 $c_s_Some.prototype.equals__O__Z = (function(x$1) {
   if ((this === x$1)) {
     return true
@@ -11544,8 +12391,8 @@ $c_s_Some.prototype.equals__O__Z = (function(x$1) {
     return false
   }
 });
-$c_s_Some.prototype.get__O = (function() {
-  return this.x$2
+$c_s_Some.prototype.isEmpty__Z = (function() {
+  return false
 });
 $c_s_Some.prototype.productElement__I__O = (function(x$1) {
   switch (x$1) {
@@ -11557,6 +12404,9 @@ $c_s_Some.prototype.productElement__I__O = (function(x$1) {
       throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
     }
   }
+});
+$c_s_Some.prototype.get__O = (function() {
+  return this.x$2
 });
 $c_s_Some.prototype.toString__T = (function() {
   return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
@@ -12395,6 +13245,52 @@ var $d_s_Tuple2$mcII$sp = new $TypeData().initClass({
   s_Product2$mcII$sp: 1
 });
 $c_s_Tuple2$mcII$sp.prototype.$classData = $d_s_Tuple2$mcII$sp;
+/** @constructor */
+function $c_s_math_Ordering$Int$() {
+  $c_O.call(this)
+}
+$c_s_math_Ordering$Int$.prototype = new $h_O();
+$c_s_math_Ordering$Int$.prototype.constructor = $c_s_math_Ordering$Int$;
+/** @constructor */
+function $h_s_math_Ordering$Int$() {
+  /*<skip>*/
+}
+$h_s_math_Ordering$Int$.prototype = $c_s_math_Ordering$Int$.prototype;
+$c_s_math_Ordering$Int$.prototype.init___ = (function() {
+  return this
+});
+$c_s_math_Ordering$Int$.prototype.gteq__O__O__Z = (function(x, y) {
+  return $s_s_math_Ordering$class__gteq__s_math_Ordering__O__O__Z(this, x, y)
+});
+$c_s_math_Ordering$Int$.prototype.compare__O__O__I = (function(x, y) {
+  var x$1 = $uI(x);
+  var y$1 = $uI(y);
+  return $s_s_math_Ordering$IntOrdering$class__compare__s_math_Ordering$IntOrdering__I__I__I(this, x$1, y$1)
+});
+$c_s_math_Ordering$Int$.prototype.lteq__O__O__Z = (function(x, y) {
+  return $s_s_math_Ordering$class__lteq__s_math_Ordering__O__O__Z(this, x, y)
+});
+var $d_s_math_Ordering$Int$ = new $TypeData().initClass({
+  s_math_Ordering$Int$: 0
+}, false, "scala.math.Ordering$Int$", {
+  s_math_Ordering$Int$: 1,
+  O: 1,
+  s_math_Ordering$IntOrdering: 1,
+  s_math_Ordering: 1,
+  ju_Comparator: 1,
+  s_math_PartialOrdering: 1,
+  s_math_Equiv: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_s_math_Ordering$Int$.prototype.$classData = $d_s_math_Ordering$Int$;
+var $n_s_math_Ordering$Int$ = (void 0);
+function $m_s_math_Ordering$Int$() {
+  if ((!$n_s_math_Ordering$Int$)) {
+    $n_s_math_Ordering$Int$ = new $c_s_math_Ordering$Int$().init___()
+  };
+  return $n_s_math_Ordering$Int$
+}
 /** @constructor */
 function $c_s_reflect_AnyValManifest() {
   $c_O.call(this);
@@ -13822,11 +14718,20 @@ $c_sc_AbstractTraversable.prototype.foldLeft__O__F2__O = (function(z, op) {
 $c_sc_AbstractTraversable.prototype.filter__F1__O = (function(p) {
   return $s_sc_TraversableLike$class__filterImpl__p0__sc_TraversableLike__F1__Z__O(this, p, false)
 });
+$c_sc_AbstractTraversable.prototype.min__s_math_Ordering__O = (function(cmp) {
+  return $s_sc_TraversableOnce$class__min__sc_TraversableOnce__s_math_Ordering__O(this, cmp)
+});
 $c_sc_AbstractTraversable.prototype.tail__O = (function() {
   return $s_sc_TraversableLike$class__tail__sc_TraversableLike__O(this)
 });
 $c_sc_AbstractTraversable.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBuilder = (function(b, start, sep, end) {
   return $s_sc_TraversableOnce$class__addString__sc_TraversableOnce__scm_StringBuilder__T__T__T__scm_StringBuilder(this, b, start, sep, end)
+});
+$c_sc_AbstractTraversable.prototype.max__s_math_Ordering__O = (function(cmp) {
+  return $s_sc_TraversableOnce$class__max__sc_TraversableOnce__s_math_Ordering__O(this, cmp)
+});
+$c_sc_AbstractTraversable.prototype.$$div$colon__O__F2__O = (function(z, op) {
+  return this.foldLeft__O__F2__O(z, op)
 });
 $c_sc_AbstractTraversable.prototype.repr__O = (function() {
   return this
@@ -13844,41 +14749,41 @@ $c_sc_AbstractTraversable.prototype.stringPrefix__T = (function() {
   return $s_sc_TraversableLike$class__stringPrefix__sc_TraversableLike__T(this)
 });
 /** @constructor */
-function $c_Lmazes_webapp_Matrix() {
+function $c_Lmazes_generators_Matrix() {
   $c_O.call(this);
   this.array$1 = null;
   this.rows$1 = 0;
   this.columns$1 = 0
 }
-$c_Lmazes_webapp_Matrix.prototype = new $h_O();
-$c_Lmazes_webapp_Matrix.prototype.constructor = $c_Lmazes_webapp_Matrix;
+$c_Lmazes_generators_Matrix.prototype = new $h_O();
+$c_Lmazes_generators_Matrix.prototype.constructor = $c_Lmazes_generators_Matrix;
 /** @constructor */
-function $h_Lmazes_webapp_Matrix() {
+function $h_Lmazes_generators_Matrix() {
   /*<skip>*/
 }
-$h_Lmazes_webapp_Matrix.prototype = $c_Lmazes_webapp_Matrix.prototype;
-$c_Lmazes_webapp_Matrix.prototype.seq__sc_TraversableOnce = (function() {
+$h_Lmazes_generators_Matrix.prototype = $c_Lmazes_generators_Matrix.prototype;
+$c_Lmazes_generators_Matrix.prototype.seq__sc_TraversableOnce = (function() {
   return this
 });
-$c_Lmazes_webapp_Matrix.prototype.toIterator__sc_Iterator = (function() {
+$c_Lmazes_generators_Matrix.prototype.toIterator__sc_Iterator = (function() {
   var this$1 = $m_scm_ArrayBuffer$();
   var cbf = this$1.ReusableCBFInstance$2;
   var this$2 = $as_scm_Buffer($s_sc_TraversableLike$class__to__sc_TraversableLike__scg_CanBuildFrom__O(this, cbf)).toStream__sci_Stream();
   return new $c_sci_StreamIterator().init___sci_Stream(this$2)
 });
-$c_Lmazes_webapp_Matrix.prototype.isEmpty__Z = (function() {
+$c_Lmazes_generators_Matrix.prototype.isEmpty__Z = (function() {
   return $s_sc_TraversableLike$class__isEmpty__sc_TraversableLike__Z(this)
 });
-$c_Lmazes_webapp_Matrix.prototype.thisCollection__sc_Traversable = (function() {
+$c_Lmazes_generators_Matrix.prototype.thisCollection__sc_Traversable = (function() {
   return this
 });
-$c_Lmazes_webapp_Matrix.prototype.mkString__T__T__T__T = (function(start, sep, end) {
+$c_Lmazes_generators_Matrix.prototype.mkString__T__T__T__T = (function(start, sep, end) {
   return $s_sc_TraversableOnce$class__mkString__sc_TraversableOnce__T__T__T__T(this, start, sep, end)
 });
-$c_Lmazes_webapp_Matrix.prototype.mkString__T__T = (function(sep) {
+$c_Lmazes_generators_Matrix.prototype.mkString__T__T = (function(sep) {
   return $s_sc_TraversableOnce$class__mkString__sc_TraversableOnce__T__T__T__T(this, "", sep, "")
 });
-$c_Lmazes_webapp_Matrix.prototype.toString__T = (function() {
+$c_Lmazes_generators_Matrix.prototype.toString__T = (function() {
   var this$2 = this.array$1;
   var this$1 = $m_scm_ArraySeq$();
   var bf = this$1.ReusableCBFInstance$2;
@@ -13897,10 +14802,16 @@ $c_Lmazes_webapp_Matrix.prototype.toString__T = (function() {
   };
   return $as_sc_TraversableOnce(b.result__O()).mkString__T__T("\n")
 });
-$c_Lmazes_webapp_Matrix.prototype.companion__scg_GenericCompanion = (function() {
+$c_Lmazes_generators_Matrix.prototype.companion__scg_GenericCompanion = (function() {
   return $m_sc_Traversable$()
 });
-$c_Lmazes_webapp_Matrix.prototype.foreach__F1__V = (function(f) {
+$c_Lmazes_generators_Matrix.prototype.randomIndex__s_util_Random__T2 = (function(r) {
+  var n = this.rows$1;
+  var jsx$1 = r.self$1.nextInt__I__I(n);
+  var n$1 = this.columns$1;
+  return new $c_s_Tuple2$mcII$sp().init___I__I(jsx$1, r.self$1.nextInt__I__I(n$1))
+});
+$c_Lmazes_generators_Matrix.prototype.foreach__F1__V = (function(f) {
   var end = this.rows$1;
   var isEmpty$4 = (end <= 0);
   var lastElement$4 = (isEmpty$4 ? (-1) : (((-1) + end) | 0));
@@ -13929,65 +14840,68 @@ $c_Lmazes_webapp_Matrix.prototype.foreach__F1__V = (function(f) {
     }
   }
 });
-$c_Lmazes_webapp_Matrix.prototype.randomIndex__s_util_Random__T2 = (function(r) {
-  var n = this.rows$1;
-  var jsx$1 = r.self$1.nextInt__I__I(n);
-  var n$1 = this.columns$1;
-  return new $c_s_Tuple2$mcII$sp().init___I__I(jsx$1, r.self$1.nextInt__I__I(n$1))
-});
-$c_Lmazes_webapp_Matrix.prototype.foldLeft__O__F2__O = (function(z, op) {
+$c_Lmazes_generators_Matrix.prototype.foldLeft__O__F2__O = (function(z, op) {
   return $s_sc_TraversableOnce$class__foldLeft__sc_TraversableOnce__O__F2__O(this, z, op)
 });
-$c_Lmazes_webapp_Matrix.prototype.apply__I__I__O = (function(r, c) {
+$c_Lmazes_generators_Matrix.prototype.apply__I__I__O = (function(r, c) {
   return $as_scm_ArraySeq(this.array$1.apply__I__O(r)).apply__I__O(c)
 });
-$c_Lmazes_webapp_Matrix.prototype.init___scm_ArraySeq__I__I = (function(array, rows, columns) {
+$c_Lmazes_generators_Matrix.prototype.init___scm_ArraySeq__I__I = (function(array, rows, columns) {
   this.array$1 = array;
   this.rows$1 = rows;
   this.columns$1 = columns;
   return this
 });
-$c_Lmazes_webapp_Matrix.prototype.size__I = (function() {
+$c_Lmazes_generators_Matrix.prototype.size__I = (function() {
   return $s_sc_TraversableOnce$class__size__sc_TraversableOnce__I(this)
 });
-$c_Lmazes_webapp_Matrix.prototype.update__I__I__O__V = (function(r, c, v) {
+$c_Lmazes_generators_Matrix.prototype.update__I__I__O__V = (function(r, c, v) {
   $as_scm_ArraySeq(this.array$1.apply__I__O(r)).update__I__O__V(c, v)
 });
-$c_Lmazes_webapp_Matrix.prototype.toStream__sci_Stream = (function() {
+$c_Lmazes_generators_Matrix.prototype.min__s_math_Ordering__O = (function(cmp) {
+  return $s_sc_TraversableOnce$class__min__sc_TraversableOnce__s_math_Ordering__O(this, cmp)
+});
+$c_Lmazes_generators_Matrix.prototype.toStream__sci_Stream = (function() {
   var this$1 = $m_scm_ArrayBuffer$();
   var cbf = this$1.ReusableCBFInstance$2;
   return $as_scm_Buffer($s_sc_TraversableLike$class__to__sc_TraversableLike__scg_CanBuildFrom__O(this, cbf)).toStream__sci_Stream()
 });
-$c_Lmazes_webapp_Matrix.prototype.drop__I__O = (function(n) {
+$c_Lmazes_generators_Matrix.prototype.drop__I__O = (function(n) {
   return $s_sc_TraversableLike$class__drop__sc_TraversableLike__I__O(this, n)
 });
-$c_Lmazes_webapp_Matrix.prototype.tail__O = (function() {
+$c_Lmazes_generators_Matrix.prototype.tail__O = (function() {
   return $s_sc_TraversableLike$class__tail__sc_TraversableLike__O(this)
 });
-$c_Lmazes_webapp_Matrix.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBuilder = (function(b, start, sep, end) {
+$c_Lmazes_generators_Matrix.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBuilder = (function(b, start, sep, end) {
   return $s_sc_TraversableOnce$class__addString__sc_TraversableOnce__scm_StringBuilder__T__T__T__scm_StringBuilder(this, b, start, sep, end)
 });
-$c_Lmazes_webapp_Matrix.prototype.repr__O = (function() {
+$c_Lmazes_generators_Matrix.prototype.max__s_math_Ordering__O = (function(cmp) {
+  return $s_sc_TraversableOnce$class__max__sc_TraversableOnce__s_math_Ordering__O(this, cmp)
+});
+$c_Lmazes_generators_Matrix.prototype.repr__O = (function() {
   return this
 });
-$c_Lmazes_webapp_Matrix.prototype.copyToArray__O__I__I__V = (function(xs, start, len) {
+$c_Lmazes_generators_Matrix.prototype.$$div$colon__O__F2__O = (function(z, op) {
+  return $s_sc_TraversableOnce$class__foldLeft__sc_TraversableOnce__O__F2__O(this, z, op)
+});
+$c_Lmazes_generators_Matrix.prototype.copyToArray__O__I__I__V = (function(xs, start, len) {
   $s_sc_TraversableLike$class__copyToArray__sc_TraversableLike__O__I__I__V(this, xs, start, len)
 });
-$c_Lmazes_webapp_Matrix.prototype.reduceLeft__F2__O = (function(op) {
+$c_Lmazes_generators_Matrix.prototype.reduceLeft__F2__O = (function(op) {
   return $s_sc_TraversableOnce$class__reduceLeft__sc_TraversableOnce__F2__O(this, op)
 });
-$c_Lmazes_webapp_Matrix.prototype.newBuilder__scm_Builder = (function() {
+$c_Lmazes_generators_Matrix.prototype.newBuilder__scm_Builder = (function() {
   $m_sc_Traversable$();
   $m_sci_Traversable$();
   return new $c_scm_ListBuffer().init___()
 });
-$c_Lmazes_webapp_Matrix.prototype.stringPrefix__T = (function() {
+$c_Lmazes_generators_Matrix.prototype.stringPrefix__T = (function() {
   return $s_sc_TraversableLike$class__stringPrefix__sc_TraversableLike__T(this)
 });
-var $d_Lmazes_webapp_Matrix = new $TypeData().initClass({
-  Lmazes_webapp_Matrix: 0
-}, false, "mazes.webapp.Matrix", {
-  Lmazes_webapp_Matrix: 1,
+var $d_Lmazes_generators_Matrix = new $TypeData().initClass({
+  Lmazes_generators_Matrix: 0
+}, false, "mazes.generators.Matrix", {
+  Lmazes_generators_Matrix: 1,
   O: 1,
   sc_Traversable: 1,
   sc_TraversableLike: 1,
@@ -14001,7 +14915,7 @@ var $d_Lmazes_webapp_Matrix = new $TypeData().initClass({
   scg_GenericTraversableTemplate: 1,
   jl_Cloneable: 1
 });
-$c_Lmazes_webapp_Matrix.prototype.$classData = $d_Lmazes_webapp_Matrix;
+$c_Lmazes_generators_Matrix.prototype.$classData = $d_Lmazes_generators_Matrix;
 /** @constructor */
 function $c_s_math_Numeric$FloatIsFractional$() {
   $c_O.call(this)
@@ -14015,6 +14929,21 @@ function $h_s_math_Numeric$FloatIsFractional$() {
 $h_s_math_Numeric$FloatIsFractional$.prototype = $c_s_math_Numeric$FloatIsFractional$.prototype;
 $c_s_math_Numeric$FloatIsFractional$.prototype.init___ = (function() {
   return this
+});
+$c_s_math_Numeric$FloatIsFractional$.prototype.gteq__O__O__Z = (function(x, y) {
+  var x$1 = $uF(x);
+  var y$1 = $uF(y);
+  return $s_s_math_Ordering$FloatOrdering$class__gteq__s_math_Ordering$FloatOrdering__F__F__Z(this, x$1, y$1)
+});
+$c_s_math_Numeric$FloatIsFractional$.prototype.compare__O__O__I = (function(x, y) {
+  var x$1 = $uF(x);
+  var y$1 = $uF(y);
+  return $m_jl_Double$().compare__D__D__I(x$1, y$1)
+});
+$c_s_math_Numeric$FloatIsFractional$.prototype.lteq__O__O__Z = (function(x, y) {
+  var x$1 = $uF(x);
+  var y$1 = $uF(y);
+  return $s_s_math_Ordering$FloatOrdering$class__lteq__s_math_Ordering$FloatOrdering__F__F__Z(this, x$1, y$1)
 });
 var $d_s_math_Numeric$FloatIsFractional$ = new $TypeData().initClass({
   s_math_Numeric$FloatIsFractional$: 0
@@ -14196,12 +15125,12 @@ $c_sci_StringOps.prototype.apply__I__O = (function(idx) {
   var c = (65535 & $uI($$this.charCodeAt(idx)));
   return new $c_jl_Character().init___C(c)
 });
-$c_sci_StringOps.prototype.lengthCompare__I__I = (function(len) {
-  return $s_sc_IndexedSeqOptimized$class__lengthCompare__sc_IndexedSeqOptimized__I__I(this, len)
-});
 $c_sci_StringOps.prototype.toIterator__sc_Iterator = (function() {
   var $$this = this.repr$1;
   return new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(this, 0, $uI($$this.length))
+});
+$c_sci_StringOps.prototype.lengthCompare__I__I = (function(len) {
+  return $s_sc_IndexedSeqOptimized$class__lengthCompare__sc_IndexedSeqOptimized__I__I(this, len)
 });
 $c_sci_StringOps.prototype.sameElements__sc_GenIterable__Z = (function(that) {
   return $s_sc_IndexedSeqOptimized$class__sameElements__sc_IndexedSeqOptimized__sc_GenIterable__Z(this, that)
@@ -14248,6 +15177,9 @@ $c_sci_StringOps.prototype.length__I = (function() {
   var $$this = this.repr$1;
   return $uI($$this.length)
 });
+$c_sci_StringOps.prototype.min__s_math_Ordering__O = (function(cmp) {
+  return $s_sc_TraversableOnce$class__min__sc_TraversableOnce__s_math_Ordering__O(this, cmp)
+});
 $c_sci_StringOps.prototype.toStream__sci_Stream = (function() {
   var $$this = this.repr$1;
   var this$3 = new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(this, 0, $uI($$this.length));
@@ -14264,8 +15196,15 @@ $c_sci_StringOps.prototype.tail__O = (function() {
 $c_sci_StringOps.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBuilder = (function(b, start, sep, end) {
   return $s_sc_TraversableOnce$class__addString__sc_TraversableOnce__scm_StringBuilder__T__T__T__scm_StringBuilder(this, b, start, sep, end)
 });
+$c_sci_StringOps.prototype.max__s_math_Ordering__O = (function(cmp) {
+  return $s_sc_TraversableOnce$class__max__sc_TraversableOnce__s_math_Ordering__O(this, cmp)
+});
 $c_sci_StringOps.prototype.repr__O = (function() {
   return this.repr$1
+});
+$c_sci_StringOps.prototype.$$div$colon__O__F2__O = (function(z, op) {
+  var $$this = this.repr$1;
+  return $s_sc_IndexedSeqOptimized$class__foldl__p0__sc_IndexedSeqOptimized__I__I__O__F2__O(this, 0, $uI($$this.length), z, op)
 });
 $c_sci_StringOps.prototype.copyToArray__O__I__I__V = (function(xs, start, len) {
   $s_sc_IndexedSeqOptimized$class__copyToArray__sc_IndexedSeqOptimized__O__I__I__V(this, xs, start, len)
@@ -14859,6 +15798,15 @@ $c_Lscalatags_JsDom$all$.prototype.h1$lzycompute__p1__Lscalatags_generic_TypedTa
   };
   return this.h1$1
 });
+$c_Lscalatags_JsDom$all$.prototype.select__Lscalatags_generic_TypedTag = (function() {
+  var b = this.bitmap$1$1;
+  var lo = (512 & b.lo$2);
+  if ((lo === 0)) {
+    return this.select$lzycompute__p1__Lscalatags_generic_TypedTag()
+  } else {
+    return this.select$1
+  }
+});
 $c_Lscalatags_JsDom$all$.prototype.label$lzycompute__p1__Lscalatags_generic_TypedTag = (function() {
   var b = this.bitmap$1$1;
   var lo = (64 & b.lo$2);
@@ -14880,6 +15828,19 @@ $c_Lscalatags_JsDom$all$.prototype.pre__Lscalatags_generic_TypedTag = (function(
   } else {
     return this.pre$1
   }
+});
+$c_Lscalatags_JsDom$all$.prototype.select$lzycompute__p1__Lscalatags_generic_TypedTag = (function() {
+  var b = this.bitmap$1$1;
+  var lo = (512 & b.lo$2);
+  if ((lo === 0)) {
+    var ns = $m_Lscalatags_generic_Namespace$().htmlNamespaceConfig$1;
+    this.select$1 = $s_Lscalatags_jsdom_TagFactory$class__typedTag__Lscalatags_jsdom_TagFactory__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag(this, "select", false, ns);
+    var b$1 = this.bitmap$1$1;
+    var lo$1 = (512 | b$1.lo$2);
+    var hi = b$1.hi$2;
+    this.bitmap$1$1 = new $c_sjsr_RuntimeLong().init___I__I(lo$1, hi)
+  };
+  return this.select$1
 });
 $c_Lscalatags_JsDom$all$.prototype.input__Lscalatags_generic_TypedTag = (function() {
   var b = this.bitmap$1$1;
@@ -14954,6 +15915,15 @@ $c_Lscalatags_JsDom$all$.prototype.label__Lscalatags_generic_TypedTag = (functio
     return this.label$1
   }
 });
+$c_Lscalatags_JsDom$all$.prototype.option__Lscalatags_generic_TypedTag = (function() {
+  var b = this.bitmap$1$1;
+  var lo = (4096 & b.lo$2);
+  if ((lo === 0)) {
+    return this.option$lzycompute__p1__Lscalatags_generic_TypedTag()
+  } else {
+    return this.option$1
+  }
+});
 $c_Lscalatags_JsDom$all$.prototype.pre$lzycompute__p1__Lscalatags_generic_TypedTag = (function() {
   var b = this.bitmap$0$1;
   var lo = (131072 & b.lo$2);
@@ -14976,6 +15946,19 @@ $c_Lscalatags_JsDom$all$.prototype.div__Lscalatags_generic_TypedTag = (function(
     return this.div$1
   }
 });
+$c_Lscalatags_JsDom$all$.prototype.option$lzycompute__p1__Lscalatags_generic_TypedTag = (function() {
+  var b = this.bitmap$1$1;
+  var lo = (4096 & b.lo$2);
+  if ((lo === 0)) {
+    var ns = $m_Lscalatags_generic_Namespace$().htmlNamespaceConfig$1;
+    this.option$1 = $s_Lscalatags_jsdom_TagFactory$class__typedTag__Lscalatags_jsdom_TagFactory__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag(this, "option", false, ns);
+    var b$1 = this.bitmap$1$1;
+    var lo$1 = (4096 | b$1.lo$2);
+    var hi = b$1.hi$2;
+    this.bitmap$1$1 = new $c_sjsr_RuntimeLong().init___I__I(lo$1, hi)
+  };
+  return this.option$1
+});
 $c_Lscalatags_JsDom$all$.prototype.div$lzycompute__p1__Lscalatags_generic_TypedTag = (function() {
   var b = this.bitmap$0$1;
   var lo = (134217728 & b.lo$2);
@@ -14988,6 +15971,28 @@ $c_Lscalatags_JsDom$all$.prototype.div$lzycompute__p1__Lscalatags_generic_TypedT
     this.bitmap$0$1 = new $c_sjsr_RuntimeLong().init___I__I(lo$1, hi)
   };
   return this.div$1
+});
+$c_Lscalatags_JsDom$all$.prototype.hr__Lscalatags_generic_TypedTag = (function() {
+  var b = this.bitmap$0$1;
+  var lo = (65536 & b.lo$2);
+  if ((lo === 0)) {
+    return this.hr$lzycompute__p1__Lscalatags_generic_TypedTag()
+  } else {
+    return this.hr$1
+  }
+});
+$c_Lscalatags_JsDom$all$.prototype.hr$lzycompute__p1__Lscalatags_generic_TypedTag = (function() {
+  var b = this.bitmap$0$1;
+  var lo = (65536 & b.lo$2);
+  if ((lo === 0)) {
+    var ns = $m_Lscalatags_generic_Namespace$().htmlNamespaceConfig$1;
+    this.hr$1 = $s_Lscalatags_jsdom_TagFactory$class__typedTag__Lscalatags_jsdom_TagFactory__T__Z__Lscalatags_generic_Namespace__Lscalatags_generic_TypedTag(this, "hr", true, ns);
+    var b$1 = this.bitmap$0$1;
+    var lo$1 = (65536 | b$1.lo$2);
+    var hi = b$1.hi$2;
+    this.bitmap$0$1 = new $c_sjsr_RuntimeLong().init___I__I(lo$1, hi)
+  };
+  return this.hr$1
 });
 $c_Lscalatags_JsDom$all$.prototype.input$lzycompute__p1__Lscalatags_generic_TypedTag = (function() {
   var b = this.bitmap$1$1;
@@ -15076,12 +16081,27 @@ $c_sc_AbstractSet.prototype.hashCode__I = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
   return this$1.unorderedHash__sc_TraversableOnce__I__I(this, this$1.setSeed$2)
 });
+$c_sc_AbstractSet.prototype.$$plus$plus__sc_GenTraversableOnce__sc_Set = (function(elems) {
+  return $s_sc_SetLike$class__$$plus$plus__sc_SetLike__sc_GenTraversableOnce__sc_Set(this, elems)
+});
 $c_sc_AbstractSet.prototype.newBuilder__scm_Builder = (function() {
   return new $c_scm_SetBuilder().init___sc_Set(this.empty__sc_Set())
 });
 $c_sc_AbstractSet.prototype.stringPrefix__T = (function() {
   return "Set"
 });
+function $is_sci_Set(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.sci_Set)))
+}
+function $as_sci_Set(obj) {
+  return (($is_sci_Set(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.collection.immutable.Set"))
+}
+function $isArrayOf_sci_Set(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.sci_Set)))
+}
+function $asArrayOf_sci_Set(obj, depth) {
+  return (($isArrayOf_sci_Set(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.collection.immutable.Set;", depth))
+}
 /** @constructor */
 function $c_sci_ListSet() {
   $c_sc_AbstractSet.call(this)
@@ -15132,11 +16152,23 @@ $c_sci_ListSet.prototype.tail__O = (function() {
 $c_sci_ListSet.prototype.contains__O__Z = (function(elem) {
   return false
 });
+$c_sci_ListSet.prototype.$$plus$plus__sc_GenTraversableOnce__sci_ListSet = (function(xs) {
+  if (xs.isEmpty__Z()) {
+    return this
+  } else {
+    var this$1 = new $c_sci_ListSet$ListSetBuilder().init___sci_ListSet(this);
+    var xs$1 = xs.seq__sc_TraversableOnce();
+    return $as_sci_ListSet$ListSetBuilder($s_scg_Growable$class__$$plus$plus$eq__scg_Growable__sc_TraversableOnce__scg_Growable(this$1, xs$1)).result__sci_ListSet()
+  }
+});
 $c_sci_ListSet.prototype.$$plus__O__sc_Set = (function(elem) {
   return this.$$plus__O__sci_ListSet(elem)
 });
 $c_sci_ListSet.prototype.tail__sci_ListSet = (function() {
   throw new $c_ju_NoSuchElementException().init___T("Next of an empty set")
+});
+$c_sci_ListSet.prototype.$$plus$plus__sc_GenTraversableOnce__sc_Set = (function(elems) {
+  return this.$$plus$plus__sc_GenTraversableOnce__sci_ListSet(elems)
 });
 $c_sci_ListSet.prototype.stringPrefix__T = (function() {
   return "ListSet"
@@ -16489,11 +17521,11 @@ $c_sci_List.prototype.drop__I__sci_List = (function(n) {
   };
   return these
 });
-$c_sci_List.prototype.seq__sc_Seq = (function() {
-  return this
-});
 $c_sci_List.prototype.length__I = (function() {
   return $s_sc_LinearSeqOptimized$class__length__sc_LinearSeqOptimized__I(this)
+});
+$c_sci_List.prototype.seq__sc_Seq = (function() {
+  return this
 });
 $c_sci_List.prototype.take__I__O = (function(n) {
   return this.take__I__sci_List(n)
@@ -16586,9 +17618,6 @@ $c_sci_Range.prototype.apply__O__O = (function(v1) {
 $c_sci_Range.prototype.isEmpty__Z = (function() {
   return this.isEmpty$4
 });
-$c_sci_Range.prototype.thisCollection__sc_Traversable = (function() {
-  return this
-});
 $c_sci_Range.prototype.longLength__p4__J = (function() {
   var t = this.gap__p4__J();
   var lo = t.lo$2;
@@ -16604,6 +17633,12 @@ $c_sci_Range.prototype.longLength__p4__J = (function() {
   var hi$4 = ((((-2147483648) ^ lo$2) < ((-2147483648) ^ lo$1)) ? ((1 + ((hi$2 + hi$3) | 0)) | 0) : ((hi$2 + hi$3) | 0));
   return new $c_sjsr_RuntimeLong().init___I__I(lo$2, hi$4)
 });
+$c_sci_Range.prototype.thisCollection__sc_Traversable = (function() {
+  return this
+});
+$c_sci_Range.prototype.locationAfterN__p4__I__I = (function(n) {
+  return ((this.start$4 + $imul(this.step$4, n)) | 0)
+});
 $c_sci_Range.prototype.equals__O__Z = (function(other) {
   if ($is_sci_Range(other)) {
     var x2 = $as_sci_Range(other);
@@ -16618,9 +17653,6 @@ $c_sci_Range.prototype.equals__O__Z = (function(other) {
   } else {
     return $s_sc_GenSeqLike$class__equals__sc_GenSeqLike__O__Z(this, other)
   }
-});
-$c_sci_Range.prototype.locationAfterN__p4__I__I = (function(n) {
-  return ((this.start$4 + $imul(this.step$4, n)) | 0)
 });
 $c_sci_Range.prototype.apply$mcII$sp__I__I = (function(idx) {
   this.scala$collection$immutable$Range$$validateMaxLength__V();
@@ -16674,13 +17706,13 @@ $c_sci_Range.prototype.init___I__I__I = (function(start, end, step) {
   this.terminalElement$4 = ((this.lastElement$4 + step) | 0);
   return this
 });
+$c_sci_Range.prototype.companion__scg_GenericCompanion = (function() {
+  return $m_sci_IndexedSeq$()
+});
 $c_sci_Range.prototype.toString__T = (function() {
   var endStr = (((this.numRangeElements$4 > $m_sci_Range$().MAX$undPRINT$1) || ((!this.isEmpty$4) && (this.numRangeElements$4 < 0))) ? ", ... )" : ")");
   var this$1 = this.take__I__sci_Range($m_sci_Range$().MAX$undPRINT$1);
   return $s_sc_TraversableOnce$class__mkString__sc_TraversableOnce__T__T__T__T(this$1, "Range(", ", ", endStr)
-});
-$c_sci_Range.prototype.companion__scg_GenericCompanion = (function() {
-  return $m_sci_IndexedSeq$()
 });
 $c_sci_Range.prototype.foreach__F1__V = (function(f) {
   if ((!this.isEmpty$4)) {
@@ -16717,11 +17749,11 @@ $c_sci_Range.prototype.scala$collection$immutable$Range$$validateMaxLength__V = 
     $m_sci_Range$().scala$collection$immutable$Range$$fail__I__I__I__Z__sr_Nothing$(this.start$4, this.end$4, this.step$4, this.isInclusive__Z())
   }
 });
-$c_sci_Range.prototype.seq__sc_Seq = (function() {
-  return this
-});
 $c_sci_Range.prototype.length__I = (function() {
   return ((this.numRangeElements$4 < 0) ? $m_sci_Range$().scala$collection$immutable$Range$$fail__I__I__I__Z__sr_Nothing$(this.start$4, this.end$4, this.step$4, this.isInclusive__Z()) : this.numRangeElements$4)
+});
+$c_sci_Range.prototype.seq__sc_Seq = (function() {
+  return this
 });
 $c_sci_Range.prototype.drop__I__sci_Range = (function(n) {
   if (((n <= 0) || this.isEmpty$4)) {
@@ -16732,6 +17764,15 @@ $c_sci_Range.prototype.drop__I__sci_Range = (function(n) {
   } else {
     return this.copy__I__I__I__sci_Range(this.locationAfterN__p4__I__I(n), this.end$4, this.step$4)
   }
+});
+$c_sci_Range.prototype.min__s_math_Ordering__O = (function(cmp) {
+  return this.min__s_math_Ordering__I(cmp)
+});
+$c_sci_Range.prototype.max__s_math_Ordering__I = (function(ord) {
+  return ((ord === $m_s_math_Ordering$Int$()) ? ((this.step$4 > 0) ? this.last__I() : this.head__I()) : $uI($s_sc_TraversableOnce$class__max__sc_TraversableOnce__s_math_Ordering__O(this, ord)))
+});
+$c_sci_Range.prototype.min__s_math_Ordering__I = (function(ord) {
+  return ((ord === $m_s_math_Ordering$Int$()) ? ((this.step$4 > 0) ? this.head__I() : this.last__I()) : $uI($s_sc_TraversableOnce$class__min__sc_TraversableOnce__s_math_Ordering__O(this, ord)))
 });
 $c_sci_Range.prototype.isExact__p4__Z = (function() {
   var t = this.gap__p4__J();
@@ -16749,6 +17790,9 @@ $c_sci_Range.prototype.drop__I__O = (function(n) {
 });
 $c_sci_Range.prototype.tail__O = (function() {
   return this.tail__sci_Range()
+});
+$c_sci_Range.prototype.max__s_math_Ordering__O = (function(cmp) {
+  return this.max__s_math_Ordering__I(cmp)
 });
 $c_sci_Range.prototype.take__I__sci_Range = (function(n) {
   if (((n <= 0) || this.isEmpty$4)) {
@@ -16892,18 +17936,18 @@ $c_sci_Stream.prototype.flatMap__F1__scg_CanBuildFrom__O = (function(f, bf) {
 $c_sci_Stream.prototype.drop__I__sc_LinearSeqOptimized = (function(n) {
   return this.drop__I__sci_Stream(n)
 });
+$c_sci_Stream.prototype.mkString__T__T = (function(sep) {
+  return this.mkString__T__T__T__T("", sep, "")
+});
 $c_sci_Stream.prototype.mkString__T__T__T__T = (function(start, sep, end) {
   this.force__sci_Stream();
   return $s_sc_TraversableOnce$class__mkString__sc_TraversableOnce__T__T__T__T(this, start, sep, end)
 });
-$c_sci_Stream.prototype.mkString__T__T = (function(sep) {
-  return this.mkString__T__T__T__T("", sep, "")
+$c_sci_Stream.prototype.companion__scg_GenericCompanion = (function() {
+  return $m_sci_Stream$()
 });
 $c_sci_Stream.prototype.toString__T = (function() {
   return $s_sc_TraversableOnce$class__mkString__sc_TraversableOnce__T__T__T__T(this, "Stream(", ", ", ")")
-});
-$c_sci_Stream.prototype.companion__scg_GenericCompanion = (function() {
-  return $m_sci_Stream$()
 });
 $c_sci_Stream.prototype.foreach__F1__V = (function(f) {
   var _$this = this;
@@ -18259,15 +19303,15 @@ $c_scm_ArraySeq.prototype.drop__I__O = (function(n) {
 $c_scm_ArraySeq.prototype.tail__O = (function() {
   return $s_sc_IndexedSeqOptimized$class__tail__sc_IndexedSeqOptimized__O(this)
 });
+$c_scm_ArraySeq.prototype.hashCode__I = (function() {
+  return $m_s_util_hashing_MurmurHash3$().seqHash__sc_Seq__I(this)
+});
 $c_scm_ArraySeq.prototype.copyToArray__O__I__I__V = (function(xs, start, len) {
   var that = (($m_sr_ScalaRunTime$().array$undlength__O__I(xs) - start) | 0);
   var x = ((len < that) ? len : that);
   var that$1 = this.length$5;
   var len1 = ((x < that$1) ? x : that$1);
   $m_s_Array$().copy__O__I__O__I__I__V(this.array$5, 0, xs, start, len1)
-});
-$c_scm_ArraySeq.prototype.hashCode__I = (function() {
-  return $m_s_util_hashing_MurmurHash3$().seqHash__sc_Seq__I(this)
 });
 $c_scm_ArraySeq.prototype.reduceLeft__F2__O = (function(op) {
   return $s_sc_IndexedSeqOptimized$class__reduceLeft__sc_IndexedSeqOptimized__F2__O(this, op)
@@ -18621,6 +19665,10 @@ $c_scm_ListBuffer.prototype.remove__I__O = (function(n) {
   this.reduceLengthBy__p6__I__V(1);
   return old
 });
+$c_scm_ListBuffer.prototype.min__s_math_Ordering__O = (function(cmp) {
+  var this$1 = this.scala$collection$mutable$ListBuffer$$start$6;
+  return $s_sc_TraversableOnce$class__min__sc_TraversableOnce__s_math_Ordering__O(this$1, cmp)
+});
 $c_scm_ListBuffer.prototype.toStream__sci_Stream = (function() {
   return this.scala$collection$mutable$ListBuffer$$start$6.toStream__sci_Stream()
 });
@@ -18648,6 +19696,14 @@ $c_scm_ListBuffer.prototype.$$plus$eq__O__scm_ListBuffer = (function(x) {
   };
   this.len$6 = ((1 + this.len$6) | 0);
   return this
+});
+$c_scm_ListBuffer.prototype.max__s_math_Ordering__O = (function(cmp) {
+  var this$1 = this.scala$collection$mutable$ListBuffer$$start$6;
+  return $s_sc_TraversableOnce$class__max__sc_TraversableOnce__s_math_Ordering__O(this$1, cmp)
+});
+$c_scm_ListBuffer.prototype.$$div$colon__O__F2__O = (function(z, op) {
+  var this$1 = this.scala$collection$mutable$ListBuffer$$start$6;
+  return $s_sc_LinearSeqOptimized$class__foldLeft__sc_LinearSeqOptimized__O__F2__O(this$1, z, op)
 });
 $c_scm_ListBuffer.prototype.$$plus$eq__O__scm_Builder = (function(elem) {
   return this.$$plus$eq__O__scm_ListBuffer(elem)
@@ -18788,15 +19844,15 @@ $c_scm_StringBuilder.prototype.apply__I__O = (function(idx) {
 $c_scm_StringBuilder.prototype.lengthCompare__I__I = (function(len) {
   return $s_sc_IndexedSeqOptimized$class__lengthCompare__sc_IndexedSeqOptimized__I__I(this, len)
 });
+$c_scm_StringBuilder.prototype.sameElements__sc_GenIterable__Z = (function(that) {
+  return $s_sc_IndexedSeqOptimized$class__sameElements__sc_IndexedSeqOptimized__sc_GenIterable__Z(this, that)
+});
 $c_scm_StringBuilder.prototype.apply__O__O = (function(v1) {
   var index = $uI(v1);
   var this$1 = this.underlying$5;
   var thiz = this$1.content$1;
   var c = (65535 & $uI(thiz.charCodeAt(index)));
   return new $c_jl_Character().init___C(c)
-});
-$c_scm_StringBuilder.prototype.sameElements__sc_GenIterable__Z = (function(that) {
-  return $s_sc_IndexedSeqOptimized$class__sameElements__sc_IndexedSeqOptimized__sc_GenIterable__Z(this, that)
 });
 $c_scm_StringBuilder.prototype.isEmpty__Z = (function() {
   return $s_sc_IndexedSeqOptimized$class__isEmpty__sc_IndexedSeqOptimized__Z(this)
@@ -19061,14 +20117,14 @@ $c_sjs_js_WrappedArray.prototype.$$plus$eq__O__scm_Builder = (function(elem) {
   this.array$6.push(elem);
   return this
 });
-$c_sjs_js_WrappedArray.prototype.hashCode__I = (function() {
-  return $m_s_util_hashing_MurmurHash3$().seqHash__sc_Seq__I(this)
-});
 $c_sjs_js_WrappedArray.prototype.sizeHint__I__V = (function(size) {
   /*<skip>*/
 });
 $c_sjs_js_WrappedArray.prototype.copyToArray__O__I__I__V = (function(xs, start, len) {
   $s_sc_IndexedSeqOptimized$class__copyToArray__sc_IndexedSeqOptimized__O__I__I__V(this, xs, start, len)
+});
+$c_sjs_js_WrappedArray.prototype.hashCode__I = (function() {
+  return $m_s_util_hashing_MurmurHash3$().seqHash__sc_Seq__I(this)
 });
 $c_sjs_js_WrappedArray.prototype.init___sjs_js_Array = (function(array) {
   this.array$6 = array;
