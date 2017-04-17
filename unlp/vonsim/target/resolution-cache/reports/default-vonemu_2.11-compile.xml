@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="vonemu_2.11"
+		revision="0.1"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160802105534"/>
+	<dependencies>
+		<module organisation="com.beachape" name="enumeratum_2.11">
+			<revision name="1.4.8" status="release" pubdate="20160724101226" resolver="public" artresolver="public" homepage="https://github.com/lloydmeta/enumeratum" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="2256" time="828" location="C:\Users\Claudia Del Gobbo\.ivy2\cache\com.beachape\enumeratum_2.11\ivy-1.4.8.xml" searched="true" original-local-location="C:\Users\Claudia Del Gobbo\.ivy2\cache\com.beachape\enumeratum_2.11\ivy-1.4.8.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/beachape/enumeratum_2.11/1.4.8/enumeratum_2.11-1.4.8.pom"/>
+				<caller organisation="default" name="vonemu_2.11" conf="compile" rev="1.4.8" rev-constraint-default="1.4.8" rev-constraint-dynamic="1.4.8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="enumeratum_2.11" type="jar" ext="jar" status="successful" details="" size="40116" time="1203" location="C:\Users\Claudia Del Gobbo\.ivy2\cache\com.beachape\enumeratum_2.11\jars\enumeratum_2.11-1.4.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/beachape/enumeratum_2.11/1.4.8/enumeratum_2.11-1.4.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.beachape" name="enumeratum-macros_2.11">
+			<revision name="1.4.8" status="release" pubdate="20160724101156" resolver="public" artresolver="public" homepage="https://github.com/lloydmeta/enumeratum" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="2271" time="788" location="C:\Users\Claudia Del Gobbo\.ivy2\cache\com.beachape\enumeratum-macros_2.11\ivy-1.4.8.xml" searched="true" original-local-location="C:\Users\Claudia Del Gobbo\.ivy2\cache\com.beachape\enumeratum-macros_2.11\ivy-1.4.8.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/beachape/enumeratum-macros_2.11/1.4.8/enumeratum-macros_2.11-1.4.8.pom"/>
+				<caller organisation="com.beachape" name="enumeratum_2.11" conf="default, compile, runtime, master" rev="1.4.8" rev-constraint-default="1.4.8" rev-constraint-dynamic="1.4.8" callerrev="1.4.8"/>
+				<artifacts>
+					<artifact name="enumeratum-macros_2.11" type="jar" ext="jar" status="successful" details="" size="60247" time="1013" location="C:\Users\Claudia Del Gobbo\.ivy2\cache\com.beachape\enumeratum-macros_2.11\jars\enumeratum-macros_2.11-1.4.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/beachape/enumeratum-macros_2.11/1.4.8/enumeratum-macros_2.11-1.4.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.8" status="release" pubdate="20160304122641" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\Claudia Del Gobbo\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom"/>
+				<caller organisation="com.beachape" name="enumeratum-macros_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.4.8"/>
+				<caller organisation="org.scalactic" name="scalactic_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.2.6"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4573750" time="0" location="C:\Users\Claudia Del Gobbo\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.11">
+			<revision name="2.2.6" status="release" pubdate="20160105155905" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3126" time="0" location="C:\Users\Claudia Del Gobbo\.ivy2\cache\org.scalactic\scalactic_2.11\ivy-2.2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/2.2.6/scalactic_2.11-2.2.6.pom"/>
+				<caller organisation="default" name="vonemu_2.11" conf="compile" rev="2.2.6" rev-constraint-default="2.2.6" rev-constraint-dynamic="2.2.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalactic_2.11" type="bundle" ext="jar" status="no" details="" size="426520" time="0" location="C:\Users\Claudia Del Gobbo\.ivy2\cache\org.scalactic\scalactic_2.11\bundles\scalactic_2.11-2.2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/2.2.6/scalactic_2.11-2.2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160304122633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\Claudia Del Gobbo\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="com.beachape" name="enumeratum_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.4.8"/>
+				<caller organisation="default" name="vonemu_2.11" conf="compile" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.1"/>
+				<caller organisation="com.beachape" name="enumeratum-macros_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.4.8"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.11.8"/>
+				<caller organisation="org.scalactic" name="scalactic_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.2.6"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="C:\Users\Claudia Del Gobbo\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

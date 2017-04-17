@@ -1,0 +1,14 @@
+[0m[[0mdebug[0m] [0mRunning TaskDef(vonsim.simulator.WordSuite, org.scalajs.testadapter.FingerprintSerializers$DeserializedSubclassFingerprint@19ea5b68, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(vonsim.simulator.SimulatorSuite, org.scalajs.testadapter.FingerprintSerializers$DeserializedSubclassFingerprint@43a2657c, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(vonsim.simulator.DWordSuite, org.scalajs.testadapter.FingerprintSerializers$DeserializedSubclassFingerprint@72caaa7a, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 1 second, 152 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 21[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 18, failed 3, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[31m*** 3 TESTS FAILED ***[0m[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	vonsim.simulator.DWordSuite[0m
+[0m[[0mdebug[0m] [0m	vonsim.simulator.WordSuite[0m
+[0m[[31merror[0m] [0mFailed tests:[0m
+[0m[[31merror[0m] [0m	vonsim.simulator.SimulatorSuite[0m
+[0m[[31merror[0m] [0m(test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
