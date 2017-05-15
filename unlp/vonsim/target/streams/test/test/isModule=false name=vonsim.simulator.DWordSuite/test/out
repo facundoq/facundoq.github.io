@@ -1,9 +1,0 @@
-[0m[[0minfo[0m] [0m[32mDWordSuite:[0m[0m
-[0m[[0minfo[0m] [0m[32m- Flags off when numbers are small and positive[0m[0m
-[0m[[0minfo[0m] [0m[32m- 0+0, z=1[0m[0m
-[0m[[0minfo[0m] [0m[32m- 20+(-20)==0, z=1[0m[0m
-[0m[[0minfo[0m] [0m[32m- 32767+1==-32768 ==65536u, c=0,s=1,o=1[0m[0m
-[0m[[0minfo[0m] [0m[32m- 32767 + (-5) =32762 , c=1,s=0,o=0[0m[0m
-[0m[[0minfo[0m] [0m[32m- signed unsigned conversions[0m[0m
-[0m[[0minfo[0m] [0m[32m- int dword conversions[0m[0m
-[0m[[0minfo[0m] [0m[32m- bit access[0m[0m

@@ -8,6 +8,9 @@ complex: db 10000000B,2,34h,4
 uninitialized: db ?
 uninitialized2: dW ?
 
+vardb: db 1
+vardw: dw 2
+
 
     org 2000h
 mov ax, bx
@@ -23,7 +26,7 @@ hola: mov ax, bx
     mov [bx],ax
     mov ax, 2
     mov ax, -25
-    mov ax, 25AH
+HOLA:    mov ax, 25AH
     mov ax, 25Ah
     mov ax, 10001111B
     not ax
@@ -34,9 +37,13 @@ hola: mov ax, bx
     xor ax, 26h
     cmp ax, 26h
     mov ax,sp
-    in al,PIC
-    in al,123
-    out ax,dx
+    mov vardb,1
+    mov al,vardb
+    mov ax,vardw
+    mov vardw,4
+;    in al,PIC ; not implemented yet!
+;    in al,123 ; not implemented yet!
+;    out ax,dx ; not implemented yet!
     jc hola
 org 1000
 
@@ -47,7 +54,6 @@ CALL HOLA
 RET
 NOP
 HLT
-END
 CLI
 StI
 ret
@@ -57,3 +63,4 @@ push ax
 pop bx
 pop cx
 int 4
+END

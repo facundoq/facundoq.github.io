@@ -1,8 +1,0 @@
-[0m[[0minfo[0m] [0m[32mWordSuite:[0m[0m
-[0m[[0minfo[0m] [0m[32m- Flags off when numbers are small and positive[0m[0m
-[0m[[0minfo[0m] [0m[32m- 0+0, z=1[0m[0m
-[0m[[0minfo[0m] [0m[32m- 20+(-20)==0, z=1[0m[0m
-[0m[[0minfo[0m] [0m[32m- 127+1==-128 ==128u, c=0,s=1,o=1[0m[0m
-[0m[[0minfo[0m] [0m[32m- 127+ (-5)== 127+(251u)==122, c=1,s=0,o=0[0m[0m
-[0m[[0minfo[0m] [0m[32m- signed unsigned conversions[0m[0m
-[0m[[0minfo[0m] [0m[32m- bit access[0m[0m
