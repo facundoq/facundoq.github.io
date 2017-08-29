@@ -1,4 +1,5 @@
-
+; leer un string de longitud 10 (10 caracteres)
+; almacenarlo en la variable cadena
 cant EQU 10
 
 org 1000h

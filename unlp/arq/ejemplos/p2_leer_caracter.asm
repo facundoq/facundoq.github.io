@@ -1,4 +1,4 @@
-
+; leer dos caracteres y guardarlos en las variables a y b
 org 1000h
 a db ?
 b db ?

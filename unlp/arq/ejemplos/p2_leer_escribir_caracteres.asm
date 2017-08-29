@@ -1,3 +1,5 @@
+; leer dos caracteres y guardarlos en las variables a y b
+; luego imprimirlos
 
 org 1000h
 a db ?

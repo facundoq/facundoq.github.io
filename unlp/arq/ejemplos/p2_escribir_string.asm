@@ -1,4 +1,4 @@
-
+;Escribir el string etiquetado como cadena en pantalla 
 org 1000h
 cadena db "hola como estas asmdaosdmaso" ; 1000h
 fin_cadena db ?  ; 1004h
