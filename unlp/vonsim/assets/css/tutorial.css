@@ -9,20 +9,55 @@
 
 	height:50%;
 	overflow-y:auto;
+    
     display: flex;
+    align-items: center;
+/*     justify-content: center; */
+/*     justify-content: space-between; */
+      
     flex-direction:column;
     text-align:center;
-    justify-content: space-between;
+     
 }
 
-#tutorialContent{
+#tutorialControls{
+	display: flex;
 	
-	margin:10px;
-	padding:10px;
+	
+	margin:0px;
+	margin-top: 10px;
+	width:100%;
+}
+
+
+#tutorialControlsInner{
+	display: flex;
+	align-items: center;
+	   justify-content: center;
+	margin:0px;
+	margin-top: 10px;
+	width:100%;
+	align-self:flex-end;
+}
+
+#tutorialHeader{
+	  align-self: flex-start;
+	  width:100%;
+	  display: flex;
+	  flex-direction:column;
+	  
+}
+#tutorialContent{
+	align-self: stretch;
+	
+	width:95%;
+	margin:5px auto ;
+	padding:5px;
 	
 	
 }
 #tutorialTitle{
+	align-self:flex-start;
 	margin-left:10px;
 }
 #tutorialStepTitle{
@@ -30,17 +65,21 @@
 }
 #tutorial h3{
 	display:flex;
-	justify-content: space-between;
+	justify-content: center;
 	margin:0px;
-	margin-top:10px;
+	margin-top:5px;
 	
 }
 
 #tutorialCount{
 	margin:0px 15px;
 }
-#tutorialControls{
-	text-align:center;
-	margin:0px;
-	margin-bottom: 10px;
+
+.exercise{
+/* 	background-color: #272822; */
+	background-color: #BBB;
+	color: #272822;
+	border-radius:15px;
+	padding: 5px 15px; 
+	
 }
