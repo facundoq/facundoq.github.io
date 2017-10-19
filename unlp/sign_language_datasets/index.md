@@ -89,3 +89,7 @@ id  | Name                     |Country    |Classes|Subjects| Samples       | Da
 
 ## Other info
 Kevin Murphy mantains a similar list for [Action Recognition Datasets](http://www.cs.ubc.ca/~murphyk/videodata.html).
+
+Other similar websites with sign language dataset compilations are:
+[Chalearn dataset list](http://ww1.chalearn.org/resou/databases)
+[RWTH datasets list](https://www-i6.informatik.rwth-aachen.de/web/Software/Databases/Signlanguage/?db=rwth-boston-104)
