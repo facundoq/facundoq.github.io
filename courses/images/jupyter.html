@@ -17,65 +17,114 @@
 
 
 <h2> Python </h2>
-<p>
-  Versiones de Python
+<h3>Versiones de Python</h3>
+<p>Actualmente hay dos versiones de python, la 2.x (al momento de escribir esto, la última es la 2.7)
+   y la 3.x (la última es la 3.6).</p>
+<p>Las versiones 3.x han introducido cambios que hacen que el código no sea compatible
+  con las versiones 2.x.</p>
 
-  Actualmente hay dos versiones de python, la 2.x (al momento de escribir esto, la última es la 2.7) y la 3.x (la última es la 3.6).
-
-  Las versiones 3.x han introducido cambios que hacen que el código no sea compatible con las versiones 2.x.
-</p>
-
-<p>
-  Para este curso, todo el código utilizará la versión de python 3.5 o 3.6.
-</p>
+<p>Para este curso, todo el código utilizará la versión de python 3.5 o 3.6.</p>
 
 <h2>Instalación de Python </h2>
 
 <h3> Windows </h3>
 <p>
-  Si estás en Windows, recomendamos instalar <a href="https://www.anaconda.com/download/">Anaconda</a>, que ya tiene todos los paquetes necesarios instalados.
+  Si estás en Windows, te recomendamos instalar <a href="https://www.anaconda.com/download/">Anaconda</a>,
+   (la versión con Python 3) que ya tiene todas las librerías que vamos a usar instalados.
+
+</p>
+<p>
+  También podés instalar Python aparte e instalar las librerías a mano, pero vas a renegar.
 </p>
 
 <h3> Linux </h3>
 <p>
-  En Linux también se puede utilizar Anaconda, pero seguramente es mejor utilizar el python que te provea tu distribución, e instalar mediante pip los paquetes necesarios con el comando:
+  En Linux también se puede utilizar Anaconda. Si instalás Anaconda y ya tenías Python instalado,
+  cuidado porque es posible que cuando ejecutes <code>python3</code> estés haciendo referencia
+   al python viejo y no al nuevo que trae Anaconda.
+<p>
+  Pero seguramente es mejor utilizar el paquete <code>python</code> que te provea tu distribución.
+</p>
+<p> En el caso de distribuciones basadas en Debian o Ubuntu, podés instalar Python 3 con:
+</p>
+<pre><code>sudo apt-get install python3 python3-pip ipython3
+pip3 install --upgrade pip
+</code></pre>
 
-  <code>pip install jupyter matplotlib numpy scikit-image numba</code>
+Luego, podés usar <code>pip</code> para instalar los paquetes necesarios con el comando:
 
+<pre><code>pip3 install jupyter matplotlib numpy scikit-image numba</code></pre>
 
+Es posible que tengas que agregar al <code>PATH</code> la ruta de jupyter, con el comando
+
+<pre><code> export PATH=$PATH:~/.local/bin/</code></pre>
+
+<p>(podés agregar esa línea al archivo <code>.bashrc</code> para que se haga automáticamente
+cuando iniciás tu sistema)</p>
+
+<p> En el caso de Ubuntu, podés encontrar instrucciones más detalladas en
+  esta <a href="http://www.exegetic.biz/blog/2017/06/setting-up-jupyter-ubuntu-xenial/">
+    guía de instalación</a>. Para otras distribuciones seguro encontrás un tutorial.
 </p>
 
-<h2>Verificar la instalación de Python </h2>
+<h2>Verificar la versión de Python </h2>
+
+<p>Podés verificar qué versión de Python tenés instalado ejecutando
+  <code>python --version</code> en la consola </p>
+
+<p> Si tienes instalado tanto Python 2.x como Python 3.x, probá utilizando el ejecutable
+<code>python3</code> en lugar de <code>python</code>.</p>
 
 <p>
-    Podés verificar qué versión de Python tenés instalado ejecutando <code>python --version</code> en la consola. Debería decir algo como:
+  Para verificar que los paquetes necesarios estén instalados, ejecuta
+  <code>python</code> (o <code>python3</code>). Debería abrirse la consola de Python
+  y aparece un mensaje similar al siguiente:
 </p>
-<p><code><pre>
-Python 3.4.3 (default, Nov 17 2016, 01:08:31)
+
+<pre><code>Python 3.4.3 (default, Nov 17 2016, 01:08:31)
 [GCC 4.8.4] on linux
 Type "help", "copyright", "credits" or "license" for more information.
-</pre></p></code>
+</code></pre>
 
+<p> Luego ejecuta, dentro de la consola de python, los comandos</p>
 
-<p>
-    Si tienes instalado tanto Python 2.x como Python 3.x, probá utilizando <code>python3</code> en lugar de <code>python</code>.
-
-</p>
-<p>
-  Para verificar que los paquetes necesarios estén instalados, ejecuta <code>python</code> (o <code>python3</code>).
-</p>
-
+<pre><code>>>>import numpy
+>>>import matplotlib
+>>>import skimage
+>>>import numba
+</code></pre>
 
 <h2> Cuadernos de Jupyter </h2>
+
 <p>
-El servidor de cuadernos se inicia ejecutando <code>jupyter notebook</code> desde la línea de comandos. Antes de correr ese comando debemos ir al directorio con los cuadernos, de modo de poder ejecutarlos. El servidor corre continuamente mientras usamos los cuadernos.
+  La forma tradicional de correr un programa en python es con el comando <code>python nombre.py</code>,
+   donde <code>nombre.py</code> es un archivo con código fuente python. </p>
+
+<p>En lugar de eso, para este curso utilizaremos cuadernos de código que nos provee un paquete
+  llamado  Jupyter Notebook. </p>
+<p>Estos _cuadernos_ (_notebooks_) nos permiten combinar texto y código, organizados en _celdas_,
+lo cual es más cómodo para probar cosas nuevas y documentar lo que hacemos.
 </p>
 
-<p>
+<p> Jupyter Notebook tiene un servidor web para que accedamos a lus cuadernos mediante el navegador.
+  El servidor de cuadernos se inicia ejecutando <code>jupyter notebook</code>` desde la línea de comandos.
+</p>
+<p> Si ya tenemos cuadernos que queremos abrir, _antes_ de correr ese comando debemos
+  ir al directorio con los cuadernos, de modo de poder abrirlos después. Por ejemplo, si los cuadernos están
+en <code>/home/usuario/Downloads/cuadernos</code>, tenemos que ejecutar:</p>
 
-<ul>
+<pre><code>/home/usuario/Downloads/cuadernos</code></pre>
 
-</ul>
+
+<p>Una vez que el servidor corre y se abre el navegador, podés elegir abrir un cuaderno anterior
+  o crear uno nuevo. Luego, se escribe y ejecuta texto y código en el cuaderno, y podés salvar
+  el estado de un cuaderno con `ctrl+s` en cualquier momento.
+   Se guarda tanto el código como el resultado de las ejecuciones.
+</p>
+
+<p>El servidor corre continuamente mientras usamos los cuadernos.
+  Podemos cerrarlo presionando <code>CTRL+C</code> en la línea de comandos.</p>
+
 
 </body>
 </html>
