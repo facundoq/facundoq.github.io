@@ -34,6 +34,19 @@
 
 </p>
 <p>
+  Cuando instalás Anaconda, te dan la opción de agregar Anaconda a la variable PATH o no hacerlo.
+  Si lo hacés, vas a poder usar el Python de Anaconda desde cualquier terminal. Si no lo hacés,
+  solo podrás usarlo desde el "Anaconda Prompt" que se instala con Anaconda. La primera opción es más
+  simple pero puede traer problemas si tenías otras versiones de Python instaladas
+</p>
+<p>
+  En cualquier caso, para poder leer videos necesitamos instalar un paquete de Anaconda. Abrí una consola
+  (CMD si elegiste la primera opción o Anaconda Prompt si no la elegiste), y ejecuta:
+</p>
+<pre><code>
+conda install -c menpo ffmpeg
+</code></pre>
+<p>
   También podés instalar Python aparte e instalar las librerías a mano, pero vas a renegar.
 </p>
 
@@ -53,7 +66,7 @@ pip3 install --upgrade pip
 
 Luego, podés usar <code>pip</code> para instalar los paquetes necesarios con el comando:
 
-<pre><code>pip3 install jupyter matplotlib numpy scikit-image numba</code></pre>
+<pre><code>pip3 install jupyter matplotlib numpy scikit-image numba imageio pyqt5</code></pre>
 
 Es posible que tengas que agregar al <code>PATH</code> la ruta de jupyter, con el comando
 
@@ -61,7 +74,9 @@ Es posible que tengas que agregar al <code>PATH</code> la ruta de jupyter, con e
 
 <p>(podés agregar esa línea al archivo <code>.bashrc</code> para que se haga automáticamente
 cuando iniciás tu sistema)</p>
-
+<p>
+  Para leer y escribir videos, también es necesario que tengas instalado <code>ffmpeg</code>.
+</p>
 <p> En el caso de Ubuntu, podés encontrar instrucciones más detalladas en
   esta <a href="http://www.exegetic.biz/blog/2017/06/setting-up-jupyter-ubuntu-xenial/">
     guía de instalación</a>. Para otras distribuciones seguro encontrás un tutorial.
@@ -92,6 +107,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>import matplotlib
 >>>import skimage
 >>>import numba
+>>>import imageio
 </code></pre>
 
 <h2> Cuadernos de Jupyter </h2>
