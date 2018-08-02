@@ -89,18 +89,18 @@
 </tr>
 </tbody>
 </table>
-<h2 id="shooting">Shooting</h2>
+<h2 id="recording">Recording</h2>
 <p>The dataset was recorded in an indoors environment, with artificial lightning.</p>
 <p>Subjects wore dark clothes and performed the handshapes standing, with a white wall as a background. To simplify the problem of hand segmentation, subjects wore fluorescent-colored gloves. These substantially simplify the problem of recognizing the position of the hand and performing its segmentation, and remove all issues associated to skin color variations, while fully retaining the difficulty of recognizing the handshape. The subjects performed the same handshape with both hands.</p>
 <p>Each handshape was executed imposing few constraints on the subjects to increase diversity and realism in the database. All subjects were non-signers and right-handed, were taught how to perform the handshape during the shooting session by showing them an image of the handshape as performed by one of the authors, and practiced each handshape a few times before recording.</p>
 <p>We employed a generic webcam for the recording, with a resolution of 640 by 480.</p>
 <h2 id="raw-version">Raw version</h2>
-<p>The raw version of the dataset contains one image for each handshape instance in the dataset. Each image is on average 0.25mb.</p>
+<p>The raw version of the dataset contains one image for each handshape instance in the dataset. Each image weights 0.33mb on average.</p>
 <p>The filename of each image specifies its class, subject, and repetition, in the format CLASS_SUBJECT_REPETITION.png. For example, the image 3_2_4.png corresponds to the 4th repetition of handshape 3 (Horns), as performed by subject 2.</p>
-<p><a href="https://mega.nz/#!5NZimaSR!_CjvJzxnB4lUC2CK1rchWfkb5SKfIlsZugkG8BY_sJM">Download Raw Version (180mb)</a></p>
-<h2 id="pre-preprocessed-version">Pre-preprocessed version</h2>
-<p>We provide a pre-processed version of the dataset to reduce the overhead of performing experiments with the data. From each image we extracted the only the right hand and segmented it, replacing the background with black pixels. The filename format is the same as in the raw version. We provide only the segmented hand images. The details of how the images were segmented are described in <a href="http://sedici.unlp.edu.ar/bitstream/handle/10915/52376/Documento_completo.pdf-PDFA.pdf?sequence=1">Handshape recognition for Argentinian Sign Language using ProbSom</a></p>
-<p><a href="https://mega.nz/#!kFRAjCRC!KcwmX9Hty5iZuFZOQ4rLL9W59i5hKzZzRf7d3P_IHpQ">Download Preprocessed Version (8mb)</a></p>
+<p><a href="https://mega.nz/#!hcgQUCAT!WtTSPTO6GuXIXs1BuRJDGburN4FRHBAs9EzRfbd2ra4">Raw Version (267mb)</a></p>
+<h2 id="segmented-version">Segmented version</h2>
+<p>We provide a segmented version of the dataset to reduce the overhead of performing experiments with the data. From each image we extracted the only the right hand and segmented it, replacing the background with black pixels. The filename format is the same as in the raw version. We provide only the segmented hand images. The details of how the images were segmented are described in <a href="http://sedici.unlp.edu.ar/bitstream/handle/10915/52376/Documento_completo.pdf-PDFA.pdf?sequence=1">Handshape recognition for Argentinian Sign Language using ProbSom</a>, but we basically used a simple color thresholding + opening + biggest connected component detection pipeline.</p>
+<p><a href="https://mega.nz/#!FF523Qgb!JGkQ3FZZE14_8drPflKL9-9A2nUbaqU6wCUzMh5SOU0">Segmented version (7mb)</a></p>
 <h2 id="citing">Citing</h2>
 <p>If you use the dataset in your research, we kindly ask you to cite the article <a href="http://sedici.unlp.edu.ar/bitstream/handle/10915/52376/Documento_completo.pdf-PDFA.pdf?sequence=1">Handshape recognition for Argentinian Sign Language using ProbSom</a>:</p>
 <pre><code>@Article{Ronchetti2016,

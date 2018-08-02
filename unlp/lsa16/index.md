@@ -17,7 +17,7 @@ ID | Name  | Sample | ID | Name  | Sample | ID | Name  | Sample | ID | Name  | S
 
 
 
-## Shooting
+## Recording
 
 The dataset was recorded in an indoors environment, with artificial lightning.
 
@@ -29,19 +29,20 @@ We employed a generic webcam for the recording, with a resolution of 640 by 480.
 
 
 ## Raw version
-The raw version of the dataset contains one image for each handshape instance in the dataset. Each image is on average 0.25mb.
+The raw version of the dataset contains one image for each handshape instance in the dataset. Each image weights 0.33mb on average.
 
 The filename of each image specifies its class, subject, and repetition, in the format CLASS_SUBJECT_REPETITION.png. For example, the image 3_2_4.png corresponds to the 4th repetition of handshape 3 (Horns), as performed by subject 2.
 
-[Download Raw Version (180mb)](
-https://mega.nz/#!5NZimaSR!_CjvJzxnB4lUC2CK1rchWfkb5SKfIlsZugkG8BY_sJM
+[Raw Version (267mb)](
+https://mega.nz/#!hcgQUCAT!WtTSPTO6GuXIXs1BuRJDGburN4FRHBAs9EzRfbd2ra4
 )
 
-## Pre-preprocessed version
-We provide a pre-processed version of the dataset to reduce the overhead of performing experiments with the data. From each image we extracted the only the right hand and segmented it, replacing the background with black pixels. The filename format is the same as in the raw version. We provide only the segmented hand images. The details of how the images were segmented are described in [Handshape recognition for Argentinian Sign Language using ProbSom](http://sedici.unlp.edu.ar/bitstream/handle/10915/52376/Documento_completo.pdf-PDFA.pdf?sequence=1)
 
-[Download Preprocessed Version (8mb)](
-https://mega.nz/#!kFRAjCRC!KcwmX9Hty5iZuFZOQ4rLL9W59i5hKzZzRf7d3P_IHpQ
+## Segmented version
+We provide a segmented version of the dataset to reduce the overhead of performing experiments with the data. From each image we extracted the only the right hand and segmented it, replacing the background with black pixels. The filename format is the same as in the raw version. We provide only the segmented hand images. The details of how the images were segmented are described in [Handshape recognition for Argentinian Sign Language using ProbSom](http://sedici.unlp.edu.ar/bitstream/handle/10915/52376/Documento_completo.pdf-PDFA.pdf?sequence=1), but we basically used a simple color thresholding + opening + biggest connected component detection pipeline.
+
+[Segmented version (7mb)](
+https://mega.nz/#!FF523Qgb!JGkQ3FZZE14_8drPflKL9-9A2nUbaqU6wCUzMh5SOU0
 )
 
 
