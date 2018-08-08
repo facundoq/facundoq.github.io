@@ -2,16 +2,45 @@
 <!--- TODO
 CUNY details -> its a mocap dataset, worth including?
 
+LIBRAS:
+
+diccionario: http://www.acessibilidadebrasil.org.br/libras_3/
+
+A fully automatic method for recognizing hand configurations of Brazilian sign language
+http://www.scielo.br/scielo.php?script=sci_arttext&pid=S2446-47402017000100078
+2017, Cicero Ferreira Fernandes Costa Filho, Robson Silva de Souza, Jonilson Roque dos Santos, Bárbara Lobato dos Santos, Marly Guimarães Fernandes Costa
+
+
+Recognizing Static Signs from the Brazilian Sign  Language: Comparing Large-Margin Decision Directed Acyclic Graphs, Voting Support Vector Machines and Artificial Neural Networks
+https://arxiv.org/pdf/1210.7461.pdf
+
+Fingerspelling Recognition with Support Vector Machines and Hidden Conditional Random Fields: A comparison with Neural Networks and Hidden Markov Models
+https://www.researchgate.net/publication/265096760_Fingerspelling_Recognition_with_Support_Vector_Machines_and_Hidden_Conditional_Random_Fields_A_comparison_with_Neural_Networks_and_Hidden_Markov_Models
+
+An Experiment on Handshape Sign Recognition using Adaptive e Technology: Preliminary Results
+http://www.gpec.ucdb.br/pistori/publicacoes/pistori_sbia2004.pdf
+
+Recognizing the Brazilian Signs Language Alphabet with Neural Networks over Visual 3D Data Sensor
+https://link.springer.com/chapter/10.1007/978-3-319-12027-0_51
+2014, Gabriel de Souza Pereira Moreira et al
+
+Reconhecimento do alfabeto de Libras usando sensor Kinect e marcadores visuais
+http://bdm.unb.br/bitstream/10483/15173/1/2014_GiordanoBrunoDeMeloGois_tcc.pdf
+2014, Giordano Bruno de Melo Gois (tesis)
+
+Brazilian Sign Language Recognition Using Kinect
+https://link.springer.com/chapter/10.1007%2F978-3-319-48881-3_27
+2016, José Elías Yauri Vidalón y José Mario De Martino
+
+Recognition of Static Gestures applied to Brazilian Sign Language (Libras)
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7314578
+2015, Igor Bastos, Michele F. Angelo y Angelo C. Loula
+
 LATER:
 Websites for greek, german, polish 101?
 write cooper for details on german/greek/british datasets
-add http://research.microsoft.com/en-us/um/people/zliu/actionrecorsrc/ for 12 ASL kinect signs
 add http://sun.aei.polsl.pl/~mkawulok/gestures/ db of handshapes
-
 -->
-
-
-
 
 ## Sign language datasets
 ### Comparison
@@ -102,6 +131,7 @@ id  | Name                     |Country    |Classes|Subjects| Samples       | Da
 11 | RTWH Fingerspelling dataset | Germany | | | | | | |
 12 | Indian Kinect | India | 140 | 18 | 5041 | images (rgb+depth) 640x480| 2gb | Free download
 
+
 ### Dataset information and related papers
 
 1. [ASL Fingerspelling A](http://empslocal.ex.ac.uk/people/staff/np331/index.php?section=FingerSpellingDataset)
@@ -127,12 +157,14 @@ id  | Name                     |Country    |Classes|Subjects| Samples       | Da
     2. [Hand Posture Recognition Using Convolutional Neural Network](https://www.researchgate.net/publication/322915265_Hand_Posture_Recognition_Using_Convolutional_Neural_Network)
 9. [NUS hand posture dataset II](https://www.ece.nus.edu.sg/stfpage/elepv/NUS-HandSet/)
     1.[Attention Based Detection and Recognition of Hand Postures Against Complex Backgrounds](http://link.springer.com/article/10.1007%2Fs11263-012-0560-5?LI=true) 2013, Pisharady et al
+
 10. [CIARP 2017](http://home.agh.edu.pl/~bkw/code/ciarp2017/)
     1. [Hand Posture Recognition Using Convolutional Neural Network](https://link.springer.com/chapter/10.1007/978-3-319-75193-1_53)
 11. [RTWH Fingerspelling dataset](http://www-i6.informatik.rwth-aachen.de/aslr/fingerspelling.php)
   1. [ Modeling Image Variability in Appearance-Based Gesture Recognition. In ECCV Workshop on Statistical Methods in Multi-Image and Video Processing](https://www-i6.informatik.rwth-aachen.de/publications/download/29/Dreuw-ECCV-SMVP-2006.pdf)
-12. [Indian Kinect](https://www.ias.ac.in/article/fulltext/sadh/041/02/0161-0182)
+12. [Indian Kinect](https://www.ias.ac.in/article/fulltext/sadh/041/02/0161-0182) [github](https://github.com/zafar142007/Gesture-Recognition-for-Indian-Sign-Language-using-Kinect)
   1. [Nearest neighbour classification of Indian sign language gestures using kinect camera](https://www.ias.ac.in/article/fulltext/sadh/041/02/0161-0182) 2016, Ansari and Harit
+
 
 
 ## Other info
@@ -140,5 +172,30 @@ Kevin Murphy mantains a similar list for [Action Recognition Datasets](http://ww
 
 
 Other similar websites with sign language dataset compilations are:
-[Chalearn dataset list](http://ww1.chalearn.org/resou/databases)
-[RWTH datasets list](https://www-i6.informatik.rwth-aachen.de/web/Software/Databases/Signlanguage/?db=rwth-boston-104)
+* [Chalearn dataset list](http://ww1.chalearn.org/resou/databases)
+* [RWTH datasets list](https://www-i6.informatik.rwth-aachen.de/web/Software/Databases/Signlanguage/?db=rwth-boston-104)
+
+
+Papers that cite datasets that are unavailable:
+* 480 signs, Indian Sign Language
+    * [Segment, Track, Extract, Recognize and Convert Sign Language Videos to Voice/Text](https://pdfs.semanticscholar.org/37f8/0b0bf92dae99fc66fea90973e3b3e1b42e86.pdf) 2012, Kishore and Kumar
+    * [Selfie video based continuous Indian sign language recognition system](https://www.sciencedirect.com/science/article/pii/S2090447917300217) 2017, Rao and Kishore
+* 10 signs, indian sign language
+    * [Recognizing & interpreting Indian Sign Language gesture for Human Robot Interaction](https://ieeexplore.ieee.org/document/5640434/?part=1) 2010, Nandy et al.
+* 24 static handshapes, Indian Sign Language
+    * [Recognition of Indian Sign Language in Live Video](https://arxiv.org/pdf/1306.1301.pdf) 2013, Singha and Das
+
+
+Hand movement datasets (movement only):
+
+1. [LIBRAS hand movement](https://archive.ics.uci.edu/ml/datasets/Libras+Movement)
+    1. [Hand Movement Recognition for Brazilian Sign Language: A Study Using Distance-Based Neural Networks.](https://ieeexplore.ieee.org/document/5178917/)
+
+## Non-manual features
+1. QLIBRAS
+    1. [QLIBRAS: A novel database for grammatical facial expressions in Brazilian Sign Language](https://pdfs.semanticscholar.org/919a/1e2bea81a7dc52dfa20fe530cf75a8f307da.pdf)
+
+## Continuous hand pose
+
+1. [NYU Hand pose dataset](https://cims.nyu.edu/~tompson/NYU_Hand_Pose_Dataset.htm)
+    1. [Real-Time Continuous Pose Recovery of Human Hands Using Convolutional Networks](https://cims.nyu.edu/~tompson/others/TOG_2014_paper_PREPRINT.pdf)
