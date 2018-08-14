@@ -10,15 +10,15 @@ A fully automatic method for recognizing hand configurations of Brazilian sign l
 http://www.scielo.br/scielo.php?script=sci_arttext&pid=S2446-47402017000100078
 2017, Cicero Ferreira Fernandes Costa Filho, Robson Silva de Souza, Jonilson Roque dos Santos, Bárbara Lobato dos Santos, Marly Guimarães Fernandes Costa
 
-
-Recognizing Static Signs from the Brazilian Sign  Language: Comparing Large-Margin Decision Directed Acyclic Graphs, Voting Support Vector Machines and Artificial Neural Networks
-https://arxiv.org/pdf/1210.7461.pdf
-
 Fingerspelling Recognition with Support Vector Machines and Hidden Conditional Random Fields: A comparison with Neural Networks and Hidden Markov Models
 https://www.researchgate.net/publication/265096760_Fingerspelling_Recognition_with_Support_Vector_Machines_and_Hidden_Conditional_Random_Fields_A_comparison_with_Neural_Networks_and_Hidden_Markov_Models
 
 An Experiment on Handshape Sign Recognition using Adaptive e Technology: Preliminary Results
 http://www.gpec.ucdb.br/pistori/publicacoes/pistori_sbia2004.pdf
+
+Recognizing Static Signs from the Brazilian Sign  Language: Comparing Large-Margin Decision Directed Acyclic Graphs, Voting Support Vector Machines and Artificial Neural Networks
+https://arxiv.org/pdf/1210.7461.pdf
+2011, César Roberto de Souza, Ednaldo Brigante Pizzolato, Mauro dos Santos Anjo
 
 Recognizing the Brazilian Signs Language Alphabet with Neural Networks over Visual 3D Data Sensor
 https://link.springer.com/chapter/10.1007/978-3-319-12027-0_51
