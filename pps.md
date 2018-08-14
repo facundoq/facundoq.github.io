@@ -1,3 +1,7 @@
+---
+title: Propuestas de PPS para Estudiantes de Ingeniería en Computación
+---
+
 # Propuestas de PPS para Estudiantes de Ingeniería en Computación
 
 Contacto: 
