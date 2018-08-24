@@ -3,9 +3,6 @@ title: Facundo Quiroga - Personal Site
 ---
 
 
-
-# Facundo Quiroga
-
 * I'm currently a PhD Student in Artificial Neural Networks and Sign Language Recognition at [III-LIDI, UNLP](www.lidi.info.unlp.edu.ar), Argentina.
 * I hold a "Licenciature" degree (in-between BSc and MSc) in Computer Science from Facultad de Informática, [UNLP](http://unlp.edu.ar).
 * Links: [github](https://github.com/facundoq/) [linkedin](https://www.linkedin.com/in/facundoq/) [google scholar](https://scholar.google.com.ar/citations?user=kGvlEYAAAAAJ&hl=en) [dblp](http://dblp.uni-trier.de/pers/hd/q/Quiroga:Facundo) [![ORCID iD icon](https://orcid.org/sites/default/files/images/orcid_16x16.png)orcid.org/0000\-0003\-4495\-4327](https://orcid.org/0000-0003-4495-4327)
@@ -63,14 +60,3 @@ I've been a teaching assistant in [Facultad de Informática](http://info.unlp.ed
 *   [Estructura de un programa en Assembly](unlp/vonsim/assets/index.html?tutorial=basic)
 *   [Declaración de variables en Assembly](unlp/vonsim/assets/index.html?tutorial=variables)
 *   [Primeras instrucciones ejecutables en Assembly](unlp/vonsim/assets/index.html?tutorial=code)
-
-## Contact
---------
-
-You can reach me at \[first letter of my name\]{lastname}@lidi.info.unlp.edu.ar
-
-[III\-LIDI Informatics Institute](http://www.lidi.info.unlp.edu.ar/)
-
-[Informatics Faculty](http://info.unlp.edu.ar/)
-
-[UNLP](http://unlp.edu.ar/)
