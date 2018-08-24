@@ -3,8 +3,8 @@
 ; Los valores a multiplicar se pasan por registro y por ref
 ; El valor a devolver se pasa por valor
 org 1000h
-n1: db 4
-n2: db 3
+n1: dw 4
+n2: dw 3
 res: dw ?
 
 
