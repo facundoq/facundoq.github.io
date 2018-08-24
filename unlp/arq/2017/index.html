@@ -1,0 +1,136 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Arquitectura de Computadoras</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<h1 >Arquitectura de Computadoras</h1>
+<h2>
+  Diapositivas de las explicaciones prácticas
+</h2>
+<p> IMPORTANTE: Las siguientes diapositivas son antiguas, sólo sirven como una guía para repasar lo dado en las clases prácticas y pueden contener errores u omisiones. NO son material OFICIAL de la cátedra y no reemplazan la explicación que se realiza en las clases prácticas.</p>
+
+<h3> MSX88 </h3>
+<ul>
+<li><a href="../clases/clase1.ppt">P1 Pasaje de parámetros   </a>
+	<ul>
+		<li><a href="ejemplos/p1_division_pasaje_pila.asm">Ejemplo pasaje de parámetros por la pila</a></li>
+		<li><a href="ejemplos/p1_division_pasaje_pila_preservando_registros.asm">Ejemplo pasaje de parámetros por la pila, preservando el valor de los registros</a></li>
+		<li><a href="ejemplos/p1_division_pasaje_pila_tipo_funcion.asm">Ejemplo pasaje de parámetros por la pila y retornando el valor a través de la pila</a></li>
+		<li><a href="ejemplos/p1ej5.asm">Practica 1 ej 5</a></li>
+		<li><a href="ejemplos/p1ej7.asm">Practica 1 ej 7</a></li>
+
+	</ul>
+
+</li>
+<li><a href="../clases/clase2.ppt">P2 Entrada salida y e interrupciones </a>
+	<ul>
+		<li><a href="ejemplos/p2_leer_caracter.asm">Lectura de caracteres</a></li>
+		<li><a href="ejemplos/p2_escribir_string.asm">Escribir un string en pantalla</a></li>
+		<li><a href="ejemplos/p2_leer_caracteres.asm">Lectura de caracteres hasta que se ingrese "z"</a></li>
+		<li><a href="ejemplos/p2_leer_string.asm">Lectura y almacenamiento de un string de longitud 10</a></li>
+		<li><a href="ejemplos/p2_leer_escribir_caracteres.asm">Lectura e impresión de caracteres individuales</a></li>
+	</ul>
+</li>
+
+<li><a href="../clases/clase2.pdf">P2 interrupciones por hardware </a>
+	<ul>
+		<li><a href="ejemplos/p2_f10.asm">Imprimir string de a un carácter con la tecla F10 </a></li>
+    <li><a href="ejemplos/p2_timer_30s.asm">Realizar una acción luego de 30 segundos con el timer</a></li>
+    <li><a href="ejemplos/p2_timer_1s.asm">Realizar una acción cada 2 segundos con el timer </a></li>
+	</ul>
+</li>
+<li><a href="../apuntes/interrupciones.pdf">P2 Apunte Completo sobre interrupciones en MSX88 </a></li>
+<li><a href="../clases/clase2alternativa.ppt">P2 Entrada salida y e interrupciones (alternativa) </a></li>
+<li><a href="../clases/clase3-1.ppt">P3 Dispositivos (parte 1)</a>
+  <ul>
+		<li><a href="ejemplos/p3_leds.asm">Poner una combinación de luces con el PIO</a></li>
+    <li><a href="ejemplos/p3_leds_todos.asm">Generar todas las combinaciones de luces con el PIO</a></li>
+    <li><a href="ejemplos/p3_llaves.asm"> Leer el estado de las llaves para ingresar una contraseña con el PIO</a></li>
+    <li><a href="ejemplos/p3_llaves_leds.asm"> Controlar las luces con las llaves a través del PIO</a></li>
+    <li><a href="ejemplos/p3_impresora_caracter.asm">Impresión de un caracter con el PIO</a></li>
+    <li><a href="ejemplos/p3_impresora_string.asm">Impresión de un string con el PIO</a></li>
+    <li><a href="ejemplos/p3_hand_polling.asm">Impresión de un string con el HAND en modo consulta de estado (polling)</a></li>
+    <li><a href="ejemplos/p3_hand_int.asm">Impresión de un string con el HAND en modo interrupciones</a></li>
+    <li><a href="ejemplos/p3_usart.asm">Impresión de un string con USART en modo DTR</a></li>
+    <li><a href="ejemplos/p3_usartx.asm">Impresión de un string con USART en modo XON/XOFF</a></li>
+
+	</ul>
+
+</li>
+<li><a href="../clases/clase3-2.ppt">P3 Dispositivos (parte 2)</a></li>
+<li><a href="ejemplos/parcial1.zip">Ejemplos de ejercicios del primer parcial.</a></li>
+</ul>
+
+
+<h3> WinMIPS </h3>
+<ul>
+<li>
+  <p>P4</p>
+  <ul>
+	<li><a href="../clases/clase4-1.ppt">P4 Programación básica - pipeline (parte 1) </a></li>
+    <li><a href="../clases/clase4-2.ppt">P4 Programación básica - pipeline (parte 2) </a></li>
+	<li><a href="../clases/clase4alternativa.ppt">P4 Programación básica - pipeline (alternativa)</a></li>
+	<li><a href="ejemplos/p4_set.s">Instrucciones del WinMIPS </a></li>
+	<li><a href="ejemplos/p4_memoria.s">Carga dos números de memoria, los suma, y guarda el resultado</a></li>
+	<li><a href="ejemplos/p4_sumar_pares.s">Suma los elementos de un arreglo</a></li>
+	<li><a href="ejemplos/p4_sumar_mayores.s">Suma los elementos de un arreglo que son menores a 7 </a></li>
+
+  </ul>
+</li>
+
+<li>
+	<p>P5</p>
+  <ul>
+	<li><a href="../clases/clase5-1.ppt">P5 Punto flotante (parte 1)</a></li>
+	<li><a href="../clases/clase5-2.ppt">P5 Punto flotante (parte 2)</a></li>
+	<li><a href="ejemplos/p5_rutinas_convencion.s"> Uso de la convención para los registros </a></li>
+	<li><a href="ejemplos/p5_rutinas_convencion_salvando.s">Uso de la convención para los registros, salvando un
+	registro <em>s</em> </a></li>
+	<li><a href="ejemplos/p5_stringToUpper.s"> Convertir un string a mayúsculas.
+	Implementación de una subrutina para pasar a mayúscula una letra. </a></li>
+	<li><a href="ejemplos/p5_stringToUpperSubrutina.s"> Convertir un string a mayúsculas, pero ahora en una subrutina. </a></li>
+	<li><a href="ejemplos/p5_pf.s"> Cálculo con números en punto flotante</a></li>
+	<li><a href="ejemplos/p5_pf2.s"> Conversión de punto floante a entero y viceversa</a></li>
+  <li><a href="ejemplos/p5_waw.s"> Ejemplo de atasco WAW y estructurar (STR)</a></li>
+	<li><a href="ejemplos/p5_war.s"> Ejemplo de atasco WAR</a></li>
+  </ul>
+</li>
+	<li><p>P6</p><ul>
+
+
+	<li> <a href="../clases/clase6.ppt">P6 Entrada/salida </a> </li>
+	<li><a href="ejemplos/p6_entero.s"> Lectura de números enteros sin signo</a></li>
+	<li><a href="ejemplos/p6_negativo.s"> Lectura de números enteros con signo</a></li>
+	<li><a href="ejemplos/p6_flotante.s"> Lectura de números en punto flotante</a></li>
+	<li><a href="ejemplos/p6_cadena.s"> Impresión de una cadena de caracteres.</a></li>
+	<li><a href="ejemplos/p6_leer_hasta_0.s"> Leer números enteros hasta el 0, y e informa su suma</a></li>
+	<li><a href="ejemplos/p6_leer_hasta_0_flotante.s"> Leer números flotantes hasta el 0, y e informa su suma.</a></li>
+	<li><a href="ejemplos/p6_read.s"> Leer un caracter e imprimirlo.</a></li>
+	<li><a href="ejemplos/p6_leer_string.s"> Leer un string y luego imprimirlo, junto con la cantidad de caracteres leídos.</a></li>
+	<li><a href="ejemplos/p6_grafica.s"> Pintar un pixel de color.</a></li>
+	<li><a href="ejemplos/p6_grafica_linea.s"> Pintar una linea de pixeles de color.</a></li>
+	</ul>
+	</li>
+	<li>
+		<p></p><a href="ejemplos/parcial/generar_imprimir_tabla.s"> Generar una tabla con números en punto flotante, eligiendo
+		los números de una tabla </a></p>
+
+	</li>
+</ul>
+
+<h2> Otros enlaces de interés </h2>
+
+<ul>
+<li><a href="http://weblidi.info.unlp.edu.ar/catedras/arquitecturaP2003/">Página de Arquitectura de Computadoras UNLP</a></li>
+<li><a href="http://weblidi.info.unlp.edu.ar/catedras/arquitecturap2003/cronograma%20ARQ%202017.pdf">Cronograma 2017</a></li>
+</ul>
+
+</body>
+</html>
