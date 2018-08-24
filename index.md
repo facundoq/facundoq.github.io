@@ -28,6 +28,16 @@ I've been a teaching assistant in [Facultad de Informática](http://info.unlp.ed
 3.  Computer Architecture II: 2014 \- Present
 4.  Data Mining: 2018 \- Present
 
+### VonSim
+
+[VonSim](unlp/vonsim/assets/index.html) es una aplicación web para el aprendizaje de la programación a bajo de nivel de una computadora. Se puede utilizar para las prácticas 5 y 6 de organización de computadoras, y la práctica 1 de arquitectura de computadoras. [VonSim](unlp/vonsim/assets/index.html) tiene algunos tutoriales para que aprendas a usar tanto el simulador como el lenguaje.
+
+*   [Introducción a la programación en bajo nivel](unlp/vonsim/assets/index.html?tutorial=whyassembly)
+*   [¿Cómo usar VonSim?](unlp/vonsim/assets/index.html?tutorial=vonsim)
+*   [Estructura de un programa en Assembly](unlp/vonsim/assets/index.html?tutorial=basic)
+*   [Declaración de variables en Assembly](unlp/vonsim/assets/index.html?tutorial=variables)
+*   [Primeras instrucciones ejecutables en Assembly](unlp/vonsim/assets/index.html?tutorial=code)
+
 ## Research
 --------
 
@@ -50,14 +60,3 @@ I've been a teaching assistant in [Facultad de Informática](http://info.unlp.ed
 ### Machine Learning
 
 *   [Machine Learning Resources](unlp/ml/index.html)
-
-## VonSim
---------
-
-[VonSim](unlp/vonsim/assets/index.html) es una aplicación web para el aprendizaje de la programación a bajo de nivel de una computadora. Se puede utilizar para las prácticas 5 y 6 de organización de computadoras, y la práctica 1 de arquitectura de computadoras. [VonSim](unlp/vonsim/assets/index.html) tiene algunos tutoriales para que aprendas a usar tanto el simulador como el lenguaje.
-
-*   [Introducción a la programación en bajo nivel](unlp/vonsim/assets/index.html?tutorial=whyassembly)
-*   [¿Cómo usar VonSim?](unlp/vonsim/assets/index.html?tutorial=vonsim)
-*   [Estructura de un programa en Assembly](unlp/vonsim/assets/index.html?tutorial=basic)
-*   [Declaración de variables en Assembly](unlp/vonsim/assets/index.html?tutorial=variables)
-*   [Primeras instrucciones ejecutables en Assembly](unlp/vonsim/assets/index.html?tutorial=code)
