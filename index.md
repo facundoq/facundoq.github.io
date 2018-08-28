@@ -6,10 +6,8 @@ header: Facundo Quiroga - UNLP
 
 * I'm currently a PhD Student in Artificial Neural Networks and Sign Language Recognition at [III-LIDI, UNLP](www.lidi.info.unlp.edu.ar), Argentina.
 * I hold a "Licenciature" degree (in-between BSc and MSc) in Computer Science from Facultad de Informática, [UNLP](http://unlp.edu.ar).
-* Links: [github](https://github.com/facundoq/) [linkedin](https://www.linkedin.com/in/facundoq/) [google scholar](https://scholar.google.com.ar/citations?user=kGvlEYAAAAAJ&hl=en) [dblp](http://dblp.uni-trier.de/pers/hd/q/Quiroga:Facundo) [![ORCID iD icon](https://orcid.org/sites/default/files/images/orcid_16x16.png)orcid.org/0000\-0003\-4495\-4327](https://orcid.org/0000-0003-4495-4327)
 
-
-# Enlaces
+## Enlaces
 * [Propuestas de PPS](pps.txt) (Práctica Profesional Supervisada) para estudiantes avanzados de Ingeniería en Computación, UNLP.
 *   [Arquitectura de Computadoras](unlp/arq/index.html)
 *   [Organización de Computadoras](unlp/org/index.html)
