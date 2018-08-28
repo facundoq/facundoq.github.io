@@ -1,10 +1,10 @@
 ---
 title: Home
-header: 
+header:
 ---
 
 
-* I'm currently a PhD Student in Artificial Neural Networks and Sign Language Recognition at [III-LIDI, UNLP](www.lidi.info.unlp.edu.ar), Argentina.
+* I'm currently a PhD Student in Artificial Neural Networks and Sign Language Recognition at [III-LIDI, UNLP](http://www.lidi.info.unlp.edu.ar), Argentina.
 * I hold a "Licenciature" degree (in-between BSc and MSc) in Computer Science from Facultad de Informática, [UNLP](http://unlp.edu.ar).
 
 ## Enlaces
