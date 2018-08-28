@@ -40,4 +40,4 @@ Otros enlaces de interés
 
 *   [Material del año 2017](2017/index.html)
 *   [Página de Arquitectura de Computadoras UNLP](http://weblidi.info.unlp.edu.ar/catedras/arquitecturaP2003/)
-*   [Cronograma 2018](http://weblidi.info.unlp.edu.ar/catedras/arquitecturap2003
+*   [Cronograma 2018](http://weblidi.info.unlp.edu.ar/catedras/arquitecturap2003)
