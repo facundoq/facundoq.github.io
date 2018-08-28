@@ -1,6 +1,6 @@
 ---
 title: Home
-header: Facundo Quiroga - UNLP
+header: 
 ---
 
 

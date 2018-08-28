@@ -1,6 +1,6 @@
 ---
 title: Arquitectura de Computadoras 2018
-header: Arquitectura de Computadoras 2018
+header: Arquitectura de Computadoras 2018 | 
 ---
 
 # Diapositivas de las explicaciones prácticas
