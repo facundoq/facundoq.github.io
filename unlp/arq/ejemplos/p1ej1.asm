@@ -1,9 +1,9 @@
 ;Escribir un programa para multiplicar dos números
 
 org 1000h
-n1: dw 4
-n2: dw 3
-res: dw ?
+n1 dw 4
+n2 dw 3
+res dw ?
 
 
 org 2000h

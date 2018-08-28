@@ -1,9 +1,7 @@
 ---
 title: Arquitectura de Computadoras 2018
+header: Arquitectura de Computadoras 2018
 ---
-
-# Arquitectura de Computadoras 2018
-=================================
 
 # Diapositivas de las explicaciones prácticas
 -------------------------------------------
@@ -17,6 +15,7 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
     * [Subrutina de Multiplicación. Pasaje por registros y por valor.](ejemplos/p1ej2.asm)
     * [Subrutina de Multiplicación. Pasaje por registros. Parámetros de entrada por referencia, de salida por valor.](ejemplos/p1ej3.asm)
     * [Subrutina de Multiplicación. Pasaje por registros. Parámetros de entrada por valor, de salida por referencia.](ejemplos/p1ej4.asm)
+    * * [Subrutina de Multiplicación. Parámetros de entrada por valor y pila, de salida por valor y registro.](ejemplos/p1ej5.asm)
 *   [P2 Entrada salida y e interrupciones](clases/clase2.ppt)
 *   [P2 interrupciones por hardware](clases/clase2.pdf)
 *   [P2 Apunte Completo sobre interrupciones en MSX88](apuntes/interrupciones.pdf)
