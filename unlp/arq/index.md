@@ -3,10 +3,10 @@ title: Arquitectura de Computadoras 2018
 header: Arquitectura de Computadoras 2018
 ---
 
-# Diapositivas de las explicaciones prácticas
+# Diapositivas y ejemplos de las explicaciones prácticas
 -------------------------------------------
 
-IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dado en las clases prácticas y puede contener errores u omisiones. NO es material OFICIAL de la cátedra y no reemplaza la explicación que se realiza en las clases.
+IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dado en las clases prácticas y puede contener errores u omisiones. NO es [material OFICIAL de la cátedra](http://weblidi.info.unlp.edu.ar/catedras/arquitecturaP2003/) y no reemplaza la explicación que se realiza en las clases.
 
 ### MSX88
 
@@ -17,12 +17,24 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
     * [Subrutina de Multiplicación. Pasaje por registros. Parámetros de entrada por valor, de salida por referencia.](ejemplos/p1ej4.asm)
     * [Subrutina de Multiplicación. Parámetros de entrada por valor y pila, de salida por valor y registro.](ejemplos/p1ej5.asm)
     * [Subrutina de Multiplicación. Parámetros de entrada por valor y pila, de salida por registro y pila.](ejemplos/p1ej6.asm)
-*   [P2 Entrada salida y e interrupciones](clases/clase2.ppt)
-*   [P2 interrupciones por hardware](clases/clase2.pdf)
-*   [P2 Apunte Completo sobre interrupciones en MSX88](apuntes/interrupciones.pdf)
-*   [P2 Entrada salida y e interrupciones (alternativa)](clases/clase2alternativa.ppt)
-*   [P3 Dispositivos (parte 1)](clases/clase3-1.ppt)
-*   [P3 Dispositivos (parte 2)](clases/clase3-2.ppt)
+*   P2: Interrupciones
+    * Apuntes
+        *   [P2 Entrada salida y e interrupciones](clases/clase2.ppt)
+        *   [P2 interrupciones por hardware](clases/clase2.pdf)
+        *   [P2 Apunte Completo sobre interrupciones en MSX88](apuntes/interrupciones.pdf)
+        *   [P2 Entrada salida y e interrupciones (alternativa)](clases/clase2alternativa.ppt)
+    * Ejemplos
+        * [Impresión de un string por pantalla (int 7)](ejemplos/p2ej1.asm)
+        * [Impresión de dos strings por pantalla (int 7)](ejemplos/p2ej2.asm)
+        * [Impresión de dos strings por pantalla (versión alternativa) (int 7)](ejemplos/p2ej2alternativa.asm)
+        * [Impresión de un caracter (string de longitud 1) por pantalla (int 7)](ejemplos/p2ej3.asm)
+        * [Lectura de un caracter (e impresión en pantalla) (int 6, int 7)](ejemplos/p2ej4.asm)
+        * [Lectura de un string terminado en 'x' (e impresión en pantalla) (int 6, int 7)](ejemplos/p2ej5.asm)
+* P3
+    * Apuntes
+        *   [P3 Dispositivos (parte 1)](clases/clase3-1.ppt)
+        *   [P3 Dispositivos (parte 2)](clases/clase3-2.ppt)
+    * Ejemplos
 
 ### WinMIPS
 
