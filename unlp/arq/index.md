@@ -30,11 +30,19 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
         * [Impresión de un caracter (string de longitud 1) por pantalla (int 7)](ejemplos/p2ej3.asm)
         * [Lectura de un caracter (e impresión en pantalla) (int 6, int 7)](ejemplos/p2ej4.asm)
         * [Lectura de un string terminado en 'x' (e impresión en pantalla) (int 6, int 7)](ejemplos/p2ej5.asm)
+        * [Imprimir el string "hola" luego de 30 segundos](ejemplos/p2ej6.asm)
+        * [Imprimir el string "hola" _cada_ 30 segundos](ejemplos/p2ej7.asm)
+        * [Parte de la solución del ejercicio 11 de la práctica 2.](ejemplos/p2_ej11.asm)
 * P3
     * Apuntes
         *   [P3 Dispositivos (parte 1)](clases/clase3-1.ppt)
         *   [P3 Dispositivos (parte 2)](clases/clase3-2.ppt)
     * Ejemplos
+      * [Configuración de una vez de las Luces](ejemplos/p3ej1.asm)
+      * [Contador con Luces](ejemplos/p3ej2.asm)
+      * [Control de las Luces con las Llaves ](ejemplos/p3ej3.asm)
+      * [Control de las Luces con las Llaves. Termina si se prenden todas las luces ](ejemplos/p3ej4.asm)
+      * [Control de ingreso con una contraseña tipo valija mediante las Llaves. ](ejemplos/p3ej4.asm)
 
 ### WinMIPS
 
