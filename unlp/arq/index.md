@@ -42,7 +42,10 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
       * [Contador con Luces](ejemplos/p3ej2.asm)
       * [Control de las Luces con las Llaves ](ejemplos/p3ej3.asm)
       * [Control de las Luces con las Llaves. Termina si se prenden todas las luces ](ejemplos/p3ej4.asm)
-      * [Control de ingreso con una contraseña tipo valija mediante las Llaves. ](ejemplos/p3ej4.asm)
+      * [Control de ingreso con una contraseña tipo valija mediante las Llaves. ](ejemplos/p3ej5.asm)
+      * [Impresión de un string en la impresora a través del PIO](ejemplos/p3ej6.asm)
+      * [Impresión de un string en la impresora a través del HAND en modo consulta de estado ](ejemplos/p3ej7.asm)
+      * [Impresión de un string en la impresora a través del HAND en modo interrupciones ](ejemplos/p3ej8.asm)
 
 ### WinMIPS
 
