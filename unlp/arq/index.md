@@ -46,6 +46,9 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
       * [Impresión de un string en la impresora a través del PIO](ejemplos/p3ej6.asm)
       * [Impresión de un string en la impresora a través del HAND en modo consulta de estado ](ejemplos/p3ej7.asm)
       * [Impresión de un string en la impresora a través del HAND en modo interrupciones ](ejemplos/p3ej8.asm)
+      * [Impresión de un string en la impresora a través del USART con DTR y consulta de estado ](ejemplos/p3ej9.asm)
+* Repaso
+    * [Impresión de un string en pantalla, cada un segundo durante 30 segundos. El f10 se pausa/reanuda.](ejemplos/p3ej10.asm)
 
 ### WinMIPS
 
