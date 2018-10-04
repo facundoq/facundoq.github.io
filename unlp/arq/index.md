@@ -49,6 +49,19 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
       * [Impresión de un string en la impresora a través del USART con DTR y consulta de estado ](ejemplos/p3ej9.asm)
 * Repaso
     * [Impresión de un string en pantalla, cada un segundo durante 30 segundos. El f10 se pausa/reanuda.](ejemplos/p3ej10.asm)
+    * Ejercicios de parcial:
+        * [1](ejemplos/par1.asm)
+        * [2](ejemplos/par2.asm)
+        * [3](ejemplos/par3.asm)
+        * [4](ejemplos/par4.asm)
+        * [5](ejemplos/par5.asm)
+        * [6](ejemplos/par6.asm)
+        * [7](ejemplos/par7.asm)
+        * [8](ejemplos/par8.asm)
+        * [9](ejemplos/par9.asm)
+        * [10](ejemplos/par10.asm)
+        * [11](ejemplos/par11.asm)
+        * [12](ejemplos/par12.asm)
 
 ### WinMIPS
 
