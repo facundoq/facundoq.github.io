@@ -72,6 +72,11 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
 *   P5
     *   [P5 Punto flotante (parte 1)](clases/clase5-1.ppt)
     *   [P5 Punto flotante (parte 2)](clases/clase5-2.ppt)
+    * Ejemplos
+		* [Conversión de entero a flotante](ejemplos/p5ej2.s)
+		* [Conversión de flotante a entero](ejemplos/p5ej3.s)
+        * [Atasco WAW](ejemplos/p5waw.s)
+        * [Atasco WAR](ejemplos/p5war.s)
 *   P6
     *   [P6 Entrada/salida](clases/clase6.ppt)
 
