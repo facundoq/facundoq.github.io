@@ -75,8 +75,9 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
     * Ejemplos
 		* [Conversión de entero a flotante](ejemplos/p5ej2.s)
 		* [Conversión de flotante a entero](ejemplos/p5ej3.s)
-        * [Atasco WAW](ejemplos/p5waw.s)
-        * [Atasco WAR](ejemplos/p5war.s)
+    * [Atasco WAW](ejemplos/p5waw.s)
+    * [Atasco WAR](ejemplos/p5war.s)
+    * [Conversión de un string a mayúscula (subrutinas/convencion/pila)](ejemplos/p5ej4.s)
 *   P6
     *   [P6 Entrada/salida](clases/clase6.ppt)
 
