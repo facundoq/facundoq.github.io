@@ -80,6 +80,14 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
     * [Conversión de un string a mayúscula (subrutinas/convencion/pila)](ejemplos/p5ej4.s)
 *   P6
     *   [P6 Entrada/salida](clases/clase6.ppt)
+    *   [Imprimir un numero positivo, un número negativo y uno flotante en la pantalla](ejemplos/p6e1.s)
+    * [Imprima "Hola" en pantalla](ejemplos/p6e2.s)
+    * [Leer dos numeros enteros de teclado e imprimir la suma](ejemplos/p6e3.s)
+    * [Leer un string de 10 caracteres y después imprimirlo](ejemplos/p6e4.s)
+    * [Pintar el pixel (x=25,y=40) de color azul (sólo con registros)](ejemplos/p6e5.s)
+    * [Pintar el pixel (x=25,y=40) de color azul (con variables)](ejemplos/p6e6.s)
+
+
 
 Otros enlaces de interés
 ------------------------
