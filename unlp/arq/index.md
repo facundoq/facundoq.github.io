@@ -63,6 +63,7 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
         * [11](ejemplos/par11.asm)
         * [12](ejemplos/par12.asm)
 
+
 ### WinMIPS
 
 *   P4
@@ -86,6 +87,8 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
     * [Leer un string de 10 caracteres y después imprimirlo](ejemplos/p6e4.s)
     * [Pintar el pixel (x=25,y=40) de color azul (sólo con registros)](ejemplos/p6e5.s)
     * [Pintar el pixel (x=25,y=40) de color azul (con variables)](ejemplos/p6e6.s)
+  * Ejercicios de parcial
+    * [Posible solución del Tema 1 de la primera fecha del segundo parcial](ejemplos/p2f1_tema1.s)
 
 
 
