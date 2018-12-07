@@ -1,63 +1,30 @@
-; Hacer un contador con los leds
-; Los leds empiezan en 0000000
-; cada 1 segundo, aumentan 1
-; 00000001
-; 00000010
-
-CB equ 33h
-PB equ 31h
-
-CONT equ
-COMP equ 
-IMR equ
-INT1 equ 
-EOI equ 
-
-org 32
-dir_contar dw contar
-
-org 2000h
-; Configurar CB  como para que PB sea todo de salida (00000000)
-mov al,0
-out CB,al
-; indice de interrupcion del timer = 8
-cli
-; Configrar PIC
-;configuro el imr
-mov al, 11111101b
-out IMR,al
-; configuro el registro int1 del PIC
-mov al, 8
-out INT1,al
-
-;Configurar el timer
-;Configuro el CONT
-mov al, 0
-out CONT,al
-;configuro el COMP
-mov al, 1
-out COMP,al
-sti 
-; apago todas las luces
-mov al,0
-out PB,al
-
-loop: in al, PB
-	  cmp al,FFh; 255 11111111b
-      jnz loop
-
-int 0
+; Convertir el siguiente código Pascal al assembly del WinMIPS64
+; var a,b,c: integer
+; a:=5
+; b:=15
+; c:=0
+; if a < b
+;    c := 5
+; else
+;    c := 10
 
 
-org 3000h
-contar:  in al,PB ;imcremento PB
-         inc al
-		 out PB,al
-		; reseteo el CONT a 0
-		mov al,0
-		out cont,al
+a: .word 10
+b: .word 15
+c: .word 0
 
-		mov al,20h
-		out EOI,al
-		iret
-end
+
+		ld r1,a(r0); cargo el valor de a en r1
+		ld r2,b(r0); cargo el valor de b en r1
+
+		slti r3,r1,r2 ; comparo r1 < r2 y guardo el resultado en r3
+		beqz r3,mayor; si dio 0 (no era menor) salto a "fin" y no hago nada
+		; caso a<b
+		daddi r4,r0,5; cargo el valor 5 en r4
+		sd r4,c(r0); guardo el valor de r4 en c
+		j fin; salto al fin
+		;caso a>=b
+  mayor:daddi r4,r0,10; cargo el valor 10 en r4
+		sd r4,c(r0); guardo el valor de r4 en c
+		;fin
+	fin:halt

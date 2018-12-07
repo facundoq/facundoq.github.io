@@ -70,18 +70,21 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
     *   [P4 Programación básica \- pipeline (parte 1)](clases/clase4-1.ppt)
     *   [P4 Programación básica \- pipeline (parte 2)](clases/clase4-2.ppt)
     *   [P4 Programación básica \- (alternativa)](clases/clase4alternativa.ppt)
+    * Ejemplos
+        * [Programación de un if](ejemplos/p4ej1.s)
+        * [Programación de un if/else](ejemplos/p4ej2.s)
 *   P5
     *   [P5 Punto flotante (parte 1)](clases/clase5-1.ppt)
     *   [P5 Punto flotante (parte 2)](clases/clase5-2.ppt)
     * Ejemplos
-		* [Conversión de entero a flotante](ejemplos/p5ej2.s)
-		* [Conversión de flotante a entero](ejemplos/p5ej3.s)
-    * [Atasco WAW](ejemplos/p5waw.s)
-    * [Atasco WAR](ejemplos/p5war.s)
-    * [Conversión de un string a mayúscula (subrutinas/convencion/pila)](ejemplos/p5ej4.s)
+        * [Conversión de entero a flotante](ejemplos/p5ej2.s)
+        * [Conversión de flotante a entero](ejemplos/p5ej3.s)
+        * [Atasco WAW](ejemplos/p5waw.s)
+        * [Atasco WAR](ejemplos/p5war.s)
+        * [Conversión de un string a mayúscula (subrutinas/convencion/pila)](ejemplos/p5ej4.s)
 *   P6
-    *   [P6 Entrada/salida](clases/clase6.ppt)
-    *   [Imprimir un numero positivo, un número negativo y uno flotante en la pantalla](ejemplos/p6e1.s)
+    * [P6 Entrada/salida](clases/clase6.ppt)
+    * [Imprimir un numero positivo, un número negativo y uno flotante en la pantalla](ejemplos/p6e1.s)
     * [Imprima "Hola" en pantalla](ejemplos/p6e2.s)
     * [Leer dos numeros enteros de teclado e imprimir la suma](ejemplos/p6e3.s)
     * [Leer un string de 10 caracteres y después imprimirlo](ejemplos/p6e4.s)
