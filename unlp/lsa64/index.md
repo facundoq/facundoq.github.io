@@ -42,20 +42,34 @@ Each sign was executed imposing few constraints on the subjects to increase dive
 The camera employed was the same in both sets of recording (Sony HDR-CX240). The tripod was placed 2m away from the wall at a height of 1.5m. Marks on the floor were used to indicate subjects where to position themselves. The resolution of the videos is 1920 by 1080, at 60 frames per second.
 
 
+##  License ![](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). 
+
+This basically means that:
+
+* Academic, educational or personal use is allowed without restrictions.
+* You must share any derivative works under the same license (ie, preprocessed versions of the dataset, subsets, supersets using other datasets).
+* You must mention this website or the article [LSA64: A Dataset of Argentinian Sign Language](http://sedici.unlp.edu.ar/bitstream/handle/10915/56764/Documento_completo.pdf-PDFA.pdf?sequence=1&isAllowed=y) whenever you share or mention the dataset.
+* Commercial uses of the dataset are not allowed.
+
+Please contact the authors if you are unsure about what constitutes fair use under this license, or need to use the dataset under a different license.
+
 ## Raw version
 The raw version of the dataset contains one video for each sign in the dataset. Each video weights on average 600kb. The whole dataset weights 1.9gb.
 
-[Download Raw Version](https://mega.nz/#!kJBDxLSL!zamibF1KPtgQFHn3RM0L1WBuhcBUvo0N0Uec9hczK_M)
+* [Raw Version - Mega (1.9gb)](https://mega.nz/#!kJBDxLSL!zamibF1KPtgQFHn3RM0L1WBuhcBUvo0N0Uec9hczK_M)
+* [Raw Version - Google Drive (1.9gb)]()
 
-## Still moments cut version
+## Cut/temporally segmented version
 The cut version is similar to the raw version but each video has been temporally segmented so that the frames in the beginning or end of the video with no movement in the hands were removed. Each video weights around 500kb on average and the whole dataset weights 1.5gb.
 
-[Download Cut Version](https://mega.nz/#!FQJGCYba!uJKGKLW1VlpCpLCrGVu89wyQnm9b4sKquCOEAjW5zMo)
+* [Cut Version - Mega (1.5gb) ](https://mega.nz/#!FQJGCYba!uJKGKLW1VlpCpLCrGVu89wyQnm9b4sKquCOEAjW5zMo)
+* [Cut Version - Google Drive (1.5gb) ](https://drive.google.com/file/d/1C7k_m2m4n5VzI4lljMoezc-uowDEgIUh/view?usp=sharing)
 
 ## Pre-preprocessed version
 We provide a pre-processed version of the dataset to alleviate the overhead of performing experiments with the data.
 
-From the dataset we extracted the hand and head positions for each frame, along with images of each hand, segmented and with a black background
+From the dataset we extracted the hand and head positions for each frame, along with images of each hand. Each image was segmented, leaving only the hand with a black background.
 
 The tracking and segmentation of the hands uses the techniques described is the same as the one used to pre-process the LSA16 handshape dataset [LSA64](../lsa16/index.html). Additionally, the head of the subject is tracked via the Viola-Jones's face detector. The 2D position of each hand is then transformed to be relative to the that of the head. The positions are then normalized by dividing by the arm's length of the subject, measured in centimeters/pixels. In this way, the transformed positions represent distances from the head, in units of centimeters.
 
@@ -63,12 +77,13 @@ The result of this process is a sequence of frame information, in which for each
 
 The preprocessed version contains a Matlab file with the positions of the hands of the subject for each frame (normalized wrt the head position), and a set of hand videos, one for each repetition of each sign and each hand.
 
-[Download Preprocessed Version (800mb)](https://mega.nz/#!5dJjQaLQ!POWOo88zyrAwNbBNP99F-YZNcWK4g2VIz0N3_gSF4gw)
+* [Preprocessed Version (800mb) - Mega](https://drive.google.com/file/d/18VuWBAxHaSBbO7wx57kQVre78FN7GYzQ/view?usp=sharing)
+* [Preprocessed Version (800mb) - Google Drive](https://drive.google.com/file/d/1yhfPpI2iJzPXyx4C7MYR6IPZC3YuuYaL/view?usp=sharing)
 
 
 ## Citing
 
-If you use the dataset, we kindly ask you to cite [LSA64: A Dataset of Argentinian Sign Language]():
+If you use the dataset, we kindly ask you to cite [LSA64: A Dataset of Argentinian Sign Language](http://sedici.unlp.edu.ar/bitstream/handle/10915/56764/Documento_completo.pdf-PDFA.pdf?sequence=1&isAllowed=y):
 
 ```
 @Article{Ronchetti2016,
@@ -87,7 +102,15 @@ pages="XX--YY",
 issn="XXXX-YYYY"
 -->
 
-<!-- ## Articles using LSA64 -->
+## Projects and articles using/citing LSA64
+* [Sign Language Classification using Convolutional Neural Networks (masters project)](https://github.com/frankibem/CS_6001)
+* [Sign Language Recognition Based on 3D Convolutional Neural Networks](https://link.springer.com/chapter/10.1007/978-3-319-93000-8_45)
+* [LSA64: A Dataset of Argentinian Sign Language](http://sedici.unlp.edu.ar/bitstream/handle/10915/56764/Documento_completo.pdf-PDFA.pdf?sequence=1&isAllowed=y)
+* [Sign Languague Recognition Without Frame-Sequencing Constraints: A Proof of Concept on the Argentinian Sign Language](https://link.springer.com/chapter/10.1007/978-3-319-47955-2_28)
+* [Sign Language Recognition based on hand and body skeletal data](https://www.iti.gr/iti/files/document/publications/paper_v3.pdf)
+* [A deep learning approach for analyzing video and skeletal features in sign language recognition](https://ieeexplore.ieee.org/abstract/document/8577085/)
+* [Sign language dataset loading library (python, github)](https://github.com/midusi/sign_language_datasets)
+* [Sign Language Gesture Recognition From Video Sequences Using RNN And CNN](Sign Language Gesture Recognition From Video Sequences Using RNN And CNN) [github ](https://github.com/hthuwal/sign-language-gesture-recognition)
 
 
 ## Samples
@@ -102,7 +125,7 @@ Sample snapshots of the dataset. The images on the left (first column) are from 
 
 ### Position
 
-Mean initial and final position of each class of sign, for the left and right hand. The circle shows the covariance of the position around the mean, which is the center of each circle.
+Mean initial and final position of each class of sign, for the left and right hand. The circle/ellipse size is proportional to the covariance of the position around the mean, which is the center of each ellipse.
 
 |Left hand, initial position|  Left hand, final position|
 |:-------------------------:|:-------------------------:|
@@ -116,7 +139,6 @@ Mean initial and final position of each class of sign, for the left and right ha
 
 ### Trajectories
 Sample trajectories of the right hand (purple) and left hand (green) of samples performed by subject 2.
-
 ![](statistics/LSA64_movement_grid_8x8.png)
 
 ### Handshapes
@@ -130,8 +152,6 @@ Sample handshapes. We show the first frame of the first repetition of each class
 ![](statistics/LSA64_handshapes_grid_left.png)
 
 
-## License ![Creative commons Attribution-NonCommercial-NoDerivatives 4.0 International License ](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
-This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/). The dataset is made available strictly for academic purposes. No derivative works or commercial use are allowed. Please contact the authors if you are unsure about what constitutes fair use under this license, or need to use the dataset under a different license.
 
 
 ## Contact

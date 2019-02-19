@@ -61,8 +61,9 @@ id  | Name                |Country   |Classes|Subjects| Samples| Data | Language
 13 | DEVISIGN-D | China | 500 | 8 | 6000 | ? | Word | videos (rgb) | | Contact author
 14 | DEVISIGN-L | China | 2000 | 8 | 24000 | ? | Word | videos (rgb) | | Contact author
 15 | IIITA -ROBITA | India | 23 | ? | |284mb | Word | videos (rgb) 320x240 | |Contact author
-
-
+16 | Purdue ASL  | USA | ?| 14 (only 5 available)| ? | ? | Word/sentence  | Videos, RGB | | Request DVDs/HD
+17 | CUNY ASL | USA | ? | 8 | ~33000 glosses,  | ? | Sentence| videos (rgb), mocap data | Signstream| Unknown
+18 | SignsWorld Atlas | Arabia | multiple types | 10|  ? | ? | Handshape, Words, Sentences | Images, Videos, RGB | ? | Unknown 
 <!--6   | CUNY                |USA       |      |      |           |      |Word        |                                  |            ||-->
 
 ### Dataset information and related papers
@@ -112,6 +113,10 @@ id  | Name                |Country   |Classes|Subjects| Samples| Data | Language
     1. [Recognizing & Interpreting Indian Sign Language Gesture for Human Robot Interaction](https://ieeexplore.ieee.org/document/5640434/) 2010, Nandy et al.
     2. [ Recognition of Isolated Indian Sign Language gesture in Real Time ](https://pdfs.semanticscholar.org/fa4d/a909eeebc9a923e29502e3eb2dd6c40ca083.pdf) 2010, Nandy et al.
 <!--9. [CUNY](http://eniac.cs.qc.cuny.edu/matt/pubs/lu-huenerfauth-2012-lrec.pdf)-->
+16. [Purdue ASL Dataset](http://www2.ece.ohio-state.edu/~aleix/ASLdatabase.htm)
+17. [CUNY ASL Dataset for Animation](latlab.cs.qc.cuny.edu/corpus) 
+    1. [Collecting and evaluating the CUNY ASL corpus for research on American Sign Language animation](https://www.sciencedirect.com/science/article/pii/S0885230813000879)
+18. [SignsWorld Atlas; a benchmark Arabic Sign Language database](https://www.sciencedirect.com/science/article/pii/S1319157814000548)
 
 ## Handshape/hand posture datasets (not all are for sign language)
 ### Comparison
@@ -130,6 +135,8 @@ id  | Name                     |Country    |Classes|Subjects| Samples       | Da
 10 | CIARP |  - | 10  | ? | 6000 | images (rgb) 38x38 | 11mb | Free download
 11 | RTWH Fingerspelling dataset | Germany | | | | | | |
 12 | Indian Kinect | India | 140 | 18 | 5041 | images (rgb+depth) 640x480| 2gb | Free download
+13 | Arabic Alphabets Sign Language Dataset (ArASL) | Arabia | 32| ? |54,049 |images (rgb) | 64mb  | Free download
+
 
 
 ### Dataset information and related papers
@@ -164,6 +171,8 @@ id  | Name                     |Country    |Classes|Subjects| Samples       | Da
   1. [ Modeling Image Variability in Appearance-Based Gesture Recognition. In ECCV Workshop on Statistical Methods in Multi-Image and Video Processing](https://www-i6.informatik.rwth-aachen.de/publications/download/29/Dreuw-ECCV-SMVP-2006.pdf)
 12. [Indian Kinect](https://www.ias.ac.in/article/fulltext/sadh/041/02/0161-0182) [github](https://github.com/zafar142007/Gesture-Recognition-for-Indian-Sign-Language-using-Kinect)
   1. [Nearest neighbour classification of Indian sign language gestures using kinect camera](https://www.ias.ac.in/article/fulltext/sadh/041/02/0161-0182) 2016, Ansari and Harit
+13. [Arabic Alphabets Sign Language Dataset (ArASL)](https://data.mendeley.com/datasets/y7pckrw6z2/1) 
+  1. [Arabic Alphabet and Numbers Sign Language Recognition](https://www.researchgate.net/publication/285755274_Arabic_Alphabet_and_Numbers_Sign_Language_Recognition)
 
 
 

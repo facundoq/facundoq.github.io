@@ -28,6 +28,20 @@ Each handshape was executed imposing few constraints on the subjects to increase
 We employed a generic webcam for the recording, with a resolution of 640 by 480.
 
 
+
+##  License ![](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). 
+
+This basically means that:
+
+* Academic, educational or personal use is allowed without restrictions.
+* You must share any derivative works under the same license (ie, preprocessed versions of the dataset, subsets, supersets using other datasets).
+* You must mention this website or the article [Handshape recognition for Argentinian Sign Language using ProbSom](http://sedici.unlp.edu.ar/bitstream/handle/10915/52376/Documento_completo.pdf-PDFA.pdf?sequence=1) whenever you share or mention the dataset.
+* Commercial uses of the dataset are not allowed.
+
+Please contact the authors if you are unsure about what constitutes fair use under this license, or need to use the dataset under a different license.
+
+
 ## Raw version
 The raw version of the dataset contains one image for each handshape instance in the dataset. Each image weights 0.33mb on average.
 
@@ -61,24 +75,28 @@ number="1",
 pages="1--5",
 issn="1666-6038"
 }
-
 ```
 
+
+## Articles and projects using LSA16
+* [Handshape Recognition using PrincipalComponent Analysis and ConvolutionalNeural Networks applied to Sign Language (PhD thesis)](http://doras.dcu.ie/22191/1/ThesisMarlonFinal09012017_v3.pdf)
+* [A Study of Convolutional Architectures for Handshape Recognition applied to Sign Language](http://sedici.unlp.edu.ar/bitstream/handle/10915/63481/Documento_completo.pdf-PDFA.pdf?sequence=1&isAllowed=y)
+* [Reconocimiento de gestos dinámicosy su aplicación al lenguaje de señas (PhD thesis, spanish)](https://core.ac.uk/download/pdf/153562887.pdf)
+* [A Study of Convolutional Architectures for Handshape Recognition applied to Sign Language](http://sedici.unlp.edu.ar/bitstream/handle/10915/63481/Documento_completo.pdf-PDFA.pdf?sequence=1&isAllowed=y)
+* [Handshape dataset loading library (python, github)](https://github.com/midusi/handshape_datasets)
 
 ## Samples
 
 Sample images of the dataset.
 
-|:-------------------:|:--------------------:|
-| ![](samples/c1.png) | ![](samples/c2.png) |
-| ![](samples/c3.png) | ![](samples/c4.png)  |
-| ![](samples/c5.png) | ![](samples/c6.png)  |
-| ![](samples/c7.png) | ![](samples/c8.png)  |
-| ![](samples/c9.png) | ![](samples/c10.png)  |
-
-
-## License ![Creative commons Attribution-NonCommercial-NoDerivatives 4.0 International License ](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
-This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/). The dataset is made available strictly for academic purposes. No derivative works or commercial use are allowed. Please contact the authors if you are unsure about what constitutes fair use under this license, or need to use the dataset under a different license.
+<div style="align:center">
+    <img src="samples/c1.png" width="40%" /> <img src="samples/c2.png" width="40%" />
+    <img src="samples/c3.png" width="40%" /> <img src="samples/c4.png" width="40%" />
+    <img src="samples/c5.png" width="40%" /> <img src="samples/c6.png" width="40%" />
+    <img src="samples/c7.png" width="40%" /> <img src="samples/c8.png" width="40%" />
+    <img src="samples/c9.png" width="40%" /> <img src="samples/c10.png" width="40%" />
+</div>
+ 
 
 
 ## Contact
