@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+body { font-family: 'Droid Serif'; }
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+  line-height: 1em;
+}
+.inverse h1, .inverse h2{
+  line-height: 1.1em;
+}
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+.left {
+  align-self: left;
+  text-align: left;
+}
+.center {
+  align-self: center;
+  text-align: center;
+}
+.right {
+  align-self: right;
+  text-align: right;
+}
+.foot{
+  align-self: left;
+  font-size: 0.7em;
+  clear: both;
+}
+.logo img{
+      width:2em;
+      height:2em;
+}
+.floatright{
+  float:right;
+}
+.clear{
+  clear:both;
+}
+.sampleimage img{
+  height:2em;
+}
+.image90 img{
+  text-align: center;
+  margin:auto;
+  width:90%;
+}
+.image100 img{
+  text-align: center;
+  margin:auto;
+  width:100%;
+}
+.image70 img{
+  text-align: center;
+  margin:auto;
+  width:70%;
+}
+.image60 img{
+  text-align: center;
+  margin:auto;
+  width:60%;
+}
+.image50 img{
+  text-align: center;
+  margin:auto;
+  width:50%;
+}
+
+.image50 img{
+  text-align: center;
+  margin:auto;
+  width:30%;
+}
+.classconditional{
+  float:left;
+}
+.classconditional img{
+  width:45%;
+}
+
+.matrix2 {
+  float:right;
+  width:40%
+}
+.matrix2 img{
+  width:100%
+}
+
+.matrix {
+  float:right;
+  width:40%
+}
+.matrix img{
+  margin-top:2em;
+  width:100%
+}
+
+.image25 img{
+
+  width:25%;
+}
+.rotationvsaccuracy{
+  float:right;
+  text-align: right;
+  width:50%;
+}
+
+.rotationvsaccuracy p{
+}
+.rotationvsaccuracy img{
+
+  width:100%;
+}
+
+.heatmap_sample img{
+  float:right;
+  text-align: right;
+  width:55%;
+}
+
+.image80 img{
+  text-align: center;
+  margin:auto;
+  width:80%;
+  height:80%;
+}
+.image img{
+  text-align: center;
+  margin:auto;
+}
+
+.imageheight20 img{
+  text-align: center;
+  margin:auto;
+  height:20%;
+}
+
+.imageheight10 img{
+  text-align: center;
+  margin:auto;
+  max-height:10%;
+}
+.imagemodels img {
+  display:block;
+  height:150px;
+}
+
+
+.white{
+  color:white;
+}
+.gray{
+  color:gray;
+}
+
+.greenbox{
+  display:inline-block;
+  background-color: green;
+  width:20px;
+  height:20px;
+}
+
+.graybox{
+  display:inline-block;
+  background-color: gray;
+  width:20px;
+  height:20px;
+}

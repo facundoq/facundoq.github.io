@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Measuring Invariances</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script src="lib/live.js" type="text/javascript"></script>
+     <script type="text/javascript" src="http://livejs.com/live.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="old_style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+
+    </style>
+
+
+
+  </head>
+  <body>
+<textarea id="source">
+
+name: inverse
+layout: true
+class:
+---
+class: middle, inverse
+
+.right[
+[github](https://github.com/facundoq/rotational_variance)
+]
+
+.left[
+***
+#### Facundo Quiroga¹, Jordina Torrents-Barrena²,
+#### Laura Lanzarini¹, Dómenec Puig-Valls²
+
+# Measuring transformation (in)variances
+# in Neural Networks
+
+.sampleimage[ ![](img/mnist.png "mnist") ]
+.sampleimage[ ![](img/mnist_rot.png "mnist_rot") ]
+
+
+***
+.foot[
+[.logo[![III-LIDI, Universidad Nacional de La Plata](img/logos/lidi.png "III-LIDI, Universidad Nacional de La Plata")]](http://weblidi.info.unlp.edu.ar/)
+¹ **III-LIDI** Instituto de Investigación y Desarrrollo en Informática, **Universidad Nacional de La Plata**, *Argentina*
+
+[.logo[![IRCV, Universitat Rovira i Virgili](img/logos/urv.png "IRCV, Universitat Rovira i Virgili")]](http://deim.urv.cat/~rivi)
+² **IRCV** Intelligent Robotics and Computer Vision Group, **Universitat Rovira i Virgili**, *Spain*
+]
+]
+
+
+---
+class: inverse,center
+# Brain vs Rotation (180°)
+![](img/rotated/mercedes180.jpg)
+---
+class: inverse,center
+# Brain vs Rotation (90°)
+![](img/rotated/mercedes90.jpg)
+
+---
+class: inverse,center
+# Brain vs Rotation (0°)
+![](img/rotated/mercedes0.jpg)
+
+Mercedes Sosa
+---
+class: inverse,center
+# How do we encode
+
+<p style="float:left;font-size:4em;">
+  <img src="img/rotated/mercedes0.jpg" width="25%" /> =
+  <img src="img/rotated/mercedes90.jpg" width="25%" /> =
+  <img src="img/rotated/mercedes180.jpg" width="25%" />
+</p>
+
+.left[
+* In our brains?
+* In an Artificial Neural Network?
+]
+
+---
+class: inverse,center
+# Neural Networks vs Rotations
+.mainimage80[
+![](img/model/variant_nn.png)
+]
+---
+# *Invariant* Neural Networks vs Rotations
+
+
+* A network $f$ is invariant to a set of transformations $T= ⟦ t_1,t_2,\dots,t_n ⟧$ if  $ \forall x$
+$$f(t_1(x))=f(t_2(x))= \dots =f(t_n(x))$$
+
+* If $T= ⟦ R0,R90,R180 ⟧$
+
+.mainimage50[
+![](img/model/invariant_nn.png)
+]
+
+---
+# Invariant models - Current approaches
+
+1. Correct the rotation with another model  .imagemodels[![rotation model](img/model/rotation_model.png)]
+2. Invariant by *design* (30+ models proposed in the last few years) .imagemodels[![invariant designed model](img/model/invariant_designed_model.png)]
+3. Invariant by *training* - with data augmentation .imagemodels[![invariant trained model](img/model/invariant_trained_model.png)]
+4. Hybrids
+
+---
+# Invariance Measures - Past approaches
+
+* Need to compare different models!
+
+.rotationvsaccuracy[
+![accuracy vs rotation](img/accuracy_vs_rotation.png)
+.greenbox[] *Variant* model,
+.graybox[] *Invariant* model
+]
+
+1. Accuracy vs Rotation Angle
+  * **Black box** measure
+  * Standard
+2. [Lenc and Vedaldi 2014](https://arxiv.org/abs/1411.5908) measure *equivariance*
+  * Generalization of *invariance*.
+  * Requires T to be affine & other assumptions.
+  * Hard to use; requires fitting parameters of T.
+  * Not used (8 citations).
+
+---
+.floatright[
+  [tf playground](https://playground.tensorflow.org)
+]
+
+# Past approaches vs Neural Networks
+
+
+
+.mainimage90[![activations](img/activations_image.png)]
+* Neural Network properties
+  * Structured by layers/activations
+  * Complex, distributed representations
+* Limitations of past approaches
+  * Disregard internal representations
+  * No insight on efficiency of encoding
+
+---
+class: inverse
+layout: true
+---
+# Our approach measure $V$ - Motivation
+.heatmap_sample[
+.mainimage60[![activations](img/sample_heatmap_rotated.png)]
+]
+
+1. Measure invariance in **each activation**
+  * Analyse invariance **distribution**
+  * **Guide** future research
+2. Invariance is hard to measure
+  * We measure **variance**
+  <!-- * If $variance ≃ 0$ then activation is "invariant" -->
+3. Works for
+    * **Arbitrary transformations** (including rotations)
+    * **Arbitrary networks**
+
+---
+# Proposed measure $V$ - Setup
+
+* Given
+  * Activation $a(x)$
+  * Samples $ X = \[ x\_1, \dots, x_{n} \] $
+  * Transformations $ T = \[ t\_1, \dots, t_{m} \] $
+--
+.matrix[
+  ![matrix A](img/rotated/matrix.svg.png)
+]
+* Measure variance $V$ for single activation $a$
+
+$$
+A = \begin{bmatrix}
+a(t\_1(x\_1)) & \cdots & a(t\_m(x\_1)) \\\
+\vdots & \ddots & \vdots \\\
+a(t\_1(x\_n)) & \cdots & a(t\_m(x\_n))
+\end{bmatrix}
+$$
+
+--
+
+* Two sources of variance
+      * Samples
+      * Transformations
+
+---
+# Proposed measure $V$ - Definition
+.matrix2[
+  ![matrix A](img/rotated/matrix.svg.png)
+]
+
+$$
+A = \begin{bmatrix}
+a(t\_1(x\_1)) & \cdots & a(t\_m(x\_1)) \\\
+\vdots & \ddots & \vdots \\\
+a(t\_1(x\_n)) & \cdots & a(t\_m(x\_n))
+\end{bmatrix}
+$$
+
+* Variance over transformations (desired)
+   $$V\_t = [ \; A[1,:].var, \; \dots \;, \; A[n,:].var \; ].mean $$
+* Variance over samples (normalization)
+   $$V\_x = [ \; A[:,1].var, \; \dots \;, \; A[:,m].var \; ].mean $$
+
+* Normalized variance: $$ V = \frac{V\_t}{V\_x} $$
+
+---
+class:
+layout: true
+---
+# Results - Datasets and Networks
+
+* Measured various datasets/networks
+* Show only:
+  * MNIST dataset
+
+  .sampleimage[ ![](img/mnist.png "mnist") ]
+
+  .sampleimage[ ![](img/mnist_rot.png "mnist_rot") ]
+
+  * Simple CNN
+
+  .image70[![](img/nn.png "nn topology") ]
+
+---
+
+# Results - Invariance per layer - mnist/simple cnn
+.center[.image60[![](img/results/collapsed_global.png) ]
+* Lower layers have more invariance
+* Variant models are similar except for last layers
+]
+
+---
+# Results - Invariance per class - mnist/simple cnn
+
+| | |
+|:-------------------------:|:-------------------------:|
+|<img width="100%"  src="img/results/class_conv/unrotated/unrotated_class.gif">  |  <img width="100%"  src="img/results/class_conv/rotated/rotated_class.gif">
+| Variant  | Invariant
+
+* Class conditional invariance
+* Invariant model, last layers only invariant for their own classes
+
+---
+class: inverse
+layout: true
+---
+.pull-left[
+# Conclusion
+* $V$ is a low-granularity (in)variance measure
+* Insight into Neural Networks internal invariance
+* Arbitrary transformations
+* Arbitrary networks
+]
+.pull-right[
+# Future work
+* Variants of $V$
+  * Other normalizations
+  * ANOVA
+  * Information theory
+* $V$ for specific layers
+  * Convolutional Layers (done)
+  * Recurrent Networks
+* $V$ during training
+  * Transfer learning
+  * Random networks
+* $V$ as a library
+  * Pytorch/Tensorflow/Tensorboard
+]
+
+</textarea>
+
+ <script src="lib/remark.js" type="text/javascript"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
+<script src="setup.js" type="text/javascript"></script>
+
+</body>
+</html>
