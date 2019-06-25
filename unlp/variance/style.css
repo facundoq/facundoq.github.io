@@ -169,3 +169,14 @@ h1, h2, h3 {
   width:20px;
   height:20px;
 }
+
+.frontimage{
+  float:right;
+  text-align: right;
+  max-width:40%;
+}
+.frontimage img{
+  margin-top: 10px;
+  width:100%;
+  text-align: right;
+}
