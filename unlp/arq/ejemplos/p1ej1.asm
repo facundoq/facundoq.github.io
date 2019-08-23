@@ -1,21 +1,18 @@
-;Escribir un programa para multiplicar dos números
+; Multiplicar dos numeros almacenados en la memoria y guardar el resultado en otra variable en la memoria
 
 org 1000h
-n1 dw 4
-n2 dw 3
+num1 dw 5
+num2 dw 3
 res dw ?
 
-
 org 2000h
-mov dx,n1
-mov cx,n2
 mov ax,0
+mov cx,num2
 
-loop:dec cx; sub cx,1
-	 add ax,dx
-	 cmp cx, 0
-     jnz loop
-
+loop: add ax,num1
+      dec cx
+	  jnz loop
 mov res,ax
 hlt
 end
+

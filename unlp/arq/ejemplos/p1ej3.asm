@@ -1,30 +1,31 @@
-;Escribir un programa para multiplicar dos números
-;La multiplicacion se debe hacer en una subrutina
-; Los valores a multiplicar se pasan por registro y por ref
-; El valor a devolver se pasa por valor
+; Multiplicar dos numeros almacenados en la memoria y guardar el resultado en otra variable en la memoria. Utilizar una subrutina para la multiplicación. El pasaje de parametros es por referencia y por registro, y el resultado se devuelve en el registro DX.
+
 org 1000h
-n1 dw 4
-n2 dw 3
+num1 dw 5
+num2 dw 3
 res dw ?
 
+; Recibe dos numeros en AX y CX, y
+; devuelve el resultado en DX
+org 3500h
+mul: mov dx,0
+	 ; pongo en ax el valor de num1 en lugar de su direccion
+	 mov bx,ax
+	 mov ax,[bx]
+	 ; pongo en ax el valor de num1 en lugar de su direccion
+	 mov bx,cx
+	 mov cx,[bx]
+	 ; multiplicacion
+	 loop: add dx,ax
+		   dec cx
+		   jnz loop
+	ret
 
 org 2000h
-mov dx, offset n1
-mov cx, offset n2
-call  multiplicar
-mov res, ax
+mov ax, offset num1
+mov cx, offset num2
+call mul
+mov res,dx
 hlt
-
-org 3000h
-multiplicar: mov bx,cx
-             mov cx, [bx] ; ahora cx vale 3
-			 mov bx, dx
-             mov dx, [bx]; ahora dx vale 4
-			 ; multiplico como antes
-			 mov ax,0
-			loop:dec cx; sub cx,1
-				 add ax,dx
-				 cmp cx, 0
-				 jnz loop
-			ret
 end
+
