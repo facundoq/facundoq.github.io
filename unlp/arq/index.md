@@ -15,6 +15,9 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
     * [Subrutina de Multiplicación. Pasaje por registros y por valor.](ejemplos/p1ej2.asm)
     * [Subrutina de Multiplicación. Pasaje por registros. Parámetros de entrada por referencia, de salida por valor.](ejemplos/p1ej3.asm)
     * [Subrutina de Multiplicación. Pasaje por registros. Parámetros de entrada por valor, de salida por referencia.](ejemplos/p1ej4.asm)
+    * [Subrutina de Multiplicación. Parámetros de entrada por valor y pila, de salida por valor y registro.](ejemplos/p1ej5.asm)
+    * [Subrutina de Multiplicación. Parámetros de entrada por valor y registros. Parámetros de salida por referencia y pila.](ejemplos/p1ej6.asm)
+    * [Subrutina para rotar a la derecha.](ejemplos/p1ej7.asm)
 *   P2: Interrupciones
     * Apuntes
         *   [P2 Entrada salida y e interrupciones](clases/clase2.ppt)
