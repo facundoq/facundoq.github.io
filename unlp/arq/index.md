@@ -3,8 +3,13 @@ title: Arquitectura de Computadoras 2019
 header: Arquitectura de Computadoras 2019
 ---
 
+# Link al simulador VonSim. Solo para práctica 1 y ejercicios con interrupciones por software de la práctica 2.
+[VonSim (beta)](https://vonsim.github.io/test/)
+
 # Diapositivas y ejemplos de las explicaciones prácticas
 -------------------------------------------
+
+
 
 IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dado en las clases prácticas y puede contener errores u omisiones. NO es [material OFICIAL de la cátedra](http://weblidi.info.unlp.edu.ar/catedras/arquitecturaP2003/) y no reemplaza la explicación que se realiza en las clases.
 
@@ -25,6 +30,9 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
         *   [P2 Apunte Completo sobre interrupciones en MSX88](apuntes/interrupciones.pdf)
         *   [P2 Entrada salida y e interrupciones (alternativa)](clases/clase2alternativa.ppt)
     * Ejemplos
+        * [Leer un string de 5 caracteres y imprimirlo](ejemplos/p2ej1.asm)
+        * [Imprimir los dígitos de 0 al 9](ejemplos/p2ej2.asm)
+        * [Juego "Adivina la letra".](ejemplos/p2ej3.asm)
 * P3
     * Apuntes
         *   [P3 Dispositivos (parte 1)](clases/clase3-1.ppt)
@@ -59,4 +67,4 @@ Otros enlaces de interés
 *   [Material del año 2017](2017/index.html)
 *   [Material del año 2018](2018/index.html)
 *   [Página de Arquitectura de Computadoras UNLP](http://weblidi.info.unlp.edu.ar/catedras/arquitecturaP2003/)
-*   [Cronograma 2018](http://weblidi.info.unlp.edu.ar/catedras/arquitecturap2003)
+*   [Cronograma 2019](http://weblidi.info.unlp.edu.ar/catedras/arquitecturap2003/cronograma%20ARQ%202019.pdf)
