@@ -30,9 +30,11 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
         *   [P2 Apunte Completo sobre interrupciones en MSX88](apuntes/interrupciones.pdf)
         *   [P2 Entrada salida y e interrupciones (alternativa)](clases/clase2alternativa.ppt)
     * Ejemplos
-        * [Leer un string de 5 caracteres y imprimirlo](ejemplos/p2ej1.asm)
-        * [Imprimir los dígitos de 0 al 9](ejemplos/p2ej2.asm)
-        * [Juego "Adivina la letra".](ejemplos/p2ej3.asm)
+        * [Leer un string de 5 caracteres y imprimirlo (int 6 e int 7)](ejemplos/p2ej1.asm)
+        * [Imprimir los dígitos de 0 al 9 (int 6 e int 7)](ejemplos/p2ej2.asm)
+        * [Juego "Adivina la letra". (int 6 e int 7)](ejemplos/p2ej3.asm)
+        * [Contar la cantidad de veces que se presiona F10](ejemplos/p2ej4.asm)
+        * [Contar la cantidad de veces que se presiona F10 y terminar a las 10](ejemplos/p2ej5.asm)
 * P3
     * Apuntes
         *   [P3 Dispositivos (parte 1)](clases/clase3-1.ppt)
