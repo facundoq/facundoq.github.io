@@ -4,7 +4,7 @@ header: Arquitectura de Computadoras 2019
 ---
 
 # Link al simulador VonSim. Solo para práctica 1 y ejercicios con interrupciones por software de la práctica 2.
-[VonSim (beta)](https://vonsim.github.io/test/)
+[VonSim (beta)](https://vonsim.github.io/)
 
 # Diapositivas y ejemplos de las explicaciones prácticas
 -------------------------------------------
