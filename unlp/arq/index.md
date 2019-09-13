@@ -35,13 +35,19 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
         * [Juego "Adivina la letra". (int 6 e int 7)](ejemplos/p2ej3.asm)
         * [Contar la cantidad de veces que se presiona F10](ejemplos/p2ej4.asm)
         * [Contar la cantidad de veces que se presiona F10 y terminar a las 10](ejemplos/p2ej5.asm)
+        * [Imprimir el texto "Hola" cada un segundo, para siempre.](ejemplos/p2ej6.asm)
+        * [Imprimir el texto "Hola" a los 20 segundos de comenzado el programa, y luego terminar.](ejemplos/p2ej7.asm)
 * P3
     * Apuntes
         *   [P3 Dispositivos (parte 1)](clases/clase3-1.ppt)
         *   [P3 Dispositivos (parte 2)](clases/clase3-2.ppt)
     * Ejemplos
+      * [Setear los leds a una configuración](ejemplos/p3ej1.asm)
+      * [Mostrar todos los patrones de led posibles](ejemplos/p3ej2.asm)
+      * [Leer el valor de las llaves como una contraseña hasta que el usuario la adivine](ejemplos/p3ej3.asm)
+      * [Imprimir el string "hola" en la impresora](ejemplos/p3ej4.asm)
 * Repaso
-    
+
 
 
 ### WinMIPS
