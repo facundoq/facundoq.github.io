@@ -18,7 +18,7 @@ cantidad dw 0
 
 org 2000h
 ;1.1 IMR = 1111 1111 todo deshabilitado
-mov al, 0111 1111b
+mov al, 1111 1110b
 out IMR,al
 
 ;1.2

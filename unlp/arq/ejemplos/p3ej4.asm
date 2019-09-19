@@ -1,4 +1,5 @@
-; Escribir un programa que escriba el string "hola" en la impresora
+
+; Escribir un programa que escriba el string "hola" en la impresora utilizando el PIO
 
 PA equ 30h
 PB equ 31h

@@ -45,7 +45,12 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
       * [Setear los leds a una configuración](ejemplos/p3ej1.asm)
       * [Mostrar todos los patrones de led posibles](ejemplos/p3ej2.asm)
       * [Leer el valor de las llaves como una contraseña hasta que el usuario la adivine](ejemplos/p3ej3.asm)
-      * [Imprimir el string "hola" en la impresora](ejemplos/p3ej4.asm)
+      * [Imprimir el string "hola" en la impresora a través del PIO](ejemplos/p3ej4.asm)
+      * [Imprimir un string en la impresora a través del handshake en modo consulta  de estado o polling](ejemplos/p3ej5.asm)
+      * [Imprimir un string en la impresora a través del handshake en modo interrupciones](ejemplos/p3ej6.asm)
+      * [Bits y valores del IRR e ISR](ejemplos/p3_irr_isr.asm)
+      * [Imprimir el string "Hola" en la impresora utilizando el USART en modo DTR](ejemplos/p3_usart_dtr.asm)
+      * [Imprimir el string "hola" en la impresora utilizando el USART en modo XON/XOFF](ejemplos/p3_usart_xon.asm)
 * Repaso
 
 
