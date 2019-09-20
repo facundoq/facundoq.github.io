@@ -41,6 +41,7 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
     * Apuntes
         *   [P3 Dispositivos (parte 1)](clases/clase3-1.ppt)
         *   [P3 Dispositivos (parte 2)](clases/clase3-2.ppt)
+        *   [USART](apuntes/usart.pdf)
     * Ejemplos
       * [Setear los leds a una configuración](ejemplos/p3ej1.asm)
       * [Mostrar todos los patrones de led posibles](ejemplos/p3ej2.asm)
