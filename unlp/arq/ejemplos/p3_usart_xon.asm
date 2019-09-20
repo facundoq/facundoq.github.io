@@ -53,10 +53,11 @@ pollrecibir: in al, ESTADO
          
 ; Subrutina que espera a que el USART envie a la CPU el carácter 
 org 3200h
-esperarXON: call pollrecibir
+esperarXON: call pollrecibir ; se repite la llamada la primera vez, no importa
             in al,DATOIN
             cmp al,XON
             jnz esperarXON
+            ret
  
 ; PROGRAMA PRINCIPAL
 org 2000h

@@ -29,21 +29,30 @@ XON EQU 11h
 org 1000h
 mensaje db "Hola"
 
-; Subrutina que espera a que el USART esté listo para a) enviar más datos
-; hasta la impresora y b) que el buffer no esté lleno.
-;a) Como la comunicación es serie, puede que todavía este enviando los bits
+; Subrutina que espera a que el USART esté listo para enviar más datos
+; hasta la impresora 
+; Como la comunicación es serie, puede que todavía este enviando los bits
 ; de un dato anterior
-; b) Como el buffer de la impresora es finito, puede que se llene.
 org 3000h
 pollenviar: in al,ESTADO ; obtener el valor de ESTADO
-            ; aislar TxReady, el bit 0 de ESTADO
-            ; y también DSR, el bit 7 de ESTADO
-            and al, 81h
-            ;comparar con 81 para ver si ambos valen 1
-            cmp al,81
-            jnz pollenviar; si alguno no vale 1, seguir haciendo polling
+            ; aislar TxReady, el bit 0 de ESTADO            
+            ; and XXXX XXXT 0000 0001 = 0000 000T (donde D=DSR y T=TxReady)
+            and al, 01h
+            jz pollenviar; si al=0, entonces TxReady=0 => seguir haciendo polling
             ret
- 
+
+
+; Subrutina que espera a que el buffer de la impresora no esté lleno.
+; b) Como el buffer de la impresora es finito, puede que se llene.
+org 3000h
+polldsr: in al,ESTADO ; obtener el valor de ESTADO
+            ; aislar DSR, el bit 7 de ESTADO
+            ; and DXXX XXXX 1000 0000 = D000 0000 (donde D=DSR )
+            and al, 80h
+            jz pollenviar; si vale 0, seguir haciendo polling
+            ret
+            
+
 ; PROGRAMA PRINCIPAL
 org 2000h
 ; preparo el string a imprimir
@@ -57,16 +66,14 @@ out ESTADO,al
 
 ; Envío a imprimir
 loop: call pollenviar
-      ; usart listo para enviar datos, mando el car
+      call polldsr
+      ; usart e impresora listos para enviar datos
+      ; envio el caracter
       mov al,[bx]
       out DATOOUT,al
-      ; verifico si la impresora me quiere mandar un XOFF
-      ; porque el buffer está lleno
-      in al,ESTADO; leo el reg de estado
-      and AL,02h; aislo el bit RxReady de recepcion en espera
       ; avanzo al siguiente caracter
       inc bx 
       dec cl 
-      jnz fin
+      jnz loop
 hlt
 end
