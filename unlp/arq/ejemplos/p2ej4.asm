@@ -1,4 +1,4 @@
-; Escribir un programa que cuente la cantidad de veces que se presiona la tecla F10
+    ; Escribir un programa que cuente la cantidad de veces que se presiona la tecla F10
 
 ;1) Configurar el PIC para asociar la tecla F10 a una subrutina
 ; 1.0) Elegir un id o indice de interrupcion para el f10
@@ -18,7 +18,7 @@ cantidad dw 0
 
 org 2000h
 ;1.1 IMR = 1111 1111 todo deshabilitado
-mov al, 0111 1111b
+mov al, 1111 1110b
 out IMR,al
 
 ;1.2

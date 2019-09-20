@@ -28,8 +28,8 @@ imprimio db 0
 
 org 2000h 
 
-;Paso 2: IMR = 0011 1111 
-mov al, 00111111b;  BFh
+;Paso 2: IMR = 1111 1100
+mov al, 11111100b;  FCh
 out IMR, al
 
 ; Paso 4: INT1 = 8

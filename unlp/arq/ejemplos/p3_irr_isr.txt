@@ -1,0 +1,28 @@
+IMR = Interruption Mask Register
+XXXX CHTF
+C = CDMA
+H = HANDSHAKE
+T = TIMER
+F = F10
+ 
+IRR = Interruption Request Register
+Interrupciones pedidas (esperando)
+
+Ejemplo:
+0000 0000
+Interrupcion del timer y el F10
+0000 0011
+Se atiende la F10 primero
+0000 0010
+Termina la del F10 y se atiende la del Timer
+0000 0000
+
+ISR = Interruption Service Register
+Interrupciones en ejecucion
+
+Ejemplo:
+0000 0000
+Interrupcion del timer
+0000 0010
+Termina la subrutina
+0000 0000

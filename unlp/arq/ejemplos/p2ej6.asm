@@ -18,8 +18,8 @@ org 1000h
 mensaje db "hola"
 org 2000h 
 
-;Paso 2: IMR = 1011 1111 
-mov al, 10111111b;  BFh
+;Paso 2: IMR = 1111 1101 
+mov al, 11111101b;  FDh
 out IMR, al
 
 ; Paso 4: INT1 = 8
