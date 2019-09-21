@@ -5,7 +5,7 @@
 
 ; Para configurar (CONTROL):
 ;bit:  7 6 5 4 3 2 1 0
-;reg: |0|1|0|D|0|0|V|0|
+;reg: |0|1|0|D|0|0|V|1|
 ; E: Limpiar los flags de error (siempre hacerlo al principio)
 ; D: Protocolo de operación: 1 para DTR, 0 para XON/XOFF 
 ; V: Velocidad: 0 para 6 bits por segundo, 1 para 18 bits por segundo
@@ -23,7 +23,6 @@ DATOIN equ 60h
 DATOOUT equ 61h
 ESTADO equ 62h
 
-XON EQU 11h
 
 ; definición de datos
 org 1000h
@@ -60,6 +59,7 @@ mov bx,offset tabla
 mov cl,4 ; cant de caracteres
 
 ; Configuro al usart en modo DTR mediante consulta de estado
+; con una velocidad de 6 bits por segundo
 ;   =  0101 0001
 mov al,51h
 out ESTADO,al
