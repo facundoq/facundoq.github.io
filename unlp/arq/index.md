@@ -54,12 +54,12 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
       * [Imprimir el string "hola" en la impresora utilizando el USART en modo XON/XOFF](ejemplos/p3_usart_xon.asm)
 * Repaso
     * Ejercicios de parcial del 2018
-      * [ej1](pej1.asm)
-      * [ej2](pej2.asm)
-      * [ej3](pej3.asm)
-      * [ej4](pej4.asm)
-      * [ej7 - Completar el código ](pej7.asm)
-      * [ej9 - Implementación del juego "Cofre del Tesoro"](pej9.asm)
+      * [ej1](ejemplos/pej1.asm)
+      * [ej2](ejemplos/pej2.asm)
+      * [ej3](ejemplos/pej3.asm)
+      * [ej4](ejemplos/pej4.asm)
+      * [ej7 - Completar el código ](ejemplos/pej7.asm)
+      * [ej9 - Implementación del juego "Cofre del Tesoro"](ejemplos/pej9.asm)
 
 
 
