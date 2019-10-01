@@ -53,6 +53,8 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
       * [Imprimir el string "Hola" en la impresora utilizando el USART en modo DTR](ejemplos/p3_usart_dtr.asm)
       * [Imprimir el string "hola" en la impresora utilizando el USART en modo XON/XOFF](ejemplos/p3_usart_xon.asm)
 * Repaso
+    * Auto-evaluaciones
+        * [Repaso general](https://kahoot.it/challenge/0101536)
     * Ejercicios de parcial del 2018
       * [ej1](ejemplos/1pej1.asm)
       * [ej2](ejemplos/1pej2.asm)
@@ -70,6 +72,9 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
     *   [P4 Programación básica \- pipeline (parte 1)](clases/clase4-1.ppt)
     *   [P4 Programación básica \- pipeline (parte 2)](clases/clase4-2.ppt)
     *   [P4 Programación básica \- (alternativa)](clases/clase4alternativa.ppt)
+    * Auto-evaluaciones
+        * [Instrucciones WinMIPS](https://kahoot.it/challenge/0508731)
+        * [Acceso a memoria y saltos](https://kahoot.it/challenge/030285)
     * Ejemplos
 *   P5
     *   [P5 Punto flotante (parte 1)](clases/clase5-1.ppt)
