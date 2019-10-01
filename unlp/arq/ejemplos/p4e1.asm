@@ -9,4 +9,11 @@ mult: .word 0
 
 .code
 
+ld r1,a(r0)
+ld r2,b(r0)
+dadd r3,r1,r2
+sd r3,sum(r0)
+dmul r4,r1,r2
+sd r4,mult(r0)
+
 halt

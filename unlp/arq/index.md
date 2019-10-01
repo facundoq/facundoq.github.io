@@ -76,6 +76,17 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
         * [Instrucciones WinMIPS](https://kahoot.it/challenge/0508731)
         * [Acceso a memoria y saltos](https://kahoot.it/challenge/030285)
     * Ejemplos
+        * [Direcciones de memoria y variables](ejemplos/p4e0.asm)
+        * [Sumar y multiplicar dos valores](ejemplos/p4e1.asm)
+        * [Calcular (a+4)*3](ejemplos/p4e2.asm)
+        * [Sumar elementos de un vector sin saltos (sin resolver)](ejemplos/p4e3.asm)
+        * [Sumar elementos de un vector con saltos (sin resolver)](ejemplos/p4e4.asm)
+        * [Máximo entre dos variables (sin resolver)](ejemplos/p4e5.asm)
+        * [ Generar un vector de 5 elementos (sin resolver)](ejemplos/p4e6.asm)
+        * [Multiplicar por dos los elementos del un vector (sin resolver)](ejemplos/p4e7.asm)
+        * [Generar un nuevo vector a partir de uno existente (sin resolver)](ejemplos/p4e8.asm)
+        * [Modificar los elementos de un vector mayores a 10 (sin resolver)](ejemplos/p4e9.asm)
+        * [Calcular la suma de los valores de un vector utilizando un registro como puntero (sin resolver)](ejemplos/p4e10.asm)
 *   P5
     *   [P5 Punto flotante (parte 1)](clases/clase5-1.ppt)
     *   [P5 Punto flotante (parte 2)](clases/clase5-2.ppt)
