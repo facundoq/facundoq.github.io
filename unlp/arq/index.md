@@ -54,7 +54,7 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
       * [Imprimir el string "hola" en la impresora utilizando el USART en modo XON/XOFF](ejemplos/p3_usart_xon.asm)
 * Repaso
     * Auto-evaluaciones
-        * [Repaso general](https://kahoot.it/challenge/0101536)
+        * [Repaso general](https://kahoot.it/challenge/0849538)
     * Ejercicios de parcial del 2018
       * [ej1](ejemplos/1pej1.asm)
       * [ej2](ejemplos/1pej2.asm)
