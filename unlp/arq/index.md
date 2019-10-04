@@ -75,7 +75,8 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
     * Auto-evaluaciones
         * [Instrucciones WinMIPS](https://kahoot.it/challenge/0508731)
         * [Acceso a memoria y saltos](https://kahoot.it/challenge/030285)
-        * [Acceso a memoria y saltos](https://kahoot.it/challenge/030285)
+        * [Pipeline y Atascos](https://kahoot.it/challenge/0781808)
+        
     * Ejemplos
         * [Direcciones de memoria y variables](ejemplos/p4e0.asm)
         * [Sumar y multiplicar dos valores](ejemplos/p4e1.asm)
