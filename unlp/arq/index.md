@@ -93,6 +93,11 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
     *   [P5 Punto flotante (parte 1)](clases/clase5-1.ppt)
     *   [P5 Punto flotante (parte 2)](clases/clase5-2.ppt)
     * Ejemplos
+        * [Intercambiar valores de registros con la pila](ejemplos/p5e1.asm)
+        * [Programa con dos subrutinas](ejemplos/p5e2.asm)
+        * [Programa con dos subrutinas y convención](ejemplos/p5e3.asm)
+        * [Pasar a mayúsculas un string con 2 subrutinas](ejemplos/p5e4.asm)
+        * [Pasar a mayúsculas un string con 2 subrutinas con manejo alternativo de la pila](ejemplos/p5e5.asm)
 *   P6
     * [P6 Entrada/salida](clases/clase6.ppt)
     * Ejemplos
