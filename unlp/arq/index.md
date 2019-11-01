@@ -99,14 +99,21 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
         * [Pasar a mayúsculas un string con 2 subrutinas](ejemplos/p5e4.s)
         * [Pasar a mayúsculas un string con 2 subrutinas con manejo alternativo de la pila](ejemplos/p5e5.s)
         * [Atasco WAR](ejemplos/p5e6.s)
-        * [Convertir un vector de números enteros a PF](ejemplos/p5e7.s)
         * [Atasco WAW](ejemplos/p5e8.s)
+        * [Convertir un vector de números enteros a PF](ejemplos/p5e7.s)
+        * [Comparar dos números de punto flotante e imprimir en base al resultado](ejemplos/p5e9.s)
 *   P6
     * [P6 Entrada/salida](clases/clase6.ppt)
     * Ejemplos
-        * [Ejercicio tipo parcial - Leer números y crear vector](ejemplos/parcial2e1.s)
-* Repaso
+        * [Imprimir un entero sin signo en la pantalla (codigo 1)](ejemplos/p6e1.s)
+        * [Imprimir un entero con signo en la pantalla (codigo 2)](ejemplos/p6e2.s)
+        * [Imprimir un flotante en la pantalla (codigo 3)](ejemplos/p6e3.s)
+        * [Imprimir un string en la pantalla (codigo 4)](ejemplos/p6e4.s)
+        * [Leer un número desde teclado (codigo 8)](ejemplos/p6e5.s)
+        * [Leer un string desde teclado (leyendo varios caracteres) (codigo 9)](ejemplos/p6e6.s)
 
+* Repaso
+    * [Ejercicio tipo parcial - Leer números y crear vector](ejemplos/parcial2e1.s)
 
 
 
