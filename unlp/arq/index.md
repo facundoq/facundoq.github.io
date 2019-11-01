@@ -104,6 +104,7 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
 *   P6
     * [P6 Entrada/salida](clases/clase6.ppt)
     * Ejemplos
+        * [Ejercicio tipo parcial - Leer números y crear vector](ejemplos/parcial2e1.s)
 * Repaso
 
 
