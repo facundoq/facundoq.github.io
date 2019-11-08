@@ -111,13 +111,19 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
         * [Imprimir un string en la pantalla (codigo 4)](ejemplos/p6e4.s)
         * [Leer un número desde teclado (codigo 8)](ejemplos/p6e5.s)
         * [Leer un string desde teclado (leyendo varios caracteres) (codigo 9)](ejemplos/p6e6.s)
+        * [Pintar un pixel en la pantalla gráfica](ejemplos/p6e8.s)
 
 * Repaso
+    * [Offset en WinMIPS ](ejemplos/offset.s)
     * [Ejercicio tipo parcial - Leer números y crear vector](ejemplos/parcial2e1.s)
+    * [Ejercicio tipo parcial - Calculos en PF con vectores](ejemplos/parcial2e2.s)
+    * [Calcular el valor con y sin delay slot](ejemplos/parcial2e3.s)
+    * [Calcular CPI en un código chico](ejemplos/parcial2e4.s)
+    * [Ejemplo de atascos estructurales con punto flotante.](ejemplos/parcial2e5.s)
 
 
 
-Otros enlaces de interés
+# Otros enlaces de interés
 ------------------------
 
 *   [Material del año 2017](2017/index.html)
