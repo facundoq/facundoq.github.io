@@ -71,11 +71,7 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
 *   P4
     *   [P4 Programación básica \- pipeline (parte 1)](clases/clase4-1.ppt)
     *   [P4 Programación básica \- pipeline (parte 2)](clases/clase4-2.ppt)
-    *   [P4 Programación básica \- (alternativa)](clases/clase4alternativa.ppt)
-    * Auto-evaluaciones
-        * [Instrucciones WinMIPS](https://kahoot.it/challenge/0508731)
-        * [Acceso a memoria y saltos](https://kahoot.it/challenge/030285)
-        * [Pipeline y Atascos](https://kahoot.it/challenge/0781808)
+    *   [P4 Programación básica \- (alternativa)](clases/clase4alternativa.ppt)     
 
     * Ejemplos
         * [Direcciones de memoria y variables](ejemplos/p4e0.s)
@@ -112,7 +108,13 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
         * [Leer un número desde teclado (codigo 8)](ejemplos/p6e5.s)
         * [Leer un string desde teclado (leyendo varios caracteres) (codigo 9)](ejemplos/p6e6.s)
         * [Pintar un pixel en la pantalla gráfica](ejemplos/p6e8.s)
-
+* Autoevaluaciones
+    * [P4 - Instrucciones WinMIPS](https://kahoot.it/challenge/0668157)
+    * [P4 - Acceso a memoria y saltos](https://kahoot.it/challenge/0981011)
+    * [P4 - Pipeline y Atascos](https://kahoot.it/challenge/0252924)
+    * [P5 -PF y notación](https://kahoot.it/challenge/0487430)
+    * [P6 -Entrada salida](https://kahoot.it/challenge/0802848)
+    *
 * Repaso
     * [Offset en WinMIPS ](ejemplos/offset.s)
     * [Ejercicio tipo parcial - Leer números y crear vector](ejemplos/parcial2e1.s)
