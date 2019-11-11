@@ -1,0 +1,7 @@
+1) Leer un vector de 5 números enteros desde teclado. Luego calcular su suma. Finalmente, imprimir el cartel "El promedio es: " , y luego el valor del promedio.
+
+2) Igual que 1) pero implementando la funcionalidad en dos subrutinas. La primera para leer el vector, la segunda para calcular la suma. La impresión debe realizarse en el programa principal.
+
+3) Dado el vector de números enteros a, calcular el promedio de sus valores.
+
+4) 

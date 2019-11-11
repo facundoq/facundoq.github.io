@@ -122,7 +122,7 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
     * [Calcular el valor con y sin delay slot](ejemplos/parcial2e3.s)
     * [Calcular CPI en un código chico](ejemplos/parcial2e4.s)
     * [Ejemplo de atascos estructurales con punto flotante.](ejemplos/parcial2e5.s)
-
+    * [Enunciados para practicar para el 2do parcial](ejemplos/enunciados2doparcial.txt)
 
 
 # Otros enlaces de interés
