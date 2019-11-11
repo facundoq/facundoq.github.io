@@ -1,7 +1,23 @@
 1) Leer un vector de 5 números enteros desde teclado. Luego calcular su suma. Finalmente, imprimir el cartel "El promedio es: " , y luego el valor del promedio.
 
-2) Igual que 1) pero implementando la funcionalidad en dos subrutinas. La primera para leer el vector, la segunda para calcular la suma. La impresión debe realizarse en el programa principal.
+1bis) Igual que 1) pero implementando la funcionalidad en dos subrutinas. La primera para leer el vector, la segunda para calcular la suma. La impresión debe realizarse en el programa principal.
 
-3) Dado el vector de números enteros a, calcular el promedio de sus valores.
+2) Dado el vector de números enteros A, calcular el promedio de sus valores. El promedio puede dar como resultado un número en punto flotante. Por ende debe convertir los valores de A a punto flotante antes de calcularlo. Finalmente, guardar el promedio en la variable promedio, e imprimir su valor en pantalla
 
-4) 
+.data
+enteros: .word 5,2,9,7,3,7
+promedio: .double 0
+flotantes: .double 0
+.code
+
+2bis) Igual que 2) pero la conversión a punto flotante del vector debe realizarse en una subrutina aparte, y el cálculo del promedio en base al vector en punto flotante en otra subrutina.  Informar en el programa principal.
+
+
+3) Escribir un programa que lea una secuencia de caracteres desde teclado, y luego cuente la cantidad de letras "a" (solo minúscula) que contiene la secuencia. Finalmente, informar dicha cantidad.
+
+3bis) Igual que 3 pero realizar la lectura en una subrutina, y la cuenta de la cantidad de "a" en otra subrutina. Informar en el programa principal.
+
+
+4) Escribir un programa que lea posiciones (x,y), hasta que se ingrese la coordenada (0,0). Las coordenadas se leen como dos números enteros por separado. Por cada coordenada leida, pinte de color azul el pixel correspondiente de la pantalla gráfica.
+
+Al finalizar, informar la cantidad de pixeles pintados.
