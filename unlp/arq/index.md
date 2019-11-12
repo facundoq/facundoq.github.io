@@ -114,7 +114,6 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
     * [P4 - Pipeline y Atascos](https://kahoot.it/challenge/0252924)
     * [P5 -PF y notación](https://kahoot.it/challenge/0487430)
     * [P6 -Entrada salida](https://kahoot.it/challenge/0802848)
-    *
 * Repaso
     * [Offset en WinMIPS ](ejemplos/offset.s)
     * [Ejercicio tipo parcial - Leer números y crear vector](ejemplos/parcial2e1.s)
@@ -123,6 +122,7 @@ IMPORTANTE: El siguiente material sólo sirve como una guía para repasar lo dad
     * [Calcular CPI en un código chico](ejemplos/parcial2e4.s)
     * [Ejemplo de atascos estructurales con punto flotante.](ejemplos/parcial2e5.s)
     * [Enunciados para practicar para el 2do parcial](ejemplos/enunciados2doparcial.txt)
+      * [Solución al ejercicio 3bis](ejemplos/2do_parcial_solucion.s)
 
 
 # Otros enlaces de interés
