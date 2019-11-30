@@ -2,7 +2,12 @@
 title: Arquitectura de Computadoras 2019
 header: Arquitectura de Computadoras 2019
 ---
+# Notas tentativas P2F2 (no oficial). Para resultados oficiales esperar a la publicación de los resultados en [http://weblidi.info.unlp.edu.ar/catedras/arquitecturaP2003/](http://weblidi.info.unlp.edu.ar/catedras/arquitecturaP2003/)
 
+[Notas](attachments/notasp2f2.pdf)
+
+
+------------------------------------------
 # Link al simulador VonSim. Solo para práctica 1 y ejercicios con interrupciones por software de la práctica 2.
 [VonSim (beta)](https://vonsim.github.io/)
 
