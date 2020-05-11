@@ -87,7 +87,7 @@ function start_transfer(){
 
 function gotResult(err, img) {
   // When we get the results, update the result image src
-  select("#image").attribute('src',img.src)
+  select("#stylizedImage").attribute('src',img.src)
   if (!loading){
     get_current_model().transfer(gotResult); 
   }
