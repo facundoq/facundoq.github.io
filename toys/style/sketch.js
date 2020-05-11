@@ -1,63 +1,72 @@
-// Copyright (c) 2019 ml5
-// 
-// This software is released under the MIT License.
-// https://opensource.org/licenses/MIT
 
-/* ===
-ml5 Example
-Style Transfer Mirror Example using p5.js
-This uses a pre-trained model of The Great Wave off Kanagawa and Udnie (Young American Girl, The Dance)
-=== */
-
-let style;
 let video;
-let isTransferring = false;
+let loading = true;
 let resultImg;
 let model_names = ['udnie','mathura',"matta","la_muse","matilde_perez","scream","wave","wreck","rain_princess"]
-let models=[];
-let model_loaded_count=0;
-let current_model=1;
+let models={};
+// let model_loaded_count=0;
+let current_model=0;
 let h=320;
 let w=240;
 
 let capture_size=[320,240]
 let canvas;
+
+
 function setup() {
- 
+  // Video capture
   video = createCapture(VIDEO);
   video.size(capture_size[0], capture_size[1]);
   video.hide();
-  // The results image from the style transfer
-  resultImg = createImg('','Stylized image');
-  resultImg.hide();
-  select("#modal").show()
-
-  window.addEventListener('resize', update_canvas_size);
-
-  // Create a new Style Transfer method with a defined style.
-  // We give the video as the second argument
-  for (const name of model_names){    
-    url='models/'.concat(name);
-    print(concat("Loading model from ",url));
-    models.push(ml5.styleTransfer(url, video, modelLoaded));
-  }
-   
+  // UI setup
+  select("#styleButton").mousePressed(next_model);
+  // Load model
+  load_current_model()
 }
+
+function load_current_model(){
+  update_style_image()
+  model_name=model_names[current_model]
+  if (!models.hasOwnProperty(model_name)){
+    select("#modal").show()
+    select("#ui").hide()
+    load_model(model_name,model_loaded)
+  }
+}
+
+function model_loaded(){
+  select("#modal").hide()
+  select("#ui").show()
+  start_transfer()
+}
+
+function load_model(name,callback){
+  url='models/'.concat(name);
+  print(concat("Loading model from ",url));
+  loading = true;
+  function intermediate_callback(){
+    loading=false;
+    callback();
+  }
+  models[name]=ml5.styleTransfer(url, video, intermediate_callback);
+}
+
 function update_canvas_size(){
   canvas=select("#defaultCanvas0")
   print(canvas)
   canvas.width = h;
   canvas.height = w;
 }
-function draw(){
-  image(resultImg, 0, 0, h, w);
-}
+// function draw(){
+//   image(resultImg, 0, 0, h, w);
+// }
 
 function update_style_image(){
   let model_name=model_names[current_model]
   let image_url=concat("images/",model_name)
   image_url = concat(image_url,".png")
   select("#styleImage").attribute('src',image_url)
+  select("#styleName").html(model_name)
 }
 
 function next_model(){
@@ -65,32 +74,21 @@ function next_model(){
   if (current_model >= model_names.length){
     current_model=0
   }
-  update_style_image()
+  load_current_model()
 }
-// A function to call when the model has been loaded.
-function modelLoaded() {
-  model_loaded_count=model_loaded_count+1
-  // print(model_loaded_count)
-  if (model_loaded_count == model_names.length){
-    console.warn("All models loaded.")
-    console.warn(window.innerHeight, window.innerWidth)
-    
-    canvas=createCanvas(window.innerHeight, window.innerWidth).parent('canvasContainer');
-    update_canvas_size()
-    // print(models)
-    // print(current_model)
-    select("#styleImage").mousePressed(next_model)
-    update_style_image()
-    select("#modal").hide()
-    select('#ui').show();
-    models[current_model].transfer(gotResult); 
-  }
-  
+function get_current_model(){
+  return models[model_names[current_model]]
+}
+// When we get the results, update the result image src
+function start_transfer(){
+  get_current_model().transfer(gotResult); 
 }
 
-// When we get the results, update the result image src
 function gotResult(err, img) {
   // print("gotResult",img)
-  resultImg.attribute('src', img.src);
-  models[current_model].transfer(gotResult); 
+  // resultImg.attribute('src', img.src);
+  select("#image").attribute('src',img.src)
+  if (!loading){
+    get_current_model().transfer(gotResult); 
+  }
 }
