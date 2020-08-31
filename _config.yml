@@ -4,8 +4,12 @@ header: Facundo Quiroga
 
 #theme: jekyll-theme-cayman
 defaults:
-  -
-    scope:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
