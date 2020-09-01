@@ -12,7 +12,7 @@ author:
   name: Facundo Quiroga
   url: http://facundoq.github.io
 paginate: 5
-sidebar_home_link: true
+sidebar_home_link: false
 sidebar-sticky: false
 exclude:
 - work.md
