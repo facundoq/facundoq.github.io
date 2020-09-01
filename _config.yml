@@ -2,7 +2,9 @@ name: Facundo Quiroga - UNLP
 title: Facundo Quiroga - UNLP
 header: Facundo Quiroga
 
-#theme: jekyll-theme-cayman
+theme: jekyll-theme-hydeout
+remote_theme: fongandrew/hydeout
+
 defaults:
   - scope:
       path: ""
@@ -13,3 +15,9 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

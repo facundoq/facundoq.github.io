@@ -2,7 +2,7 @@
   <html lang="{{ site.lang | default: "es-AR" }}">
     <head>
       <meta charset="UTF-8">
-
+      {% feed_meta %}
       {% seo %}
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="theme-color" content="#157878">
@@ -17,7 +17,7 @@
       <main id="content" class="main-content" role="main">
         {{ content }}      
       </main>
-      
+
       {% include footer.html %}
     </body>
   </html>

@@ -156,6 +156,11 @@ GEM
     jekyll-theme-hacker (0.1.1)
       jekyll (~> 3.5)
       jekyll-seo-tag (~> 2.0)
+    jekyll-theme-hydeout (4.1.0)
+      jekyll (>= 3.6, < 5.0)
+      jekyll-feed (~> 0.6)
+      jekyll-gist (~> 1.4)
+      jekyll-paginate (~> 1.1)
     jekyll-theme-leap-day (0.1.1)
       jekyll (~> 3.5)
       jekyll-seo-tag (~> 2.0)
@@ -253,6 +258,10 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-feed
+  jekyll-seo-tag
+  jekyll-sitemap
+  jekyll-theme-hydeout
 
 BUNDLED WITH
    2.1.4
