@@ -1,9 +1,22 @@
-name: Facundo Quiroga - UNLP
-title: Facundo Quiroga - UNLP
-header: Facundo Quiroga
+#name: Facundo Quiroga - UNLP
+title: Facundo Quiroga
+tagline: Sitio personal
+description:  <div class="photo"> <img src="assets/img/photo.jpg" /></div>
 
-theme: jekyll-theme-hydeout
+#theme: jekyll-theme-hydeout
 remote_theme: fongandrew/hydeout
+google_analytics: UA-43860574-2
+
+
+author:
+  name: Facundo Quiroga
+  url: http://facundoq.github.io
+paginate: 5
+sidebar_home_link: true
+sidebar-sticky: false
+exclude:
+- work.md
+- vendor/bundle
 
 defaults:
   - scope:
@@ -21,3 +34,5 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-paginate

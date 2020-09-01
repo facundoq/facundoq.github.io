@@ -20,8 +20,6 @@ sidebar_link: true
 *   [Letters and Numbers Hand Gesture Dataset (recorded with Kinect, 3d hand trajectory data)](unlp/kinect_gestures)
 
 
-
-
 ## VonSim
 
 [VonSim](http://vonsim.github.io) is a web app for coding in a simple version of Assembler and simulating the execution of these programs.

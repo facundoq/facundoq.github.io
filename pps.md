@@ -1,6 +1,6 @@
 ---
 layout: page
-title: UNLP > Dirección de PPS 
+title: Dirección de PPS 
 sidebar_link: true
 ---
 

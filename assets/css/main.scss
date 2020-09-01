@@ -1,0 +1,49 @@
+---
+# Jekyll needs front matter for SCSS files
+---
+
+$sidebar-bg-color: #0b182b;
+$link-color: #0b182b;
+$root-font-family: "Fira Sans Light",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif !default;
+
+$root-font-size: 1rem !default;
+
+// $sidebar-sticky: false;
+@import "hydeout";
+
+.logo img {
+    height:32px;
+    display:inline-block;
+}
+
+#sidebar .iconlist{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.mail {
+    font-size: 0.75rem;
+}
+
+#sidebar .site-title a:hover{
+    text-decoration: none;
+}
+#sidebar .site-title{
+    font-family: Fira Sans;
+
+    
+}
+
+
+.photo img{
+    width:50%;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    font-weight: bold;
+}
