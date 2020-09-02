@@ -5,11 +5,38 @@ layout: index
 ---
 
 
-* I'm currently a Postdoc Researcher in Artificial Neural Networks and Sign Language Recognition at [III-LIDI, UNLP](http://www.lidi.info.unlp.edu.ar), Argentina.
-* I hold a "Licenciature" degree (in-between BSc and MSc) and a PhD in Computer Science from Facultad de Informática, [UNLP](http://unlp.edu.ar).
+## Research
+
+I'm currently working on three areas:
+
+* [Invariance and Equivariance in Neural Networks](https://github.com/facundoq/transformational_measures)
+* [Sign Language Recognition](/projects)
+* [Stellar classificaction from photometric data]()
 
 
+## Teaching
 
-## Machine Learning
+## Undergraduate courses
+Teaching assistant at [Facultad de Informática](http://info.unlp.edu.ar) ([UNLP](http://unlp.edu.ar)) since 2005.
 
-* [Machine Learning Resources](unlp/ml/index.html)
+1.  Introduction to Programming (2 semesters): 2006 to 2015
+2.  Data Structures: 2011 to 2014
+3.  [Computer Architecture I](http://weblidi.info.unlp.edu.ar/catedras/organizacion/index.php) (2014-2017)
+4.  [Computer Architecture II](http://weblidi.info.unlp.edu.ar/catedras/arquitecturap2003/) (2014-Present)
+5.  [Data Mining](http://weblidi.info.unlp.edu.ar/catedras/md_si/) (2018-Present)
+6.  [Deep Learning](https://gestiondeaulas.info.unlp.edu.ar/cartelera/#form[materia]=295) (2019-Present)
+
+### Graduate courses (for phd/msc) 
+
+Professor at [Facultad de Informática, UNLP](https://www.info.unlp.edu.ar/):
+
+1. Data Mining
+2. Deep Learning for Computer Vision
+3. [Machine Learning](courses/aa2018/index.html)
+
+### Other 
+
+Basic course on image processing for first year students:
+*   [Curso de imágenes "Aprendé a localizar objetos" de Noviembre de 2017](courses/images/index.html)
+
+

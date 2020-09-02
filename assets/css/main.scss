@@ -18,10 +18,10 @@
 }
 
 $sidebar-bg-color: #0b182b;
-$link-color: #0b182b;
+$link-color: #17325c;
 $root-font-family: "Fira Sans Light",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif !default;
 
-$root-font-size: 1rem !default;
+$root-font-size: 10px !default;
 
 // $sidebar-sticky: false;
 @import "hydeout";
@@ -42,18 +42,17 @@ $root-font-size: 1rem !default;
     font-size: 0.75rem;
 }
 
-#sidebar .site-title a:hover{
-    text-decoration: none;
+.site-title a:hover{
+    text-decoration:  none !important;
 }
-#sidebar .site-title{
-    font-family: Fira Sans;
-
-    
+.site-title{
+    font-family: Fira Sans !important;
+    font-size: 1.5rem !important;
+    text-align: center;
 }
-
 
 .photo img{
-    width:50%;
+    width:30%;
     display: block; 
     margin-left: auto;
     margin-right: auto;
@@ -61,4 +60,33 @@ $root-font-size: 1rem !default;
 
 a{
     font-weight: bold;
+}
+
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.item-text{
+    max-width: 60%;
+    flex-shrink: 10;
+    align-self: left;
+}
+
+.item-image{
+    width:96px;
+    display:inline-block;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.item-collaborator{
+    width:48px;
+    height:48px;
+    display:inline-block;
+    flex-shrink: 0;
+    align-self: center;
+    border-radius: 50%;
+    object-fit: contain;
 }

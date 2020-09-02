@@ -5,7 +5,7 @@ sidebar_link: true
 ---
 
 
-IMPORTANTE: No estaré tomando alumnos para realización de PPS hasta 2021.
+NOTA: No estaré tomando alumnos para realización de PPS hasta 2021.
 
 Los siguientes son posibles temas para hacer una PPS en el III-LIDI conmigo como Tutor, para Estudiantes de Ingeniería en Computación, Tecnicatura En ATICs.
 

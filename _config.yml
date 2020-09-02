@@ -1,7 +1,7 @@
 #name: Facundo Quiroga - UNLP
 title: Facundo Quiroga
 tagline: Sitio personal
-description:  <div class="photo"> <img src="assets/img/photo.jpg" /></div>
+description:  <div class="photo"> <img src="/assets/img/photo.jpg" /></div>
 
 #theme: jekyll-theme-hydeout
 remote_theme: fongandrew/hydeout
@@ -31,7 +31,7 @@ defaults:
 
 
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-gist
