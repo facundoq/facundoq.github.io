@@ -6,15 +6,17 @@ layout: index
 
 
 I'm a researcher on Machine Learning and Computer Vision at the 
-[III-LIDI](), [Facultad de Informática](http://info.unlp.edu.ar), [UNLP](http://unlp.edu.ar)
+[Instituto de Investigación en Informática LIDI](), [Facultad de Informática](http://info.unlp.edu.ar), [UNLP](http://unlp.edu.ar)
 
-I'm currently working on three areas:
+
+### Research areas
 
 * [Invariance and Equivariance in Neural Networks](https://github.com/facundoq/transformational_measures)
 * [Sign Language Recognition](/projects)
 * [Stellar classificaction from photometric data]()
 
-<p><span class="mail">contact: f{lastname}@lidi.info.unlp.edu.ar </span></p>
+### Contact
+Mail: f{lastname}@lidi.info.unlp.edu.ar 
 
 
 <div class="iconlist">

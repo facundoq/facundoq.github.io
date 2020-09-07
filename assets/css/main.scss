@@ -27,11 +27,11 @@ $root-font-size: 10px !default;
 @import "hydeout";
 
 .logo img {
-    height:32px;
+    height:96px;
     display:inline-block;
 }
 
-#sidebar .iconlist{
+.iconlist{
     display: flex;
     justify-content: space-between;
     padding-left: 10%;
