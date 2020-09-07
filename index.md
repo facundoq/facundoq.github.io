@@ -18,6 +18,7 @@ I'm a researcher working on Machine Learning and Computer Vision at the
 ### Contact
 Mail: f{lastname}@lidi.info.unlp.edu.ar 
 
+### Affiliations
 
 <div class="iconlist">
 <a class="logo" title="III-LIDI" aria-label="III-LIDI" href="http://www.lidi.info.unlp.edu.ar/"> <img src="assets/img/logo/lidi.png" /> </a>

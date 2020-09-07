@@ -1,5 +1,5 @@
 - name: Sign Language Datasets Survey
-  img: lsa16.png
+  img: sign_language_survey.png
   desc: A survey of the available sign language datasets, with information such as number of samples/classes, goal  (continuous/isolated,dynamic/static), etc.
   url: /unlp/sign_language_datasets/
   members:
