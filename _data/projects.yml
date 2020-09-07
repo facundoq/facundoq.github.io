@@ -32,7 +32,7 @@
 
 
 
-- name: "Letters and Numers Hand Gesture Dataset"
+- name: "Letters and Numbers Hand Gesture Dataset"
   img: kinectdataset.png
   desc: Recorded with Kinect, 3d hand trajectory data
   url: unlp/kinect_gestures
