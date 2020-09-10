@@ -4,6 +4,9 @@
   url: publications/variance
   members:
     - fquiroga
+    - llanzarini
+    - jtorrentsbarrena
+    - dpuigvalls
 
 - name: Transformational Measures Experiments
   img: tm_exp.png
