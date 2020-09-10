@@ -12,8 +12,8 @@ I'm a researcher working on Machine Learning and Computer Vision at the
 ### Research areas
 
 * [Invariance and Equivariance in Neural Networks](https://github.com/facundoq/transformational_measures)
-* [Sign Language Recognition](/projects)
-* [Stellar classificaction from photometric data]()
+* [Sign Language Recognition](/sign_language)
+* [Stellar classificaction](publications/bestars/presentation.pdf)
 
 ### Contact
 Mail: f{lastname}@lidi.info.unlp.edu.ar 

@@ -8,7 +8,9 @@ sidebar_link: true
 
 {% for item in site.data.projects %}
 <div class="item" >
+<div class="item-image-container">
 <a href="{{item.url}}"><img class="item-image" src="/assets/projects/{{item.img}}"></a>
+</div>
 
 <div class="item-text">
 <a href="{{item.url}}"> <h3>{{item.name}}</h3></a>
