@@ -1,6 +1,5 @@
 ---
-title: Minería de Datos 2018 - Facultad de Informática, UNLP
-header:  Minería de Datos 2018 - Facultad de Informática, UNLP
+title: Instalación de Python/Numpy/Tensorflow
 ---
 
 
@@ -17,11 +16,11 @@ Para este curso, todo el código utilizará la versión de python 2.7.
 ## Instalación de Python
 ### Windows
 
-Si estás en Windows, te recomendamos instalar Anaconda, (la versión con Python 2.7) que ya tiene todas las librerías que vamos a usar instalados.
+Si estás en Windows, te recomendamos instalar Anaconda, (la versión con Python 3.7+) que ya tiene todas las librerías que vamos a usar instalados.
 
 Cuando instalás Anaconda, te dan la opción de agregar Anaconda a la variable PATH o no hacerlo. Si lo hacés, vas a poder usar el Python de Anaconda desde cualquier terminal. Si no lo hacés, solo podrás usarlo desde el "Anaconda Prompt" que se instala con Anaconda. La primera opción es más simple pero puede traer problemas si tenías otras versiones de Python instaladas
 
-También podés instalar Python aparte e instalar las librerías a mano, pero es mucho más complicado.
+También podés instalar Python aparte e instalar las librerías a mano, pero en Windows es un poco más complicado.
 
 ### Linux
 
@@ -65,11 +64,3 @@ Luego ejecuta, dentro de la consola de python, los comandos:
 ````
 Si ambos funcionan (no generan error), quiere decir que han sido instalados correctamente.
 
-# Weka
-
-En este curso utilizaremos [Weka](https://www.cs.waikato.ac.nz/ml/weka/). Debes bajar e instalarlo antes de usarlo; Weka está disponible para Windows, Mac y Linux.
-
-
-## Weka para Python (python weka wrapper)
-
-Se puede utilizar Weka desde python para programar. Para hacerlo, debés instalar el paquete python-weka-wrapper. Los creadores del [proyecto](http://fracpete.github.io/python-weka-wrapper/install.html) tienen dos video tutoriales con instrucciones para instalarlo en [Windows](https://www.youtube.com/watch?v=oeRXtK8YDwE) y [Linux (Ubuntu 16.04)](https://www.youtube.com/watch?v=8d0PVBlttM4)

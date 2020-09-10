@@ -32,4 +32,4 @@ Basic course on image processing for first year students:
 *   [Curso de imágenes "Aprendé a localizar objetos" de Noviembre de 2017](courses/images/index.html)
 
 If you are interested in learning about Machine Learning, I've also listed some useful books and courses to start with:
-* [Machine Learning resources](/ml)
+* [Machine Learning resources](/learning_ml)
