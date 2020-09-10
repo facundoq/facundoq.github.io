@@ -31,4 +31,4 @@ Professor at [Facultad de Informática, UNLP](https://www.info.unlp.edu.ar/):
 Basic course on image processing for first year students:
 *   [Curso de imágenes "Aprendé a localizar objetos" de Noviembre de 2017](courses/images/index.html)
 
-
+* [Machine Learning resources](/ml)

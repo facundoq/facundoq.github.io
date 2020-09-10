@@ -5,17 +5,17 @@ sidebar_link: true
 ---
 
 
-NOTA: No estaré tomando alumnos para realización de PPS hasta 2021.
+NOTA: No estaré tomando alumnos para realización de PPS hasta el 2021.
 
-Los siguientes son posibles temas para hacer una PPS en el III-LIDI conmigo como Tutor, para Estudiantes de Ingeniería en Computación, Tecnicatura En ATICs.
+Los siguientes son posibles temas para hacer una PPS en el III-LIDI conmigo como Tutor, para Estudiantes de [Ingeniería en Computación](ic.info.unlp.edu.ar/ingenieria/sitio/index.html) o [Tecnicatura En ATICs](https://www.info.unlp.edu.ar/analista-en-tic/).
 
-La PPS tiene un requerimiento de 200 horas. Por ende, antes de comenzar armamos un plan de trabajo acorde, planteando un objetivo que usualmente es un desarrollo concreto y cerrado que pueda ser completado con holgura en ese tiempo. Por ejemplo, una PPS realizada en el 2019 introdujo varias funcionalidades nuevas al simulador [VonSim](http://vonsim.github.io/). 
+La PPS tiene un requerimiento de 200 horas. Por ende, antes de comenzar armamos un plan de trabajo acorde, planteando un objetivo que usualmente es un desarrollo concreto que pueda ser completado con holgura en ese tiempo. Por ejemplo, una PPS realizada en el 2019 introdujo varias funcionalidades nuevas al simulador [VonSim](http://vonsim.github.io/). 
 
 Los horarios de trabajo son flexibles, tanto en días como horas. Asímismo, también hay flexibilidad respecto a semanas de exámenes, ya sea parciales o finales. 
 
 No obstante, lo ideal es realizar la PPS en un período corto con una asignación horaria de al menos 12-16 horas semanales, de forma que la PPS no dure más de 3 o 4 meses. 
 
-Notamos que la PPS en el III-LIDI es una pasantía ad honorem, y que es posible también realizarla en otros organismos o empresas. Aún más, es posible realizar la PPS con tu labor normal en algún trabajo relacionado a la informática, siempre que el coordinador de las PPS lo apruebe. Es importante entonces que a la hora de comenzar.
+La PPS en el III-LIDI es una pasantía ad honorem, es decir, sin remuneración. Tené en cuenta que también es posible realizarla en otros organismos o empresas, con una remuneración económica por tu trabajo. Aún más, si ya estás trabajando en algo relacionado a la carrera o pensás empezar en breve, es posible realizar la PPS en tu trabajo, siempre que el coordinador de las PPS lo apruebe. Es importante entonces que a la hora de comenzar consideres _todas_ estas posibilidades.
 
 ## Mejoras al simulador VonSim
 
