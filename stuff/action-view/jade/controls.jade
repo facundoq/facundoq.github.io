@@ -1,0 +1,13 @@
+mixin picker(text,id,title)
+  div(id=id).ui-widget.divwrapper.ui-widget-content.ui-corner-all.picker 
+    p(title=title).pickerTitle=text 
+    input.selectAll(type='button', value='All')
+    input.selectNone(type='button', value='None')
+    br
+    p
+      ol
+
+#controls.ui-widget.ui-widget-content.ui-corner-all
+  +picker('Class','classPicker',"Select classes")
+  +picker('Subject','subjectPicker',"Select subjects")
+  +picker('Action','repetitionPicker',"Select the repetition to show")

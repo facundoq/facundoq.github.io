@@ -5,6 +5,13 @@
   members:
     - fquiroga
 
+- name: "Handshape datasets library"
+  img: handshape_download_library.png
+  desc: A single library to downloading and load handshape datasets. 10+ datasets supported
+  url: https://github.com/midusi/handshape_datasets
+  members:
+    - fquiroga
+    - fronchetti
 
 - name: "LSA16: Argentinian Sign Language Handshape Dataset"
   img: lsa16.png

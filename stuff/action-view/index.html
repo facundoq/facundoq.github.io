@@ -1,0 +1,85 @@
+
+<html>
+  <head>
+    <title>Action View</title>
+    <link rel="shortcut icon" href="html/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="js/jquery-ui.css"/>
+    <link rel="stylesheet" href="js/jquery-ui.structure.css"/>
+    <link rel="stylesheet" href="js/jquery-ui.theme.css"/>
+    <link rel="stylesheet" href="js/d3.parcoords.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body> 
+    <script src="js/three.min.js"></script>
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/d3.min.js"></script>
+    <script src="js/d3.parcoords.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/jquery-ui-scrollable.js"></script>
+    <script src="js/selectableScroll.js"></script>
+    <script src="three/three.js"></script>
+    <script src="util/util.js"></script>
+    <script src="model/actiondb.js"></script>
+    <script src="model/action.js"></script>
+    <script src="animator/ActionAnimator.js"></script>
+    <script src="view/ui.js"></script>
+    <script src="view/picker.js"></script>
+    <script src="view/actionpicker.js"></script>
+    <script src="view/statistics.js"></script>
+    <script src="view/animationcontrol.js"></script>
+    <div id="controls" class="ui-widget ui-widget-content ui-corner-all">
+          <div id="classPicker" class="ui-widget divwrapper ui-widget-content ui-corner-all picker"> 
+            <p title="Select classes" class="pickerTitle">Class</p>
+            <input type="button" value="All" class="selectAll"/>
+            <input type="button" value="None" class="selectNone"/><br/>
+            <p>
+              <ol></ol>
+            </p>
+          </div>
+          <div id="subjectPicker" class="ui-widget divwrapper ui-widget-content ui-corner-all picker"> 
+            <p title="Select subjects" class="pickerTitle">Subject</p>
+            <input type="button" value="All" class="selectAll"/>
+            <input type="button" value="None" class="selectNone"/><br/>
+            <p>
+              <ol></ol>
+            </p>
+          </div>
+          <div id="repetitionPicker" class="ui-widget divwrapper ui-widget-content ui-corner-all picker"> 
+            <p title="Select the repetition to show" class="pickerTitle">Action</p>
+            <input type="button" value="All" class="selectAll"/>
+            <input type="button" value="None" class="selectNone"/><br/>
+            <p>
+              <ol></ol>
+            </p>
+          </div>
+    </div>
+    <div id="tabs-container">
+      <div id="tabs">
+        <ul>
+          <li><a href="#action" title="Animation of the person performing the action">Action Animation</a></li>
+          <li><a href="#statistics" title="Parallel coordinate graph where for each action the amount of movement in 7 chosen joints is shown">Joint movement statistics</a></li>
+        </ul>
+        <div id="action">
+          <div id="canvas"></div>
+          <div id="progressbarWrapper">
+            <div id="progressbar"></div>
+            <div id="time"><span id="timeLabel" title="Elapsed frames / total frames">0/0</span></div>
+          </div>
+          <div id="animation-control" class="ui-widget-header ui-corner-all">
+            <h2 id="actionIdentifier"> </h2>
+                <input id="stop" type="button" value="Rewind" title="Rewind"/>
+                <input id="play" type="button" value="Play/Pause" title="Play/Pause"/>
+            <!--+button('loop','Loop')-->
+            <input type="checkbox" id="loop"/>
+            <label for="loop" title="Next mode: advances to next action after playing. Loop mode: repeats the action until a new one is chosen.">Loop</label>
+          </div>
+        </div>
+        <div id="statistics">
+          <div id="parallel" class="parcoords"></div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

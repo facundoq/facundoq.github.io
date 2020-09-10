@@ -26,11 +26,11 @@ Best introduction by far to Neural Networks (feedforward + convolutional). Easy,
 
 * [Probabilistic Programming & Bayesian Methods for Hackers, various authors, 2015/2016, (free online, open source)](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/) Bayesian and probabilitic models for programmers (easy math!).
 
-* [Deep Learning Book, by Bengio, 2016, (free online)](http://www.deeplearningbook.org/) This is not really "introductory" in the sense of being easy to follow or having few prerequisites, but it is a great intro if you want to work on improving current neural network models.
+* [Deep Learning Book, by Goodfellow and Bengio, 2016, (free online)](http://www.deeplearningbook.org/) This is not really "introductory" in the sense of being easy to follow or having few prerequisites, but it is a great intro if you want to work on improving current neural network models.
 
 ### Classical reference books
 
-These books are soft of traditional, and aren't designed for self study, I'd advise you to use them  as a reference. They are sorted from easy to difficult. Even though all books cover similar topics, they have different approaches:
+These books are sort of traditional, and aren't designed for self study, I'd advise you to use them  as a reference. They are sorted from easy to difficult. Even though all books cover similar topics, they have different approaches:
 
 * Pattern classification/recognition: more signal processing
 * Statistical Learning/Inference/Probabilistic/Graphical Models: More bayesian/statistical models

@@ -2,8 +2,6 @@
 title: Arquitectura de Computadoras 2019
 header: Arquitectura de Computadoras 2019
 ---
-# Link al simulador VonSim. 
-[VonSim (beta)](https://vonsim.github.io/)
 
 # Diapositivas y ejemplos de las explicaciones prácticas
 -------------------------------------------

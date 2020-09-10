@@ -4,6 +4,9 @@ title: Sign Language Recognition
 sidebar_link: true
 ---
 
+Sign language recognition allows computers to recognize the sign of a specific sign language, and afterwards translate it to a written language. 
+
+Alongside [Franco Ronchetti](http://weblidi.info.unlp.edu.ar/wp/en/recursos-humanos/auxiliares-becarios-y-tesistas/ronchetti-franco/), in 2015 we recorded the first sign language datasets for the Argentinian Sign Language (Lengua de Señas Argentina, LSA) focused on training Computer Vision models. Afterwards, we've continuosly working on this topic, also contributing new recognition methods and tools.
 
 
 {% for item in site.data.sign_language %}

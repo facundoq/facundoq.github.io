@@ -4,5 +4,22 @@
   desc: VonSim is a web app for coding in a simple version of Assembler and simulating the execution of these programs.
   url: http://github.com/vonsim
   members:
-    - fquiroga
     - mbustos
+
+- name: "MSRC12 Action Viewer"
+  img: action_viewer.png
+  desc: A webapp to visualize gestures from the MSRC12 Action Dataset
+  url: stuff/action-view/
+  members:
+
+- name: "Mazes"
+  img: mazes.png
+  desc: A small app to randomly generate mazes.
+  url: stuff/mazes/
+  members:
+
+- name: "Deep Style Transfer with ml5"
+  img: deepstyle.png
+  desc: A small app to apply different styles to your webcam.
+  url: stuff/style/
+  members:
