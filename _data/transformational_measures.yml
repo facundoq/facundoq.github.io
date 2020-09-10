@@ -1,0 +1,30 @@
+- name: Measuring transformation (in)variances in Neural Networks
+  img: tm.png
+  desc: 
+  url: publications/variance
+  members:
+    - fquiroga
+
+- name: Transformational Measures Experiments
+  img: tm_exp.png
+  desc: 
+  url: https://github.com/facundoq/transformational_measures_experiments
+  members:
+    - fquiroga
+
+
+- name: Transformational Measures for Neural Networks - PyTorch Library
+  img: tm_pytorch.png
+  desc: 
+  url: https://github.com/facundoq/transformational_measures
+  members:
+    - fquiroga
+
+    
+- name: Transformational Measures for Neural Networks - TensorFlow Library
+  img: tm_tf.png
+  desc: 
+  url: https://github.com/midusi/transformational_measures_tf/
+  members:
+    - fquiroga
+    - fravettino
