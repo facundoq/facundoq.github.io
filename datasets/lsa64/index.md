@@ -58,7 +58,7 @@ Please contact the authors if you are unsure about what constitutes fair use und
 The raw version of the dataset contains one video for each sign in the dataset. Each video weights on average 600kb. The whole dataset weights 1.9gb.
 
 * [Raw Version - Mega (1.9gb)](https://mega.nz/#!kJBDxLSL!zamibF1KPtgQFHn3RM0L1WBuhcBUvo0N0Uec9hczK_M)
-* [Raw Version - Google Drive (1.9gb)]()
+* [Raw Version - Google Drive (1.9gb)](https://drive.google.com/file/d/1C7k_m2m4n5VzI4lljMoezc-uowDEgIUh/view?usp=sharing)
 
 ## Cut/temporally segmented version
 The cut version is similar to the raw version but each video has been temporally segmented so that the frames in the beginning or end of the video with no movement in the hands were removed. Each video weights around 500kb on average and the whole dataset weights 1.5gb.
