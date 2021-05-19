@@ -120,7 +120,10 @@ These books are sort of traditional, and aren't designed for self study, I'd adv
     * [NeurIPS 2020](https://www.youtube.com/playlist?list=PLuv1FSpHurUcwP9CFLT8efinNGFD7KTVH)
     * [NeurIPS 2019](https://www.youtube.com/playlist?list=PLderfcX9H9MpK9LKziKu_gUsTL_O2pnLB)
     * [NeurIPS 2018](https://www.youtube.com/playlist?list=PLr0i1y8XzSgMnjzWx25DXxYWSSXqS5FzR)
-    * 
-
+* ICLR
+   * [ICLR 2021](https://www.youtube.com/playlist?list=PL6liSIqFR4BUr7F4pL6aoucjkV3HYZ48J)
+   * [ICLR 2020](https://www.youtube.com/playlist?list=PLUvQN24DtsNYJhfeTjJRO8tcstVphmRYs)
+   * [ICLR 2019](https://www.youtube.com/playlist?list=PLr0t8FdfWLvVzb7zOICnDS3W_0W2j6sc_)
+ 
 
 
