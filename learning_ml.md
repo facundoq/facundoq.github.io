@@ -70,12 +70,14 @@ These books are sort of traditional, and aren't designed for self study, I'd adv
 
 
 ## Podcasts
-
+  
+  * [Machine Learning Street Talk](https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ)
   * [The talking machines](http://www.thetalkingmachines.com/)
   * [Linear Digressions](http://lineardigressions.com/)
   * [The Data Skeptic](http://dataskeptic.com/)
   * [Partially Derivative](http://partiallyderivative.com/)
   * [Learning Machines 101](http://www.learningmachines101.com/)
+  * [Data Science Podcasts list](https://dspods.netlify.app/)
 
 ## Newsletters & Mailing Lists
  * [Connectionists](https://mailman.srv.cs.cmu.edu/mailman/listinfo/connectionists)
@@ -97,3 +99,28 @@ These books are sort of traditional, and aren't designed for self study, I'd adv
     * Take a course/read a book on bayesian inference/probabilitic models
     * Take a problem with a few datasets (maybe from a kaggle competition) and a model a try to improve its performance.
     * Checkout papers from NIPS (one of the best ml/neural nets conferences)
+
+# Youtube Channels
+
+* [Machine Learning Street Talk](https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ)
+* [Henry AI Labs](https://www.youtube.com/channel/UCHB9VepY6kYvZjj0Bgxnpbw)
+* [Two minute papers](https://www.youtube.com/user/keeroyz)
+* [Yannic Kilcher](https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew)
+* [Machine Learning Dojo with Tim Scarfe](https://www.youtube.com/c/MachineLearningDojowithTimScarfe/videos)
+* [ WelcomeAIOverlords](https://www.youtube.com/channel/UCxw9_WYmLqlj5PyXu2AWU_g/videos)
+* [DotCSV (español)](https://www.youtube.com/channel/UCy5znSnfMsDwaLlROnZ7Qbg)
+
+# Conference orals
+
+* CVPR
+    * [CVPR 2021](https://www.youtube.com/playlist?list=PL6liSIqFR4BVGJFOSZgAm2qPwhFjtJVH0)
+    * [CVPR 2020](https://www.youtube.com/playlist?list=PLD7HFcN7LXReE26bH78d74R9JmGPabDu2)
+    * [CVPR 2019](https://www.youtube.com/playlist?list=PLzGR8_vFq07KBRXNT8SmuhBUp1tHRsglm)
+* NeurIPS (ex NIPS)
+    * [NeurIPS 2020](https://www.youtube.com/playlist?list=PLuv1FSpHurUcwP9CFLT8efinNGFD7KTVH)
+    * [NeurIPS 2019](https://www.youtube.com/playlist?list=PLderfcX9H9MpK9LKziKu_gUsTL_O2pnLB)
+    * [NeurIPS 2018](https://www.youtube.com/playlist?list=PLr0i1y8XzSgMnjzWx25DXxYWSSXqS5FzR)
+    * 
+
+
+
