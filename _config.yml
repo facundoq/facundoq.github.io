@@ -16,6 +16,7 @@ sidebar_home_link: false
 sidebar-sticky: false
 exclude:
 - work.md
+- pps.md
 - vendor/bundle
 
 defaults:

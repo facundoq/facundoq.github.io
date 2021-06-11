@@ -5,8 +5,9 @@ sidebar_link: true
 ---
 
 
-NOTA: No estaré tomando alumnos para realización de PPS hasta el 2021.
+NOTA: No estaré tomando alumnos para realización de PPS .
 
+<!--
 Los siguientes son posibles temas para hacer una PPS en el III-LIDI conmigo como Tutor, para Estudiantes de [Ingeniería en Computación](ic.info.unlp.edu.ar/ingenieria/sitio/index.html) o [Tecnicatura En ATICs](https://www.info.unlp.edu.ar/analista-en-tic/).
 
 La PPS tiene un requerimiento de 200 horas. Por ende, antes de comenzar armamos un plan de trabajo acorde, planteando un objetivo que usualmente es un desarrollo concreto que pueda ser completado con holgura en ese tiempo. Por ejemplo, una PPS realizada en el 2019 introdujo varias funcionalidades nuevas al simulador [VonSim](http://vonsim.github.io/). 
@@ -54,4 +55,4 @@ Para evaluar un sistema/método de Reconocimiento de Lengua de Señas, idealment
 * [LSA16](http://facundoq.github.io/unlp/lsa16/index.html)
 * [LSA64](http://facundoq.github.io/unlp/lsa64/index.html)
 
-
+-->
