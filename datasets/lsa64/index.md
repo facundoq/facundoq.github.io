@@ -17,7 +17,7 @@ ID | Name  | H | ID | Name  | H | ID | Name  | H | ID | Name  | H |
 05 | Bright | R | 21 | Milk | R | 37 | Ship | R | 53 | Appear | B |
 06 | Light-blue | R | 22 | Water | R | 38 | None | R | 54 | To land | B |
 07 | Colors | R | 23 | Food | R | 39 | Name | R | 55 | Catch | B |
-08 | Red | R | 24 | Argentina | R | 40 | Patience | R | 56 | Help | B |
+08 | Pink | R | 24 | Argentina | R | 40 | Patience | R | 56 | Help | B |
 09 | Women | R | 25 | Uruguay | R | 41 | Perfume | R | 57 | Dance | B |
 10 | Enemy | R | 26 | Country | R | 42 | Deaf | R | 58 | Bathe | B |
 11 | Son | R | 27 | Last name | R | 43 | Trap | B | 59 | Buy | R |
