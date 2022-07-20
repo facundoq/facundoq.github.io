@@ -12,7 +12,7 @@ id  | Name | Country | Classes | Subjects | Samples | Data | Language level | Ty
 6   |PSL Kinect 30        |Poland    |30    |1     |30×10=300  |~1.2gb|Word        | Videos, depth from Kinect camera  | | Publicly Available|
 7   |PSL ToF    84        |Poland    |84    |1     |84×20=1680 |~33gb |Word        |Videos, ToF camera                 | | Publicly Available|
 8   |PSL 101              |Poland    |?     |?     |?          |?     |?|?  | | Contact Author |
-9  | LSA64          |Argentina |64    |10    |3200       |20gb  |Word        |Videos(rgb)   |  Hands and Head position | Publicly Available|
+9  | LSA64          |Argentina |64    |10    |3200       |20gb  |Word        |Videos(rgb)   |  Hands and Head position | [Publicly Available]([LSA64](http://facundoq.github.io/datasets/lsa64/)|
 10 |BosphorusSign |Turkey |     |    |       |  |        |   |   | Non available | 
 11 | MSR Gesture 3D | USA |12    |10    |336       |28mb  |Word        |Videos (depth)   |   | Publicly Available|
 12 | DEVISIGN-G | China | 36 (letters/numbers) | 8 | 432 | ? | Word | videos (rgb)| | Contact author
@@ -22,6 +22,11 @@ id  | Name | Country | Classes | Subjects | Samples | Data | Language level | Ty
 16 | Purdue ASL  | USA | ?| 14 (only 5 available)| ? | ? | Word/sentence  | Videos, RGB | | Request DVDs/HD
 17 | CUNY ASL | USA | ? | 8 | ~33000 glosses,  | ? | Sentence| videos (rgb), mocap data | Signstream| Unknown
 18 | SignsWorld Atlas | Arabia | multiple types | 10|  ? | ? | Handshape, Words, Sentences | Images, Videos, RGB | ? | Unknown 
+19 | LSA-T | Argentina | translation | 103 |  14880 | 45gb | Sentence | Video(rgb) | Joint positions of active signer  | [Publicly Available](https://github.com/midusi/LSA-T)
+20 | LSFB-CONT | Belgium |  6883 |100 | 85000+ |~2 TB | Word / Sentence  |Videos | landmarks   hand, end/start +
+french translation | [Publicly available](https://jefidev.github.io/lsfb-dataset/lsfb_cont/)
+21 | LSFB-ISOL | Belgium | 400 |85 | 50 000+ |100Gb | Word | Videos | landmarks hand, end/start +
+french translation | [Publicly available](https://jefidev.github.io/lsfb-dataset/lsfb_isol/)
 {: .tablelines}
 
 
@@ -78,3 +83,11 @@ id  | Name | Country | Classes | Subjects | Samples | Data | Language level | Ty
 17. [CUNY ASL Dataset for Animation](latlab.cs.qc.cuny.edu/corpus) 
     1. [Collecting and evaluating the CUNY ASL corpus for research on American Sign Language animation](https://www.sciencedirect.com/science/article/pii/S0885230813000879)
 18. [SignsWorld Atlas; a benchmark Arabic Sign Language database](https://www.sciencedirect.com/science/article/pii/S1319157814000548)
+19. [LSAT: Argentinian Sign Language for Translation](https://github.com/midusi/LSA-T)
+    1.  [Visualization notebook](https://colab.research.google.com/drive/1kj5ztYw_57fi6wo2dpL18UkBR9ciV6ki)
+20. [LSFB-CONT: Belgian Sign Language dataset.](https://ieeexplore.ieee.org/abstract/document/9534336) 
+    1.  [Homepage](https://lsfb.info.unamur.be/)
+    2.  [Python package](https://pypi.org/project/lsfb-dataset/)
+21. [LSFB-ISOL: isolated signs extracted from the LSFB-CONT dataset.](https://ieeexplore.ieee.org/abstract/document/9534336)
+    1.  [Homepage](https://lsfb.info.unamur.be/)
+    2.  [Python package](https://pypi.org/project/lsfb-dataset/)
