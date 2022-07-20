@@ -5,10 +5,10 @@
 id  | Name | Country | Classes | Subjects | Samples | Data | Language level | Type | Annotations | Availability |
 |:-:|:-------------------:|:--------:|:-----:|:------:|:------:|:----:|:----------:|:--------------------------------:|:----------:|:--------:|
 1| DGS Kinect 40 |Germany |40 |15 |3000 | |Word|Videos, multiple angles|| Contact Author|
-2   | RWTH-PHOENIX-Weather|Germany   |1200  |9     |45760      |  52gb   |Sentence    |Videos                            | Face, hand, end/start (unfinished)| Publicly Available|
-3   | SIGNUM              |Germany   |450   |25    |33210      |920gb |Sentence    |Videos                            |            | Publicly Available, 1TB, contact author to obtain hard drive|
+2   | RWTH-PHOENIX-Weather|Germany   |1200  |9     |45760      |  53gb   |Sentence    |Videos                            | Face, hand, end/start (unfinished)| [Publicly Available](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/)|
+3   | SIGNUM              |Germany   |450   |25    |33210      |920gb |Sentence    |Videos                            |            | 1TB [contact author](https://clarin.phonetik.uni-muenchen.de/BASRepository/Public/Corpora/SIGNUM/SIGNUM.1.php)|
 4   | GSL 20              |Greek     |20    | 6    |~840       |      |Word        |                                  |            | Contact Author|
-5   | Boston ASL LVD      |USA       |3300+ |6     | 9800      |      |Word        |Videos, multiple angles           |hand,end/start| Publicly Available|
+5   | Boston ASL LVD      |USA       |3300+ |6     | 9800      |      |Word        |Videos, multiple angles           |hand,end/start| [Publicly Available](http://www.bu.edu/av/asllrp/dai-asllvd.html)|
 6   |PSL Kinect 30        |Poland    |30    |1     |30×10=300  |~1.2gb|Word        | Videos, depth from Kinect camera  | | Publicly Available|
 7   |PSL ToF    84        |Poland    |84    |1     |84×20=1680 |~33gb |Word        |Videos, ToF camera                 | | Publicly Available|
 8   |PSL 101              |Poland    |?     |?     |?          |?     |?|?  | | Contact Author |
@@ -23,10 +23,9 @@ id  | Name | Country | Classes | Subjects | Samples | Data | Language level | Ty
 17 | CUNY ASL | USA | ? | 8 | ~33000 glosses,  | ? | Sentence| videos (rgb), mocap data | Signstream| Unknown
 18 | SignsWorld Atlas | Arabia | multiple types | 10|  ? | ? | Handshape, Words, Sentences | Images, Videos, RGB | ? | Unknown 
 19 | LSA-T | Argentina | translation | 103 |  14880 | 45gb | Sentence | Video(rgb) | Joint positions of active signer  | [Publicly Available](https://github.com/midusi/LSA-T)
-20 | LSFB-CONT | Belgium |  6883 |100 | 85000+ |~2 TB | Word / Sentence  |Videos | landmarks   hand, end/start +
-french translation | [Publicly available](https://jefidev.github.io/lsfb-dataset/lsfb_cont/)
-21 | LSFB-ISOL | Belgium | 400 |85 | 50 000+ |100Gb | Word | Videos | landmarks hand, end/start +
-french translation | [Publicly available](https://jefidev.github.io/lsfb-dataset/lsfb_isol/)
+20 | LSFB-CONT | Belgium |  6883 |100 | 85000+ |~2 TB | Word / Sentence  |Videos | landmarks   hand, end/start, french translation | [Publicly available](https://jefidev.github.io/lsfb-dataset/lsfb_cont/)
+21 | LSFB-ISOL | Belgium | 400 |85 | 50 000+ |100Gb | Word | Videos | landmarks hand, end/start,french translation | [Publicly available](https://jefidev.github.io/lsfb-dataset/lsfb_isol/)
+22 | WLASL  | EEUU | 2000 | 119 | 21083 | ? | Word | Videos (youtube) | person bbox, dialect | [Publicly Available](https://github.com/dxli94/WLASL)
 {: .tablelines}
 
 
@@ -44,7 +43,7 @@ french translation | [Publicly available](https://jefidev.github.io/lsfb-dataset
     3. [Continuous sign language recognition: Towards large vocabulary statistical recognition systems handling multiple signers](http://www.sciencedirect.com/science/article/pii/S1077314215002088) 2015, Koller et al.
     4.[May the force be with you: Force-aligned signwriting for automatic subunit annotation of corpora](http://www-i6.informatik.rwth-aachen.de/publications/download/852/Koller-FG-2013.pdf) 2013, Koller et al.
     5. [Deep Sign: Hybrid CNN-HMM for Continuous Sign Language Recognition](http://epubs.surrey.ac.uk/812319/)
-    6.
+    6. [TSPNet: Hierarchical Feature Learning via Temporal Semantic Pyramid for Sign Language Translation](https://arxiv.org/abs/2010.05468)
 3. [SIGNUM - German Sign Language](http://www.phonetik.uni-muenchen.de/forschung/Bas/SIGNUM/)
     1. [Continuous sign language recognition: Towards large vocabulary statistical recognition systems handling multiple signers](http://www.sciencedirect.com/science/article/pii/S1077314215002088) 2015, Koller et al.
 4. Greek Sign Language (no website)
@@ -91,3 +90,6 @@ french translation | [Publicly available](https://jefidev.github.io/lsfb-dataset
 21. [LSFB-ISOL: isolated signs extracted from the LSFB-CONT dataset.](https://ieeexplore.ieee.org/abstract/document/9534336)
     1.  [Homepage](https://lsfb.info.unamur.be/)
     2.  [Python package](https://pypi.org/project/lsfb-dataset/)
+22. [WLASL:  Word-Level American Sign Language (ASL)](https://dxli94.github.io/WLASL/)
+    1.  [Word-level Deep Sign Language Recognition from Video: A New Large-scale Dataset and Methods Comparison](https://arxiv.org/abs/1910.11006)
+    2.  [Transferring Cross-domain Knowledge for Video Sign Language Recognition](https://arxiv.org/abs/2003.03703)
