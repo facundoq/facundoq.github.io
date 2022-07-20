@@ -12,9 +12,9 @@ id  | Name | Country | Classes | Subjects | Samples | Data | Language level | Ty
 6   |PSL Kinect 30        |Poland    |30    |1     |30×10=300  |~1.2gb|Word        | Videos, depth from Kinect camera  | | Publicly Available|
 7   |PSL ToF    84        |Poland    |84    |1     |84×20=1680 |~33gb |Word        |Videos, ToF camera                 | | Publicly Available|
 8   |PSL 101              |Poland    |?     |?     |?          |?     |?|?  | | Contact Author |
-9  | LSA64          |Argentina |64    |10    |3200       |20gb  |Word        |Videos(rgb)   |  Hands and Head position | [Publicly Available]([LSA64](http://facundoq.github.io/datasets/lsa64/)|
+9  | LSA64          |Argentina |64    |10    |3200       |20gb  |Word        |Videos(rgb)   |  Hands and Head position | [Publicly Available](http://facundoq.github.io/datasets/lsa64/)|
 10 |BosphorusSign |Turkey |     |    |       |  |        |   |   | Non available | 
-11 | MSR Gesture 3D | USA |12    |10    |336       |28mb  |Word        |Videos (depth)   |   | Publicly Available|
+11 | MSR Gesture 3D | USA |12    |10    |336       |28mb  |Word        |Videos (depth)   |   | [Publicly Available](https://sites.google.com/view/wanqingli/data-sets/msr-gesture3d?authuser=0)|
 12 | DEVISIGN-G | China | 36 (letters/numbers) | 8 | 432 | ? | Word | videos (rgb)| | Contact author
 13 | DEVISIGN-D | China | 500 | 8 | 6000 | ? | Word | videos (rgb) | | Contact author
 14 | DEVISIGN-L | China | 2000 | 8 | 24000 | ? | Word | videos (rgb) | | Contact author
