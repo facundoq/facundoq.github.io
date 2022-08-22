@@ -9,10 +9,16 @@ header: Arquitectura de Computadoras 2022
 
 Dejamos enlaces a los videos con las explicaciones de práctica para este año.
 
+Canales completos:
+* [Facu](https://www.youtube.com/channel/UCjDE_Uo6j-Vr4dcWK9mkd-A/playlists)
+* [Gena](https://www.youtube.com/playlist?list=PLw3_MBoxXizjnv-60JtInvBu33MyExLgK)
+
 ### Primer Parcial (MSX/VonSim)
 
 * Práctica 1 - Pila y Subrutinas
   * [Facu](https://www.youtube.com/watch?v=wYYpV7CaHBU&list=PLsJug27zlST8z3axrYsufsQdngTHeKHJ3)
+  * [Gena - Pila y Subrutinas](https://www.youtube.com/watch?v=sMIxGFNLCRc&list=PLw3_MBoxXizjnv-60JtInvBu33MyExLgK)
+  * [Gena - 2- Pasaje por referencia a través de la pila](https://www.youtube.com/watch?v=VmarGadswOY&list=PLw3_MBoxXizjnv-60JtInvBu33MyExLgK&index=3)
 * Práctica 2 - Interrupciones
   * [Facu (Software)](https://www.youtube.com/playlist?list=PLsJug27zlST_0jOif-YPPYdAHN4D-abXD)
   * [Facu (Hardware)](https://www.youtube.com/playlist?list=PLsJug27zlST-maYlfqJdK4reF5nEwmya2)
