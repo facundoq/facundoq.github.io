@@ -1,11 +1,15 @@
 ---
 title: Arquitectura de Computadoras 2022
-header: Arquitectura de Computadoras 2022
+header: Arquitectura de Computadoras 2022 
 ---
 
-# Explicaciones de práctica
+# Arquitectura de Computadoras 2022 - Turno 2
 
-## Primer Parcial (MSX/VonSim)
+## Explicaciones de práctica
+
+Dejamos enlaces a los videos con las explicaciones de práctica para este año.
+
+### Primer Parcial (MSX/VonSim)
 
 * Práctica 1 - Pila y Subrutinas
   * [Facu](https://www.youtube.com/watch?v=wYYpV7CaHBU&list=PLsJug27zlST8z3axrYsufsQdngTHeKHJ3)
@@ -17,7 +21,7 @@ header: Arquitectura de Computadoras 2022
   
 
 
-## Segundo Parcial (WinMIPS)
+### Segundo Parcial (WinMIPS)
 * Práctica 4 - Arquitectura MIPS y atascos
   * [Facu](https://www.youtube.com/playlist?list=PLsJug27zlST_R6ePpsdaHkoMQ63g_HrWH)
 * Práctica 5 - Punto Flotante, Subrutinas y Convenciones de Registros
