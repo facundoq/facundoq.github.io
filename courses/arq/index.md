@@ -22,6 +22,7 @@ Canales completos:
 * Práctica 2 - Interrupciones
   * [Facu (Software)](https://www.youtube.com/playlist?list=PLsJug27zlST_0jOif-YPPYdAHN4D-abXD)
   * [Facu (Hardware)](https://www.youtube.com/playlist?list=PLsJug27zlST-maYlfqJdK4reF5nEwmya2)
+  * [Práctica Resuelta](apuntes/p2resuelta.docx)
 * Práctica 3 - Entrada/Salida y Dispositivos
   * [Facu](https://www.youtube.com/playlist?list=PLsJug27zlST9plIJmaVJjoPoA8Jmoin5p)
   
