@@ -5,7 +5,7 @@ sidebar_link: true
 ---
 
 
-NOTA: No estaré tomando alumnos para realización de PPS .
+NOTA: No estaré tomando alumnos para realización de PPS hasta nuevo aviso.
 
 <!--
 Los siguientes son posibles temas para hacer una PPS en el III-LIDI conmigo como Tutor, para Estudiantes de [Ingeniería en Computación](ic.info.unlp.edu.ar/ingenieria/sitio/index.html) o [Tecnicatura En ATICs](https://www.info.unlp.edu.ar/analista-en-tic/).

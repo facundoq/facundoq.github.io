@@ -6,6 +6,13 @@
   members:
     - mbustos
 
+- name: "Freestyle Generator (Spanish)"
+  img: vonsim.png
+  desc: A lyric generator for the freestyle genre in spanish.
+  url: https://midusi.github.io/freestyle_generator_front/
+  members:
+    - pdalbianco
+
 - name: "MSRC12 Action Viewer"
   img: action_viewer.png
   desc: A webapp to visualize gestures from the MSRC12 Action Dataset

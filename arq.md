@@ -1,0 +1,29 @@
+---
+layout: page
+title: Arq. de Computadoras 2022
+sidebar_link: true
+---
+
+Este año me desempeño como JTP del turno 2 de Arquitectura de Computadoras. 
+
+Las explicaciones de práctica grabadas para el turno 2 están en 
+
+
+## Material de años anteriores:
+
+1. [Arquitectura de Computadoras 2019](courses/arq/index.html)
+2. [Arquitectura de Computadoras 2018](courses/arq/2018/)
+3. [Arquitectura de Computadoras 2017](courses/arq/2017/)
+4. [Organización de Computadoras](courses/org/index.html)
+
+## VonSim
+
+[VonSim](http://vonsim.github.io) es una aplicación web para el aprendizaje de la programación a bajo de nivel de una computadora. Se puede utilizar para las prácticas 5 y 6 de organización de computadoras, y las prácticas 1 a 3 de arquitectura de computadoras. 
+
+VonSim tiene algunos tutoriales para que aprendas a usar tanto el simulador como el lenguaje.
+
+*   [Introducción a la programación en bajo nivel](http://vonsim.github.io?tutorial=whyassembly)
+*   [¿Cómo usar VonSim?](http://vonsim.github.io?tutorial=vonsim)
+*   [Estructura de un programa en Assembly](http://vonsim.github.io?tutorial=basic)
+*   [Declaración de variables en Assembly](http://vonsim.github.io?tutorial=variables)
+*   [Primeras instrucciones ejecutables en Assembly](http://vonsim.github.io?tutorial=code)
