@@ -6,7 +6,9 @@ layout: index
 
 
 I'm a researcher working on Machine Learning and Computer Vision at the 
-[Instituto de Investigación en Informática LIDI](), [Facultad de Informática](http://info.unlp.edu.ar), [UNLP](http://unlp.edu.ar)
+[Instituto de Investigación en Informática LIDI](), [Facultad de Informática](http://info.unlp.edu.ar), [UNLP](http://unlp.edu.ar).
+
+I'm teaching [Arquitectura de Computadoras](https://facundoq.github.io/courses/arq/) in the second semester of 2023.
 
 
 ### Research areas

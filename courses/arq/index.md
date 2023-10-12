@@ -7,7 +7,10 @@ header: Arquitectura de Computadoras
 
 Aquí encontrarás información suplementaria para el curso.
 
-Tenés la [Página oficial de Arquitectura de Computadoras UNLP](http://weblidi.info.unlp.edu.ar/catedras/arquitecturaP2003/), el simulador  [VonSim](https://vonsim.github.io/), explicaciones de práctica en video y además material de años anteriores con ejercicios resueltos.
+Tenés la [Página oficial de Arquitectura de Computadoras UNLP](http://weblidi.info.unlp.edu.ar/catedras/arquitecturaP2003/), el simulador  [VonSim](https://vonsim.github.io/) y explicaciones de práctica en video. 
+
+Además tenés material de años anteriores con [ejercicios resueltos](2019/index.html).
+
 
 
 
