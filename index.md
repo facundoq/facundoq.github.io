@@ -13,7 +13,7 @@ I'm teaching [Arquitectura de Computadoras](https://facundoq.github.io/courses/a
 
 ### Research areas
 
-* [Invariance and Equivariance in Neural Networks](https://github.com/facundoq/transformational_measures)
+* [Invariance and Equivariance in Neural Networks](transformational_measures)
 * [Sign Language Recognition](/sign_language)
 * [Astronomical data](publications/bestars/presentation.pdf)
 
