@@ -4,8 +4,11 @@ title: Stuff
 sidebar_link: false
 ---
 
+
+
+
 Other random maybe useful stuff
 
 
-* [Machine Learning Resources](unlp/ml/index.html)
+* [Resources for starting out in Machine Learning Research](unlp/ml/index.html)
 * [MSRC12 Dataset Action Browser](action-view/index.html)

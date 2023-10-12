@@ -1,32 +1,56 @@
 
+- name: "EduNN"
+  img: edunn.png
+  desc: Learn how modern, modular Neural Networks work by implementing a PyTorch/Keras-like framework. edunn is a very simple library that contains the basic elements to define, train and use modular Neural Networks using just Python and Numpy.
+  url: http://github.com/facundoq/edunn
+  github: http://github.com/facundoq/edunn
+  year: 2022
+  members:
+    - fquiroga
+
 - name: "VomSim"
   img: vonsim.png
   desc: VonSim is a web app for coding in a simple version of Assembler and simulating the execution of these programs.
-  url: http://github.com/vonsim
+  url: https://vonsim.github.io/
+  github: http://github.com/vonsim/vonsim
+  year: 2017
   members:
+    - fquiroga
     - mbustos
+    - jseery
 
 - name: "Freestyle Generator (Spanish)"
-  img: vonsim.png
+  img: freestyle.png
   desc: A lyric generator for the freestyle genre in spanish.
   url: https://midusi.github.io/freestyle_generator_front/
+  github: https://github.com/midusi/freestyle_generator
+  year: 2020
   members:
+    - fquiroga
     - pdalbianco
+    - imindlin
+    
 
 - name: "MSRC12 Action Viewer"
   img: action_viewer.png
   desc: A webapp to visualize gestures from the MSRC12 Action Dataset
   url: stuff/action-view/
+  year: 2015
   members:
+    - fquiroga
 
 - name: "Mazes"
   img: mazes.png
   desc: A small app to randomly generate mazes.
   url: stuff/mazes/
+  year: 2015
   members:
+    - fquiroga
 
 - name: "Deep Style Transfer with ml5"
   img: deepstyle.png
   desc: A small app to apply different styles to your webcam.
   url: stuff/style/
+  year: 2018
   members:
+    - fquiroga

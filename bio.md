@@ -7,7 +7,7 @@ order: 5
 
 
 * I live in La Plata, Argentina
-* I work as a researcher at the [III-LIDI, UNLP](http://www.lidi.info.unlp.edu.ar), La Plata Argentina since 2013.
+* I work as a researcher at the [III-LIDI, UNLP](http://www.lidi.info.unlp.edu.ar), La Plata Argentina since 2013. I'm also a Researcher at the [Comisión de Investigaciones Científicas of the Buenos Aires province](https://www.cic.gba.gob.ar/).
 *  PhD in Computer Science from Facultad de Informática, [UNLP](http://unlp.edu.ar). 
    *  Thesis title: [Invariance and Same Equivariance Measures for Neural Networks](publications/tesis.pdf)  ([presentation](publications/presentation.pdf)) (Spanish). 
    *  Advisor: [Dra. Laura Lanzarini](http://weblidi.info.unlp.edu.ar/wp/en/recursos-humanos/investigadores-profesores/lanzarini-laura/)

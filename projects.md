@@ -4,28 +4,9 @@ title: Projects & Stuff
 sidebar_link: true
 ---
 
+A collection side projects from my research and studies:
 
-
-{% for item in site.data.projects %}
-<div class="item" >
-<div class="item-image-container">
-<a href="{{item.url}}"><img class="item-image" src="/assets/projects/{{item.img}}"></a>
-</div>
-
-<div class="item-text">
-<a href="{{item.url}}"> <h3>{{item.name}}</h3></a>
-<p>{{item.desc}}</p>
-</div>
-
-<div>
-{% for member in item.members %}
-    <img class="item-collaborator" src="/assets/collaborators/{{member}}.png">
-{% endfor %}  
-</div>
-
-</div>
-
+{% for project in site.data.projects %}
+  {%include  project.html %}
 {% endfor %}
-
-
 

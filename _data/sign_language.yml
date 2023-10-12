@@ -1,14 +1,24 @@
-- name: Sign Language Datasets Survey
-  img: sign_language_survey.png
-  desc: A survey of the available sign language datasets, with information such as number of samples/classes, goal  (continuous/isolated,dynamic/static), etc.
-  url: /guides/sign_language_datasets/
+- name: "LSA-T: Argentinian Sign Language Translation Dataset"
+  img: lsat.gif
+  desc: A sign dataset for the Argentinian Sign Language, created with the goal of training translation models. The dataset was captured from YouTube videos from the CNSordos channel. 
+  url: https://github.com/midusi/LSA-T
+  github: https://github.com/midusi/LSA-T
+  year: 2021
+  paper: https://arxiv.org/abs/2211.15481
   members:
+    - fquiroga
+    - fronchetti
+    - pdalbianco
+    - grios
 
 - name: "Handshape datasets library"
   img: handshape_download_library.png
-  desc: A single library to downloading and load handshape datasets. 10+ datasets supported
+  desc: "A single library to downloading and load handshape datasets. 10+ datasets supported"
   url: https://github.com/midusi/handshape_datasets
+  github: https://github.com/midusi/handshape_datasets
+  year: 2020
   members:
+    - fquiroga
     - jdominguez
     - tcortizas
 
@@ -16,20 +26,51 @@
   img: lsa16.png
   desc: This database contains images of 16 handshapes of the Argentinian Sign Language (LSA), each performed 5 times by 10 different subjects, for a total of 800 images. The subjects wore color hand gloves and dark clothes.
   url: /datasets/lsa16/
+  year: 2015
   members:
+    - fquiroga
     - fronchetti
+    - llanzarini
+    - cestrebou
 
 - name: "LSA64: Argentinian Sign Language Dynamic Signs Dataset"
   img: lsa64.png
   desc: A sign database for the Argentinian Sign Language, created with the goal of producing a dictionary for LSA and training an automatic sign recognizer, includes 3200 videos where 10 non-expert subjects executed 5 repetitions of 64 different types of signs. 
   url: /datasets/lsa64/
+  year: 2016
   members:
+    - fquiroga
     - fronchetti
+    - llanzarini
+    - cestrebou
+
+- name: Sign Language Datasets Survey
+  img: sign_language_survey.png
+  desc: A survey of the available sign language datasets, with information such as number of samples/classes, goal  (continuous/isolated,dynamic/static), etc.
+  url: /guides/sign_language_datasets/
+  year: 2017
+  members:
+    - fquiroga
 
 
+- name: "Distribution Of Action Movements: a Descriptor for Action Recognition"
+  img: dam.png
+  desc: A descriptor based on a windowed distribution of action movements for action recognition. State of the art for MSRC12 and MSRAction3D when published.
+  paper: https://doi.org/10.1007/s11704-015-4320-x
+  url: publications/dam/action_descriptor
+  year: 2015
+  members:
+    - fquiroga
+    - fronchetti
+    - llanzarini
+    - cestrebou
 
 - name: "Letters and Numbers Hand Gesture Dataset"
   img: kinectdataset.png
-  desc: Recorded with Kinect, 3d hand trajectory data
+  desc: The dataset contains 36 classes. The 36 classes consist of the arabic digits (0, 1, ..., 9) (10 classes) and latin/roman alphabet letters (a, b, ..., z) (26 classes). Recorded with Kinect, 3d hand trajectory data.
   url: datasets/kinect_gestures
+  paper: https://www.semanticscholar.org/paper/A-novel-competitive-neural-classifier-for-gesture-Quiroga-Corbal%C3%A1n/db98f9224827ca62d6763f6cce3f866ef8f53306#related-papers
+  year: 2013
   members:
+    - fquiroga
+   

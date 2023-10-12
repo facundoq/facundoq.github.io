@@ -1,7 +1,9 @@
 - name: Measuring transformation (in)variances in Neural Networks
   img: tm.png
   desc: Measures of invariance to transformations such as rotations, scaling and translation for Deep Neural Networks
-  url: publications/variance
+  paper: https://link.springer.com/chapter/10.1007/978-3-030-27713-0_9
+  slides: publications/variance
+  year: 2019
   members:
     - llanzarini
     - jtorrentsbarrena
@@ -11,19 +13,25 @@
   img: tm_exp.png
   desc: Experiments to measure invariance of various well-known CNN architectures such as VGG, ResNet and AllConvolutional, on datasets CIFAR10 and MNIST.
   url: https://github.com/facundoq/transformational_measures_experiments
+  year: 2019
   members:
-
-
+    - fquiroga
+    
 - name: Transformational Measures for Neural Networks - PyTorch Library
   img: tm_pytorch.png
   desc: A library to compute easily compute Transformation Measures for PyTorch Models.
-  url: https://github.com/facundoq/transformational_measures
+  url: https://www.sciencedirect.com/science/article/abs/pii/S1568494622008663
+  github: https://github.com/facundoq/tmeasures
+  year: 2019
   members:
+    - fquiroga
 
     
 - name: Transformational Measures for Neural Networks - Keras/TensorFlow Library
   img: tm_tf.png
   desc: A library to compute easily compute Transformation Measures for Keras/Tensorflow Models.
   url: https://github.com/midusi/transformational_measures_tf/
+  year: 2020
   members:
     - fravettino
+    - fquiroga
