@@ -26,9 +26,15 @@ $root-font-size: 10px !default;
 // $sidebar-sticky: false;
 @import "hydeout";
 
+
+.content{
+    // width: 90%;
+    max-width: 90%;
+}
 .logo img {
     height:64px;
     display:inline-block;
+    box-shadow: rgba(0,0,0,0.3) 0 0 5px;
 }
 
 .iconlist{
@@ -36,6 +42,7 @@ $root-font-size: 10px !default;
     justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
+    padding-top:10px;
 }
 
 .mail {
@@ -65,14 +72,23 @@ a{
 
 .project{
     display: flex;
-    justify-content: space-between;
+    flex-direction:row;
+    justify-content: left;
     box-shadow: rgba(0,0,0,0.2) 0 0 3px;
     // border-radius: 5%;
     // min-height: 20%;
     margin:2%;
     padding:1% 3%;
-
 }
+
+.project-content{
+    display: flex;
+    flex-direction:column;
+    min-width: 68%;
+    margin-left: 2%;
+    // justify-content: space-between;
+}
+
 .project-text{
     // max-width: 50%;
     // flex-shrink: 10;
@@ -80,28 +96,21 @@ a{
     padding-left: 20px;
     padding-right: 20px;
     align-self: flex-start;
+    flex-shrink: 1;
 }
 
 .project-image-container{
-    align-self: center;
+    align-self: flex-start;
     flex-shrink: 0;
-    max-width:20%;
-    width:128px;
+    width:30%;
+    margin:auto;
 }
 .project-image{
     width:100%;
     display:inline-block;
+    box-shadow: rgba(0,0,0,0.3) 0 0 5px;
 }
-.project-collaborators{
-    height:100%;
-    width:205px;
-    max-width: 10%;
-    flex-shrink: 0;
-    display: flex;
-    align-self: center;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 .iconlink img{
     padding:0px;
@@ -118,17 +127,35 @@ a{
 .project-collaborators{
     padding:0px;
     margin:0px;
-    // align-self: flex-start;
-    display:inline;
+    margin-left: auto;
+
+    display:flex;
+    // width:100%;
+    flex-shrink: 0;
+    
+    align-self: center;
+    align-items: center;
+    // justify-content: space-around;
 }
+
+// .project-collaborators{
+//     // height:100%;
+//     width:100%;
+//     // max-width: 10%;
+//     flex-shrink: 0;
+//     display: flex;
+//     align-self: center;
+//     align-items: center;
+//     justify-content: space-between;
+// }
 
 .project-collaborator{
     padding:0px;
-    margin:0px;
+    margin:8px;
     width:64px;
     height:64px;
-    // align-self: flex-start;
-    display:inline-block;
+    // align-self: flex-end;
+    // display:inline-block;
     border-radius: 50%;
     object-fit: contain;
     box-shadow: rgba(0,0,0,0.3) 0 0 5px;

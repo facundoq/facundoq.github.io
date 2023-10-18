@@ -1,0 +1,44 @@
+- name: Invariance Measures for Neural Networks
+  img: tm.png
+  desc: Measures of invariance to transformations such as rotations, scaling and translation for Deep Neural Networks
+  paper: https://www.sciencedirect.com/science/article/abs/pii/S1568494622008663
+  slides: publications/variance
+  github: https://github.com/facundoq/transformational_measures_experiments
+  year: 2019
+  members:
+    - llanzarini
+    - jtorrentsbarrena
+    - dpuigvalls
+    
+- name: Transformational Measures for Neural Networks - PyTorch Library
+  img: tm_pytorch.png
+  desc: A library to compute easily compute Transformation Measures for PyTorch Models.
+  url: https://www.sciencedirect.com/science/article/abs/pii/S1568494622008663
+  github: https://github.com/facundoq/tmeasures
+  year: 2019
+  members:
+    - fquiroga
+
+    
+- name: Transformational Measures for Neural Networks - Keras/TensorFlow Library
+  img: tm_tf.png
+  desc: A library to compute easily compute Transformation Measures for Keras/Tensorflow Models.
+  url: https://github.com/midusi/transformational_measures_tf/
+  year: 2020
+  members:
+    - fravettino
+    - fquiroga
+
+
+- name: FGR-Net":" Interpretable fundus image gradeability classification based on deep reconstruction learning
+  img: fgr.jpg
+  desc: FGR-Net is a neural network trained to assess and interpret underlying fundus image quality by merging an autoencoder network with a classifier network. 
+  paper: https://www.sciencedirect.com/science/article/pii/S0957417423021462
+  github: https://github.com/facundoq/fundus-gradable
+  year: 2023
+  members:
+    - fquiroga
+    - hrashwan
+    - skhalid
+    - dpuigvalls
+

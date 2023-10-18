@@ -13,9 +13,12 @@ I'm teaching [Arquitectura de Computadoras](https://facundoq.github.io/courses/a
 
 ### Research areas
 
-* [Invariance and Equivariance in Neural Networks](transformational_measures)
-* [Sign Language Recognition](/sign_language)
-* [Astronomical data](publications/bestars/presentation.pdf)
+* [Interpretability](interpretability)
+* [Sign Language Processing](sign_language)
+* [Astronomical data](astro)
+
+
+Other [random projects](projects) such as [VonSim](https://vonsim.github.io/) or [EduNN](https://github.com/facundoq/edunn)
 
 ### Contact
 Mail: f{lastname}@lidi.info.unlp.edu.ar 
@@ -28,7 +31,10 @@ Mail: f{lastname}@lidi.info.unlp.edu.ar
 <a class="logo" title="Facultad de Informática" aria-label="III-LIDI" href="http://www.info.unlp.edu.ar/"> <img src="assets/img/logo/info.png" /> </a>
 
 
-<a class="logo" title="Universidad Nacional de La Plata" aria-label="III-LIDI" href="http://www.unlp.edu.ar/"> <img src="assets/img/logo/unlp.png" /> </a>
+<a class="logo" title="Universidad Nacional de La Plata" aria-label="UNLP" href="http://www.unlp.edu.ar/"> <img src="assets/img/logo/unlp.png" /> </a>
+
+
+<a class="logo" title="Comisión de Investigaciones Científicas de la Provincia de Buenos Aires" aria-label="CICGBA" href="https://www.cic.gba.gob.ar/"> <img src="assets/img/logo/cic.png" /> </a>
 
 </div>
  

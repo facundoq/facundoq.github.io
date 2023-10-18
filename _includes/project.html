@@ -1,32 +1,42 @@
 <div class="project">
+
   <div class="project-image-container">
     <a href="{{project.url}}"
       ><img class="project-image" src="/assets/projects/{{project.img}}"
     /></a>
   </div>
 
-  <div class="project-text">
-    <a href="{{project.url}}"> <h3>{{project.name}} {% if project.year %} ({{project.year}}) {% endif %} </h3></a>
-    <p>{{project.desc}}</p>
-    <p>
-      {% if project.github %}
-      <a href="{{project.github}}" class="iconlink">
-        <img src="/assets/img/github.png" />
-      </a>
-      {% endif %} 
-      {% if project.paper %}
-      <a href="{{project.paper}}" class="iconlink">
-        <img src="/assets/img/paper.png" />
-      </a>
-      {% endif %}
-      {% if project.slides %}
-      <a href="{{project.slides}}" class="iconlink">
-        <img src="/assets/img/slides.png" />
-      </a>
-      {% endif %}
-    </p>
-  </div>
+  <div class="project-content">
+    
 
+    <div class="project-text">
+      <a href="{{project.url}}"> <h3>{{project.name}} {% if project.year %} ({{project.year}}) {% endif %} </h3></a>
+      <p>{{project.desc}}</p>
+      <p>
+        {% if project.github %}
+        <a href="{{project.github}}" class="iconlink">
+          <img src="/assets/img/github.png" />
+        </a>
+        {% endif %} 
+        {% if project.paper %}
+        <a href="{{project.paper}}" class="iconlink">
+          <img src="/assets/img/paper.png" />
+        </a>
+        {% endif %}
+        {% if project.slides %}
+        <a href="{{project.slides}}" class="iconlink">
+          <img src="/assets/img/slides.png" />
+        </a>
+        {% endif %}
+        {% if project.data %}
+        <a href="{{project.data}}" class="iconlink">
+          <img src="/assets/img/data.png" />
+        </a>
+        {% endif %}
+      </p>
+    </div>
+ 
+  
   <div class="project-collaborators">
     {% for member in project.members %} {% assign collaborator =
     site.data.collaborator | where: 'id', member %}
@@ -36,4 +46,6 @@
 
     {% endfor %}
   </div>
+
+</div>
 </div>

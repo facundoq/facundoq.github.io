@@ -14,3 +14,9 @@ order: 5
 *  "Licenciature" degree (mix of BSc and MSc) also from Facultad de Informática, [UNLP](http://unlp.edu.ar). 
    *  Thesis title: [Dynamic gesture recognition with Kinect](http://sedici.unlp.edu.ar/handle/10915/36025). 
    *  Advisors: [Dra. Laura Lanzarini](http://weblidi.info.unlp.edu.ar/wp/en/recursos-humanos/investigadores-profesores/lanzarini-laura/), [Mg. Leonardo Corbalán](http://weblidi.info.unlp.edu.ar/wp/en/recursos-humanos/investigadores-profesores/corbalan-leonardo-2/)
+* Currently supervising:
+   * Gastón Rios (PhD, UNLP)
+   * Pedro Dal Bianco (PhD, UNLP)
+   * Oscar Stanchi (PhD, UNLP)
+   * Santiago Ponte Ahón (PhD, UNLP)
+   * Tatiana Badaracco (MSc, UBA)
