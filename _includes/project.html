@@ -40,9 +40,11 @@
   <div class="project-collaborators">
     {% for member in project.members %} {% assign collaborator =
     site.data.collaborator | where: 'id', member %}
-    <a href="{{collaborator[0].url}}" class="project-collaborator"
-      ><img src="/assets/collaborators/{{member}}.png"
-    /></a>
+    <!-- <div  class="project-collaborator-container"> -->
+      <a href="{{collaborator[0].url}}" class="project-collaborator"
+        ><img src="/assets/collaborators/{{member}}.png"
+      /></a>
+    <!-- </div> -->
 
     {% endfor %}
   </div>
