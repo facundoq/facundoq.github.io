@@ -3,7 +3,7 @@
     site.data.collaborator | where: 'id', member %}
     <div class="project-collaborator-container">
       <a href="{{collaborator[0].url}}" class="project-collaborator">
-        <img src="/assets/collaborators/{{member}}.png"/>
+        <img src="/assets/collaborators/{{member}}.png" alt="{{collaborator[0].name}}"/>
         <p class="project-collaborator-name">{{collaborator[0].name}}</p>
       </a>
       
