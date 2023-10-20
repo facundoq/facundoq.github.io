@@ -3,6 +3,7 @@
   desc: A sign dataset for the Argentinian Sign Language, created with the goal of training translation models. The dataset was captured from YouTube videos from the CNSordos channel. 
   url: https://github.com/midusi/LSA-T
   github: https://github.com/midusi/LSA-T
+  data: https://paperswithcode.com/dataset/lsa-t
   year: 2021
   paper: https://arxiv.org/abs/2211.15481
   members:
@@ -10,6 +11,8 @@
     - fronchetti
     - pdalbianco
     - grios
+    - whasperue
+    - ostanchi
 
 - name: "Handshape datasets library"
   img: handshape_download_library.png
@@ -26,6 +29,7 @@
   img: lsa16.png
   desc: This database contains images of 16 handshapes of the Argentinian Sign Language (LSA), each performed 5 times by 10 different subjects, for a total of 800 images. The subjects wore color hand gloves and dark clothes.
   url: /datasets/lsa16/
+  data: https://paperswithcode.com/sota/hand-gesture-recognition-on-lsa16
   year: 2015
   members:
     - fquiroga
@@ -37,6 +41,7 @@
   img: lsa64.png
   desc: A sign database for the Argentinian Sign Language, created with the goal of producing a dictionary for LSA and training an automatic sign recognizer, includes 3200 videos where 10 non-expert subjects executed 5 repetitions of 64 different types of signs. 
   url: /datasets/lsa64/
+  data: https://paperswithcode.com/dataset/lsa64
   year: 2016
   members:
     - fquiroga

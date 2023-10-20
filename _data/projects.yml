@@ -29,6 +29,7 @@
     - fquiroga
     - pdalbianco
     - imindlin
+    - fronchetti
     
 
 - name: "MSRC12 Action Viewer"
@@ -54,3 +55,13 @@
   year: 2018
   members:
     - fquiroga
+
+- name: Stock Price Prediction
+  img: stocks.jpg
+  desc: This paper explores the use of clustering models of stocks to improve both (a) the prediction of stock prices and (b) the returns of trading algorithms. Forecasting is improved by using the additional information provided by the clustering methods, therefore selecting relevant data is an aspect of time series modeling.
+  paper: https://www.sciencedirect.com/science/article/pii/S1057521923001734
+  year: 2023
+  members:
+    - jvasquez
+    - fquiroga
+    - afernandez

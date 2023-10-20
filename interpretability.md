@@ -8,6 +8,8 @@ Interpretability methods for neural networks are essential tools that help us un
 
 In particular, as part of my PhD thesis I developed Transformational Measures to quantify the relationship between transformations of the inputs to neural networks and their outputs or intermediate representations in terms of invariance and same-equivariance. 
 
+<div class="projects">
 {% for project in site.data.interpretability %}
   {%include  project.html %}
 {% endfor %}
+</div>

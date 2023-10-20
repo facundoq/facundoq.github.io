@@ -7,10 +7,13 @@
 - name: Cesar Estrebou
   id: cestrebou
   url: http://weblidi.info.unlp.edu.ar/wp/en/recursos-humanos/investigadores-profesores/lanzarini-laura/
+- name: Jordina Torrents
+  id: jtorrentsbarrena
+  url: https://dblp.org/pid/147/2306
 - name: Domenec Puig Valls
   id: dpuig
   url: https://scholar.google.es/citations?user=2lmYVYAAAAAJ&hl=en
-- name: Facundo Manuel Quiroga
+- name: Facundo Quiroga
   id: fquiroga
   url: https://facundoq.github.io/
 - name: Pedro Dal Bianco
@@ -19,9 +22,18 @@
 - name: Mohamed Abdel-Nasser
   id: mabdel
   url: https://scholar.google.es/citations?user=YPGlucUAAAAJ&hl=en
-- name: Cesar Estrebou
-  id: cestrebou
-  url: https://scholar.google.com.ar/citations?user=9FUZpF4AAAAJ&hl=en
+- name: Hatem Rashwan
+  id: hrashwan
+  url: https://scholar.google.com/citations?user=O723kNQAAAAJ&hl=en
+- name: Saif Khalid
+  id: skhalid
+  url: https://scholar.google.com/citations?hl=en&user=D4MG-qsAAAAJ
+- name: Carlos Escudero
+  id: cescudero
+  url: https://scholar.google.com/citations?user=TE8zuyoAAAAJ&hl=en&oi=sra
+- name: Anahí Granada
+  id: agranada
+  url: https://scholar.google.com/citations?user=ujFKznsAAAAJ&hl=en
 - name: Waldo Hasperué
   id: whasperue
   url: https://scholar.google.com.ar/citations?user=st6WVegAAAAJ&hl=en
@@ -46,3 +58,27 @@
 - name: Ivan Mindlin
   id: imindlin
   url: https://scholar.google.com.ar/citations?user=UfV0ZWIAAAAJ&hl=en
+- name: Tomás Cortizas
+  id: tcortizas
+  url: https://www.linkedin.com/in/tomas-cortizas-705096186/
+- name: Jeremías Dominguez Vega
+  id: jdominguez
+  url: https://www.linkedin.com/in/jeremias-dominguez-vega/
+- name: Federico Ravettino
+  id: fravettino
+  url: https://www.linkedin.com/in/federico-ravettino-46960279/?originalSubdomain=ar
+- name: Nehuen Pereyra
+  id: npereyra
+  url: https://www.linkedin.com/in/nehuen-pereyra-014b24160/
+- name: Joaquin Miranda
+  id: jmiranda
+  url: https://www.linkedin.com/in/joaquin-miranda-158a74226/
+- name: Juan Seery
+  id: jseery
+  url: https://juanm04.com/
+- name: Manuel Bustos
+  id: mbustos
+  url: https://www.linkedin.com/in/manuelbustosberrondo/
+- name: Javier Vasquez
+  id: jvasquez
+  url: https://www.linkedin.com/in/javier-vasquez-saenz-2a86a59/

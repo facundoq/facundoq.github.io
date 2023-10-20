@@ -1,6 +1,6 @@
 - name: "ReTroH: Recovery of Historic Astronomical Observations"
   img: retroh.png
-  desc: The Faculty of Astronomical and Geophysical Sciences (FCAG) of the National University of La Plata (UNLP) has a very rich history in astronomical, geophysical, and meteorological observations since its creation as the La Plata Observatory over a century ago. The institution has initiated a project to enhance the historical-scientific-cultural heritage through an interdisciplinary team. In this context, the ultimate goal of the ReTrOH project is to transfer knowledge through the recovery, digitization, and enhancement of old data.
+  desc: The goal of the ReTrOH project is to transfer knowledge through the recovery, digitization, and enhancement of historical data from the Faculty of Astronomical and Geophysical Sciences (FCAG) of the National University of La Plata (UNLP) through an interdisciplinary team. 
   url: https://retroh.fcaglp.unlp.edu.ar/
   year: 2020
   members:
@@ -13,7 +13,7 @@
 
 - name: Detection of Be Stars and other astronomical objects
   img: bestars.jpg
-  desc: Astronomical databases currently provide high-volume spectroscopic and photometric data. In this work we evaluate the use of neural networks to identify Be star candidates from a set of OB-type stars. The networks are trained using a labeled subset of the VPHAS+ and 2MASS databases, with filters u, g, r, Hα, i, J, H, and K (photometric data).We propose and evaluate the use of reddening-free Q indices to enhance the generalization of the model to other databases and objects. Our results show that the proposed features provide a significant improvement over the original filter magnitudes.
+  desc: Astronomical databases currently provide high-volume photometric data.  We propose and evaluate the use of reddening-free Q indices to identify Be star candidates with photometric data.
   paper: https://arxiv.org/abs/2009.06017
   github: https://github.com/facundoq/bestars
   slides: /publications/bestars/presentation.pdf 
@@ -25,4 +25,20 @@
     - sponte
     - yaidelman
     - rgamen
-    - llanzarini
+
+- name: >
+    SPECTROGRAM: AI-powered software to digitalize historic spectrogram plates.
+  img: spectrogram.png
+  desc: We present an intelligent software to assist in the recovery of information contained in plates. The software includes a module that automatically detects spectra, streamlines the loading of metadata, and verifies its standardization. The use of the software will significantly reduce the required man-hours and processing errors.
+  paper: http://sedici.unlp.edu.ar/handle/10915/149571
+  github: https://github.com/midusi/spectrogram
+  year: 2022
+  members:
+    - fquiroga
+    - fronchetti
+    - sponte
+    - yaidelman
+    - rgamen
+    - whasperue    
+    - jmiranda
+    - npereyra

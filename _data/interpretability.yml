@@ -4,33 +4,28 @@
   paper: https://www.sciencedirect.com/science/article/abs/pii/S1568494622008663
   slides: publications/variance
   github: https://github.com/facundoq/transformational_measures_experiments
-  year: 2019
+  year: 2019-2023
   members:
+    - fquiroga
     - llanzarini
     - jtorrentsbarrena
-    - dpuigvalls
+    - dpuig
     
-- name: Transformational Measures for Neural Networks - PyTorch Library
+- name: >
+    TMEASURES: Transformational Measures for Neural Networks - PyTorch Library
   img: tm_pytorch.png
-  desc: A library to compute easily compute Transformation Measures for PyTorch Models.
+  desc: >
+    TMEASURES: A library to compute easily compute Transformation Measures for PyTorch Models. Tensorflow version in progress. The library provides various invariance and same-equivariance measures ready to be applied to any neural network model. The library also allows to easily implement new transformational measures in a straightforward and efficient manner.
   url: https://www.sciencedirect.com/science/article/abs/pii/S1568494622008663
   github: https://github.com/facundoq/tmeasures
   year: 2019
   members:
     - fquiroga
-
-    
-- name: Transformational Measures for Neural Networks - Keras/TensorFlow Library
-  img: tm_tf.png
-  desc: A library to compute easily compute Transformation Measures for Keras/Tensorflow Models.
-  url: https://github.com/midusi/transformational_measures_tf/
-  year: 2020
-  members:
     - fravettino
-    - fquiroga
 
 
-- name: FGR-Net":" Interpretable fundus image gradeability classification based on deep reconstruction learning
+- name: > 
+    FGR-Net: Interpretable fundus image gradeability classification based on deep reconstruction learning
   img: fgr.jpg
   desc: FGR-Net is a neural network trained to assess and interpret underlying fundus image quality by merging an autoencoder network with a classifier network. 
   paper: https://www.sciencedirect.com/science/article/pii/S0957417423021462
@@ -40,5 +35,6 @@
     - fquiroga
     - hrashwan
     - skhalid
-    - dpuigvalls
+    - dpuig
+    - mabdel
 
