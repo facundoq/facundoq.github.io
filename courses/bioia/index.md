@@ -1,11 +1,17 @@
+---
+title: Técnicas inteligentes para el análisis de datos - 2024
+header: Técnicas inteligentes para el análisis de datos - 2024
+---
+
 # Técnicas inteligentes para el análisis de datos 
 
 Hola! Acá está el material para la materia *Técnicas inteligentes para el análisis de datos* de la Especialización en BioInformática - Facultad de Informática - UNLP
 
+[Carpeta compartida](https://drive.google.com/drive/folders/1yhPhkizBvtSx0dQx5Lray1v8ZPyB_Hxt?usp=sharing)
 
 ## 1. Introducción a la IA
 * [Autoevaluación](https://forms.gle/HSP1nyNAxCmfVAEy6)
-* [Práctica]()
+* [Práctica](https://drive.google.com/drive/folders/13L7tzjiXQj5vtUk8a-wxYlw6QiT-wkJY?usp=sharing)
 * [Videos](https://www.youtube.com/playlist?list=PLIsufCSbGAxSQC5v8LuzSoTrA-v4jfV_s)
 * Diapositivas
   * [01. Inteligencia Artificial](<slides/01. Inteligencia Artificial.pdf>) 
