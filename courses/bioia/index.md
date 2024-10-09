@@ -1,6 +1,6 @@
 ---
-title: Técnicas inteligentes para el análisis de datos - 2024
-header: Técnicas inteligentes para el análisis de datos - 2024
+title: TIAD - 2024
+header: TIAD - 2024
 sidebar_link: true
 ---
 
@@ -14,7 +14,7 @@ Hola! Acá está el material para la materia *Técnicas inteligentes para el an�
 * [Autoevaluación](https://forms.gle/HSP1nyNAxCmfVAEy6)
 * [Práctica](https://drive.google.com/drive/folders/13L7tzjiXQj5vtUk8a-wxYlw6QiT-wkJY?usp=sharing)
 * [Videos](https://www.youtube.com/playlist?list=PLIsufCSbGAxSQC5v8LuzSoTrA-v4jfV_s)
-* Diapositivas
+* [Diapositivas](https://drive.google.com/drive/folders/1W8WWre0H9aCKu4tP13m5KdICipsM6XSp?usp=sharing)
   * [01. Inteligencia Artificial](<slides/01. Inteligencia Artificial.pdf>) 
   * [02. Optimización & Inteligencia Artificial](<slides/02. Optimización & Inteligencia Artificial.pdf>) 
   * [03. Inteligencia Artificial_ Tipos y Ejemplos ](<slides/03. Inteligencia Artificial_ Tipos y Ejemplos .pdf>) 
