@@ -1,6 +1,7 @@
 ---
 title: Técnicas inteligentes para el análisis de datos - 2024
 header: Técnicas inteligentes para el análisis de datos - 2024
+sidebar_link: true
 ---
 
 # Técnicas inteligentes para el análisis de datos 
