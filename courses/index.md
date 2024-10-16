@@ -18,17 +18,17 @@ sidebar_link: true
 2.  Data Structures: 2011 to 2014
 3.  [Computer Architecture I](http://weblidi.info.unlp.edu.ar/catedras/organizacion/index.php) (2014-2017)
 4.  [Computer Architecture II](http://weblidi.info.unlp.edu.ar/catedras/arquitecturap2003/) (2014-Present)
-5.  [Data Mining](http://weblidi.info.unlp.edu.ar/catedras/md_si/) (2018-Present)
-6.  [Deep Learning](https://www.youtube.com/playlist?list=PLIsufCSbGAxSd_2nSyqExNgQyoVZqYl0E) (2019-2022)
+5.  [Deep Learning](deep2019) (2019-2022)
+6.  [Data Mining](http://weblidi.info.unlp.edu.ar/catedras/md_si/) (2018-Present)
 
 ## Graduate courses (for phd/msc) 
 
 Professor at [Facultad de Informática, UNLP](https://www.info.unlp.edu.ar/):
 
-1. Data Mining
-2. Deep Learning for Computer Vision
-3. [Machine Learning](aa2018/index.html)
-4. [Machine Learning for Bioinformatics](bioia)
+1. [Machine Learning - Python/Scikit-Learn (2018)](aa2018/index.html)
+2. Data Mining with Orange (2020)
+3. [Intro to Deep Learning - Python/Keras  (2019)](deep2019)
+4. [Machine Learning for Bioinformatics - Python/Scikit-Learn (2024)](bioia)
 
 ### Other
 
