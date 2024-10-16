@@ -9,8 +9,9 @@ sidebar_link: true
 Curso dictado entre 2019 y 2022 en la Universidad Nacional de La Plata y la Universidad de Buenos Aires.
 
 
-* [Clases en videos]()
-* [Diapositivas]()
+* [Clases en videos](https://www.youtube.com/playlist?list=PLIsufCSbGAxSd_2nSyqExNgQyoVZqYl0E)
+* [Diapositivas y actividades](https://drive.google.com/drive/folders/1OiG19VDYB7JLvla0gQ7KFRosHhXu0Ah-?usp=sharing)
+* [Autoevaluaciones (en breve)](#)
 
 
 Consta de 11 unidades:
