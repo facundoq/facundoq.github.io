@@ -8,7 +8,7 @@ layout: index
 I'm a researcher working on Machine Learning and Computer Vision at the 
 [Instituto de Investigación en Informática LIDI](), [Facultad de Informática](http://info.unlp.edu.ar), [UNLP](http://unlp.edu.ar).
 
-I'm teaching [Intro to Computer Architecture](https://facundoq.github.io/courses/arq/) in the second semester of 2023, and usually teach Data Mining in the first semester. I've also taught several [posgraduate courses](teaching).
+I'm teaching [Intro to Computer Architecture](https://facundoq.github.io/courses/arq/) in the second semester of 2023, and usually teach Data Mining in the first semester. I've also taught several [posgraduate courses](courses).
 
 
 ### Research areas
