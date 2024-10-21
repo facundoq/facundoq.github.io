@@ -18,6 +18,10 @@ Hola! Acá está el material para la materia *Técnicas inteligentes para el an�
 
 
 ## 2. Minería de Datos
+* [Autoevaluación]([https://forms.gle/HSP1nyNAxCmfVAEy6](https://forms.gle/kEmBHH8RvAwVNxiE8))
+* [Práctica](https://drive.google.com/drive/folders/13L7tzjiXQj5vtUk8a-wxYlw6QiT-wkJY?usp=sharing)
+* [Videos](https://www.youtube.com/playlist?list=PLIsufCSbGAxSNUT19JeUdJYhB0NvuW5r-)
+* [Diapositivas]([https://drive.google.com/drive/folders/1W8WWre0H9aCKu4tP13m5KdICipsM6XSp?usp=sharing](https://drive.google.com/drive/folders/1LL_bAvActja4SNgxZJtf9gi7p1IjkUhy?usp=drive_link))
 
 ## 3. Aprendizaje No Supervisado
 
