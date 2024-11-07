@@ -25,6 +25,29 @@ Hola! Acá está el material para la materia *Técnicas inteligentes para el an�
 
 ## 3. Aprendizaje No Supervisado
 
+[Práctica](https://drive.google.com/drive/u/0/folders/1rLdPGF94FR9TZM737XEkdKX5TnlhkOy0) 
+
+# 3.1 Agrupamiento (Clustering)
+  
+* [Autoevaluación](https://forms.gle/fbzgeW9YmFcTVxKDA)
+* [Videos](https://www.youtube.com/playlist?list=PLIsufCSbGAxSebpwTVPzbg2p_ZvSchozK)
+* [Diapositivas](https://drive.google.com/drive/folders/1m__MLcRHZ4Y8sZpilIBZrStTt_PqiwUj)
+
+
+# 3.2 Reglas de Asociación
+  
+* [Autoevaluación]()
+* [Videos](https://www.youtube.com/playlist?list=PLIsufCSbGAxTx_FUV-860JEaRLIw57Bra)
+* [Diapositivas](https://drive.google.com/drive/folders/1_ot8z3YuVyycSUnZTBIwQ3Kjcew59P8g)
+
+
+# 3.3 Selección de Atributos y Reducción de Dimensionalidad
+  
+* [Autoevaluación]()
+* [Videos](https://www.youtube.com/playlist?list=PLIsufCSbGAxTLO2XFF3EsfAEEKiQ392sn)
+* [Diapositivas](https://drive.google.com/drive/folders/1CU_GlcmcxV1D6b5NCZWmVSNs5V_8zekZ)
+
+
 ## 4. Aprendizaje Supervisado: Regresión
 
 ## 5. Aprendizaje Supervisado: Clasificación
