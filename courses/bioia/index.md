@@ -43,7 +43,7 @@ Hola! Acá está el material para la materia *Técnicas inteligentes para el an�
 
 # 3.3 Selección de Atributos y Reducción de Dimensionalidad
   
-* [Autoevaluación]()
+* [Autoevaluación](https://docs.google.com/forms/d/1AIm_dqvXGX1pSDC__I3GfH4wKcSjS9E1sj-nDTHoIrM/edit)
 * [Videos](https://www.youtube.com/playlist?list=PLIsufCSbGAxTLO2XFF3EsfAEEKiQ392sn)
 * [Diapositivas](https://drive.google.com/drive/folders/1CU_GlcmcxV1D6b5NCZWmVSNs5V_8zekZ)
 
