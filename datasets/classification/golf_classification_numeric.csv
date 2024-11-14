@@ -1,0 +1,15 @@
+Ambiente,Temperatura,Humedad,Viento,Juega
+soleado,85,85,NO,No
+soleado,80,90,SI,No
+nublado,83,86,NO,Si
+lluvioso,70,96,NO,Si
+lluvioso,68,80,NO,Si
+lluvioso,65,70,SI,No
+nublado,64,65,SI,Si
+soleado,72,95,NO,No
+soleado,69,70,NO,Si
+lluvioso,75,80,NO,Si
+soleado,75,70,SI,Si
+nublado,72,90,SI,Si
+nublado,81,75,NO,Si
+lluvioso,71,91,SI,No
