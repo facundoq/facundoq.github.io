@@ -27,21 +27,21 @@ Hola! Acá está el material para la materia *Técnicas inteligentes para el an�
 
 [Práctica](https://drive.google.com/drive/u/0/folders/1rLdPGF94FR9TZM737XEkdKX5TnlhkOy0) 
 
-### 3.1 Agrupamiento (Clustering)
+#### 3.1 Agrupamiento (Clustering)
   
 * [Autoevaluación](https://forms.gle/fbzgeW9YmFcTVxKDA)
 * [Videos](https://www.youtube.com/playlist?list=PLIsufCSbGAxSebpwTVPzbg2p_ZvSchozK)
 * [Diapositivas](https://drive.google.com/drive/folders/1m__MLcRHZ4Y8sZpilIBZrStTt_PqiwUj)
 
 
-### 3.2 Reglas de Asociación
+#### 3.2 Reglas de Asociación
   
 * [Autoevaluación](https://forms.gle/Y42BhHKFtNh2HSc2A)
 * [Videos](https://www.youtube.com/playlist?list=PLIsufCSbGAxTx_FUV-860JEaRLIw57Bra)
 * [Diapositivas](https://drive.google.com/drive/folders/1_ot8z3YuVyycSUnZTBIwQ3Kjcew59P8g)
 
 
-### 3.3 Selección de Atributos y Reducción de Dimensionalidad
+#### 3.3 Selección de Atributos y Reducción de Dimensionalidad
   
 * [Autoevaluación](https://forms.gle/bdA9udqJzQ2xeYxk6)
 * [Videos](https://www.youtube.com/playlist?list=PLIsufCSbGAxTLO2XFF3EsfAEEKiQ392sn)
