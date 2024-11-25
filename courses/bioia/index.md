@@ -57,4 +57,32 @@ Hola! Acá está el material para la materia *Técnicas inteligentes para el an�
  
 
 
-## 5. Aprendizaje Supervisado: Clasificación
+## 5. Regresión Lineal, Logística y Redes Neuronales
+
+[Práctica](https://drive.google.com/drive/folders/1VOs9BNtm1Z_iC67ChCZoP0UmhphgtafC)
+
+#### 5.1 Regresión Lineal 1D y Descenso de Gradiente
+  
+* [Autoevaluación](https://forms.gle/AfKNjPFdDHSZbqxQ7)
+* [Videos](https://youtube.com/playlist?list=PLIsufCSbGAxQuNSW-a97fob0IgxyzZuk7&feature=shared)
+* [Diapositivas](https://drive.google.com/drive/folders/1eEFClQuWsvhzipu0THh19y-V7U4TFzfV)
+
+
+#### 5.2 Regresión Lineal con Múltiples Variables. Descenso de Gradiente Estocástico
+  
+* [Autoevaluación](https://forms.gle/AiEiWeJcLnziK4hLA)
+* [Videos](https://www.youtube.com/playlist?list=PLIsufCSbGAxTJfFJhdmHlzAU8Suo9jGAI)
+* [Diapositivas](https://drive.google.com/drive/folders/1_1OEH_rVapKuBYY6GyCkNVw0hhsCbKu2)
+
+
+#### 5.3 Regresión Logística
+  
+* [Autoevaluación](https://forms.gle/GgrA8ZcuwPmjXGEs8)
+* [Videos](https://www.youtube.com/playlist?list=PLIsufCSbGAxSjB18e4sZ5o9KBVuZ_V3uN)
+* [Diapositivas](https://drive.google.com/drive/folders/1t-V3U8LPLtbBMo_7vk31cUOd9-7yI_FZ)
+
+#### 5.4 Redes Neuronales
+
+* [Autoevaluación](https://forms.gle/mvVYtdpBSkquUqrr9)
+* [Videos](https://www.youtube.com/playlist?list=PLIsufCSbGAxTpWroPSTl-Poen_c8tystX)
+* [Diapositivas](https://drive.google.com/drive/folders/1I1MZIqoiWQJ6RYBlXmEnThjegw-Mbtii)

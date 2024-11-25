@@ -23,6 +23,6 @@ sidebar_link: false
   * [Predicción de notas - 2D](regression/study_regression_2d_small.csv)
   * [Expectativa de vida (WHO)](regression/who_life_expectancy.csv)
   * [Expectativa de vida (WHO) preprocesado](regression/who_no_missing_numeric.csv)
-  * [Golf Nominal](classification/golf_regression_nominal.csv)
+  * [Golf Nominal](regression/golf_regression_nominal.csv)
     
 

@@ -1,0 +1,5 @@
+Diametro,Color,Clase
+7,100,Naranja
+20,20,Melon
+25,70,Melon
+10,210,Naranja

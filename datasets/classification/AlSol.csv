@@ -1,0 +1,9 @@
+id,Nombre,Pelo,Estatura,Peso,Protector,Quemado
+E1,Sara,Rubio,Promedio,Ligero,No,SI
+E2,Diana,Rubio,Alta,Promedio,Si,NO
+E3,Alexis,Castano,Baja,Promedio,Si,NO
+E4,Ana,Rubio,Baja,Promedio,No,SI
+E5,Emilia,Pelirrojo,Promedio,Pesado,No,SI
+E6,Pedro,Castano,Alta,Pesado,No,NO
+E7,Juan,Castano,Promedio,Pesado,No,NO
+E8,Catalina,Rubio,Baja,Ligero,Si,NO
