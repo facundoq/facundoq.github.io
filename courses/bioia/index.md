@@ -51,15 +51,13 @@ Hola! Acá está el material para la materia *Técnicas inteligentes para el an�
 ## 4. Árboles de Clasificación y Regresión. Bias vs Varianza.  Bagging y Boosting
 
 * [❔Autoevaluación](https://forms.gle/vyBFuSYVJgz2Zn3v5)
-* [✏️Práctica](https://drive.google.com/drive/folders/1KKk4urvbmLq_QyNdq8HfPK9rhmkh6M_n)
+* [✏️Práctica (para unidades 4 y 5)](https://drive.google.com/drive/folders/1KKk4urvbmLq_QyNdq8HfPK9rhmkh6M_n)
 * [🖥️Videos](https://www.youtube.com/playlist?list=PLIsufCSbGAxRxeiHEGwotFlHp9ip6H5qY)
 * [📚Diapositivas](https://drive.google.com/drive/folders/1cC1evx16yp1ad3LPQ0VgKhadqw54ARY6)
  
 
 
 ## 5. Regresión Lineal, Logística y Redes Neuronales
-
-[✏️Práctica](https://drive.google.com/drive/folders/1VOs9BNtm1Z_iC67ChCZoP0UmhphgtafC)
 
 #### 5.1 Regresión Lineal 1D y Descenso de Gradiente
   
