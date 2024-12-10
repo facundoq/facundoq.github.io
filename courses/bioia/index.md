@@ -59,6 +59,8 @@ Hola! Acá está el material para la materia *Técnicas inteligentes para el an�
 
 ## 5. Regresión Lineal, Logística y Redes Neuronales
 
+**NOTA**: Para este curso que es inicial y orientado a bioinformática, el contenido aquí presentado es básico y tiene el objetivo de dar una visión general de estos modelos. Por este motivo, la unidad solo tiene los conceptos más básicos del tema, y no hay una práctica. Si querés profundizar en el tema, está disponible mi curso de [Deep Learning](../deep2019/).
+
 #### 5.1 Regresión Lineal 1D y Descenso de Gradiente
   
 * [❔Autoevaluación](https://forms.gle/AfKNjPFdDHSZbqxQ7)
