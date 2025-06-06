@@ -1,11 +1,11 @@
 Sky,Temperature,Humidity,Wind,Play?
 sunny,high,high,no,No
 sunny,high,high,yes,No
-nublado,high,high,no,yes
+cloudy,high,high,no,yes
 rainy,medium,high,no,yes
 rainy,low,normal,no,yes
 rainy,low,normal,yes,No
-nublado,low,normal,yes,yes
+cloudy,low,normal,yes,yes
 sunny,medium,high,no,No
 sunny,low,normal,no,yes
 rainy,medium,normal,no,yes
