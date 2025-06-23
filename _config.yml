@@ -17,6 +17,8 @@ sidebar-sticky: false
 exclude:
 - work.md
 - pps.md
+- bioia.md
+- deep2019.md
 - vendor/bundle
 
 defaults:

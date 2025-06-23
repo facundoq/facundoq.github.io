@@ -1,23 +1,10 @@
-- name: "ReTroH: Recovery of Historic Astronomical Observations"
-  img: retroh.png
-  desc: The goal of the ReTrOH project is to transfer knowledge through the recovery, digitization, and enhancement of historical data from the Faculty of Astronomical and Geophysical Sciences (FCAG) of the National University of La Plata (UNLP) through an interdisciplinary team. 
-  url: https://retroh.fcaglp.unlp.edu.ar/
-  year: 2020
-  members:
-    - fquiroga
-    - fronchetti
-    - yaidelman
-    - cescudero
-    - agranada
-    - llanzarini
-
 - name: Detection of Be Stars and other astronomical objects
   img: bestars.jpg
   desc: Astronomical databases currently provide high-volume photometric data.  We propose and evaluate the use of reddening-free Q indices to identify Be star candidates with photometric data.
   paper: https://arxiv.org/abs/2009.06017
   github: https://github.com/facundoq/bestars
-  slides: /publications/bestars/presentation.pdf 
-  
+  slides: 
+    - /publications/bestars/presentation.pdf 
   year: 2021
   members:
     - fquiroga
@@ -27,18 +14,28 @@
     - rgamen
 
 - name: >
-    SPECTROGRAM: AI-powered software to digitalize historic spectrogram plates.
+    PlateUNLP: AI-powered software to digitalize historic spectrogram plates - part of the ReTrOH.
   img: spectrogram.png
-  desc: We present an intelligent software to assist in the recovery of information contained in plates. The software includes a module that automatically detects spectra, streamlines the loading of metadata, and verifies its standardization. The use of the software will significantly reduce the required man-hours and processing errors.
-  paper: http://sedici.unlp.edu.ar/handle/10915/149571
-  github: https://github.com/midusi/spectrogram
+  desc: The goal of the ReTrOH project is to transfer knowledge through the recovery, digitization, and enhancement of historical data from the Faculty of Astronomical and Geophysical Sciences (FCAG) of the National University of La Plata (UNLP) through an interdisciplinary team. In this context, we developed an intelligent software to assist in the recovery of information contained in plates. The software includes a module that automatically detects spectra, streamlines the loading of metadata, and verifies its standardization. The use of the software will significantly reduce the required man-hours and processing errors.
+  url: https://retroh.fcaglp.unlp.edu.ar/ 
+  papers:
+    - https://diglib.eg.org/items/c5c3623a-a11a-4490-ba20-c409894db7bd
+    - https://sedici.unlp.edu.ar/handle/10915/164779
+    - http://sedici.unlp.edu.ar/handle/10915/149571
+  talks:
+    - https://www.youtube.com/watch?v=hBhuYj4mZ1Q
+    - https://www.youtube.com/live/9F5B5uncRjY?t=5741s
+    - https://youtu.be/1M5esN5gxOQ?feature=shared&t=476
+  github: https://github.com/midusi/plateunlp
   year: 2022
   members:
     - fquiroga
     - fronchetti
     - sponte
+    - jseery
     - yaidelman
     - rgamen
     - whasperue    
     - jmiranda
     - npereyra
+  

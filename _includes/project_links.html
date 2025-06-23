@@ -3,16 +3,31 @@
       <img src="/assets/img/github.png" />
     </a>
     {% endif %} 
+    
+    {% for paper in project.papers %} 
+    <a href="{{paper}}" class="iconlink">
+      <img src="/assets/img/paper.png" />
+    </a>
+    {% endfor %}
+
+    {% for talk in project.talks %} 
+    <a href="{{talk}}" class="iconlink">
+      <img src="/assets/img/presentation.png" />
+    </a>
+    {% endfor %}
+
+    {% for slide in project.slides %} 
+    <a href="{{slide}}" class="iconlink">
+      <img src="/assets/img/slides.png" />
+    </a>
+    {% endfor %}
+
     {% if project.paper %}
     <a href="{{project.paper}}" class="iconlink">
       <img src="/assets/img/paper.png" />
     </a>
     {% endif %}
-    {% if project.slides %}
-    <a href="{{project.slides}}" class="iconlink">
-      <img src="/assets/img/slides.png" />
-    </a>
-    {% endif %}
+
     {% if project.data %}
     <a href="{{project.data}}" class="iconlink">
       <img src="/assets/img/data.png" />

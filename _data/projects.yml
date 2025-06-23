@@ -7,6 +7,8 @@
   year: 2022
   members:
     - fquiroga
+    - ostanchi
+
 
 - name: "VomSim"
   img: vonsim.png
@@ -18,6 +20,18 @@
     - fquiroga
     - mbustos
     - jseery
+
+- name: "SeniAR"
+  img: 
+  desc: SeniAR is a web platform to contribute to the development and validation of an Argentinian Sign Language database
+  url: https://app.seni.ar/
+  github: http://github.com/midusi
+  year: 2023
+  members:
+    - pdalbianco
+    - ostanchi
+    - fquiroga
+    - fronchetti
 
 - name: "Freestyle Generator (Spanish)"
   img: freestyle.png

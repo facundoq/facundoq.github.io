@@ -1,3 +1,36 @@
+- name: "Gloss-free Argentinian Sign Language Translation with pose-based deep learning models"
+  img: pose_gloss_slt.png
+  desc: This paper presents the first comprehensive interpretability analysis of a Transformer-based Sign Language Translation (SLT) model, focusing on the translation from video-based Greek Sign Language to glosses and text. Leveraging the Greek Sign Language Dataset, we examine the attention mechanisms within the model to understand how it processes and aligns visual input with sequential glosses. Our analysis reveals that the model pays attention to clusters of frames rather than individual ones, with a diagonal alignment pattern emerging between poses and glosses, which becomes less distinct as the number of glosses increases. We also explore the relative contributions of cross-attention and self-attention at each decoding step, finding that the model initially relies on video frames but shifts its focus to previously predicted tokens as the translation progresses. This work contributes to a deeper understanding of SLT models, paving the way for the development of more transparent and reliable translation systems essential for real-world applications.
+  talks:
+    - https://www.youtube.com/watch?v=4TYJCJSPRas
+    - https://www.youtube.com/watch?v=dLklxBJIyps
+    - https://www.youtube.com/live/9F5B5uncRjY?feature=shared&t=1923
+  year: 2024
+  papers:
+    - https://sedici.unlp.edu.ar/handle/10915/176192
+  members:
+    - fquiroga
+    - fronchetti
+    - pdalbianco
+    - grios
+    - whasperue
+    - ostanchi
+
+- name: "SignAttention: On the Interpretability of Transformer Models for Sign Language Translation"
+  img: sign_attention.png
+  desc: This paper presents the first comprehensive interpretability analysis of a Transformer-based Sign Language Translation (SLT) model, focusing on the translation from video-based Greek Sign Language to glosses and text. Leveraging the Greek Sign Language Dataset, we examine the attention mechanisms within the model to understand how it processes and aligns visual input with sequential glosses. Our analysis reveals that the model pays attention to clusters of frames rather than individual ones, with a diagonal alignment pattern emerging between poses and glosses, which becomes less distinct as the number of glosses increases. We also explore the relative contributions of cross-attention and self-attention at each decoding step, finding that the model initially relies on video frames but shifts its focus to previously predicted tokens as the translation progresses. This work contributes to a deeper understanding of SLT models, paving the way for the development of more transparent and reliable translation systems essential for real-world applications.
+  github: https://github.com/pedroodb/sign_attention
+  year: 2021
+  papers:
+    - https://arxiv.org/abs/2410.14506
+  members:
+    - fquiroga
+    - fronchetti
+    - pdalbianco
+    - grios
+    - whasperue
+    - ostanchi
+
 - name: "LSA-T: Argentinian Sign Language Translation Dataset"
   img: lsat.gif
   desc: A sign dataset for the Argentinian Sign Language, created with the goal of training translation models. The dataset was captured from YouTube videos from the CNSordos channel. 
@@ -13,6 +46,7 @@
     - grios
     - whasperue
     - ostanchi
+
 
 - name: "Handshape datasets library"
   img: handshape_download_library.png

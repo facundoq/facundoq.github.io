@@ -1,7 +1,7 @@
 ---
 title: TIAD - 2024
 header: TIAD - 2024
-sidebar_link: true
+sidebar_link: false
 ---
 
 # Técnicas inteligentes para el Análisis de Datos 

@@ -1,7 +1,7 @@
 ---
 title: Deep Learning 2019
 header: Deep Learning 2019
-sidebar_link: true
+sidebar_link: false
 ---
 
 # Introducción a Deep Learning 2019

@@ -18,5 +18,16 @@ order: 5
    * Gastón Rios (PhD, UNLP)
    * Pedro Dal Bianco (PhD, UNLP)
    * Oscar Stanchi (PhD, UNLP)
-   * Santiago Ponte Ahón (PhD, UNLP)
+   * Santiago Ponte Ahón (PhD & MSc, UNLP)
    * Tatiana Badaracco (MSc, UBA)
+   * Federico Rabinovich (PhD, UNLP)
+   * Santiago Hurtado (MSc, UNLP)
+   * Sergio Marchio (MSc, UBA)
+   * Felipe Tamburri & Ignacio Zampenlunghe (BSc, UNLP)
+* Past supervisions:
+  * Federico Rabinovich (MSc, UBA)
+  * Javier Vazquez (MSc, UBA)
+  * Oscar Stanchi (MSc, UNLP)
+  * Pedro Dal Bianco (MSc, UNLP)
+  * Santiago Ponte Ahón (BSc, UNLP)
+  * And +20 interns at III-LIDI, UNLP.
