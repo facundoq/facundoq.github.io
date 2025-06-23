@@ -9,6 +9,7 @@
 # 3. Install deps
 # sudo apt install ruby-dev
 # gem install bundler
-# bundle install
+# bundle config set --local path ~/.gems/
+# bundle install 
 
 bundle exec jekyll serve --incremental
