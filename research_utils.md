@@ -14,3 +14,9 @@
 
 ## Entidades Gubernamentales
 * [RRHH PBA](https://portal.rrhh.gba.gob.ar/)
+
+
+##
+* [Guia para escribir Tesis](https://docs.google.com/document/d/1mK6mVBhcGTKBNwazqOxh_3t50QRA9xzJGtDpxrprqrU/edit?usp=drive_link)
+* [Guia para proyectos de investigación en IA](https://docs.google.com/document/d/1gqMEGYjEOOj39iSZMvuFz6UnseWW9Ehlz1hdrjI0O6I/edit?usp=drive_link)
+* 
