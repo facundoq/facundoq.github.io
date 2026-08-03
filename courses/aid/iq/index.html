@@ -1,0 +1,1707 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test de Inteligencia (IQ)</title>
+  <!-- Import Inter Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #0b0f19;
+      --card-bg: rgba(22, 28, 45, 0.6);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --primary: #6366f1;
+      --primary-hover: #4f46e5;
+      --primary-glow: rgba(99, 102, 241, 0.15);
+      --accent: #10b981;
+      --danger: #ef4444;
+      --warning: #f59e0b;
+      --font-family: 'Outfit', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: var(--font-family);
+      line-height: 1.5;
+      padding: 0;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.1) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(16, 185, 129, 0.06) 0%, transparent 40%);
+      background-attachment: fixed;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 2rem;
+    }
+
+    @media (max-width: 900px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+      .sidebar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        padding: 1rem !important;
+        border-radius: 0 !important;
+        border-top: 1px solid var(--card-border) !important;
+        background: rgba(11, 15, 25, 0.95) !important;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.5);
+      }
+      .sidebar-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+        gap: 1rem;
+      }
+      .sidebar-inner h3, .sidebar-inner .info-text {
+        display: none;
+      }
+      .timer-container {
+        margin: 0 !important;
+      }
+      .content-wrapper {
+        padding-bottom: 80px;
+      }
+    }
+
+    /* Header */
+    header {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 1.5rem 0 2.5rem 0;
+      border-bottom: 1px solid var(--card-border);
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #a5b4fc, #6366f1, #34d399);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      font-weight: 300;
+    }
+
+    /* Cards & Form */
+    .section-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+      transition: border-color 0.3s ease;
+    }
+
+    .section-card:hover {
+      border-color: rgba(99, 102, 241, 0.25);
+    }
+
+    .section-header {
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      padding-bottom: 1rem;
+    }
+
+    .section-header h2 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .section-header h2 span {
+      background: var(--primary-glow);
+      color: var(--primary);
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      border: 1px solid rgba(99, 102, 241, 0.2);
+    }
+
+    .section-header p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-top: 0.5rem;
+    }
+
+    /* Questions Grid */
+    .questions-grid {
+      display: grid;
+      gap: 1.5rem;
+    }
+
+    .question-row {
+      display: grid;
+      grid-template-columns: 40px 1fr;
+      gap: 1rem;
+      align-items: start;
+      padding: 1.25rem;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.03);
+      border-radius: 12px;
+      transition: all 0.2s ease;
+    }
+
+    .question-row:hover {
+      background: rgba(255, 255, 255, 0.04);
+      border-color: rgba(255, 255, 255, 0.06);
+    }
+
+    .question-number {
+      font-weight: 600;
+      color: var(--primary);
+      font-size: 1.1rem;
+      padding-top: 0.25rem;
+    }
+
+    .question-body {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .sequence-text {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #fff;
+      letter-spacing: 0.5px;
+    }
+
+    /* Inputs styling */
+    .input-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .text-input {
+      background: rgba(11, 15, 25, 0.8);
+      border: 1.5px solid var(--card-border);
+      border-radius: 8px;
+      color: #fff;
+      padding: 0.5rem 0.75rem;
+      font-size: 1.1rem;
+      font-family: var(--font-family);
+      width: 120px;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+
+    .text-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 10px rgba(99, 102, 241, 0.2);
+    }
+
+    /* Image layouts */
+    .images-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 0.5rem;
+    }
+
+    .img-box {
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1.5px solid var(--card-border);
+      background: #fff;
+      padding: 4px;
+      display: inline-block;
+      max-width: 100%;
+    }
+
+    .img-box img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .options-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    /* Custom Radio & Checkbox buttons */
+    .option-btn {
+      position: relative;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      font-weight: 500;
+      font-size: 0.95rem;
+      color: var(--text-main);
+      user-select: none;
+      transition: all 0.2s ease;
+    }
+
+    .option-btn:hover {
+      background: rgba(99, 102, 241, 0.08);
+      border-color: rgba(99, 102, 241, 0.3);
+    }
+
+    .option-btn input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+
+    .option-btn .checkmark {
+      width: 16px;
+      height: 16px;
+      border: 1.5px solid var(--text-muted);
+      border-radius: 50%;
+      display: inline-block;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .option-btn input[type="checkbox"] + .checkmark {
+      border-radius: 4px;
+    }
+
+    .option-btn input:checked + .checkmark {
+      border-color: var(--primary);
+      background: var(--primary);
+    }
+
+    .option-btn input:checked + .checkmark::after {
+      content: "";
+      position: absolute;
+      display: block;
+      left: 4.5px;
+      top: 1.5px;
+      width: 4px;
+      height: 7px;
+      border: solid white;
+      border-width: 0 1.5px 1.5px 0;
+      transform: rotate(45deg);
+    }
+
+    .option-btn input:checked {
+      background: var(--primary-glow);
+    }
+
+    .option-btn.checked {
+      background: var(--primary-glow);
+      border-color: var(--primary);
+      color: #fff;
+    }
+
+    /* Sidebar / HUD */
+    .sidebar {
+      position: sticky;
+      top: 2rem;
+      align-self: start;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 1.75rem;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .sidebar h3 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 1.25rem;
+      color: #fff;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      padding-bottom: 0.75rem;
+    }
+
+    .timer-container {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--card-border);
+      padding: 0.75rem 1rem;
+      border-radius: 10px;
+    }
+
+    .timer-icon {
+      font-size: 1.5rem;
+    }
+
+    .timer-display {
+      font-size: 1.8rem;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: 0.5px;
+      color: var(--accent);
+      transition: color 0.5s ease;
+    }
+
+    .timer-display.warn {
+      color: var(--warning);
+      animation: pulse 1s infinite alternate;
+    }
+
+    .timer-display.danger {
+      color: var(--danger);
+      animation: pulse 0.5s infinite alternate;
+    }
+
+    @keyframes pulse {
+      from { opacity: 1; }
+      to { opacity: 0.5; }
+    }
+
+    .progress-bar-container {
+      margin-bottom: 1.5rem;
+    }
+
+    .progress-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .progress-bar-bg {
+      height: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      border-radius: 4px;
+      transition: width 0.3s ease;
+    }
+
+    .actions-container {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 0.85rem;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: var(--font-family);
+      transition: all 0.2s ease;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+      box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-hover);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-main);
+      border: 1px solid var(--card-border);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .info-text {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 1rem;
+      text-align: center;
+      line-height: 1.4;
+    }
+
+    /* Modal / Results Overlay */
+    .results-modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(7, 10, 18, 0.9);
+      backdrop-filter: blur(15px);
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1.5rem;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+
+    .results-modal.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .results-card {
+      background: #161c2d;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 24px;
+      max-width: 600px;
+      width: 100%;
+      padding: 2.5rem;
+      text-align: center;
+      box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+      transform: scale(0.9);
+      transition: transform 0.3s ease;
+    }
+
+    .results-modal.active .results-card {
+      transform: scale(1);
+    }
+
+    .iq-gauge {
+      margin: 1.5rem auto;
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #1a233a 60%, transparent 62%), conic-gradient(var(--primary) 0%, rgba(99, 102, 241, 0.1) 0%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 3px solid rgba(255, 255, 255, 0.05);
+      position: relative;
+    }
+
+    .iq-gauge-value {
+      font-size: 3.5rem;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .iq-label {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+
+    .results-text {
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
+
+    .results-breakdown {
+      display: flex;
+      justify-content: space-around;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .breakdown-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .breakdown-value {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .breakdown-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Footer links */
+    .links-section {
+      grid-column: 1 / -1;
+      background: rgba(255, 255, 255, 0.01);
+      border-top: 1px solid var(--card-border);
+      padding: 2.5rem 1.5rem;
+      margin-top: 3rem;
+      text-align: center;
+      border-radius: 16px 16px 0 0;
+    }
+
+    .links-title {
+      font-size: 1.1rem;
+      color: #fff;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+    }
+
+    .links-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .link-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--card-border);
+      padding: 0.75rem 1.25rem;
+      border-radius: 8px;
+      text-decoration: none;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s ease;
+    }
+
+    .link-card:hover {
+      background: rgba(99, 102, 241, 0.05);
+      border-color: rgba(99, 102, 241, 0.2);
+      color: #fff;
+    }
+
+    .link-card img {
+      width: 16px;
+      height: 16px;
+      object-fit: contain;
+      filter: grayscale(0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Test de Inteligencia (IQ)</h1>
+      <p>Una versión modernizada y responsiva del clásico European IQ Test.</p>
+    </header>
+
+    <div class="content-wrapper">
+      <form id="iqForm" onsubmit="event.preventDefault(); return false;">
+
+        <!-- Seccion 1 -->
+        <div class="section-card">
+          <div class="section-header">
+            <h2><span>1 - 8</span> Sucesiones Numéricas y de Letras</h2>
+            <p>Continúa cada una de las sucesiones según el criterio lógico que te parezca más sencillo.</p>
+          </div>
+          
+          <div class="questions-grid">
+            <div class="question-row">
+              <div class="question-number">1)</div>
+              <div class="question-body">
+                <div class="sequence-text">A, D, G, J :</div>
+                <div class="input-wrapper">
+                  <input type="text" name="q1" class="text-input" placeholder="Respuesta" autocomplete="off">
+                </div>
+              </div>
+            </div>
+
+            <div class="question-row">
+              <div class="question-number">2)</div>
+              <div class="question-body">
+                <div class="sequence-text">1, 3, 6, 10 :</div>
+                <div class="input-wrapper">
+                  <input type="text" name="q2" class="text-input" placeholder="Respuesta" autocomplete="off">
+                </div>
+              </div>
+            </div>
+
+            <div class="question-row">
+              <div class="question-number">3)</div>
+              <div class="question-body">
+                <div class="sequence-text">1, 1, 2, 3, 5 :</div>
+                <div class="input-wrapper">
+                  <input type="text" name="q3" class="text-input" placeholder="Respuesta" autocomplete="off">
+                </div>
+              </div>
+            </div>
+
+            <div class="question-row">
+              <div class="question-number">4)</div>
+              <div class="question-body">
+                <div class="sequence-text">21, 20, 18, 15, 11 :</div>
+                <div class="input-wrapper">
+                  <input type="text" name="q4" class="text-input" placeholder="Respuesta" autocomplete="off">
+                </div>
+              </div>
+            </div>
+
+            <div class="question-row">
+              <div class="question-number">5)</div>
+              <div class="question-body">
+                <div class="sequence-text">8, 6, 7, 5, 6, 4 :</div>
+                <div class="input-wrapper">
+                  <input type="text" name="q5" class="text-input" placeholder="Respuesta" autocomplete="off">
+                </div>
+              </div>
+            </div>
+
+            <div class="question-row">
+              <div class="question-number">6)</div>
+              <div class="question-body">
+                <div class="sequence-text">65536, 256, 16 :</div>
+                <div class="input-wrapper">
+                  <input type="text" name="q6" class="text-input" placeholder="Respuesta" autocomplete="off">
+                </div>
+              </div>
+            </div>
+
+            <div class="question-row">
+              <div class="question-number">7)</div>
+              <div class="question-body">
+                <div class="sequence-text">1, 0, -1, 0 :</div>
+                <div class="input-wrapper">
+                  <input type="text" name="q7" class="text-input" placeholder="Respuesta" autocomplete="off">
+                </div>
+              </div>
+            </div>
+
+            <div class="question-row">
+              <div class="question-number">8)</div>
+              <div class="question-body">
+                <div class="sequence-text">3968, 63, 8, 3 :</div>
+                <div class="input-wrapper">
+                  <input type="text" name="q8" class="text-input" placeholder="Respuesta" autocomplete="off">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Seccion 2 -->
+        <div class="section-card">
+          <div class="section-header">
+            <h2><span>9 - 15</span> Completar la Figura</h2>
+            <p>Elige la opción de la figura de la derecha más apropiada para completar la figura de la izquierda.</p>
+          </div>
+
+          <div class="questions-grid">
+            <!-- Pregunta 9 -->
+            <div class="question-row">
+              <div class="question-number">9)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq09a.gif" alt="Problema 9"></div>
+                  <div class="img-box"><img src="iq09b.gif" alt="Opciones 9"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q9" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q9" value="1"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q9" value="c"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q9" value="d"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 10 -->
+            <div class="question-row">
+              <div class="question-number">10)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq10a.gif" alt="Problema 10"></div>
+                  <div class="img-box"><img src="iq10b.gif" alt="Opciones 10"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q10" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q10" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q10" value="c"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q10" value="1"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 11 -->
+            <div class="question-row">
+              <div class="question-number">11)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq11a.gif" alt="Problema 11"></div>
+                  <div class="img-box"><img src="iq11b.gif" alt="Opciones 11"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q11" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q11" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q11" value="1"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q11" value="d"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 12 -->
+            <div class="question-row">
+              <div class="question-number">12)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq12a.gif" alt="Problema 12"></div>
+                  <div class="img-box"><img src="iq12b.gif" alt="Opciones 12"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q12" value="1"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q12" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q12" value="c"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q12" value="d"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 13 -->
+            <div class="question-row">
+              <div class="question-number">13)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq13a.gif" alt="Problema 13"></div>
+                  <div class="img-box"><img src="iq13b.gif" alt="Opciones 13"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q13" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q13" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q13" value="1"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q13" value="d"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 14 -->
+            <div class="question-row">
+              <div class="question-number">14)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq14a.gif" alt="Problema 14"></div>
+                  <div class="img-box"><img src="iq14b.gif" alt="Opciones 14"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q14" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q14" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q14" value="c"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q14" value="1"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 15 -->
+            <div class="question-row">
+              <div class="question-number">15)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq15a.gif" alt="Problema 15"></div>
+                  <div class="img-box"><img src="iq15b.gif" alt="Opciones 15"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q15" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q15" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q15" value="1"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q15" value="d"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Seccion 3 -->
+        <div class="section-card">
+          <div class="section-header">
+            <h2><span>16 - 25</span> Continuación de Series de Figuras</h2>
+            <p>Continúa la serie de figuras de la izquierda con la opción de la derecha que te parezca más razonable.</p>
+          </div>
+
+          <div class="questions-grid">
+            <!-- Encabezado de letras -->
+            <div style="text-align: right; margin-bottom: 0.5rem; padding-right: 2rem;">
+              <span style="color: var(--text-muted); font-size: 0.85rem; margin-right: 0.5rem;">Correspondencia de opciones:</span>
+              <div class="img-box" style="vertical-align: middle;"><img src="iqabcd.gif" alt="A B C D" style="height: 30px;"></div>
+            </div>
+
+            <!-- Pregunta 16 -->
+            <div class="question-row">
+              <div class="question-number">16)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq16a.gif" alt="Serie 16"></div>
+                  <div class="img-box"><img src="iq16b.gif" alt="Opciones 16"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q16" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q16" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q16" value="1"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q16" value="d"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 17 -->
+            <div class="question-row">
+              <div class="question-number">17)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq17a.gif" alt="Serie 17"></div>
+                  <div class="img-box"><img src="iq17b.gif" alt="Opciones 17"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q17" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q17" value="1"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q17" value="c"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q17" value="d"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 18 -->
+            <div class="question-row">
+              <div class="question-number">18)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq18a.gif" alt="Serie 18"></div>
+                  <div class="img-box"><img src="iq18b.gif" alt="Opciones 18"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q18" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q18" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q18" value="1"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q18" value="d"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 19 -->
+            <div class="question-row">
+              <div class="question-number">19)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq19a.gif" alt="Serie 19"></div>
+                  <div class="img-box"><img src="iq19b.gif" alt="Opciones 19"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q19" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q19" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q19" value="c"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q19" value="1"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 20 -->
+            <div class="question-row">
+              <div class="question-number">20)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq20a.gif" alt="Serie 20"></div>
+                  <div class="img-box"><img src="iq20b.gif" alt="Opciones 20"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q20" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q20" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q20" value="c"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q20" value="1"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 21 -->
+            <div class="question-row">
+              <div class="question-number">21)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq21a.gif" alt="Serie 21"></div>
+                  <div class="img-box"><img src="iq21b.gif" alt="Opciones 21"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q21" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q21" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q21" value="1"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q21" value="d"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 22 -->
+            <div class="question-row">
+              <div class="question-number">22)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq22a.gif" alt="Serie 22"></div>
+                  <div class="img-box"><img src="iq22b.gif" alt="Opciones 22"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q22" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q22" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q22" value="1"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q22" value="d"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 23 -->
+            <div class="question-row">
+              <div class="question-number">23)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq23a.gif" alt="Serie 23"></div>
+                  <div class="img-box"><img src="iq23b.gif" alt="Opciones 23"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q23" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q23" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q23" value="c"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q23" value="1"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 24 -->
+            <div class="question-row">
+              <div class="question-number">24)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq24a.gif" alt="Serie 24"></div>
+                  <div class="img-box"><img src="iq24b.gif" alt="Opciones 24"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q24" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q24" value="1"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q24" value="c"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q24" value="d"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 25 -->
+            <div class="question-row">
+              <div class="question-number">25)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq25a.gif" alt="Serie 25"></div>
+                  <div class="img-box"><img src="iq25b.gif" alt="Opciones 25"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q25" value="1"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q25" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q25" value="c"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q25" value="d"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Seccion 4 -->
+        <div class="section-card">
+          <div class="section-header">
+            <h2><span>26 - 29</span> Seleccionar Dos Opciones</h2>
+            <p>Completa cada fila eligiendo <strong>exactamente dos</strong> opciones de la derecha.</p>
+          </div>
+
+          <div class="questions-grid">
+            <!-- Pregunta 26 -->
+            <div class="question-row">
+              <div class="question-number">26)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq26a.gif" alt="Fila 26"></div>
+                  <div class="img-box"><img src="iq26b.gif" alt="Opciones 26"></div>
+                </div>
+                <div class="options-wrapper checkbox-group" data-min="2" data-max="2" data-q="26">
+                  <label class="option-btn"><input type="checkbox" name="q261" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="checkbox" name="q262" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="checkbox" name="q263" value="c"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="checkbox" name="q264" value="d"><span class="checkmark"></span> D</label>
+                  <label class="option-btn"><input type="checkbox" name="q265" value="e"><span class="checkmark"></span> E</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 27 -->
+            <div class="question-row">
+              <div class="question-number">27)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq27a.gif" alt="Fila 27"></div>
+                  <div class="img-box"><img src="iq27b.gif" alt="Opciones 27"></div>
+                </div>
+                <div class="options-wrapper checkbox-group" data-min="2" data-max="2" data-q="27">
+                  <label class="option-btn"><input type="checkbox" name="q271" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="checkbox" name="q272" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="checkbox" name="q273" value="c"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="checkbox" name="q274" value="d"><span class="checkmark"></span> D</label>
+                  <label class="option-btn"><input type="checkbox" name="q275" value="e"><span class="checkmark"></span> E</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 28 -->
+            <div class="question-row">
+              <div class="question-number">28)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq28a.gif" alt="Fila 28"></div>
+                  <div class="img-box"><img src="iq28b.gif" alt="Opciones 28"></div>
+                </div>
+                <div class="options-wrapper checkbox-group" data-min="2" data-max="2" data-q="28">
+                  <label class="option-btn"><input type="checkbox" name="q281" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="checkbox" name="q282" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="checkbox" name="q283" value="c"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="checkbox" name="q284" value="d"><span class="checkmark"></span> D</label>
+                  <label class="option-btn"><input type="checkbox" name="q285" value="e"><span class="checkmark"></span> E</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 29 -->
+            <div class="question-row">
+              <div class="question-number">29)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq29a.gif" alt="Fila 29"></div>
+                  <div class="img-box"><img src="iq29b.gif" alt="Opciones 29"></div>
+                </div>
+                <div class="options-wrapper checkbox-group" data-min="2" data-max="2" data-q="29">
+                  <label class="option-btn"><input type="checkbox" name="q291" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="checkbox" name="q292" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="checkbox" name="q293" value="c"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="checkbox" name="q294" value="d"><span class="checkmark"></span> D</label>
+                  <label class="option-btn"><input type="checkbox" name="q295" value="e"><span class="checkmark"></span> E</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Seccion 5 -->
+        <div class="section-card">
+          <div class="section-header">
+            <h2><span>30 - 33</span> Completar la Serie Lineal</h2>
+            <p>Elige la opción de la derecha que te parezca más apropiada para completar la serie de la izquierda.</p>
+          </div>
+
+          <div class="questions-grid">
+            <!-- Pregunta 30 -->
+            <div class="question-row">
+              <div class="question-number">30)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq30a.gif" alt="Serie 30"></div>
+                  <div class="img-box"><img src="iq30b.gif" alt="Opciones 30"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q30" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q30" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q30" value="c"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q30" value="1"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 31 -->
+            <div class="question-row">
+              <div class="question-number">31)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq31a.gif" alt="Serie 31"></div>
+                  <div class="img-box"><img src="iq31b.gif" alt="Opciones 31"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q31" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q31" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q31" value="1"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q31" value="d"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 32 -->
+            <div class="question-row">
+              <div class="question-number">32)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq32a.gif" alt="Serie 32"></div>
+                  <div class="img-box"><img src="iq32b.gif" alt="Opciones 32"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q32" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q32" value="1"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q32" value="c"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q32" value="d"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pregunta 33 -->
+            <div class="question-row">
+              <div class="question-number">33)</div>
+              <div class="question-body">
+                <div class="images-container">
+                  <div class="img-box"><img src="iq33a.gif" alt="Serie 33"></div>
+                  <div class="img-box"><img src="iq33b.gif" alt="Opciones 33"></div>
+                </div>
+                <div class="options-wrapper">
+                  <label class="option-btn"><input type="radio" name="q33" value="a"><span class="checkmark"></span> A</label>
+                  <label class="option-btn"><input type="radio" name="q33" value="b"><span class="checkmark"></span> B</label>
+                  <label class="option-btn"><input type="radio" name="q33" value="1"><span class="checkmark"></span> C</label>
+                  <label class="option-btn"><input type="radio" name="q33" value="d"><span class="checkmark"></span> D</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </form>
+    </div>
+
+    <!-- Sticky Sidebar HUD -->
+    <div class="sidebar">
+      <div class="sidebar-inner">
+        <h3>Panel de Control</h3>
+        
+        <div class="timer-container">
+          <span class="timer-icon">⏳</span>
+          <div id="timerDisplay" class="timer-display">20:00</div>
+        </div>
+
+        <div class="progress-bar-container">
+          <div class="progress-labels">
+            <span>Progreso</span>
+            <span id="progressText">0 / 33 respondidas</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div id="progressBarFill" class="progress-bar-fill"></div>
+          </div>
+        </div>
+
+        <div class="actions-container">
+          <button type="button" class="btn btn-primary" onclick="submitTest()">
+            <span>✨ Corregir la prueba</span>
+          </button>
+          <button type="button" class="btn btn-secondary" onclick="resetTest()">
+            <span>🔄 Reiniciar</span>
+          </button>
+        </div>
+
+        <div class="info-text">
+          La puntuación máxima es de 174 puntos. Cada error resta puntos. Las respuestas en blanco no penalizan.
+        </div>
+      </div>
+    </div>
+
+    <!-- Links Section -->
+    <div class="links-section">
+      <div class="links-title">Si te ha gustado esta página, visita:</div>
+      <div class="links-grid">
+        <a href="http://www.mensa.es" target="_blank" class="link-card">
+          <img src="mensa.gif" alt="Mensa España">
+          <span>MENSA España</span>
+        </a>
+        <a href="http://www.psicoactiva.com/tests/testci.htm" target="_blank" class="link-card">
+          <img src="psicomed.jpg" alt="PsicoActiva">
+          <span>IQ Test (PsicoActiva)</span>
+        </a>
+        <a href="http://www.mensa.org" target="_blank" class="link-card">
+          <img src="mensa_int.gif" alt="Mensa International">
+          <span>MENSA International</span>
+        </a>
+        <a href="http://www.laenciclopedia.com" target="_blank" class="link-card">
+          <img src="laenciclopedia.gif" alt="La Enciclopedia">
+          <span>IQ Test (La Enciclopedia)</span>
+        </a>
+        <a href="http://www.juegosmensa.com" target="_blank" class="link-card">
+          <img src="ijuegos.gif" alt="Juegos Mensa">
+          <span>Juegos del Club Mensa</span>
+        </a>
+        <a href="http://www.rompecocos.com/" target="_blank" class="link-card">
+          <img src="rompecocos.gif" alt="Rompecocos">
+          <span>Rompecocos</span>
+        </a>
+        <a href="http://www.queendom.com/tests/" target="_blank" class="link-card">
+          <img src="queendom.gif" alt="Queendom">
+          <span>QueenDom</span>
+        </a>
+        <a href="http://www.juegosdelogica.com/" target="_blank" class="link-card">
+          <img src="zumoneurona.gif" alt="Juegos de Logica">
+          <span>Zumo de Neuronas</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Results Modal -->
+  <div id="resultsModal" class="results-modal">
+    <div class="results-card">
+      <h2 style="font-size: 2rem; margin-bottom: 0.5rem; color: #fff;">¡Prueba Finalizada!</h2>
+      <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Aquí tienes tus resultados detallados:</p>
+      
+      <div id="iqGauge" class="iq-gauge">
+        <div id="iqGaugeValue" class="iq-gauge-value">100</div>
+      </div>
+      
+      <div id="iqLabel" class="iq-label">Normal / Promedio</div>
+      <p id="iqDescription" class="results-text">Tu puntuación indica un nivel de inteligencia promedio.</p>
+      
+      <div class="results-breakdown">
+        <div class="breakdown-item">
+          <div id="scoreCorrect" class="breakdown-value">0</div>
+          <div class="breakdown-label">Correctas</div>
+        </div>
+        <div class="breakdown-item">
+          <div id="scoreIncorrect" class="breakdown-value">0</div>
+          <div class="breakdown-label">Incorrectas</div>
+        </div>
+        <div class="breakdown-item">
+          <div id="scoreBlank" class="breakdown-value">33</div>
+          <div class="breakdown-label">En Blanco</div>
+        </div>
+      </div>
+      
+      <button type="button" class="btn btn-primary" onclick="closeResults()">
+        <span>Cerrar y ver respuestas</span>
+      </button>
+    </div>
+  </div>
+
+  <script>
+    // Timer Logic
+    const TIME_LIMIT = 20 * 60; // 20 minutes in seconds
+    let timeLeft = TIME_LIMIT;
+    let timerInterval = null;
+    let testSubmitted = false;
+
+    function startTimer() {
+      const display = document.getElementById('timerDisplay');
+      
+      timerInterval = setInterval(() => {
+        if (timeLeft <= 0) {
+          clearInterval(timerInterval);
+          submitTest(true); // Auto-submit
+          return;
+        }
+        
+        timeLeft--;
+        
+        const minutes = Math.floor(timeLeft / 60);
+        const seconds = timeLeft % 60;
+        
+        display.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        
+        // Add color warnings
+        if (timeLeft <= 60) {
+          display.className = 'timer-display danger';
+        } else if (timeLeft <= 300) {
+          display.className = 'timer-display warn';
+        } else {
+          display.className = 'timer-display';
+        }
+      }, 1000);
+    }
+
+    // Input monitoring & progress calculations
+    const form = document.getElementById('iqForm');
+    
+    function updateProgress() {
+      if (testSubmitted) return;
+      
+      const questionsCount = 33;
+      let answeredCount = 0;
+      
+      // Check inputs q1-q8
+      for (let i = 1; i <= 8; i++) {
+        const input = form.elements[`q${i}`];
+        if (input && input.value.trim() !== "") {
+          answeredCount++;
+        }
+      }
+      
+      // Check radio groups q9-q15, q16-q25, q30-q33
+      const radioGroups = [
+        9, 10, 11, 12, 13, 14, 15,
+        16, 17, 18, 19, 20, 21, 22, 23, 24, 25,
+        30, 31, 32, 33
+      ];
+      
+      radioGroups.forEach(num => {
+        const radios = form.elements[`q${num}`];
+        if (radios) {
+          // If querySelector finds checked
+          const checked = form.querySelector(`input[name="q${num}"]:checked`);
+          if (checked) answeredCount++;
+        }
+      });
+
+      // Check checkboxes q26-q29
+      for (let num = 26; num <= 29; num++) {
+        let checkboxGroupChecked = false;
+        for (let i = 1; i <= 5; i++) {
+          const chk = form.elements[`q${num}${i}`];
+          if (chk && chk.checked) {
+            checkboxGroupChecked = true;
+            break;
+          }
+        }
+        if (checkboxGroupChecked) answeredCount++;
+      }
+
+      // Update progress HUD
+      document.getElementById('progressText').textContent = `${answeredCount} / ${questionsCount} respondidas`;
+      const pct = (answeredCount / questionsCount) * 100;
+      document.getElementById('progressBarFill').style.width = `${pct}%`;
+    }
+
+    // Setup event listeners
+    form.addEventListener('input', updateProgress);
+    form.addEventListener('change', updateProgress);
+
+    // Style option buttons dynamically on change
+    form.addEventListener('change', (e) => {
+      const target = e.target;
+      if (target.type === 'radio') {
+        const name = target.name;
+        // Remove class checked from all sibling labels
+        const labels = form.querySelectorAll(`input[name="${name}"]`);
+        labels.forEach(input => {
+          input.closest('.option-btn').classList.remove('checked');
+        });
+        if (target.checked) {
+          target.closest('.option-btn').classList.add('checked');
+        }
+      } else if (target.type === 'checkbox') {
+        if (target.checked) {
+          target.closest('.option-btn').classList.add('checked');
+        } else {
+          target.closest('.option-btn').classList.remove('checked');
+        }
+      }
+    });
+
+    // Score Correction
+    function submitTest(isAuto = false) {
+      if (testSubmitted) return;
+      
+      clearInterval(timerInterval);
+      testSubmitted = true;
+      
+      let res = 0;
+      let correctAnswers = 0;
+      let incorrectAnswers = 0;
+      let blankAnswers = 0;
+
+      // 1. Text input questions (1 to 8)
+      const textKeys = {
+        q1: ["m", "M"],
+        q2: ["15"],
+        q3: ["8"],
+        q4: ["6"],
+        q5: ["5"],
+        q6: ["4"],
+        q7: ["1"],
+        q8: ["2"]
+      };
+
+      for (let i = 1; i <= 8; i++) {
+        const val = form.elements[`q${i}`].value.trim();
+        if (val === "") {
+          blankAnswers++;
+        } else if (textKeys[`q${i}`].includes(val)) {
+          res += 3;
+          correctAnswers++;
+        } else {
+          res--;
+          incorrectAnswers++;
+        }
+      }
+
+      // 2. Radio questions (9-25, 30-33)
+      const radioIndices = [
+        9, 10, 11, 12, 13, 14, 15,
+        16, 17, 18, 19, 20, 21, 22, 23, 24, 25,
+        30, 31, 32, 33
+      ];
+
+      radioIndices.forEach(num => {
+        const checked = form.querySelector(`input[name="q${num}"]:checked`);
+        if (!checked) {
+          blankAnswers++;
+        } else if (checked.value === "1") {
+          res += 3;
+          correctAnswers++;
+        } else {
+          res--;
+          incorrectAnswers++;
+        }
+      });
+
+      // 3. Checkbox groups (26-29)
+      const checkGroups = [
+        { grpNum: 26, corrects: [1, 4], incorrects: [2, 3, 5] },
+        { grpNum: 27, corrects: [2, 3], incorrects: [1, 4, 5] },
+        { grpNum: 28, corrects: [1, 4], incorrects: [2, 3, 5] },
+        { grpNum: 29, corrects: [2, 4], incorrects: [1, 3, 5] }
+      ];
+
+      checkGroups.forEach(grp => {
+        const isIncorrectChecked = grp.incorrects.some(idx => form.elements[`q${grp.grpNum}${idx}`].checked);
+        const isCorrectCheckedAll = grp.corrects.every(idx => form.elements[`q${grp.grpNum}${idx}`].checked);
+        
+        let noneChecked = true;
+        for (let i = 1; i <= 5; i++) {
+          if (form.elements[`q${grp.grpNum}${i}`].checked) noneChecked = false;
+        }
+
+        if (noneChecked) {
+          blankAnswers++;
+        } else if (isIncorrectChecked) {
+          res--;
+          incorrectAnswers++;
+        } else if (isCorrectCheckedAll) {
+          res += 3;
+          correctAnswers++;
+        } else {
+          incorrectAnswers++;
+        }
+      });
+
+      // Calculate final IQ
+      let iq = 0;
+      if (res > 0) {
+        iq = Math.round(1.75 * res);
+      }
+      
+      // Ensure bounds
+      if (iq < 0) iq = 0;
+
+      // Determine Category Description
+      let label = "Normal / Promedio";
+      let desc = "Tu puntuación de IQ indica una capacidad cognitiva normal y en el promedio de la población.";
+      
+      if (iq >= 140) {
+        label = "Genio o Inteligencia Muy Superior";
+        desc = "¡Excepcional! Tu puntuación está en el rango de los genios o de la inteligencia muy superior (apto para sociedades de alto coeficiente intelectual como Mensa).";
+      } else if (iq >= 120) {
+        label = "Inteligencia Superior";
+        desc = "Excelente. Tienes una capacidad intelectual significativamente superior a la media de la población.";
+      } else if (iq >= 110) {
+        label = "Normal Alto";
+        desc = "Buen resultado. Tu puntuación de inteligencia está ligeramente por encima de la media de la población.";
+      } else if (iq >= 90) {
+        label = "Normal / Promedio";
+        desc = "Tu puntuación de IQ se sitúa plenamente en el rango promedio de la población.";
+      } else if (iq >= 80) {
+        label = "Normal Bajo / Limítrofe";
+        desc = "Tu resultado indica una capacidad intelectual ligeramente por debajo de la media.";
+      } else {
+        label = "Bajo el Promedio";
+        desc = "Tu puntuación se encuentra por debajo de la media de la población general.";
+      }
+
+      // Display Modal Results
+      document.getElementById('iqGaugeValue').textContent = iq;
+      document.getElementById('iqLabel').textContent = label;
+      document.getElementById('iqDescription').textContent = desc;
+      
+      document.getElementById('scoreCorrect').textContent = correctAnswers;
+      document.getElementById('scoreIncorrect').textContent = incorrectAnswers;
+      document.getElementById('scoreBlank').textContent = blankAnswers;
+
+      // Update Conic Gradient on Gauge
+      const anglePct = (iq / 174) * 100;
+      document.getElementById('iqGauge').style.background = `radial-gradient(circle, #161c2d 60%, transparent 62%), conic-gradient(var(--primary) 0%, var(--primary) ${anglePct}%, rgba(255, 255, 255, 0.05) ${anglePct}%)`;
+
+      document.getElementById('resultsModal').classList.add('active');
+
+      // Highlight correct/incorrect options in the form
+      revealAnswers();
+    }
+
+    function revealAnswers() {
+      // Inputs 1-8
+      const textKeys = {
+        q1: "m",
+        q2: "15",
+        q3: "8",
+        q4: "6",
+        q5: "5",
+        q6: "4",
+        q7: "1",
+        q8: "2"
+      };
+
+      for (let i = 1; i <= 8; i++) {
+        const input = form.elements[`q${i}`];
+        const correctVal = textKeys[`q${i}`];
+        const wrapper = input.closest('.input-wrapper');
+        
+        const badge = document.createElement('span');
+        badge.style.fontSize = '0.85rem';
+        badge.style.padding = '0.2rem 0.5rem';
+        badge.style.borderRadius = '4px';
+        badge.style.marginLeft = '0.5rem';
+
+        if (input.value.trim().toLowerCase() === correctVal.toLowerCase()) {
+          input.style.borderColor = 'var(--accent)';
+          badge.textContent = '✓ Correcto';
+          badge.style.background = 'rgba(16, 185, 129, 0.15)';
+          badge.style.color = 'var(--accent)';
+        } else {
+          input.style.borderColor = 'var(--danger)';
+          badge.textContent = `✗ Correcto: ${correctVal}`;
+          badge.style.background = 'rgba(239, 68, 68, 0.15)';
+          badge.style.color = 'var(--danger)';
+        }
+        wrapper.appendChild(badge);
+        input.disabled = true;
+      }
+
+      // Radios
+      const radioIndices = [
+        9, 10, 11, 12, 13, 14, 15,
+        16, 17, 18, 19, 20, 21, 22, 23, 24, 25,
+        30, 31, 32, 33
+      ];
+
+      radioIndices.forEach(num => {
+        const radios = form.querySelectorAll(`input[name="q${num}"]`);
+        radios.forEach(radio => {
+          const label = radio.closest('.option-btn');
+          radio.disabled = true;
+          
+          if (radio.value === "1") {
+            label.style.borderColor = 'var(--accent)';
+            label.style.background = 'rgba(16, 185, 129, 0.1)';
+            if (radio.checked) {
+              label.style.boxShadow = '0 0 10px rgba(16, 185, 129, 0.3)';
+            }
+          } else if (radio.checked) {
+            label.style.borderColor = 'var(--danger)';
+            label.style.background = 'rgba(239, 68, 68, 0.1)';
+          }
+        });
+      });
+
+      // Checkboxes
+      const checkGroups = [
+        { num: 26, corrects: [1, 4] },
+        { num: 27, corrects: [2, 3] },
+        { num: 28, corrects: [1, 4] },
+        { num: 29, corrects: [2, 4] }
+      ];
+
+      checkGroups.forEach(grp => {
+        for (let i = 1; i <= 5; i++) {
+          const chk = form.elements[`q${grp.num}${i}`];
+          const label = chk.closest('.option-btn');
+          chk.disabled = true;
+
+          const isCorrect = grp.corrects.includes(i);
+          if (isCorrect) {
+            label.style.borderColor = 'var(--accent)';
+            label.style.background = 'rgba(16, 185, 129, 0.1)';
+            if (chk.checked) {
+              label.style.boxShadow = '0 0 10px rgba(16, 185, 129, 0.3)';
+            }
+          } else if (chk.checked) {
+            label.style.borderColor = 'var(--danger)';
+            label.style.background = 'rgba(239, 68, 68, 0.1)';
+          }
+        }
+      });
+    }
+
+    function closeResults() {
+      document.getElementById('resultsModal').classList.remove('active');
+    }
+
+    function resetTest() {
+      if (confirm('¿Seguro que deseas reiniciar el test y borrar todas tus respuestas?')) {
+        clearInterval(timerInterval);
+        form.reset();
+        
+        const badges = form.querySelectorAll('.input-wrapper span');
+        badges.forEach(b => b.remove());
+        
+        const inputs = form.querySelectorAll('.text-input');
+        inputs.forEach(input => {
+          input.disabled = false;
+          input.style.borderColor = '';
+        });
+
+        const optionBtns = form.querySelectorAll('.option-btn');
+        optionBtns.forEach(btn => {
+          btn.className = 'option-btn';
+          btn.style = '';
+          const input = btn.querySelector('input');
+          if (input) input.disabled = false;
+        });
+
+        timeLeft = TIME_LIMIT;
+        testSubmitted = false;
+        
+        const display = document.getElementById('timerDisplay');
+        display.textContent = '20:00';
+        display.className = 'timer-display';
+        
+        updateProgress();
+        startTimer();
+      }
+    }
+
+    window.onload = () => {
+      startTimer();
+      updateProgress();
+    };
+  </script>
+</body>
+</html>
