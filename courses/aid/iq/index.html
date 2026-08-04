@@ -37,7 +37,7 @@
       line-height: 1.5;
       padding: 0;
       overflow-x: hidden;
-      background-image: 
+      background-image:
         radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.1) 0%, transparent 40%),
         radial-gradient(circle at 90% 80%, rgba(16, 185, 129, 0.06) 0%, transparent 40%);
       background-attachment: fixed;
@@ -573,57 +573,7 @@
       letter-spacing: 0.5px;
     }
 
-    /* Footer links */
-    .links-section {
-      grid-column: 1 / -1;
-      background: rgba(255, 255, 255, 0.01);
-      border-top: 1px solid var(--card-border);
-      padding: 2.5rem 1.5rem;
-      margin-top: 3rem;
-      text-align: center;
-      border-radius: 16px 16px 0 0;
-    }
 
-    .links-title {
-      font-size: 1.1rem;
-      color: #fff;
-      font-weight: 500;
-      margin-bottom: 1.5rem;
-    }
-
-    .links-grid {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-    }
-
-    .link-card {
-      background: rgba(255, 255, 255, 0.02);
-      border: 1px solid var(--card-border);
-      padding: 0.75rem 1.25rem;
-      border-radius: 8px;
-      text-decoration: none;
-      color: var(--text-muted);
-      font-size: 0.9rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      transition: all 0.2s ease;
-    }
-
-    .link-card:hover {
-      background: rgba(99, 102, 241, 0.05);
-      border-color: rgba(99, 102, 241, 0.2);
-      color: #fff;
-    }
-
-    .link-card img {
-      width: 16px;
-      height: 16px;
-      object-fit: contain;
-      filter: grayscale(0.3);
-    }
   </style>
 </head>
 <body>
@@ -631,7 +581,7 @@
   <div class="container">
     <header>
       <h1>Test de Inteligencia (IQ)</h1>
-      <p>Una versión modernizada y responsiva del clásico European IQ Test.</p>
+      <p>Este test existe con motivos educativos. No representa la medida real de la inteligencia de ninguna persona.</p>
     </header>
 
     <div class="content-wrapper">
@@ -643,7 +593,7 @@
             <h2><span>1 - 8</span> Sucesiones Numéricas y de Letras</h2>
             <p>Continúa cada una de las sucesiones según el criterio lógico que te parezca más sencillo.</p>
           </div>
-          
+
           <div class="questions-grid">
             <div class="question-row">
               <div class="question-number">1)</div>
@@ -1209,7 +1159,7 @@
     <div class="sidebar">
       <div class="sidebar-inner">
         <h3>Panel de Control</h3>
-        
+
         <div class="timer-container">
           <span class="timer-icon">⏳</span>
           <div id="timerDisplay" class="timer-display">20:00</div>
@@ -1240,44 +1190,7 @@
       </div>
     </div>
 
-    <!-- Links Section -->
-    <div class="links-section">
-      <div class="links-title">Si te ha gustado esta página, visita:</div>
-      <div class="links-grid">
-        <a href="http://www.mensa.es" target="_blank" class="link-card">
-          <img src="mensa.gif" alt="Mensa España">
-          <span>MENSA España</span>
-        </a>
-        <a href="http://www.psicoactiva.com/tests/testci.htm" target="_blank" class="link-card">
-          <img src="psicomed.jpg" alt="PsicoActiva">
-          <span>IQ Test (PsicoActiva)</span>
-        </a>
-        <a href="http://www.mensa.org" target="_blank" class="link-card">
-          <img src="mensa_int.gif" alt="Mensa International">
-          <span>MENSA International</span>
-        </a>
-        <a href="http://www.laenciclopedia.com" target="_blank" class="link-card">
-          <img src="laenciclopedia.gif" alt="La Enciclopedia">
-          <span>IQ Test (La Enciclopedia)</span>
-        </a>
-        <a href="http://www.juegosmensa.com" target="_blank" class="link-card">
-          <img src="ijuegos.gif" alt="Juegos Mensa">
-          <span>Juegos del Club Mensa</span>
-        </a>
-        <a href="http://www.rompecocos.com/" target="_blank" class="link-card">
-          <img src="rompecocos.gif" alt="Rompecocos">
-          <span>Rompecocos</span>
-        </a>
-        <a href="http://www.queendom.com/tests/" target="_blank" class="link-card">
-          <img src="queendom.gif" alt="Queendom">
-          <span>QueenDom</span>
-        </a>
-        <a href="http://www.juegosdelogica.com/" target="_blank" class="link-card">
-          <img src="zumoneurona.gif" alt="Juegos de Logica">
-          <span>Zumo de Neuronas</span>
-        </a>
-      </div>
-    </div>
+
   </div>
 
   <!-- Results Modal -->
@@ -1285,14 +1198,14 @@
     <div class="results-card">
       <h2 style="font-size: 2rem; margin-bottom: 0.5rem; color: #fff;">¡Prueba Finalizada!</h2>
       <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Aquí tienes tus resultados detallados:</p>
-      
+
       <div id="iqGauge" class="iq-gauge">
         <div id="iqGaugeValue" class="iq-gauge-value">100</div>
       </div>
-      
+
       <div id="iqLabel" class="iq-label">Normal / Promedio</div>
-      <p id="iqDescription" class="results-text">Tu puntuación indica un nivel de inteligencia promedio.</p>
-      
+      <p id="iqDescription" class="results-text">La puntuación supuestamente indica un nivel de inteligencia promedio.</p>
+
       <div class="results-breakdown">
         <div class="breakdown-item">
           <div id="scoreCorrect" class="breakdown-value">0</div>
@@ -1307,7 +1220,7 @@
           <div class="breakdown-label">En Blanco</div>
         </div>
       </div>
-      
+
       <button type="button" class="btn btn-primary" onclick="closeResults()">
         <span>Cerrar y ver respuestas</span>
       </button>
@@ -1323,21 +1236,21 @@
 
     function startTimer() {
       const display = document.getElementById('timerDisplay');
-      
+
       timerInterval = setInterval(() => {
         if (timeLeft <= 0) {
           clearInterval(timerInterval);
           submitTest(true); // Auto-submit
           return;
         }
-        
+
         timeLeft--;
-        
+
         const minutes = Math.floor(timeLeft / 60);
         const seconds = timeLeft % 60;
-        
+
         display.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-        
+
         // Add color warnings
         if (timeLeft <= 60) {
           display.className = 'timer-display danger';
@@ -1351,13 +1264,13 @@
 
     // Input monitoring & progress calculations
     const form = document.getElementById('iqForm');
-    
+
     function updateProgress() {
       if (testSubmitted) return;
-      
+
       const questionsCount = 33;
       let answeredCount = 0;
-      
+
       // Check inputs q1-q8
       for (let i = 1; i <= 8; i++) {
         const input = form.elements[`q${i}`];
@@ -1365,14 +1278,14 @@
           answeredCount++;
         }
       }
-      
+
       // Check radio groups q9-q15, q16-q25, q30-q33
       const radioGroups = [
         9, 10, 11, 12, 13, 14, 15,
         16, 17, 18, 19, 20, 21, 22, 23, 24, 25,
         30, 31, 32, 33
       ];
-      
+
       radioGroups.forEach(num => {
         const radios = form.elements[`q${num}`];
         if (radios) {
@@ -1430,10 +1343,10 @@
     // Score Correction
     function submitTest(isAuto = false) {
       if (testSubmitted) return;
-      
+
       clearInterval(timerInterval);
       testSubmitted = true;
-      
+
       let res = 0;
       let correctAnswers = 0;
       let incorrectAnswers = 0;
@@ -1495,7 +1408,7 @@
       checkGroups.forEach(grp => {
         const isIncorrectChecked = grp.incorrects.some(idx => form.elements[`q${grp.grpNum}${idx}`].checked);
         const isCorrectCheckedAll = grp.corrects.every(idx => form.elements[`q${grp.grpNum}${idx}`].checked);
-        
+
         let noneChecked = true;
         for (let i = 1; i <= 5; i++) {
           if (form.elements[`q${grp.grpNum}${i}`].checked) noneChecked = false;
@@ -1519,17 +1432,17 @@
       if (res > 0) {
         iq = Math.round(1.75 * res);
       }
-      
+
       // Ensure bounds
       if (iq < 0) iq = 0;
 
       // Determine Category Description
       let label = "Normal / Promedio";
       let desc = "Tu puntuación de IQ indica una capacidad cognitiva normal y en el promedio de la población.";
-      
+
       if (iq >= 140) {
         label = "Genio o Inteligencia Muy Superior";
-        desc = "¡Excepcional! Tu puntuación está en el rango de los genios o de la inteligencia muy superior (apto para sociedades de alto coeficiente intelectual como Mensa).";
+        desc = "¡Excepcional! ).";
       } else if (iq >= 120) {
         label = "Inteligencia Superior";
         desc = "Excelente. Tienes una capacidad intelectual significativamente superior a la media de la población.";
@@ -1541,7 +1454,7 @@
         desc = "Tu puntuación de IQ se sitúa plenamente en el rango promedio de la población.";
       } else if (iq >= 80) {
         label = "Normal Bajo / Limítrofe";
-        desc = "Tu resultado indica una capacidad intelectual ligeramente por debajo de la media.";
+        desc = "Tu resultado está ligeramente por debajo de la media.";
       } else {
         label = "Bajo el Promedio";
         desc = "Tu puntuación se encuentra por debajo de la media de la población general.";
@@ -1551,7 +1464,7 @@
       document.getElementById('iqGaugeValue').textContent = iq;
       document.getElementById('iqLabel').textContent = label;
       document.getElementById('iqDescription').textContent = desc;
-      
+
       document.getElementById('scoreCorrect').textContent = correctAnswers;
       document.getElementById('scoreIncorrect').textContent = incorrectAnswers;
       document.getElementById('scoreBlank').textContent = blankAnswers;
@@ -1583,7 +1496,7 @@
         const input = form.elements[`q${i}`];
         const correctVal = textKeys[`q${i}`];
         const wrapper = input.closest('.input-wrapper');
-        
+
         const badge = document.createElement('span');
         badge.style.fontSize = '0.85rem';
         badge.style.padding = '0.2rem 0.5rem';
@@ -1617,7 +1530,7 @@
         radios.forEach(radio => {
           const label = radio.closest('.option-btn');
           radio.disabled = true;
-          
+
           if (radio.value === "1") {
             label.style.borderColor = 'var(--accent)';
             label.style.background = 'rgba(16, 185, 129, 0.1)';
@@ -1668,10 +1581,10 @@
       if (confirm('¿Seguro que deseas reiniciar el test y borrar todas tus respuestas?')) {
         clearInterval(timerInterval);
         form.reset();
-        
+
         const badges = form.querySelectorAll('.input-wrapper span');
         badges.forEach(b => b.remove());
-        
+
         const inputs = form.querySelectorAll('.text-input');
         inputs.forEach(input => {
           input.disabled = false;
@@ -1688,11 +1601,11 @@
 
         timeLeft = TIME_LIMIT;
         testSubmitted = false;
-        
+
         const display = document.getElementById('timerDisplay');
         display.textContent = '20:00';
         display.className = 'timer-display';
-        
+
         updateProgress();
         startTimer();
       }
